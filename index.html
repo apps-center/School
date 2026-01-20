@@ -264,6 +264,198 @@
         }
         
         strong { font-weight: 700; }
+        
+        /* RESPONSIVE MOBILE */
+        @media (max-width: 768px) {
+            body {
+                font-size: 10pt;
+                padding: 5px;
+            }
+            
+            .page {
+                padding: 10mm;
+                min-height: auto;
+            }
+            
+            h1 {
+                font-size: 1.4em;
+                padding: 12px;
+                margin-bottom: 12px;
+            }
+            
+            .subtitle {
+                font-size: 1em;
+                margin-bottom: 15px;
+            }
+            
+            .steps-container {
+                gap: 10px;
+            }
+            
+            .step {
+                padding: 12px;
+            }
+            
+            .step-header {
+                gap: 10px;
+            }
+            
+            .step-number {
+                font-size: 1.5em;
+                width: 40px;
+                height: 40px;
+            }
+            
+            .step-title {
+                font-size: 1.1em;
+            }
+            
+            .step-content {
+                padding: 10px;
+                font-size: 0.9em;
+            }
+            
+            .step-content li {
+                padding-left: 18px;
+                font-size: 0.9em;
+            }
+            
+            .examples-grid {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+            
+            .example-box {
+                padding: 10px;
+            }
+            
+            .example-title {
+                font-size: 0.85em;
+            }
+            
+            .example-text {
+                font-size: 0.85em;
+            }
+            
+            .specifics {
+                grid-template-columns: 1fr;
+            }
+            
+            .specific-box {
+                padding: 10px;
+            }
+            
+            .specific-box h3 {
+                font-size: 1.1em;
+            }
+            
+            .specific-box li {
+                font-size: 0.85em;
+            }
+            
+            .key-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 8px;
+            }
+            
+            .key-item {
+                padding: 10px 6px;
+                font-size: 0.8em;
+            }
+            
+            .warning-box {
+                padding: 12px;
+            }
+            
+            .warning-box h2 {
+                font-size: 1.1em;
+                margin-bottom: 8px;
+            }
+            
+            .warning-box li {
+                font-size: 0.85em;
+                padding-left: 22px;
+            }
+            
+            .summary {
+                padding: 12px;
+            }
+            
+            .summary h2 {
+                font-size: 1.2em;
+                margin-bottom: 8px;
+            }
+            
+            .summary p {
+                font-size: 0.9em;
+                line-height: 1.5;
+            }
+            
+            /* Page 2 spécifiques */
+            .example-box[style*="margin: 15px"] {
+                margin: 10px 0 !important;
+                padding: 12px !important;
+            }
+            
+            .example-box[style*="margin: 15px"] .example-title {
+                font-size: 1em !important;
+            }
+            
+            .example-box[style*="margin: 15px"] p {
+                font-size: 0.85em !important;
+                margin-bottom: 6px !important;
+            }
+            
+            div[style*="display: grid; grid-template-columns: 1fr 1fr"] {
+                grid-template-columns: 1fr !important;
+            }
+            
+            div[style*="display: grid; grid-template-columns: 1fr 1fr"] > div {
+                padding: 10px !important;
+            }
+            
+            div[style*="display: grid; grid-template-columns: 1fr 1fr"] h3 {
+                font-size: 1em !important;
+            }
+            
+            div[style*="display: grid; grid-template-columns: 1fr 1fr"] p {
+                font-size: 0.85em !important;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            body {
+                font-size: 9pt;
+            }
+            
+            .page {
+                padding: 8mm;
+            }
+            
+            h1 {
+                font-size: 1.2em;
+                padding: 10px;
+            }
+            
+            .step-number {
+                width: 35px;
+                height: 35px;
+                font-size: 1.3em;
+            }
+            
+            .step-title {
+                font-size: 1em;
+            }
+            
+            .key-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .key-item {
+                padding: 8px;
+                font-size: 0.85em;
+            }
+        }
     </style>
 </head>
 <body>
