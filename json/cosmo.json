@@ -1,0 +1,467 @@
+[
+  {
+    "era": "✦ Ère Cosmique",
+    "cls": "cosmic",
+    "events": [
+      {
+        "icon": "💥",
+        "tag": "Événement",
+        "date": "–13,8 milliards d'années",
+        "title": "Naissance de l'Univers",
+        "desc": "Le Big Bang : espace, temps et matière apparaissent en une fraction de seconde. Toute l'énergie de l'univers concentrée en un point.",
+        "anecdotes": [
+          {
+            "e": "🌡️",
+            "t": "<b>10 milliards de degrés</b> à la naissance — le cœur du Soleil n'est « que » 15 millions de degrés."
+          },
+          {
+            "e": "🕰️",
+            "t": "<b>Le temps lui-même est né avec le Big Bang.</b> Demander « qu'y avait-il avant ? » n'a pas de sens : il n'y avait pas de « avant »."
+          },
+          {
+            "e": "🔇",
+            "t": "<b>Le Big Bang ne fait pas « bang » !</b> Pas d'espace pour transmettre un son. L'explosion s'est produite partout à la fois."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "☀️",
+        "tag": "Événement",
+        "date": "–4,6 milliards d'années",
+        "title": "Naissance du Système Solaire",
+        "desc": "Un nuage de gaz s'effondre sur lui-même. Le Soleil s'allume. Les planètes se forment par accrétion de roches.",
+        "anecdotes": [
+          {
+            "e": "⚖️",
+            "t": "<b>Le Soleil représente 99,86 % de la masse du système solaire.</b> Toutes les planètes réunies font à peine 0,14 %."
+          },
+          {
+            "e": "🪐",
+            "t": "<b>Jupiter protège probablement la Terre</b> en capturant avec sa gravité les gros astéroïdes qui nous menaceraient."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🌍",
+        "tag": "Événement",
+        "date": "–4,5 milliards d'années",
+        "title": "Naissance de la Terre",
+        "desc": "La Terre se forme. La Lune naît d'un impact géant avec la proto-planète Théia. Les océans apparaissent.",
+        "anecdotes": [
+          {
+            "e": "🌕",
+            "t": "<b>La Lune s'éloigne de 3,8 cm par an.</b> À sa formation, elle était 15 fois plus proche — un disque immense dans le ciel."
+          },
+          {
+            "e": "🌊",
+            "t": "<b>L'eau terrestre vient de l'espace :</b> comètes et astéroïdes riches en glace ont bombardé la Terre dans ses premiers millions d'années."
+          }
+        ],
+        "kind": "histoire"
+      }
+    ]
+  },
+  {
+    "era": "✦ Ère Biologique",
+    "cls": "geo",
+    "events": [
+      {
+        "icon": "🧫",
+        "tag": "Événement",
+        "date": "–3,8 milliards d'années",
+        "title": "Naissance de la Vie",
+        "desc": "Premières cellules procaryotes dans les océans primitifs, probablement autour de sources hydrothermales sous-marines.",
+        "anecdotes": [
+          {
+            "e": "🔬",
+            "t": "<b>Toute vie sur Terre partage le même code ADN</b> — bactérie ou être humain, mêmes 4 lettres chimiques. Nous sommes tous cousins."
+          },
+          {
+            "e": "🧬",
+            "t": "<b>Nos mitochondries sont des bactéries apprivoisées.</b> Une cellule en avala une autre sans la digérer il y a 2 milliards d'années — elle est devenue notre centrale énergétique."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🟢",
+        "tag": "Événement",
+        "date": "–1,2 milliards d'années",
+        "title": "Premières Algues",
+        "desc": "Les algues pluricellulaires apparaissent. Via endosymbiose, elles sont à l'origine des chloroplastes — base de la photosynthèse chez tous les végétaux futurs.",
+        "anecdotes": [
+          {
+            "e": "🌞",
+            "t": "<b>Les algues produisent encore aujourd'hui la moitié de l'oxygène mondial.</b> Sans elles, l'atmosphère serait irrespirable."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🐚",
+        "tag": "Événement",
+        "date": "~538,8 millions d'années",
+        "title": "Explosion Cambrienne — Premiers Animaux",
+        "desc": "Début du Cambrien : diversification majeure des animaux marins en quelques millions d'années. La plupart des grands embranchements animaux modernes apparaissent dans les archives fossiles.",
+        "anecdotes": [
+          {
+            "e": "👁️",
+            "t": "<b>Les yeux sont apparus au Cambrien</b> et ont déclenché une « course aux armements » entre prédateurs et proies."
+          },
+          {
+            "e": "🧮",
+            "t": "<b>97 % des espèces animales sont des invertébrés.</b> Les vertébrés (dont nous) sont une infime minorité."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🌿",
+        "tag": "Événement",
+        "date": "–470 millions d'années",
+        "title": "Plantes Terrestres",
+        "desc": "Les plantes colonisent les continents depuis les océans. Elles créeront les premiers sols et transformeront l'atmosphère.",
+        "anecdotes": [
+          {
+            "e": "🪨",
+            "t": "<b>Les plantes ont créé les sols.</b> Avant elles, les continents n'étaient que roche nue et désert de pierre."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🦕",
+        "tag": "Événement",
+        "date": "–230 millions d'années",
+        "title": "Premiers Dinosaures",
+        "desc": "Les dinosaures domineront la Terre pendant 165 millions d'années avant d'être balayés par un astéroïde.",
+        "anecdotes": [
+          {
+            "e": "🐦",
+            "t": "<b>Les oiseaux sont des dinosaures.</b> Scientifiquement, un moineau est un dinosaure à plumes. Ils n'ont pas totalement disparu."
+          },
+          {
+            "e": "☄️",
+            "t": "<b>L'astéroïde Chicxulub (–66 Ma)</b> libéra l'énergie d'un milliard de bombes atomiques. Les poussières bloquèrent le Soleil pendant des années."
+          }
+        ],
+        "kind": "histoire"
+      }
+    ]
+  },
+  {
+    "era": "✦ Préhistoire",
+    "cls": "paleo",
+    "events": [
+      {
+        "icon": "🦴",
+        "tag": "Événement",
+        "date": "–7 millions d'années",
+        "title": "Premiers Hominidés",
+        "desc": "Sahelanthropus tchadensis au Tchad — le plus ancien fossile de notre lignée, à la séparation avec les grands singes.",
+        "anecdotes": [
+          {
+            "e": "🧬",
+            "t": "<b>98,7 % d'ADN commun avec les chimpanzés.</b> Cet infime écart suffit pourtant à tout changer."
+          },
+          {
+            "e": "🚶",
+            "t": "<b>La bipédie est venue avant le gros cerveau</b> — nos ancêtres marchaient debout 2 millions d'années avant que leur cerveau grossisse."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "kind": "histoire",
+        "icon": "🪨",
+        "date": "–1,7 MILLION D'ANNEES",
+        "title": "Le Biface",
+        "desc": "Le biface acheuléen est le premier outil façonné des deux côtés. Taillé dans le silex ou le quartzite, il est couteau, hache et grattoir à la fois. Il sera utilisé sans changement pendant 1,5 million d'années.",
+        "anecdotes": [
+          {
+            "e": "🔪",
+            "t": "<b>Un biface bien taillé est plus tranchant qu'un scalpel chirurgical.</b> La technique de taille par percussion contrôlée est si difficile que peu de gens peuvent la reproduire aujourd'hui."
+          },
+          {
+            "e": "⏰",
+            "t": "<b>1,5 million d'années sans innovation</b> — c'est la plus longue tradition technologique de l'histoire humaine. Nous innovons plus en un an que nos ancêtres en 100 000 ans."
+          }
+        ]
+      },
+      {
+        "icon": "🔥",
+        "tag": "Événement",
+        "date": "–1 million d'années",
+        "title": "Maîtrise du Feu",
+        "desc": "Homo erectus contrôle le feu. Révolution alimentaire : la cuisson libère plus de calories, permettant le développement d'un cerveau plus grand.",
+        "anecdotes": [
+          {
+            "e": "🌙",
+            "t": "<b>Le feu a inventé la soirée.</b> La veillée est probablement à l'origine du langage, des récits et des mythes."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🧠",
+        "tag": "Événement",
+        "date": "–300 000 ans",
+        "title": "Homo Sapiens",
+        "desc": "Notre espèce apparaît en Afrique (Jebel Irhoud, Maroc) et se dispersera sur toute la planète.",
+        "anecdotes": [
+          {
+            "e": "🧡",
+            "t": "<b>Nous avons des gènes néandertaliens.</b> Les Européens et Asiatiques portent 1 à 4 % d'ADN néandertalien — héritage de croisements anciens."
+          },
+          {
+            "e": "🌏",
+            "t": "<b>Toute l'humanité descend d'un petit groupe africain</b> de ~1 000 à 10 000 individus ayant quitté l'Afrique il y a ~70 000 ans."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "kind": "histoire",
+        "icon": "🚶",
+        "date": "–70 000 ans",
+        "title": "La Grande Sortie d'Afrique",
+        "desc": "Un petit groupe d'Homo Sapiens — peut-être quelques milliers d'individus — franchit le détroit de Bab-el-Mandeb et quitte l'Afrique. Tous les non-Africains vivant aujourd'hui descendent de ce groupe fondateur.",
+        "anecdotes": [
+          {
+            "e": "🌋",
+            "t": "<b>L'éruption du Toba (–74 000 ans)</b>, la plus grande catastrophe volcanique depuis 2 millions d'années, aurait déclenché un hiver volcanique mondial et réduit l'humanité à quelques milliers d'individus — un goulot d'étranglement génétique dont nous portons encore la trace dans notre ADN."
+          },
+          {
+            "e": "🌍",
+            "t": "<b>Les Africains subsahariens sont génétiquement plus diversifiés</b> que tout le reste de l'humanité réuni. La diversité génétique mondiale s'est « étirée » à mesure que les migrations s'éloignaient de l'Afrique — chaque nouvelle population emportant un sous-ensemble du répertoire génétique précédent."
+          }
+        ]
+      },
+      {
+        "kind": "histoire",
+        "icon": "🦘",
+        "date": "–50 000 ans",
+        "title": "Peuplement de l'Australie",
+        "desc": "Des Homo Sapiens atteignent l'Australie en traversant au moins 90 km d'océan ouvert depuis l'Asie du Sud-Est — la première grande navigation de l'histoire humaine. Ce sont les ancêtres des Aborigènes d'aujourd'hui.",
+        "anecdotes": [
+          {
+            "e": "⛵",
+            "t": "<b>À l'époque, le niveau des mers était 60 m plus bas</b> qu'aujourd'hui, mais un bras de mer d'au moins 90 km demeurait infranchissable à pied. Ces hommes ont donc construit des embarcations — radeaux ou pirogues — bien avant d'inventer l'écriture ou la poterie."
+          },
+          {
+            "e": "🦣",
+            "t": "<b>À leur arrivée, l'Australie abritait une mégafaune extraordinaire :</b> wombats géants de la taille d'un rhinocéros, serpents de 7 mètres, oiseaux de 200 kg. La plupart disparurent dans les millénaires suivant l'arrivée des humains."
+          }
+        ]
+      },
+      {
+        "kind": "histoire",
+        "icon": "💀",
+        "date": "–40 000 ans",
+        "title": "Disparition des Néandertaliens",
+        "desc": "Homo neanderthalensis, qui peuplait l'Europe et le Proche-Orient depuis 400 000 ans, disparaît peu après l'arrivée de Sapiens sur le continent. Compétition, assimilation ou épidémies ? Le débat reste ouvert.",
+        "anecdotes": [
+          {
+            "e": "🧬",
+            "t": "<b>Les Néandertaliens ne sont pas vraiment disparus :</b> les Européens et Asiatiques portent 1 à 4 % de leur ADN, héritage de croisements anciens. Certains de ces gènes néandertaliens nous aident encore aujourd'hui à combattre certaines infections."
+          },
+          {
+            "e": "🎨",
+            "t": "<b>Les Néandertaliens fabriquaient des bijoux, enterraient leurs morts et utilisaient des pigments.</b> Des fouilles récentes suggèrent qu'ils peignaient déjà des grottes en Espagne 65 000 ans avant Sapiens — ce seraient donc les premiers artistes de l'histoire."
+          }
+        ]
+      },
+      {
+        "kind": "histoire",
+        "icon": "🎨",
+        "date": "–36 000 av. J.-C.",
+        "title": "Grotte Chauvet",
+        "desc": "Dans l'Ardèche, des Homo Sapiens peignent sur les parois de la grotte Chauvet les premières grandes œuvres d'art de l'humanité : mammouths, rhinocéros laineux, lions des cavernes — avec un sens du mouvement et de la perspective saisissant.",
+        "anecdotes": [
+          {
+            "e": "🦁",
+            "t": "<b>Plus de 400 figures animales</b> représentant 14 espèces différentes, dont des espèces aujourd'hui disparues comme le rhinocéros laineux et le mammouth. Les artistes utilisaient déjà l'estompe, les tracés doubles et les reliefs naturels de la roche pour donner l'illusion du mouvement."
+          },
+          {
+            "e": "🕯️",
+            "t": "<b>Les artistes travaillaient à la lueur de torches et de lampes à graisse</b>, dans l'obscurité totale à des centaines de mètres de l'entrée. Chauvet est classée au patrimoine mondial de l'UNESCO depuis 2014."
+          }
+        ]
+      },
+      {
+        "kind": "histoire",
+        "icon": "🏹",
+        "date": "–35 000 av. J.-C.",
+        "title": "La Lance & le Propulseur",
+        "desc": "Le propulseur (atlatl) est un bras de levier qui multiplie par 3 la portée et la puissance d'une lance. Il permet de chasser à distance et transforme les rapports de force avec la faune.",
+        "anecdotes": [
+          {
+            "e": "🎯",
+            "t": "<b>Le propulseur peut lancer une lance à 100 mètres</b> avec une force suffisante pour transpercer un mammouth. Une innovation qui permit aux Homo Sapiens de dominer tous les grands prédateurs."
+          },
+          {
+            "e": "🏹",
+            "t": "<b>L'arc et la flèche</b> ne sont inventés que vers –20 000 ans en Afrique du Sud. Le propulseur est donc bien antérieur — et restera l'arme de chasse principale pendant des dizaines de millénaires."
+          }
+        ]
+      },
+      {
+        "kind": "histoire",
+        "icon": "🎵",
+        "date": "–35 000 av. J.-C.",
+        "title": "Les Premières Flûtes",
+        "desc": "Dans les grottes d'Allemagne du Sud (Hohle Fels, Vogelherd), des artisans taillent des flûtes dans des os d'oiseaux et de l'ivoire de mammouth. Ce sont les plus anciens instruments de musique connus — la musique est aussi vieille que l'art pariétal.",
+        "anecdotes": [
+          {
+            "e": "🦅",
+            "t": "<b>La flûte de Hohle Fels</b> est taillée dans un radius de vautour fauve. Elle possède 5 trous digitaux et peut encore produire des sons aujourd'hui. Sa facture révèle une maîtrise acoustique et artisanale remarquable."
+          },
+          {
+            "e": "🎶",
+            "t": "<b>La musique est probablement bien plus ancienne</b> que ces flûtes — os creux, peaux tendues, voix humaine — mais les matériaux organiques ne se fossilisent pas. Ces flûtes sont simplement les premières à avoir survécu au temps."
+          }
+        ]
+      },
+      {
+        "kind": "histoire",
+        "icon": "❄️",
+        "date": "–20 000 av. J.-C.",
+        "title": "Maximum Glaciaire",
+        "desc": "Pic de la dernière ère glaciaire : les glaces couvrent l'Europe du Nord, les Alpes et les Pyrénées. Le niveau des mers est 120 mètres plus bas qu'aujourd'hui. La Grande-Bretagne est reliée au continent, la Sibérie à l'Alaska. L'humanité se réfugie dans des refuges tempérés.",
+        "anecdotes": [
+          {
+            "e": "🗺️",
+            "t": "<b>La carte du monde est méconnaissable :</b> la Manche n'existe pas, la mer du Nord est une vaste plaine herbeuse parcourue par les mammouths. Les Pays-Bas actuels sont à 500 km de l'océan. C'est dans ces plaines aujourd'hui englouties que vivaient nos ancêtres de Lascaux."
+          },
+          {
+            "e": "🌡️",
+            "t": "<b>La température moyenne en France était 8 à 10°C plus froide</b> qu'aujourd'hui. Paris ressemblait à la Sibérie actuelle. La fonte des glaces (–18 000 à –6 000 ans) fit monter les mers de 120 mètres, engloutissant des terres habitées et déclenchant probablement les mythes universels du Déluge."
+          }
+        ]
+      },
+      {
+        "kind": "histoire",
+        "icon": "🏺",
+        "date": "–17 500 av. J.-C.",
+        "title": "La Poterie",
+        "desc": "Les premières poteries connues (Chine, Japon) permettent de cuire, stocker et transporter les aliments. Une révolution silencieuse qui précède l'agriculture de plusieurs millénaires.",
+        "anecdotes": [
+          {
+            "e": "🍲",
+            "t": "<b>La poterie précède l'agriculture de 5 000 ans.</b> Les chasseurs-cueilleurs utilisaient des pots pour cuire et conserver les aliments bien avant de cultiver."
+          },
+          {
+            "e": "🔥",
+            "t": "<b>La cuisson des aliments dans l'eau</b> rendue possible par la poterie libère des nutriments inaccessibles autrement. Elle a probablement autant contribué à la santé humaine que la médecine."
+          }
+        ]
+      },
+      {
+        "kind": "histoire",
+        "icon": "🦌",
+        "date": "–17 000 av. J.-C.",
+        "title": "Grotte de Lascaux",
+        "desc": "En Dordogne, des artistes magdaléniens ornent les parois de Lascaux de plus de 600 peintures et 1 500 gravures. Bisons, cerfs, chevaux et aurochs y sont représentés avec une maîtrise stylistique extraordinaire — c'est la « Chapelle Sixtine de la Préhistoire ».",
+        "anecdotes": [
+          {
+            "e": "🐎",
+            "t": "<b>La « Salle des Taureaux »</b>, la plus grande caverne de Lascaux, mesure 17 mètres de long et abrite des aurochs et des cerfs dont certains atteignent 5 mètres de longueur. Les pigments — ocre, manganèse, charbon — ont été soufflés à la bouche ou appliqués avec des tampons de mousse."
+          },
+          {
+            "e": "🔒",
+            "t": "<b>La grotte originale est fermée au public depuis 1963</b> pour préserver les peintures, menacées par le CO₂ et les moisissures apportés par les visiteurs. Une réplique quasi parfaite, Lascaux IV, accueille aujourd'hui les touristes à quelques centaines de mètres du site original."
+          }
+        ]
+      },
+      {
+        "kind": "histoire",
+        "icon": "🐕",
+        "date": "–15 000 av. J.-C.",
+        "title": "Domestication du Chien",
+        "desc": "Le chien est le premier animal domestiqué par l'homme — bien avant les vaches, moutons ou chevaux. Issu du loup gris, il devient aide à la chasse, gardien et compagnon.",
+        "anecdotes": [
+          {
+            "e": "🐺",
+            "t": "<b>Le chien s'est peut-être domestiqué lui-même :</b> des loups moins craintifs auraient appris à suivre les camps humains pour se nourrir des restes, développant progressivement une relation symbiotique."
+          },
+          {
+            "e": "🧬",
+            "t": "<b>Toutes les races de chiens</b> — du chihuahua au saint-bernard — descendent d'une même population de loups domestiqués. La sélection humaine en 15 000 ans a créé une diversité morphologique sans équivalent dans la nature."
+          }
+        ]
+      },
+      {
+        "kind": "histoire",
+        "icon": "🌉",
+        "date": "–13 000 av. J.-C.",
+        "title": "Peuplement des Amériques",
+        "desc": "Des chasseurs sibériens franchissent le pont terrestre de Béringie — une vaste plaine aujourd'hui engloutie sous le détroit de Béring — et s'installent en Amérique du Nord. En quelques millénaires, leurs descendants atteindront la Terre de Feu, à 15 000 km au sud.",
+        "anecdotes": [
+          {
+            "e": "🦣",
+            "t": "<b>En moins de 1 000 ans</b>, les premiers Américains ont traversé deux continents et chassé jusqu'à l'extinction la plupart des grands mammifères : mammouths, mastodontes, chevaux et chameaux américains, paresseux géants. Une vague d'extinctions qui explique pourquoi les Amériques n'avaient plus d'animaux domesticables à l'arrivée des Européens."
+          },
+          {
+            "e": "🧬",
+            "t": "<b>Tous les Amérindiens descendent d'une seule vague migratoire</b> partie de Sibérie, dont les descendants ont été isolés des autres humains pendant 15 000 ans — la plus longue isolation d'une grande population humaine dans l'histoire. Certaines études suggèrent cependant des contacts côtiers polynésiens bien avant Colomb."
+          }
+        ]
+      },
+      {
+        "kind": "histoire",
+        "icon": "🏛️",
+        "date": "–9 500 av. J.-C.",
+        "title": "Göbekli Tepe",
+        "desc": "En Turquie actuelle, des chasseurs-cueilleurs érigent les premiers grands monuments en pierre de l'humanité : des cercles de piliers en T de 6 mètres de haut, ornés de bas-reliefs d'animaux. Göbekli Tepe précède Stonehenge de 6 000 ans et les pyramides de 7 000 ans — et renverse tout ce qu'on croyait savoir.",
+        "anecdotes": [
+          {
+            "e": "🤯",
+            "t": "<b>Göbekli Tepe a été construit avant l'agriculture.</b> On pensait que les grandes constructions nécessitaient une société sédentaire et agricole. Mais ses bâtisseurs étaient des nomades chasseurs-cueilleurs. C'est peut-être le temple lui-même — et les rassemblements qu'il imposait — qui a donné naissance à l'agriculture, et non l'inverse."
+          },
+          {
+            "e": "⛏️",
+            "t": "<b>Seulement 5 % du site a été fouillé.</b> Le géoradar révèle au moins 16 enceintes encore enfouies. Et le plus étrange : vers –8 000 av. J.-C., ses bâtisseurs ont délibérément enfoui le site sous des tonnes de terre, le préservant intact pendant 11 000 ans."
+          }
+        ]
+      },
+      {
+        "icon": "🌾",
+        "tag": "Événement",
+        "date": "–10 000 ans",
+        "title": "Révolution Néolithique",
+        "desc": "Agriculture et élevage au Croissant Fertile. Fin du nomadisme. Les premiers villages apparaissent — naissance de la civilisation.",
+        "anecdotes": [
+          {
+            "e": "⏰",
+            "t": "<b>L'agriculture a inventé la notion de futur :</b> semer pour récolter plus tard. C'est l'origine des calendriers, de l'écriture et des contrats."
+          },
+          {
+            "e": "🦠",
+            "t": "<b>Les premiers villages ont inventé les épidémies.</b> Vivre entassés avec des animaux a permis aux virus de franchir la barrière des espèces."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🧊",
+        "tag": "Événement",
+        "date": "~–3 300 av. J.-C.",
+        "title": "Ötzi — L'Homme des Glaces",
+        "desc": "Dans les Alpes tyroliennes, un chasseur néolithique meurt à 3 210 m d'altitude. Préservé 5 300 ans dans la glace, il est découvert en 1991 et livre un portrait saisissant de l'homme de la fin du Néolithique.",
+        "anecdotes": [
+          {
+            "e": "🏹",
+            "t": "<b>Ötzi a été assassiné :</b> une pointe de flèche est logée dans son épaule, sectionnant une artère. Premier « cold case » de l'histoire, vieux de 5 300 ans."
+          },
+          {
+            "e": "🧬",
+            "t": "<b>Son ADN révèle qu'Ötzi est le cousin génétique</b> de nombreux Sardes et Corses actuels. Il était intolérant au lactose, avait les yeux marron et souffrait de maladie de Lyme."
+          }
+        ],
+        "kind": "histoire"
+      }
+    ]
+  }
+]
