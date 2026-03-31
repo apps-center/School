@@ -136,10 +136,26 @@ h1{font-family:'Cinzel',serif;font-size:clamp(1.8rem,5vw,3.6rem);font-weight:900
 .anec:last-child{margin-bottom:0;}
 .abullet{font-size:1.5rem;flex-shrink:0;margin-top:1px;}
 .atext{font-size:1.05rem;line-height:1.8;color:#ede6d4;}
-.atext b{color:#ffffff;font-style:normal;font-weight:700;font-size:1.08rem;}
+.atext b{color:#f5d26a;font-style:normal;font-weight:700;font-size:1.05rem;}
 
 footer{position:relative;z-index:10;text-align:center;padding:0 20px 50px;
   color:rgba(232,223,196,.22);font-size:.74rem;letter-spacing:.1em;}
+
+@media(max-width:600px){
+  .mbox{padding:24px 18px 22px;border-radius:8px;}
+  .moverlay{padding:12px;}
+  .micon{font-size:2.2rem;margin-bottom:8px;}
+  .mtag{font-size:.62rem;padding:3px 10px;margin-bottom:10px;}
+  .mdate{font-size:.9rem;margin-bottom:7px;}
+  .mtitle{font-size:1.15rem;margin-bottom:14px;}
+  .mintro{font-size:.93rem;line-height:1.65;margin-bottom:20px;padding-bottom:18px;}
+  .mahead{font-size:.62rem;margin-bottom:12px;}
+  .anec{padding:12px 14px;gap:12px;margin-bottom:12px;}
+  .abullet{font-size:1.2rem;}
+  .atext{font-size:.92rem;line-height:1.65;}
+  .atext b{font-size:.95rem;}
+  .mclose{top:12px;right:12px;padding:5px 9px;font-size:.9rem;}
+}
 
 @media(max-width:700px){
   /* Timeline: single column, line on left */
