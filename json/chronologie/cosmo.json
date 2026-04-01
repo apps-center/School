@@ -719,48 +719,48 @@
           }
         ],
         "kind": "histoire"
-      }
-    ]
-  },
-  {
-    "kind": "histoire",
-    "icon": "🏙️",
-    "date": "–3 200 av. J.-C.",
-    "title": "Uruk & Ur — Les Premières Villes du Monde",
-    "desc": "En Mésopotamie (actuel Irak), entre le Tigre et l'Euphrate, naît quelque chose d'entièrement nouveau dans l'histoire humaine : la ville. Uruk dépasse 50 000 habitants — une densité humaine sans précédent. Pour gérer des stocks de milliers de jarres de grain, des centaines de troupeaux, des milliers d'ouvriers, les administrateurs inventent un système de notation : les premiers signes gravés sur argile. L'écriture vient d'être inventée — non pas pour raconter des poèmes, mais pour faire de la comptabilité.",
-    "anecdotes": [
-      {
-        "e": "✍️",
-        "t": "<b>L'écriture a été inventée pour noter des dettes, pas des histoires.</b> Les premières tablettes cunéiformes d'Uruk (–3 200 av. J.-C.) sont des reçus : « 29 mesures d'orge reçues de Kushim. » Kushim est le premier être humain dont on connaît le nom dans l'histoire. Pas un roi, pas un héros — un comptable. La littérature attendra encore 500 ans."
       },
       {
-        "e": "⚰️",
-        "t": "<b>À Ur, les rois n'mouraient pas seuls.</b> Les fouilles des tombes royales d'Ur (–2 600 av. J.-C.) ont révélé des dizaines de serviteurs, gardes et musiciens enterrés vivants avec leur maître — après avoir probablement bu un poison. Dans une tombe, 74 personnes accompagnaient la reine dans la mort. La harpe d'or retrouvée auprès d'eux est aujourd'hui au British Museum."
+        "kind": "histoire",
+        "icon": "🏙️",
+        "date": "–3 200 av. J.-C.",
+        "title": "Uruk & Ur — Les Premières Villes du Monde",
+        "desc": "En Mésopotamie (actuel Irak), entre le Tigre et l'Euphrate, naît quelque chose d'entièrement nouveau dans l'histoire humaine : la ville. Uruk dépasse 50 000 habitants — une densité humaine sans précédent. Pour gérer des stocks de milliers de jarres de grain, des centaines de troupeaux, des milliers d'ouvriers, les administrateurs inventent un système de notation : les premiers signes gravés sur argile. L'écriture vient d'être inventée — non pas pour raconter des poèmes, mais pour faire de la comptabilité.",
+        "anecdotes": [
+          {
+            "e": "✍️",
+            "t": "<b>L'écriture a été inventée pour noter des dettes, pas des histoires.</b> Les premières tablettes cunéiformes d'Uruk (–3 200 av. J.-C.) sont des reçus : « 29 mesures d'orge reçues de Kushim. » Kushim est le premier être humain dont on connaît le nom dans l'histoire. Pas un roi, pas un héros — un comptable. La littérature attendra encore 500 ans."
+          },
+          {
+            "e": "⚰️",
+            "t": "<b>À Ur, les rois n'mouraient pas seuls.</b> Les fouilles des tombes royales d'Ur (–2 600 av. J.-C.) ont révélé des dizaines de serviteurs, gardes et musiciens enterrés vivants avec leur maître — après avoir probablement bu un poison. Dans une tombe, 74 personnes accompagnaient la reine dans la mort. La harpe d'or retrouvée auprès d'eux est aujourd'hui au British Museum."
+          },
+          {
+            "e": "🦸",
+            "t": "<b>Gilgamesh, roi d'Uruk, est le premier héros de la littérature mondiale.</b> L'Épopée de Gilgamesh (–2 100 av. J.-C.) raconte un roi mi-dieu mi-humain, sa quête de l'immortalité et son amitié avec l'homme sauvage Enkidu. Elle contient aussi un récit de Déluge universel — écrit 1 500 ans avant la Bible — avec une arche, des animaux sauvés par paires, et une colombe envoyée en éclaireur."
+          }
+        ]
       },
       {
-        "e": "🦸",
-        "t": "<b>Gilgamesh, roi d'Uruk, est le premier héros de la littérature mondiale.</b> L'Épopée de Gilgamesh (–2 100 av. J.-C.) raconte un roi mi-dieu mi-humain, sa quête de l'immortalité et son amitié avec l'homme sauvage Enkidu. Elle contient aussi un récit de Déluge universel — écrit 1 500 ans avant la Bible — avec une arche, des animaux sauvés par paires, et une colombe envoyée en éclaireur."
-      }
-    ]
-  },
-  {
-    "kind": "histoire",
-    "icon": "🏛️",
-    "date": "–1 800 av. J.-C.",
-    "title": "Babylone — La Première Superpuissance",
-    "desc": "Au cœur de la Mésopotamie, Babylone devient la plus grande ville du monde connu. Sous Hammurabi, elle unifie toute la région et institue quelque chose de révolutionnaire : un code de lois écrit, gravé sur une stèle de 2,25 mètres, applicable à tous. Riche, bâtisseur, astronome et conquérante, Babylone invente en même temps le droit, les mathématiques avancées et la carte du monde.",
-    "anecdotes": [
-      {
-        "e": "⚖️",
-        "t": "<b>Hammurabi a inventé l'État de droit — avec ses défauts.</b> Le Code d'Hammurabi (–1 754 av. J.-C.) est le premier grand recueil de lois de l'histoire : 282 articles gravés sur basalte noir, encore lisibles aujourd'hui au Louvre. Il prévoit la présomption d'innocence, la protection des veuves et orphelins, des salaires minimums. Mais aussi : « œil pour œil, dent pour dent » — avec des peines variables selon le statut social. Un noble qui crève l'œil d'un esclave paie une amende ; un esclave qui fait pareil perd le sien."
-      },
-      {
-        "e": "🌟",
-        "t": "<b>Les Babyloniens ont inventé notre façon de mesurer le temps et les angles.</b> Pourquoi une heure fait 60 minutes, une minute 60 secondes, un cercle 360 degrés ? Parce que les Babyloniens comptaient en base 60 — un système hérité des Sumériens, remarquablement pratique car 60 est divisible par 2, 3, 4, 5, 6, 10, 12, 15, 20 et 30. Chaque fois que tu regardes ta montre, tu utilises un système inventé il y a 4 000 ans entre le Tigre et l'Euphrate."
-      },
-      {
-        "e": "🌍",
-        "t": "<b>Babylone a dessiné la première carte du monde.</b> La tablette Imago Mundi (–600 av. J.-C.) montre la Terre comme un disque plat entouré d'un océan circulaire, avec Babylone en son centre — évidemment. Autour, des régions mythiques habitées par des monstres. C'est une carte autant politique que géographique : placer ta ville au centre du monde, c'est déjà de la propagande. Toutes les civilisations l'ont fait depuis."
+        "kind": "histoire",
+        "icon": "🏛️",
+        "date": "–1 800 av. J.-C.",
+        "title": "Babylone — La Première Superpuissance",
+        "desc": "Au cœur de la Mésopotamie, Babylone devient la plus grande ville du monde connu. Sous Hammurabi, elle unifie toute la région et institue quelque chose de révolutionnaire : un code de lois écrit, gravé sur une stèle de 2,25 mètres, applicable à tous. Riche, bâtisseur, astronome et conquérante, Babylone invente en même temps le droit, les mathématiques avancées et la carte du monde.",
+        "anecdotes": [
+          {
+            "e": "⚖️",
+            "t": "<b>Hammurabi a inventé l'État de droit — avec ses défauts.</b> Le Code d'Hammurabi (–1 754 av. J.-C.) est le premier grand recueil de lois de l'histoire : 282 articles gravés sur basalte noir, encore lisibles aujourd'hui au Louvre. Il prévoit la présomption d'innocence, la protection des veuves et orphelins, des salaires minimums. Mais aussi : « œil pour œil, dent pour dent » — avec des peines variables selon le statut social. Un noble qui crève l'œil d'un esclave paie une amende ; un esclave qui fait pareil perd le sien."
+          },
+          {
+            "e": "🌟",
+            "t": "<b>Les Babyloniens ont inventé notre façon de mesurer le temps et les angles.</b> Pourquoi une heure fait 60 minutes, une minute 60 secondes, un cercle 360 degrés ? Parce que les Babyloniens comptaient en base 60 — un système hérité des Sumériens, remarquablement pratique car 60 est divisible par 2, 3, 4, 5, 6, 10, 12, 15, 20 et 30. Chaque fois que tu regardes ta montre, tu utilises un système inventé il y a 4 000 ans entre le Tigre et l'Euphrate."
+          },
+          {
+            "e": "🌍",
+            "t": "<b>Babylone a dessiné la première carte du monde.</b> La tablette Imago Mundi (–600 av. J.-C.) montre la Terre comme un disque plat entouré d'un océan circulaire, avec Babylone en son centre — évidemment. Autour, des régions mythiques habitées par des monstres. C'est une carte autant politique que géographique : placer ta ville au centre du monde, c'est déjà de la propagande. Toutes les civilisations l'ont fait depuis."
+          }
+        ]
       }
     ]
   }
