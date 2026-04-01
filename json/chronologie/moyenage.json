@@ -148,6 +148,28 @@
         "kind": "histoire"
       },
       {
+        "icon": "🛶",
+        "tag": "Invasions",
+        "date": "845 à 911",
+        "title": "Les Vikings — Terreur sur la France & Naissance de la Normandie",
+        "desc": "Depuis les années 820, des drakkars normands remontent la Seine, la Loire et la Gironde. En 845, Ragnar assiège Paris : Charles le Chauve paie 7 000 livres d'argent pour les faire partir — la première rançon de l'histoire de France. En 885, ils reviennent avec 700 navires. Le comte Eudes défend Paris héroïquement pendant un an. En 911, le roi Charles le Simple prend une décision radicale : il cède la Normandie au chef viking Rollon, qui jure fidélité et se fait baptiser.",
+        "anecdotes": [
+          {
+            "e": "🛶",
+            "t": "<b>Les drakkars pouvaient remonter les fleuves jusqu'à Paris en quelques jours.</b> Leur tirant d'eau était si faible qu'ils naviguaient sur les rivières peu profondes. Les monastères, construits sur des îles pour la tranquillité spirituelle, se retrouvaient ainsi en première ligne des raids. Saint-Denis, Noirmoutier, Jumièges furent dévastés à répétition."
+          },
+          {
+            "e": "🤝",
+            "t": "<b>Rollon, baptisé Robert, fonda la lignée des ducs de Normandie.</b> Son arrière-arrière-arrière-petit-fils Guillaume le Conquérant traversa la Manche en 1066 et devint roi d'Angleterre. Les Vikings qui terrorisèrent la France devinrent les Normands — et l'un d'eux prit la couronne d'Angleterre. La France avait domestiqué ses envahisseurs en leur donnant une province."
+          },
+          {
+            "e": "😤",
+            "t": "<b>Rollon refusa de s'agenouiller devant le roi pour l'hommage féodal.</b> Un de ses hommes souleva le pied du roi pour l'embrasser — et le bascula à la renverse sous les éclats de rire des Vikings. Ce moment humiliant pour la royauté capétienne est rapporté par plusieurs chroniqueurs. Rollon avait clairement compris qu'il négociait en position de force."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
         "kind": "histoire",
         "icon": "🐴",
         "date": "Xe – XIIe siècle",
@@ -204,6 +226,50 @@
       },
       {
         "icon": "✝️",
+        "tag": "Événement",
+        "date": "1095 à 1291",
+        "title": "Les Croisades — Dieu le Veut !",
+        "desc": "En novembre 1095, le pape Urbain II prêche à Clermont-Ferrand devant une foule immense : il appelle les chrétiens à reprendre Jérusalem aux Turcs seldjoukides. La foule répond en masse : « Dieu le veut ! » C'est le signal de la première des huit croisades. En 1099, les croisés prennent Jérusalem et massacrent sa population. En 1291, Saint-Jean-d'Acre, dernier bastion chrétien, tombe. En 200 ans, les croisades ont transformé l'Europe, le Proche-Orient — et les relations entre chrétiens et musulmans pour des siècles.",
+        "anecdotes": [
+          {
+            "e": "⚔️",
+            "t": "<b>La Croisade des Pauvres précéda la vraie croisade — et fut un désastre.</b> Pierre l'Ermite, prédicateur charismatique, entraîna 40 000 miséreux en 1096 sans armée ni organisation. Ils pillèrent les juifs d'Europe en chemin, puis furent massacrés par les Turcs en Anatolie avant même d'atteindre Jérusalem. La vraie Première Croisade, militaire et organisée, repartit quelques mois plus tard."
+          },
+          {
+            "e": "🩸",
+            "t": "<b>La prise de Jérusalem en 1099 fut un bain de sang.</b> Les chroniqueurs croisés eux-mêmes décrivent « des ruisseaux de sang jusqu'aux chevilles ». Juifs et musulmans furent massacrés indistinctement. Cette violence fondatrice marqua durablement la mémoire du monde arabo-musulman — les croisades sont encore perçues comme un traumatisme dans tout le Proche-Orient."
+          },
+          {
+            "e": "🌍",
+            "t": "<b>Les croisés importèrent en Europe tout ce qu'ils découvrirent en Orient.</b> Les épices, le sucre, les agrumes, le coton, les moulins à vent, les chiffres arabes (et donc zéro), la transmission d'Aristote via les savants arabes — sans les croisades, la Renaissance européenne aurait été retardée de siècles. La rencontre violente avec l'Orient fut aussi une révolution culturelle."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "👑",
+        "tag": "Reine",
+        "date": "1122 à 1204",
+        "title": "Aliénor d'Aquitaine — Reine de France, puis d'Angleterre",
+        "desc": "À 15 ans, Aliénor hérite du duché d'Aquitaine — un territoire plus vaste que le royaume de France. Elle épouse Louis VII et devient reine de France. Après 15 ans de mariage sans héritier mâle et une 2e croisade catastrophique, leur union est annulée en 1152. Huit semaines plus tard, Aliénor épouse Henri Plantagenêt, futur roi d'Angleterre. En une saison, la plus riche province de France passe à l'ennemi. Cette décision hantera la France pendant 300 ans — jusqu'à la fin de la Guerre de Cent Ans.",
+        "anecdotes": [
+          {
+            "e": "💔",
+            "t": "<b>L'Aquitaine fut le vrai moteur de la Guerre de Cent Ans.</b> En épousant Henri II, Aliénor apporta l'Aquitaine à la couronne anglaise. Les rois d'Angleterre la revendiquèrent pendant des siècles, refusant de la rendre. C'est cette dispute territoriale — née du remariage d'une femme en 1152 — qui déclencha finalement la Guerre de Cent Ans en 1337, 185 ans plus tard."
+          },
+          {
+            "e": "⚔️",
+            "t": "<b>Aliénor finança la révolte de ses propres fils contre Henri II.</b> En 1173, elle poussa Richard et Jean à se rebeller contre leur père. Henri II la fit emprisonner 16 ans dans ses châteaux anglais. À sa mort en 1189, son fils Richard Cœur de Lion la libéra aussitôt — elle avait 67 ans et gouverna l'Angleterre comme régente pendant ses absences en croisade."
+          },
+          {
+            "e": "🎵",
+            "t": "<b>La cour d'Aliénor inventa la poésie courtoise et l'amour romantique.</b> Elle protégea les troubadours, imposa les codes de la chevalerie et de l'amour courtois — l'idée qu'on pouvait aimer sans posséder, servir une dame sans espoir de récompense. Ces codes littéraires, nés à Poitiers dans les années 1170, sont l'ancêtre direct de toute la littérature romantique occidentale."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "✝️",
         "tag": "Ordre",
         "date": "1119 – 1312",
         "title": "Les Templiers — Moines & Guerriers",
@@ -223,7 +289,7 @@
       {
         "kind": "histoire",
         "icon": "🏛️",
-        "date": "~1140",
+        "date": "1140",
         "title": "L'Arc-Boutant — Architecture Gothique",
         "desc": "L'abbé Suger et les architectes de la cathédrale de Saint-Denis inventent l'arc-boutant. Cette structure reporte le poids des voûtes vers l'extérieur, permettant des murs percés de vitraux et des hauteurs inégalées.",
         "anecdotes": [
@@ -240,7 +306,7 @@
       {
         "kind": "histoire",
         "icon": "🎓",
-        "date": "~1150",
+        "date": "1150",
         "title": "Naissance des Universités",
         "desc": "Les premières universités européennes naissent à Bologne (1088), Paris (~1150–1170), Oxford (~1167). L'Université de Paris se forme progressivement autour des écoles cathédrales. Attention : la Sorbonne est un collège fondé vers 1257 par Robert de Sorbon — elle n'est pas l'université elle-même, mais en est devenue le symbole.",
         "anecdotes": [
@@ -275,7 +341,7 @@
       {
         "kind": "histoire",
         "icon": "💨",
-        "date": "~1180",
+        "date": "1180",
         "title": "Le Moulin à Vent en Europe",
         "desc": "Les croisés rapportent le moulin à vent de Perse. En quelques décennies, des milliers de moulins ponctuent le paysage européen, moudant le grain et pompant l'eau des polders hollandais.",
         "anecdotes": [
@@ -306,7 +372,7 @@
       {
         "kind": "histoire",
         "icon": "🧭",
-        "date": "~1190",
+        "date": "1190",
         "title": "La Boussole en Europe",
         "desc": "La boussole magnétique, venue de Chine via les Arabes, arrive en Europe. Elle permet la navigation en mer fermée, même par temps couvert. Sans elle, les Grandes Découvertes sont impossibles.",
         "anecdotes": [
@@ -337,7 +403,7 @@
       {
         "kind": "histoire",
         "icon": "🎵",
-        "date": "~1320 – 1370",
+        "date": "1320 – 1370",
         "title": "Ars Nova — La Polyphonie",
         "desc": "Philippe de Vitry théorise l'Ars Nova (vers 1320) : plusieurs voix indépendantes chantent simultanément des mélodies différentes. Cette révolution rythmique et harmonique du XIVe siècle ouvre la voie à toute la musique polyphonique occidentale. À distinguer de l'École de Notre-Dame (XIIe–XIIIe s.) qui en fut le terreau.",
         "anecdotes": [
@@ -383,6 +449,28 @@
           {
             "e": "🏰",
             "t": "<b>Le trésor des Templiers ne fut jamais retrouvé.</b> Il aurait été évacué avant les arrestations. Sa localisation est l'une des plus grandes chasses au trésor de l'histoire — et alimente des recherches encore aujourd'hui."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "💀",
+        "tag": "Malédiction",
+        "date": "1314 à 1328",
+        "title": "Les Rois Maudits — La Fin des Capétiens Directs",
+        "desc": "Du bûcher, Jacques de Molay maudit Philippe le Bel et le pape Clément V : « Avant un an, je vous cite au tribunal de Dieu. » Le pape mourut en avril 1314, Philippe le Bel en novembre. Puis ses trois fils régnèrent et moururent sans héritier mâle en 14 ans : Louis X (1316), Philippe V (1322), Charles IV (1328). La lignée capétienne directe s'éteignit. La couronne passa à un cousin Valois — et l'Angleterre, qui la revendiquait aussi, déclencha la Guerre de Cent Ans.",
+        "anecdotes": [
+          {
+            "e": "📚",
+            "t": "<b>Maurice Druon en fit une saga de 7 romans — et inspira Game of Thrones.</b> « Les Rois Maudits » (1955–1977), que George R.R. Martin appela son « mentor », raconte cette décennie de scandales, meurtres et complots avec une précision historique remarquable. La Garde de Nuit de Martin ressemble étrangement aux Templiers. Le trône de fer, à ces intrigues dynastiques."
+          },
+          {
+            "e": "👸",
+            "t": "<b>L'affaire de la Tour de Nesle déclencha la fin des Capétiens.</b> En 1314, les belles-filles de Philippe le Bel furent accusées d'adultère — certaines condamnées à la prison à vie. Louis X, veuf, se remaria pour avoir un héritier : l'enfant mourut à 5 jours. Philippe V et Charles IV aussi remarièrent — et n'eurent que des filles. Trois mariages royaux, trois échecs dynastiques."
+          },
+          {
+            "e": "⚖️",
+            "t": "<b>La règle excluant les femmes du trône fut inventée à la hâte en 1316.</b> Quand Louis X mourut, sa fille Jeanne était l'héritière logique — mais les barons refusèrent une reine. On exhuma la loi salique franque pour justifier l'exclusion des femmes. Cette règle, improvisée pour régler une succession difficile, régit la monarchie française jusqu'en 1792 — et causa directement la Guerre de Cent Ans."
           }
         ],
         "kind": "histoire"
@@ -474,6 +562,28 @@
         "kind": "histoire"
       },
       {
+        "icon": "⚔️",
+        "tag": "Guerre civile",
+        "date": "1407 à 1435",
+        "title": "Bourguignons contre Armagnacs — La France contre elle-même",
+        "desc": "Pendant la folie de Charles VI, deux factions se disputent le pouvoir : les Bourguignons (menés par Jean sans Peur, duc de Bourgogne) et les Armagnacs (menés par Louis d'Orléans, frère du roi). En 1407, Jean sans Peur fait assassiner Louis d'Orléans dans une rue de Paris. La France bascule dans la guerre civile — pendant qu'Henri V d'Angleterre envahit et remporte Azincourt. Les Bourguignons, alliés aux Anglais, font signer au roi fou le traité de Troyes (1420) : l'héritier de France sera... le roi d'Angleterre.",
+        "anecdotes": [
+          {
+            "e": "🗡️",
+            "t": "<b>Jean sans Peur fit assassiner son cousin Louis d'Orléans en pleine rue de Paris.</b> Quand on lui demanda s'il avait ordonné le meurtre, il avoua — et ses conseillers théologiens argumentèrent que tuer un tyran était un acte vertueux. Ce cynisme absolu scandalisa l'Europe. 12 ans plus tard, Jean sans Peur fut assassiné à son tour sur le pont de Montereau par les hommes du Dauphin."
+          },
+          {
+            "e": "🤝",
+            "t": "<b>Les Bourguignons trahirent la France pour venger leur duc.</b> Après l'assassinat de Jean sans Peur (1419), son fils Philippe le Bon s'allia formellement avec l'Angleterre. Sans cet accord, Henri V n'aurait jamais pu imposer le traité de Troyes ni contrôler Paris. La guerre civile franco-française livra la France aux Anglais plus sûrement que n'importe quelle défaite militaire."
+          },
+          {
+            "e": "🕊️",
+            "t": "<b>La réconciliation de 1435 sauva la France.</b> Au traité d'Arras, Philippe le Bon abandonna l'alliance anglaise en échange de compensations territoriales et d'excuses solennelles pour le meurtre de son père. Ce retournement diplomatique — 16 ans après Azincourt — permit à Charles VII et Jeanne d'Arc de reconquérir la France. Sans Arras, la France serait peut-être restée anglaise."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
         "icon": "🏹",
         "tag": "Bataille",
         "date": "25 octobre 1415",
@@ -548,7 +658,7 @@
       {
         "icon": "📰",
         "tag": "Invention",
-        "date": "~1450",
+        "date": "1450",
         "title": "L'Imprimerie de Gutenberg",
         "desc": "Johannes Gutenberg invente les caractères mobiles en plomb à Mayence. La Bible à 42 lignes est imprimée vers 1455. En quelques décennies, l'imprimerie se répand dans toute l'Europe — y compris en France dès 1470. La diffusion du savoir bascule pour toujours.",
         "anecdotes": [
