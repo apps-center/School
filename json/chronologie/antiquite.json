@@ -26,6 +26,28 @@
         "kind": "histoire"
       },
       {
+        "icon": "🪨",
+        "tag": "Monument",
+        "date": "–3 100 à –1 500 av. J.-C.",
+        "title": "Stonehenge — Le Monument le Plus Mystérieux du Monde",
+        "desc": "Sur la plaine de Salisbury, en Angleterre, des générations de bâtisseurs érigent pendant 1 600 ans un cercle de pierres colossales. La phase principale commence vers –2 500 av. J.-C. : 80 blocs de grès bleuté (les « bluestones »), pesant jusqu'à 4 tonnes, sont acheminés depuis le Pays de Galles — à 240 km. Puis les immenses sarsen stones (25 tonnes chacune) arrivent de 30 km. Le tout s'aligne exactement sur le coucher de soleil du solstice d'hiver et le lever du solstice d'été. Sans roue. Sans métal. Sans écriture.",
+        "anecdotes": [
+          {
+            "e": "🚢",
+            "t": "<b>Les bluestones ont été transportées 240 km — en partie par voie maritime.</b> Les archéologues ont reconstitué le trajet : les pierres descendent des collines de Preseli (Pays de Galles) sur des traîneaux, sont chargées sur des radeaux longeant la côte galloise, remontées le long de la Severn, puis tirées à travers les plaines d'Angleterre. Des communautés entières consacrèrent des générations à ce chantier. Pourquoi ces pierres-là, et pas d'autres plus proches ? On ne sait toujours pas."
+          },
+          {
+            "e": "☀️",
+            "t": "<b>Stonehenge est un calendrier solaire d'une précision remarquable.</b> Le 21 juin au lever du soleil, les premiers rayons s'alignent exactement dans l'axe du monument, traversant le grand trilithon central. Le 21 décembre au coucher, même phénomène. Pour des agriculteurs sans écriture, connaître la date exacte du solstice — pour semer, récolter, célébrer — était une question de survie. Stonehenge était leur almanach de pierre."
+          },
+          {
+            "e": "❓",
+            "t": "<b>On ne sait toujours pas pourquoi Stonehenge a été construit.</b> Les théories sérieuses sont nombreuses : sanctuaire de guérison (des squelettes aux os brisés guéris viennent de loin), lieu de culte des ancêtres, observatoire astronomique, marqueur territorial. Les plus récentes fouilles ADN révèlent que les bâtisseurs de la phase principale étaient des fermiers immigrés d'Anatolie — les mêmes qui avaient apporté l'agriculture en Europe. Stonehenge pourrait être leur cathédrale."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
         "icon": "🏛️",
         "tag": "Empire",
         "date": "–1 800 av. J.-C.",
