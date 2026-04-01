@@ -23,7 +23,12 @@
             "t": "<b>Gilgamesh, roi d'Uruk, est le premier héros de la littérature mondiale.</b> L'Épopée de Gilgamesh (–2 100 av. J.-C.) raconte sa quête de l'immortalité et contient un récit de Déluge universel — écrit 1 500 ans avant la Bible — avec une arche, des animaux sauvés par paires, et une colombe envoyée en éclaireur."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quel est le nom du premier être humain dont on connaît le nom dans l'histoire ?",
+          "r": "Kushim — un comptable d'Uruk",
+          "hint": "Pas un roi, pas un héros : son nom figure sur une tablette d'inventaire de grain"
+        }
       },
       {
         "icon": "🪨",
@@ -45,7 +50,12 @@
             "t": "<b>On ne sait toujours pas pourquoi Stonehenge a été construit.</b> Les théories sérieuses sont nombreuses : sanctuaire de guérison (des squelettes aux os brisés guéris viennent de loin), lieu de culte des ancêtres, observatoire astronomique, marqueur territorial. Les plus récentes fouilles ADN révèlent que les bâtisseurs de la phase principale étaient des fermiers immigrés d'Anatolie — les mêmes qui avaient apporté l'agriculture en Europe. Stonehenge pourrait être leur cathédrale."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "De quelle région du Pays de Galles proviennent les bluestones de Stonehenge, transportées sur 240 km ?",
+          "r": "Les collines de Preseli (Pembrokeshire)",
+          "hint": "Ces blocs de 4 tonnes furent acheminés en partie par voie maritime"
+        }
       },
       {
         "icon": "🏛️",
@@ -67,7 +77,12 @@
             "t": "<b>Babylone a dessiné la première carte du monde.</b> La tablette Imago Mundi (–600 av. J.-C.) montre la Terre comme un disque plat entouré d'un océan circulaire, avec Babylone en son centre. C'est une carte autant politique que géographique : placer sa ville au centre du monde, c'est déjà de la propagande. Toutes les civilisations l'ont fait depuis."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Combien d'articles contient le Code d'Hammurabi, et où est-il conservé aujourd'hui ?",
+          "r": "282 articles — gravés sur basalte, conservés au Louvre à Paris",
+          "hint": "Il prévoit présomption d'innocence mais aussi 'œil pour œil' selon le statut social"
+        }
       }
     ]
   },
@@ -95,7 +110,12 @@
             "t": "<b>Cléopâtre vivait plus près de nous que de la construction des pyramides.</b> Cléopâtre VII est morte en –30 av. J.-C. — soit 2 490 ans après Khéops. Pour nous, Cléopâtre est l'Antiquité lointaine. Pour elle, Khéops était aussi loin que l'est Vercingétorix pour nous. L'Égypte antique a duré trois fois plus longtemps que toute l'ère chrétienne."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quelle est la précision de l'alignement cardinal de la Grande Pyramide ?",
+          "r": "0,05 degré — plus précis que l'Observatoire de Paris construit 4 400 ans plus tard",
+          "hint": "Ses quatre faces pointent vers le nord, sud, est et ouest avec une exactitude stupéfiante"
+        }
       },
       {
         "icon": "☀️",
@@ -117,7 +137,12 @@
             "t": "<b>La momie de Ramsès II a un passeport français.</b> En 1974, la momie dut voyager à Paris pour être traitée contre un champignon. Les autorités françaises lui délivrèrent un passeport officiel — avec pour profession : « Roi (décédé) ». À l'aéroport du Caire, il fut accueilli avec les honneurs militaires réservés aux chefs d'État."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quel est le premier traité de paix international connu, signé par Ramsès II ?",
+          "r": "Le traité de Qadesh (–1 259 av. J.-C.), avec le roi hittite Hattusili III",
+          "hint": "Une copie est accrochée au siège de l'ONU à New York"
+        }
       },
       {
         "icon": "🐍",
@@ -139,7 +164,180 @@
             "t": "<b>Sa mort en –30 av. J.-C. marque la fin de l'Antiquité orientale indépendante.</b> L'Égypte devient une province romaine — la plus riche de l'Empire. Son blé nourrit Rome. Sans l'Égypte de Cléopâtre, l'Empire romain n'aurait peut-être pas pu se maintenir assez longtemps pour christianiser l'Europe."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Combien de langues Cléopâtre VII parlait-elle, selon les sources antiques ?",
+          "r": "9 langues",
+          "hint": "Elle était la première de sa lignée ptolémaïque à parler égyptien"
+        }
+      }
+    ]
+  },
+  {
+    "era": "✦ Religions & Textes Fondateurs",
+    "cls": "religio",
+    "events": [
+      {
+        "kind": "histoire",
+        "icon": "✡️",
+        "tag": "Religion",
+        "date": "–1 800 à –586 av. J.-C.",
+        "title": "La Naissance du Judaïsme — Le Premier Monothéisme",
+        "desc": "Le judaïsme est la première grande religion monothéiste de l'histoire — l'idée révolutionnaire qu'il n'existe qu'un seul Dieu, universel et invisible, qui a conclu une alliance (berith) avec un peuple. Abraham (~–1800) quitte Ur de Chaldée et reçoit la promesse divine. Moïse (~–1250) reçoit les Tables de la Loi sur le Sinaï et libère les Hébreux d'Égypte. L'exil à Babylone (–586) sera le creuset où les textes sacrés sont mis par écrit et où l'identité juive se forge dans l'adversité.",
+        "anecdotes": [
+          {
+            "e": "🌍",
+            "t": "<b>Le monothéisme est une révolution philosophique sans précédent.</b> Toutes les civilisations antiques — égyptienne, mésopotamienne, grecque, romaine — pratiquaient le polythéisme. Un seul dieu pour tout l'univers, invisible, sans représentation possible, qui exige un comportement moral et non des sacrifices : cette idée a profondément bouleversé l'histoire. Les deux autres grands monothéismes — christianisme et islam — sont des héritiers directs du judaïsme."
+          },
+          {
+            "e": "📖",
+            "t": "<b>Les 10 commandements furent reçus deux fois.</b> Moïse brise les premières tables en découvrant le veau d'or, et doit remonter au Sinaï pour en recevoir de nouvelles. Ce récit dit quelque chose d'important : la Loi divine doit être méritée. La tradition juive distingue la Torah écrite (les cinq livres de Moïse) et la Torah orale — les interprétations transmises de génération en génération, mises par écrit dans le Talmud."
+          },
+          {
+            "e": "🏙️",
+            "t": "<b>L'exil à Babylone (–586 à –538) est le moment fondateur de la Bible.</b> Déportés après la destruction du Temple par Nabuchodonosor, les Hébreux se retrouvent sans terre et sans temple — leur foi doit survivre sans lieu physique. C'est là qu'ils codifient leurs textes, développent la synagogue (maison de prière sans sacrifice), et forgent l'identité juive telle qu'elle existe encore : une identité portée par le Livre, pas par un territoire."
+          }
+        ],
+        "quiz": {
+          "q": "Quelle est la date traditionnelle de la destruction du premier Temple de Jérusalem, qui provoqua l'exil des Hébreux à Babylone ?",
+          "r": "–586 av. J.-C.",
+          "hint": "Nabuchodonosor II, roi de Babylone, détruisit le Temple et déporta le peuple hébreu"
+        }
+      },
+      {
+        "kind": "histoire",
+        "icon": "🌊",
+        "tag": "Récit fondateur",
+        "date": "–1 250 av. J.-C.",
+        "title": "Moïse & l'Exode — La Libération d'Égypte",
+        "desc": "Selon la Bible, le peuple hébreu est réduit en esclavage en Égypte pendant plusieurs générations. Moïse, hébreu élevé à la cour du Pharaon, reçoit de Dieu une mission au buisson ardent : libérer son peuple. Face au Pharaon qui refuse, dix plaies s'abattent sur l'Égypte. La dernière — la mort des premiers-nés — brise la résistance de Pharaon. Les Hébreux fuient, traversent la mer Rouge, et errent 40 ans dans le désert du Sinaï. Sur la montagne sainte, Moïse reçoit les Tables de la Loi : les Dix Commandements.",
+        "anecdotes": [
+          {
+            "e": "📅",
+            "t": "<b>La Pâque juive (Pessah) commémore l'Exode chaque année depuis 3 000 ans.</b> Le repas du Seder — agneau, herbes amères, pain sans levain (la matsa) — rejoue symboliquement la nuit de la fuite d'Égypte. C'est la fête la plus ancienne du judaïsme, et c'est lors d'un Seder de Pâque que Jésus célébra la Cène avec ses disciples — créant ainsi le lien direct entre Exode et christianisme."
+          },
+          {
+            "e": "🔬",
+            "t": "<b>L'archéologie n'a pas retrouvé de trace d'un Exode massif.</b> Aucun document égyptien ne mentionne une fuite hébraïque, et le désert du Sinaï ne livre aucune trace d'une population de plusieurs centaines de milliers de personnes pendant 40 ans. Cela ne signifie pas que l'Exode n'a pas eu lieu — peut-être à plus petite échelle — mais rappelle que la Bible est avant tout un texte théologique, pas un rapport historique."
+          },
+          {
+            "e": "💡",
+            "t": "<b>Le buisson ardent qui brûle sans se consumer est l'une des images les plus fortes de toute la Bible.</b> Moïse demande à Dieu son nom — et reçoit une réponse énigmatique : « Je suis celui qui suis » (Ehyeh asher ehyeh). Pas un nom propre, mais une affirmation d'existence pure, hors du temps. Cette formule a occupé les philosophes et théologiens pendant 3 000 ans — et reste irréductible à une traduction définitive."
+          }
+        ],
+        "quiz": {
+          "q": "Quel est le nom de la fête juive qui commémore chaque année la libération d'Égypte sous Moïse ?",
+          "r": "La Pâque (Pessah)",
+          "hint": "Le repas du Seder rejoue symboliquement la nuit de la fuite — pain sans levain, herbes amères, agneau"
+        }
+      },
+      {
+        "kind": "histoire",
+        "icon": "🕍",
+        "tag": "Monument",
+        "date": "–970 à –586 av. J.-C.",
+        "title": "Le Temple de Salomon — La Maison de Dieu",
+        "desc": "Le roi Salomon, fils de David, fait construire à Jérusalem le Premier Temple — demeure de Dieu et écrin de l'Arche d'Alliance. La construction dure 7 ans et mobilise 180 000 ouvriers selon les textes. Le Temple est le centre religieux et politique du royaume unifié d'Israël. Détruit par Nabuchodonosor en –586, il sera reconstruit (Second Temple, –516) puis agrandi par Hérode le Grand, avant d'être définitivement rasé par les Romains de Titus en 70 ap. J.-C. Il n'en reste que le Mur des Lamentations.",
+        "anecdotes": [
+          {
+            "e": "📦",
+            "t": "<b>L'Arche d'Alliance contenait les Tables de la Loi reçues par Moïse.</b> Selon la Bible, elle était une boîte en bois d'acacia plaquée d'or, surmontée de deux chérubins aux ailes déployées. Elle disparaît lors de la destruction du temple en –586 — et son sort reste l'un des plus grands mystères de l'histoire. Les théories vont de la destruction à Babylone à la conservation en Éthiopie (à Aksoum), où l'Église orthodoxe dit la détenir encore."
+          },
+          {
+            "e": "🧱",
+            "t": "<b>Le Mur des Lamentations est le seul vestige du Second Temple.</b> Ce mur de soutènement construit par Hérode le Grand (~–20 av. J.-C.) est le lieu de prière le plus saint du judaïsme. Juifs, chrétiens et musulmans se disputent depuis des siècles le contrôle de l'Esplanade des Mosquées / Mont du Temple — l'endroit le plus disputé de toute l'histoire humaine, quelques hectares de pierre à Jérusalem."
+          },
+          {
+            "e": "👑",
+            "t": "<b>Salomon était réputé pour sa sagesse — et pour ses 700 femmes.</b> La Bible lui attribue un harem de 700 épouses de rang royal et 300 concubines. Si le chiffre est symbolique, il dit l'ampleur des alliances diplomatiques du règne. C'est aussi Salomon qui aurait écrit le Cantique des Cantiques — le poème d'amour le plus célèbre de la Bible, dont l'interprétation (profane ou mystique ?) divise encore théologiens et littéraires."
+          }
+        ],
+        "quiz": {
+          "q": "Que contenait l'Arche d'Alliance, placée au cœur du Temple de Salomon ?",
+          "r": "Les Tables de la Loi reçues par Moïse au mont Sinaï",
+          "hint": "L'Arche disparaît en –586 lors de la destruction du Temple — son sort reste un mystère"
+        }
+      },
+      {
+        "kind": "histoire",
+        "icon": "🏙️",
+        "tag": "Événement fondateur",
+        "date": "–586 à –538 av. J.-C.",
+        "title": "L'Exil Babylonien & Cyrus le Grand",
+        "desc": "En –586, Nabuchodonosor II rase le Temple de Salomon et déporte les élites juives à Babylone. C'est la plus grande catastrophe de l'histoire hébraïque. Mais dans l'adversité, les exilés inventent une religion nouvelle : sans Temple ni sacrifices, la prière collective à la synagogue, le Sabbat hebdomadaire et la mise par écrit de la Torah permettent à la foi de survivre sans lieu fixe. En –538, Cyrus le Grand, roi de Perse, conquiert Babylone et libère tous les peuples déportés. Son édit de tolérance — le premier de l'histoire — autorise les Juifs à rentrer et à reconstruire leur Temple.",
+        "anecdotes": [
+          {
+            "e": "🎵",
+            "t": "<b>« Au bord des fleuves de Babylone, nous pleurions en nous souvenant de Sion. »</b> Le Psaume 137, composé pendant l'exil, est l'un des textes de nostalgie les plus puissants de l'histoire humaine. Il a inspiré des siècles de musique — de la polyphonie de la Renaissance aux Rastafaris jamaïcains qui se voyaient dans les Hébreux exilés. En 1978, Boney M en fit un tube mondial. Un psaume de –580 av. J.-C. en tête des hit-parades."
+          },
+          {
+            "e": "👑",
+            "t": "<b>Cyrus le Grand est le seul non-Juif appelé 'messie' (oint de Dieu) dans la Bible.</b> Le prophète Isaïe le nomme ainsi parce qu'il libère le peuple hébreu — sans pourtant être juif ni croire au Dieu d'Israël. Son Édit de Cyrus (–538 av. J.-C.), gravé sur un cylindre d'argile retrouvé à Babylone, est le premier décret connu de liberté religieuse de l'histoire. Une copie est exposée à l'ONU comme symbole des droits de l'homme."
+          },
+          {
+            "e": "🕍",
+            "t": "<b>L'exil babylonien a transformé une religion de Temple en religion de Livre.</b> Avant –586, le judaïsme était centré sur les sacrifices au Temple de Jérusalem — impossible à pratiquer loin de Jérusalem. En 50 ans d'exil, les rabbins inventent la synagogue (lieu de prière sans sacrifice), codifient la Torah par écrit, et développent le Sabbat. Cette religion 'portable' permettra au judaïsme de survivre à 2 500 ans de diaspora — là où d'autres religions liées à un territoire ont disparu."
+          }
+        ],
+        "quiz": {
+          "q": "Quel roi perse libéra les Juifs exilés à Babylone en –538, dans le premier décret de tolérance religieuse connu de l'histoire ?",
+          "r": "Cyrus le Grand (Cyrus II de Perse)",
+          "hint": "Il est le seul non-Juif appelé 'messie' dans la Bible — et son Édit est exposé à l'ONU"
+        }
+      },
+      {
+        "kind": "histoire",
+        "icon": "📜",
+        "tag": "Texte fondateur",
+        "date": "–600 à –200 av. J.-C.",
+        "title": "L'Ancien Testament — La Bible Hébraïque",
+        "desc": "L'Ancien Testament (ou Tanakh en hébreu) rassemble les textes sacrés du judaïsme : la Torah (les cinq livres de Moïse), les Prophètes (Isaïe, Jérémie, Ézéchiel…) et les Écrits (Psaumes, Proverbes, Job…). Si certains textes remontent au Xe siècle avant J.-C., c'est surtout l'exil babylonien (–586 à –538) qui accélère leur mise par écrit définitive. Vers –250 av. J.-C., à Alexandrie, 70 rabbins le traduisent en grec : c'est la Septante, version qui sera citée par les auteurs chrétiens.",
+        "anecdotes": [
+          {
+            "e": "📚",
+            "t": "<b>L'Ancien Testament est la bibliothèque la plus traduite et copiée de l'histoire.</b> Écrit en hébreu et en araméen, traduit en grec (Septante, –250), en latin (Vulgate, 405 ap. J.-C. par saint Jérôme), puis dans toutes les langues du monde. Il a influencé le droit, la littérature, l'art et la politique de l'ensemble de la civilisation occidentale pendant 3 000 ans — même pour ceux qui ne l'ont jamais lu."
+          },
+          {
+            "e": "🔬",
+            "t": "<b>L'archéologie confirme certains récits bibliques — et en nuance d'autres.</b> L'existence de David est attestée par une inscription extrabiblique (stèle de Tel Dan, –840). L'Exode d'Égypte n'a laissé aucune trace archéologique identifiable, mais le Sinaï a été habité. La Bible est un texte religieux rédigé sur des siècles par des auteurs multiples — ni histoire objective, ni pure fiction."
+          },
+          {
+            "e": "✍️",
+            "t": "<b>Le livre de Job soulève une question que 3 000 ans n'ont pas résolue.</b> Pourquoi les justes souffrent-ils ? Job, homme parfait, perd tout : ses enfants, sa fortune, sa santé — sans avoir faute. La réponse finale de Dieu est : 'Où étais-tu quand j'ai fondé la Terre ?' Pas une explication, mais une mise en perspective de l'infiniment petit de l'humain face au cosmos. La question reste ouverte."
+          }
+        ],
+        "quiz": {
+          "q": "Sous quel nom désigne-t-on la traduction en grec de la Bible hébraïque, réalisée vers –250 av. J.-C. à Alexandrie ?",
+          "r": "La Septante (ou LXX)",
+          "hint": "Son nom vient du latin 'septuaginta' (70) — selon la légende, 70 rabbins la traduisirent"
+        }
+      },
+      {
+        "kind": "histoire",
+        "icon": "✝️",
+        "tag": "Texte fondateur",
+        "date": "30 à 100 ap. J.-C.",
+        "title": "Le Nouveau Testament — La Naissance du Christianisme",
+        "desc": "Jésus de Nazareth prêche en Galilée et Judée vers 27-30 ap. J.-C., est crucifié sous Ponce Pilate, et ses disciples annoncent sa résurrection. Paul de Tarse (lui-même ancien persécuteur des chrétiens) diffuse cette nouvelle foi dans tout le bassin méditerranéen. Les 27 textes du Nouveau Testament — Évangiles, Actes, Épîtres, Apocalypse — sont rédigés entre ~50 et 100 ap. J.-C. en grec, dans l'Empire romain. En moins de 300 ans, cette religion minoritaire et persécutée devient la religion officielle de l'Empire.",
+        "anecdotes": [
+          {
+            "e": "📅",
+            "t": "<b>Jésus est probablement né en –4 av. J.-C. — et non l'an 0.</b> Le moine Denys le Petit, qui fixa notre calendrier au VIe siècle, se trompa dans ses calculs. L'an 0 n'existe d'ailleurs pas : on passe directement de –1 à 1 ap. J.-C. Hérode le Grand, qui selon l'Évangile de Matthieu fit massacrer les Innocents, mourut en –4 — ce qui place la naissance de Jésus avant cette date."
+          },
+          {
+            "e": "✉️",
+            "t": "<b>Paul n'a jamais rencontré Jésus — et a pourtant écrit la moitié du Nouveau Testament.</b> Ses épîtres (vers 50-60 ap. J.-C.) sont les textes chrétiens les plus anciens connus, antérieurs aux Évangiles. Pharisien cultivé et citoyen romain, Paul transforme un mouvement juif local en religion universelle, ouverte aux non-Juifs. Sans lui, le christianisme serait peut-être resté une secte juive de Palestine."
+          },
+          {
+            "e": "📖",
+            "t": "<b>Les 4 Évangiles ont des dates de rédaction très différentes.</b> Marc (~70 ap. J.-C.) est le plus ancien. Matthieu et Luc (~80-90) s'en inspirent en ajoutant d'autres sources. Jean (~95-100) est le plus tardif et le plus théologique. Entre la mort de Jésus (~30) et la rédaction du premier Évangile (~70), 40 ans de transmission orale. La question de l'historicité de certains récits reste un débat vivant entre historiens et théologiens."
+          }
+        ],
+        "quiz": {
+          "q": "Quel personnage, ancien persécuteur des chrétiens, fut le principal propagateur du christianisme dans tout l'Empire romain ?",
+          "r": "Paul de Tarse (saint Paul)",
+          "hint": "Ses épîtres, vers 50-60 ap. J.-C., sont les plus anciens textes chrétiens connus — antérieurs aux Évangiles"
+        }
       }
     ]
   },
@@ -147,6 +345,60 @@
     "era": "✦ Grèce Antique",
     "cls": "antique",
     "events": [
+      {
+        "kind": "histoire",
+        "icon": "📖",
+        "tag": "Littérature",
+        "date": "–800 av. J.-C.",
+        "title": "Homère — L'Iliade & l'Odyssée",
+        "desc": "Vers –800 av. J.-C., un poète grec nommé Homère — peut-être aveugle, peut-être plusieurs personnes — compose les deux épopées fondatrices de toute la littérature occidentale. L'Iliade raconte les dernières semaines de la guerre de Troie : la colère d'Achille, les combats d'Hector, la mort de Patrocle. L'Odyssée suit le retour d'Ulysse pendant 10 ans après la chute de Troie. Ces deux récits transmis d'abord oralement ont été appris par cœur par des générations de Grecs — puis de Romains, puis d'Européens.",
+        "anecdotes": [
+          {
+            "e": "🏛️",
+            "t": "<b>La guerre de Troie a probablement eu lieu.</b> Les fouilles de Heinrich Schliemann à Hisarlik (Turquie, 1871) ont révélé plusieurs strates de Troie successives — dont une détruite par un incendie vers –1 200 av. J.-C., contemporaine de la date traditionnelle de la guerre. L'épopée homérique n'est pas pure fiction : elle conserve le souvenir déformé d'un conflit réel."
+          },
+          {
+            "e": "⚡",
+            "t": "<b>L'Iliade commence par le mot 'colère'.</b> « Mênis » — la colère divine d'Achille contre Agamemnon — est le premier mot du premier grand texte littéraire occidental. Alexandre le Grand dormait avec l'Iliade annotée par Aristote sous son oreiller. Napoléon la lisait en campagne. Ce poème de –800 av. J.-C. est encore au programme des lycées aujourd'hui."
+          },
+          {
+            "e": "👁️",
+            "t": "<b>Homère était peut-être aveugle — et peut-être plusieurs personnes.</b> Les Anciens débattaient déjà de la 'question homérique' : un seul auteur ou une tradition collective ? Les linguistes modernes ont identifié des formules répétitives caractéristiques de la poésie orale — Homère composait en chantant, de mémoire, devant un public, en improvisant sur des structures fixes."
+          }
+        ],
+        "quiz": {
+          "q": "Quel est le premier mot de l'Iliade d'Homère, qui donne le thème central de l'épopée ?",
+          "r": "Mênis — la colère (d'Achille contre Agamemnon)",
+          "hint": "Ce mot ouvre le premier grand texte littéraire de l'Occident"
+        }
+      },
+      {
+        "kind": "histoire",
+        "icon": "🏃",
+        "tag": "Guerres",
+        "date": "–490 à –479 av. J.-C.",
+        "title": "Les Guerres Médiques — Marathon, Thermopyles, Salamine",
+        "desc": "L'Empire perse de Darios puis de Xerxès, le plus grand empire du monde connu, tente deux fois d'envahir la Grèce. Deux fois, les cités grecques repoussent l'envahisseur — contre toute attente. Ces guerres produisent trois moments légendaires : Marathon (–490), où un soldat court 42 km pour annoncer la victoire avant de mourir ; les Thermopyles (–480), où 300 Spartiates retardent l'armée perse pendant trois jours ; Salamine (–480), où la flotte athénienne détruit la flotte perse dans un détroit étroit.",
+        "anecdotes": [
+          {
+            "e": "🏃",
+            "t": "<b>Le marathonien n'a probablement pas couru 42 km.</b> Le récit de Philippidès courant de Marathon à Athènes pour annoncer la victoire avant de mourir vient d'une source tardive (Lucien, IIe siècle ap. J.-C.) — 600 ans après la bataille. La version antique parle d'un coureur envoyé à Sparte demander des renforts (240 km !). La distance de 42,195 km du marathon moderne fut fixée aux Jeux de 1908 à Londres pour que la course arrive devant la loge royale."
+          },
+          {
+            "e": "🛡️",
+            "t": "<b>Aux Thermopyles, il n'y avait pas que 300 Spartiates.</b> Léonidas commandait en réalité environ 7 000 soldats grecs. Les 300 Spartiates et leurs 700 Thespiens alliés restèrent seuls le dernier jour, après que les autres furent renvoyés ou s'enfuirent. Mais ce sont les 300 que l'histoire retient — et Hérodote, et Zack Snyder."
+          },
+          {
+            "e": "🚢",
+            "t": "<b>Salamine fut décidée par la ruse de Thémistocle.</b> L'amiral athénien fit croire à Xerxès que les Grecs allaient fuir — poussant la flotte perse à entrer dans le détroit étroit de Salamine où sa supériorité numérique devenait un désavantage. Xerxès, assis sur un trône d'or sur la côte, regarda sa flotte se faire massacrer. Si les Perses avaient gagné, la démocratie athénienne n'aurait jamais eu le temps de se développer — et toute l'histoire occidentale aurait été différente."
+          }
+        ],
+        "quiz": {
+          "q": "Comment s'appelle la bataille navale de –480 av. J.-C. où la Grèce détruisit la flotte perse de Xerxès ?",
+          "r": "La bataille de Salamine",
+          "hint": "Thémistocle attira la flotte perse dans un détroit étroit où sa supériorité numérique devenait un piège"
+        }
+      },
       {
         "icon": "🏛️",
         "tag": "Civilisation",
@@ -167,7 +419,39 @@
             "t": "<b>Le théâtre grec a inventé tous les genres que nous connaissons encore.</b> Tragédie, comédie, satire — et les émotions qu'ils provoquent : Aristote appelait cela la catharsis, la purification par les émotions. Les Grecs comprirent que regarder des acteurs souffrir sur scène faisait du bien au public. Hollywood n'a rien inventé."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "De quelle façon Socrate fut-il condamné à mort par ses concitoyens athéniens en –399 ?",
+          "r": "Il dut boire la ciguë (un poison)",
+          "hint": "Condamné pour 'corrompre la jeunesse et nier les dieux' — il refusa l'exil"
+        }
+      },
+      {
+        "kind": "histoire",
+        "icon": "🧠",
+        "tag": "Philosophie",
+        "date": "–384 à –322 av. J.-C.",
+        "title": "Aristote — Le Fondateur de la Science",
+        "desc": "Élève de Platon à 17 ans, précepteur d'Alexandre le Grand à 42 ans, Aristote est le seul penseur de l'Antiquité à avoir fondé simultanément la logique, la biologie, la physique, la politique, la poétique et l'éthique. Il invente la méthode de classification des animaux, décrit 500 espèces, théorise la tragédie, définit la politique. Ses œuvres, perdues en Occident pendant des siècles, furent conservées par les savants arabes et restituées à l'Europe au XIIe siècle — déclenchant la révolution scolastique.",
+        "anecdotes": [
+          {
+            "e": "🐟",
+            "t": "<b>Aristote est le père de la biologie.</b> Il décrit 500 espèces animales avec une précision qui ne sera pas égalée avant le XVIIe siècle. Il observe que les dauphins allaitent leurs petits et respirent de l'air — et les classe donc séparément des poissons. Ce détail, moqué pendant des siècles, fut reconnu exact 2 000 ans plus tard. Sur la biologie marine, il était souvent plus précis que ses successeurs médiévaux."
+          },
+          {
+            "e": "⚠️",
+            "t": "<b>Aristote a aussi dit des choses fausses pendant 1 500 ans.</b> Il enseignait que la Terre était au centre de l'univers, que les femmes avaient moins de dents que les hommes (sans jamais vérifier), et que les objets lourds tombent plus vite que les légers. Ces erreurs, enseignées comme vérités dans toutes les universités médiévales, ne furent corrigées qu'à la Renaissance — par Copernic, Galilée et Harvey. Le génie et l'erreur peuvent coexister."
+          },
+          {
+            "e": "📚",
+            "t": "<b>L'Europe médiévale appelait Aristote simplement 'Le Philosophe'.</b> Comme s'il n'en existait qu'un. Ses textes, traduits en arabe par Al-Kindi et Averroès, furent retraduits en latin au XIIe siècle et bouleversèrent toute la pensée chrétienne. Thomas d'Aquin passa sa vie à réconcilier Aristote avec la Bible. Sans la civilisation islamique qui conserva ses textes, Aristote — et avec lui toute la philosophie grecque — aurait été perdu."
+          }
+        ],
+        "quiz": {
+          "q": "Aristote fut le précepteur de quel futur conquérant, qu'il instruisit à partir de ses 13 ans ?",
+          "r": "Alexandre le Grand",
+          "hint": "Alexandre dormait avec l'Iliade annotée par Aristote sous son oreiller"
+        }
       },
       {
         "icon": "🌍",
@@ -189,7 +473,39 @@
             "t": "<b>Alexandre ne conquit pas pour détruire, mais pour fusionner.</b> Il épousa une princesse perse, adopta les costumes orientaux, intégra les soldats perses dans son armée. Ses généraux le trouvèrent trop orientalisé. Son vrai héritage n'est pas militaire — c'est l'hellénisation du monde : la langue grecque devient la lingua franca de l'Antiquité, et reste celle du Nouveau Testament 300 ans plus tard."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quel était le nom du cheval d'Alexandre le Grand, auquel il dédia une ville en Inde ?",
+          "r": "Bucéphale — la ville s'appelait Bucéphalie",
+          "hint": "Alexandre avait dompté ce cheval à 16 ans en comprenant qu'il avait peur de son ombre"
+        }
+      },
+      {
+        "kind": "histoire",
+        "icon": "🏛️",
+        "tag": "Patrimoine",
+        "date": "–280 à –140 av. J.-C.",
+        "title": "Les 7 Merveilles du Monde Antique",
+        "desc": "La liste des 7 Merveilles est établie par des auteurs grecs — notamment Antipater de Sidon (~–140 av. J.-C.) — pour désigner les constructions humaines les plus spectaculaires du monde connu. Les 7 : les Pyramides de Gizeh (Égypte), les Jardins suspendus de Babylone (Mésopotamie), la Statue de Zeus à Olympie (Grèce), le Temple d'Artémis à Éphèse (Turquie), le Mausolée d'Halicarnasse (Turquie), le Colosse de Rhodes (Grèce), le Phare d'Alexandrie (Égypte). Une seule est encore debout.",
+        "anecdotes": [
+          {
+            "e": "🔺",
+            "t": "<b>Les Pyramides de Gizeh sont la seule merveille encore intacte.</b> Les 6 autres ont été détruites par des tremblements de terre, des incendies ou des pillages entre le IIIe et le XVe siècle. Le Phare d'Alexandrie (135 m de haut, visible à 50 km en mer) s'effondra dans des séismes entre le XIe et le XIVe siècle. Le Colosse de Rhodes (statue de bronze de 33 m) dura à peine 54 ans avant d'être renversé par un tremblement de terre en –226."
+          },
+          {
+            "e": "🌿",
+            "t": "<b>Les Jardins suspendus de Babylone n'ont peut-être jamais existé.</b> Aucune source babylonienne ne les mentionne — seuls des auteurs grecs en parlent, sans les avoir vus. La théorie actuelle la plus sérieuse : les jardins existaient bien, mais à Ninive (Assyrie), pas à Babylone. Nabuchodonosor les aurait fait construire pour sa femme médique qui s'ennuyait des montagnes de son pays natal."
+          },
+          {
+            "e": "🏟️",
+            "t": "<b>Le Temple d'Artémis à Éphèse fut brûlé par un homme qui voulait devenir célèbre.</b> Érostrate incendia en –356 le plus grand temple du monde grec — uniquement pour que son nom soit retenu. Les Éphésiens décidèrent de punir cet acte en interdisant de prononcer son nom. Leur loi fut si efficacement violée que nous connaissons encore son nom 2 400 ans plus tard. L'érostratisme — devenir célèbre par un acte destructeur — porte encore son nom."
+          }
+        ],
+        "quiz": {
+          "q": "Quelle est la seule des 7 Merveilles du monde antique encore debout aujourd'hui ?",
+          "r": "Les Pyramides de Gizeh (Égypte)",
+          "hint": "Les 6 autres ont été détruites par des séismes, incendies ou pillages entre le IIIe et le XVe siècle"
+        }
       },
       {
         "icon": "📐",
@@ -211,7 +527,12 @@
             "t": "<b>Ptolémée (IIe siècle ap. J.-C.) dressa la première carte du monde avec coordonnées.</b> Sa Géographie listait 8 000 lieux avec latitude et longitude — une prouesse intellectuelle copiée pendant 1 400 ans. Son modèle géocentrique (Terre au centre de l'univers) fut enseigné comme vérité absolue jusqu'à Copernic en 1543. Se tromper pendant 14 siècles tout en structurant la pensée occidentale : c'est l'ambivalence du génie."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quelle découverte de Pythagore relie mathématiques et musique ?",
+          "r": "Que les intervalles musicaux harmonieux correspondent à des rapports numériques simples (1/2, 2/3, 3/4)",
+          "hint": "Une corde pincée à la moitié produit une note une octave plus haute — exactement"
+        }
       }
     ]
   },
@@ -239,7 +560,12 @@
             "t": "<b>On ne sait toujours pas d'où viennent les Étrusques.</b> Leur langue, non indo-européenne, n'est apparentée à aucune autre connue. Les anciens eux-mêmes débattaient : Hérodote disait qu'ils venaient d'Anatolie, Denys d'Halicarnasse qu'ils étaient autochtones. L'ADN ancien suggère aujourd'hui une origine anatolienne — Hérodote avait peut-être raison."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quel élément essentiel de notre système d'écriture les Étrusques ont-ils transmis aux Romains ?",
+          "r": "L'alphabet latin",
+          "hint": "Ils l'avaient eux-mêmes adapté de l'alphabet grec"
+        }
       },
       {
         "icon": "🐘",
@@ -261,7 +587,39 @@
             "t": "<b>Hannibal ne prit jamais Rome — et pourtant il avait gagné.</b> Après Cannes, rien ne s'opposait à lui militairement. Mais il attendit des renforts qui ne vinrent pas, espérant que les alliés de Rome se retourneraient contre elle. Ils ne le firent pas. La leçon que les généraux en tirèrent : une victoire tactique écrasante ne suffit pas — il faut la volonté politique de frapper le coup de grâce."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Combien d'éléphants de guerre Hannibal emmena-t-il lors de la traversée des Alpes en –218 ?",
+          "r": "37 éléphants",
+          "hint": "En novembre, en plein hiver — sur 90 000 hommes partis, moins de 30 000 atteignirent l'Italie"
+        }
+      },
+      {
+        "kind": "histoire",
+        "icon": "🗣️",
+        "tag": "Politique",
+        "date": "–106 à –43 av. J.-C.",
+        "title": "Cicéron — La Voix de la République",
+        "desc": "Marcus Tullius Cicéron est le plus grand orateur de Rome et l'inventeur de la prose latine telle que l'Europe l'a héritée. Fils de chevalier provincial devenu consul, il déjoue la conjuration de Catilina (–63), défend la République contre César, puis contre Marc Antoine avec ses Philippiques. Il est assassiné sur ordre d'Antoine en –43. Ses têtes et ses mains furent exposées au Forum — le lieu même où il avait triomphé par la parole.",
+        "anecdotes": [
+          {
+            "e": "✍️",
+            "t": "<b>Cicéron a inventé des centaines de mots latins qui sont devenus nos mots français.</b> Pour traduire les concepts grecs, il forge : qualité, quantité, individu, moral, humanité, proposition, définition, différence, notion, concept. Sans Cicéron, le vocabulaire philosophique et juridique européen n'existerait pas sous cette forme. Chaque fois qu'un avocat parle de 'prérogative' ou qu'un prof de 'concept', c'est du Cicéron."
+          },
+          {
+            "e": "⚔️",
+            "t": "<b>Cicéron fut l'un des rares à comprendre le danger de César.</b> Il hésita longtemps à soutenir Pompée ou César, finit par rester neutre, puis célébra l'assassinat de César en –44 : 'Les tyrans sont morts !' Sa haine de Marc Antoine, héritier de César, lui valut ses Philippiques — 14 discours foudroyants. Antoine le fit mettre sur la liste des proscrits. Cicéron tenta de fuir — en vain."
+          },
+          {
+            "e": "💀",
+            "t": "<b>Fulvie, femme de Marc Antoine, planta une épingle à cheveux dans la langue coupée de Cicéron.</b> Ses mains — celles qui avaient écrit les Philippiques — et sa tête furent exposées sur la tribune aux harangues (la Rostra) du Forum. Il avait 63 ans. La scène, rapportée par Plutarque, est l'une des plus chargées symboliquement de l'Antiquité : la parole réduite au silence par la violence."
+          }
+        ],
+        "quiz": {
+          "q": "Quelle conjuration Cicéron déjoua-t-il en –63 av. J.-C., sauvant la République romaine ?",
+          "r": "La conjuration de Catilina",
+          "hint": "Son discours commence par la phrase célèbre : 'Jusqu'à quand, Catilina, abuseras-tu de notre patience ?'"
+        }
       },
       {
         "icon": "🔥",
@@ -283,7 +641,12 @@
             "t": "<b>Dans l'Apocalypse de Jean, la « Bête » dont le nombre est 666 désigne probablement Néron.</b> En hébreu, les lettres de « Néron César » donnent la valeur numérique 666. Pour les chrétiens du Ier siècle, persécutés par Néron, ce chiffre était un code pour le désigner sans le nommer — une façon de critiquer l'Empire sans risquer la mort."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Dans quelle œuvre biblique le nombre 666 désigne-t-il probablement Néron en code hébreu ?",
+          "r": "L'Apocalypse de Jean",
+          "hint": "Les lettres de 'Néron César' en hébreu donnent la valeur numérique 666"
+        }
       },
       {
         "icon": "🏟️",
@@ -305,7 +668,39 @@
             "t": "<b>Le Colisée avait un velarium — une tente géante.</b> Plusieurs centaines de marins de la flotte de Rome manœuvraient des cordes et des mâts pour déployer une toile de lin sur les gradins les jours de soleil. Le Colisée avait aussi un sous-sol labyrinthique d'ascenseurs et de trappes pour faire surgir gladiateurs et animaux au milieu de l'arène — la machinerie d'un théâtre géant."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Que signifiait réellement le pouce levé dans les combats de gladiateurs, contrairement à la légende hollywoodienne ?",
+          "r": "Tuer le vaincu (et non l'épargner) — le pouce caché dans le poing signifiait la grâce",
+          "hint": "Hollywood a inversé le symbole — le pouce levé imitait un coup d'épée"
+        }
+      },
+      {
+        "kind": "histoire",
+        "icon": "🧱",
+        "tag": "Monument",
+        "date": "122 à 142 ap. J.-C.",
+        "title": "Le Mur d'Hadrien — La Frontière du Monde Romain",
+        "desc": "En 122 ap. J.-C., l'empereur Hadrien ordonne la construction d'un mur traversant l'île de Bretagne (actuelle Angleterre) d'est en ouest sur 118 km — pour marquer et défendre la frontière nord de l'Empire contre les Pictes d'Écosse. 15 000 légionnaires construisent en 6 ans une muraille de 4 à 6 mètres de haut avec forts, fossés et tours de guet tous les 1 500 mètres. En 142, son successeur Antonin fait bâtir un second mur 160 km plus au nord — mais il est abandonné en 20 ans, et l'Empire revient au mur d'Hadrien.",
+        "anecdotes": [
+          {
+            "e": "🗺️",
+            "t": "<b>Le Mur d'Hadrien représentait la fin du monde connu.</b> Au-delà : les Pictes, les brumes, l'inconnu. Des soldats de tout l'Empire y furent stationnés — des inscriptions en syriaque, en grec, en berbère ont été retrouvées sur les forts. Ce mur était la frontière physique entre la civilisation romaine et ce que les Romains appelaient la 'barbarie'. Il est inscrit au patrimoine mondial de l'UNESCO."
+          },
+          {
+            "e": "🏗️",
+            "t": "<b>Le mur d'Antonin, construit en 142 ap. J.-C., fut abandonné en 20 ans.</b> Érigé en tourbe (pas en pierre) 160 km plus au nord, sur seulement 60 km, il s'avéra intenable : trop long à défendre, trop exposé. L'Empire recula sur le mur d'Hadrien — acceptant implicitement qu'il existait des limites à sa capacité d'expansion. Hadrien fut le premier empereur à clairement renoncer à la conquête au profit de la consolidation."
+          },
+          {
+            "e": "🎭",
+            "t": "<b>Hadrien était l'un des empereurs les plus cultivés de Rome.</b> Architecte lui-même, il dessina le Panthéon de Rome (encore debout, la plus grande coupole non armée du monde pendant 1 300 ans), une villa colossale à Tivoli, et réorganisa l'administration de l'Empire. Son règne (117–138) est souvent cité comme l'apogée de la civilisation romaine — Gibbon parlait du IIe siècle comme du 'siècle le plus heureux de l'humanité'."
+          }
+        ],
+        "quiz": {
+          "q": "Quelle est la longueur du Mur d'Hadrien, construit en 122 ap. J.-C. pour délimiter la frontière nord de l'Empire romain ?",
+          "r": "118 km",
+          "hint": "Il traversait toute l'Angleterre d'est en ouest, de la mer du Nord à la mer d'Irlande"
+        }
       }
     ]
   },
@@ -333,7 +728,12 @@
             "t": "<b>Les Gaulois inventèrent le savoir-faire métallurgique européen.</b> Leurs épées en fer étaient supérieures aux lames romaines. Ils inventèrent aussi le tonneau, le savon, la chaîne de transmission et le recuit de l'acier — autant d'innovations que Rome s'empressa d'adopter après la conquête."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quelle fête celtique du Nouvel An est l'ancêtre direct d'Halloween ?",
+          "r": "Samhain, célébrée le 1er novembre",
+          "hint": "Le voile entre monde des vivants et des morts s'amincissait ce soir-là"
+        }
       },
       {
         "icon": "⚓",
@@ -355,7 +755,12 @@
             "t": "<b>Pythéas, navigateur massaliote du IVe siècle av. J.-C.</b>, fut le premier à contourner la Bretagne et atteindre les îles Britanniques — peut-être même la Scandinavie. Il décrivit la mystérieuse « Thulé » du Grand Nord. Ses récits jugés invraisemblables par ses contemporains furent prouvés exacts par l'archéologie moderne."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quelle culture a fondé Marseille vers –600 av. J.-C. et introduit la vigne en France ?",
+          "r": "Les Phocéens, des marins grecs d'Asie Mineure",
+          "hint": "Massalia est la plus ancienne ville de France — 2 600 ans avant l'hymne national"
+        }
       },
       {
         "icon": "⚔️",
@@ -377,7 +782,12 @@
             "t": "<b>César utilisa la Gaule pour financer sa prise du pouvoir à Rome.</b> Le butin — or, esclaves, rançons — fut colossal. Avec cet argent, il paya ses légions, corrompit les sénateurs et prépara le coup d'État qui le mena à la dictature perpétuelle — et finalement à son assassinat aux ides de mars –44."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Combien de Gaulois César revendique-t-il avoir tués ou réduits en esclavage dans ses Commentaires ?",
+          "r": "1 million tués et 1 million réduits en esclavage",
+          "hint": "Sur une population estimée à 8-10 millions — Plutarque lui-même trouvait ces chiffres scandaleux"
+        }
       },
       {
         "icon": "🛡️",
@@ -399,7 +809,12 @@
             "t": "<b>La romanisation fut fulgurante.</b> En moins d'un siècle, les élites gauloises parlent latin, portent la toge, bâtissent des temples romains. La France parle encore ce latin transformé 2 000 ans plus tard — chaque mot français est un vestige direct de la conquête d'Alésia."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quelle longueur mesurait la double enceinte de fortification construite par César autour d'Alésia ?",
+          "r": "40 km de double enceinte",
+          "hint": "Pour assiéger Vercingétorix tout en se défendant d'une armée de secours de 250 000 hommes"
+        }
       }
     ]
   },
@@ -427,7 +842,12 @@
             "t": "<b>En 177 ap. J.-C., le massacre de 48 chrétiens à Lyon</b> est le premier grand martyre attesté en Gaule. Blandine, une esclave, fut livrée aux lions dans l'amphithéâtre. Sa sérénité frappa tellement les témoins que sa mémoire traversa les siècles. L'amphithéâtre des Trois-Gaules est encore visible à Lyon."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quel futur empereur romain est né à Lyon en –10 av. J.-C. ?",
+          "r": "Claude (Claudius)",
+          "hint": "Il plaida au Sénat pour que les notables gaulois puissent accéder aux plus hautes fonctions romaines"
+        }
       },
       {
         "icon": "🏗️",
@@ -449,7 +869,12 @@
             "t": "<b>Les blocs ont été taillés à sec, sans mortier.</b> Les bâtisseurs gravèrent des repères sur chaque pierre pour le montage — certains de ces signes de tailleur sont encore visibles aujourd'hui. En 2 siècles d'utilisation, 5 cm de calcaire se déposèrent sur les parois, préservant encore le canal."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quelle est la pente du canal du Pont du Gard sur ses 50 km de longueur ?",
+          "r": "34 cm de dénivelé sur 50 km — soit 0,07 % d'inclinaison",
+          "hint": "Cette précision géodésique sans instruments modernes reste un exploit d'ingénierie"
+        }
       },
       {
         "kind": "histoire",
@@ -467,7 +892,12 @@
             "e": "⚙️",
             "t": "<b>Les Gaulois romanisés étaient d'excellents ingénieurs.</b> Ils inventèrent aussi le tonneau en bois (remplaçant les amphores), le savon, la chaîne de transmission et le recuit de l'acier — innovations que Rome adopta et diffusa dans tout l'Empire."
           }
-        ]
+        ],
+        "quiz": {
+          "q": "Quel écrivain latin du Ier siècle a décrit la vallus, moissonneuse gauloise inventée 1 800 ans avant l'ère industrielle ?",
+          "r": "Pline l'Ancien",
+          "hint": "Cette machine fut oubliée puis réinventée au XIXe siècle par des ingénieurs qui l'ignoraient"
+        }
       },
       {
         "icon": "🏟️",
@@ -489,7 +919,12 @@
             "t": "<b>Le français est du latin mal prononcé par des Gaulois.</b> « Cheval » vient de caballus (cheval de travail). « Tête » vient de testa (pot de terre — l'argot gaulois). « Maison » de mansionem. Parler français aujourd'hui, c'est parler la langue des légionnaires de César transformée par 2 000 ans d'usage."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quel monument romain de Nîmes inspira Thomas Jefferson pour l'architecture du Capitole de Virginie ?",
+          "r": "La Maison Carrée de Nîmes",
+          "hint": "Plus intacte que bien des monuments à Rome même, construite vers –19 av. J.-C."
+        }
       },
       {
         "icon": "🏙️",
@@ -511,7 +946,12 @@
             "t": "<b>En 360 ap. J.-C., les légions proclamèrent Julien Empereur à Lutèce</b> contre la volonté de Constantinople. Paris, théâtre d'un coup d'État romain. Julien, dernier empereur paien, tenta en vain de stopper la montée du christianisme — et mourut en campagne contre les Perses deux ans plus tard."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quel vestige romain du IIe siècle est encore debout aujourd'hui au cœur de Paris, boulevard Saint-Michel ?",
+          "r": "Les thermes de Cluny",
+          "hint": "Leurs voûtes de 14 mètres de haut ont traversé 1 800 ans"
+        }
       },
       {
         "icon": "✝️",
@@ -533,7 +973,12 @@
             "t": "<b>Le christianisme arriva en Gaule par les routes romaines</b> — d'abord à Lyon et Marseille. Les premiers chrétiens gaulois étaient des marchands orientaux, des esclaves ou des soldats. La religion des persécutés devint celle des empereurs en moins de 60 ans — une des retournements les plus spectaculaires de l'histoire."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "D'où vient le nom de Montmartre, la butte de Paris où Saint Denis fut décapité ?",
+          "r": "Du latin Mons Martyrum — la colline des martyrs",
+          "hint": "Selon la légende, Denis ramassa sa tête et marcha 6 km jusqu'à l'endroit où il voulait être enterré"
+        }
       },
       {
         "icon": "⚔️",
@@ -555,7 +1000,12 @@
             "t": "<b>L'Empire gallo-romain (260–274 ap. J.-C.)</b> est une anecdote fascinante : pendant 14 ans, la Gaule, la Bretagne et l'Espagne se séparèrent de Rome pour former leur propre empire indépendant, avec leur propre succession d'empereurs. Rome était trop occupée à survivre pour les reconquérir. Cet « empire » fut finalement réabsorbé pacifiquement par Aurélien."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Combien d'empereurs Rome eut-elle entre 235 et 284 ap. J.-C. ?",
+          "r": "50 empereurs en 50 ans",
+          "hint": "La plupart furent assassinés par leurs propres soldats après quelques mois de règne"
+        }
       },
       {
         "icon": "🌅",
@@ -577,7 +1027,12 @@
             "t": "<b>Constantin imposa le dimanche comme jour de repos</b> (dies Solis — le jour du Soleil). La semaine de 7 jours avec repos dominical, héritée de Rome et du christianisme, structure encore nos vies 1 700 ans plus tard. Chaque week-end est un héritage de Constantin."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quelle vision Constantin aurait-il eue la veille de la bataille du pont Milvius en 312 ?",
+          "r": "Une croix lumineuse dans le ciel avec l'inscription 'In hoc signo vinces' (Par ce signe tu vaincras)",
+          "hint": "Il fit peindre la croix sur les boucliers de ses soldats — et remporta la victoire"
+        }
       },
       {
         "icon": "🗺️",
@@ -599,7 +1054,12 @@
             "t": "<b>En faisant du christianisme la religion d'État, Théodose créa le modèle de l'État confessionnel</b> qui régit l'Europe pendant 1 400 ans. Toute dissidence religieuse devenait crime politique. Les hérétiques, les juifs et les derniers paiens furent persécutés par l'État. La séparation de l'Église et de l'État — que nous considérons normale — est une invention révolutionnaire des XVIIe–XVIIIe siècles."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "quiz": {
+          "q": "Quelle tradition sportive antique Théodose supprima-t-il en 393 ap. J.-C. comme 'fête païenne' ?",
+          "r": "Les Jeux Olympiques",
+          "hint": "Célébrés sans interruption depuis –776 — ils ne reprirent qu'en 1896, après 1 503 ans"
+        }
       }
     ]
   }
