@@ -1,5 +1,177 @@
 [
   {
+    "era": "✦ Mésopotamie — Berceau de la Civilisation",
+    "cls": "meso",
+    "events": [
+      {
+        "icon": "🏙️",
+        "tag": "Civilisation",
+        "date": "–3 500 av. J.-C.",
+        "title": "Les Premières Cités-États — Uruk & Ur",
+        "desc": "Entre le Tigre et l'Euphrate (actuel Irak), naît quelque chose d'entièrement nouveau : la ville. Uruk dépasse 50 000 habitants — une densité humaine sans précédent. Pour gérer des milliers de jarres de grain et des troupeaux entiers, les administrateurs inventent les premiers signes gravés sur argile. L'écriture vient de naître — non pas pour raconter des histoires, mais pour faire de la comptabilité.",
+        "anecdotes": [
+          {
+            "e": "✍️",
+            "t": "<b>L'écriture a été inventée par un comptable, pas un poète.</b> La plus ancienne tablette connue (Uruk, –3 200 av. J.-C.) est un reçu : « 29 mesures d'orge reçues de Kushim. » Kushim est le premier être humain dont on connaît le nom dans l'histoire. La littérature attendra encore 500 ans."
+          },
+          {
+            "e": "⚰️",
+            "t": "<b>À Ur, les rois ne mouraient pas seuls.</b> Les fouilles des tombes royales (–2 600 av. J.-C.) ont révélé des dizaines de serviteurs, gardes et musiciens enterrés vivants avec leur maître — après avoir probablement bu un poison collectif. Dans une tombe, 74 personnes accompagnaient la reine dans la mort. La harpe d'or retrouvée est aujourd'hui au British Museum."
+          },
+          {
+            "e": "🦸",
+            "t": "<b>Gilgamesh, roi d'Uruk, est le premier héros de la littérature mondiale.</b> L'Épopée de Gilgamesh (–2 100 av. J.-C.) raconte sa quête de l'immortalité et contient un récit de Déluge universel — écrit 1 500 ans avant la Bible — avec une arche, des animaux sauvés par paires, et une colombe envoyée en éclaireur."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🏛️",
+        "tag": "Empire",
+        "date": "–1 800 av. J.-C.",
+        "title": "Babylone & Hammurabi — Le Premier Code de Lois",
+        "desc": "Babylone devient la plus grande ville du monde connu. Sous Hammurabi, elle unifie toute la Mésopotamie et grave sur une stèle de basalte de 2,25 mètres le premier grand code de lois de l'histoire : 282 articles applicables à tous. En même temps, les Babyloniens inventent les mathématiques avancées, prédisent les éclipses, et dessinent la première carte du monde.",
+        "anecdotes": [
+          {
+            "e": "⚖️",
+            "t": "<b>Le Code d'Hammurabi est encore lisible aujourd'hui — au Louvre.</b> Il prévoit la présomption d'innocence, la protection des veuves et des salaires minimums. Mais aussi : peines variables selon le statut social. Un noble qui crève l'œil d'un esclave paie une amende ; un esclave qui fait pareil perd le sien."
+          },
+          {
+            "e": "🌟",
+            "t": "<b>Les Babyloniens ont inventé notre façon de mesurer le temps.</b> Pourquoi une heure fait 60 minutes, une minute 60 secondes, un cercle 360 degrés ? Parce qu'ils comptaient en base 60 — un système remarquable car 60 est divisible par 2, 3, 4, 5, 6, 10, 12, 15, 20 et 30. Chaque fois que tu regardes ta montre, tu utilises un système inventé il y a 4 000 ans."
+          },
+          {
+            "e": "🌍",
+            "t": "<b>Babylone a dessiné la première carte du monde.</b> La tablette Imago Mundi (–600 av. J.-C.) montre la Terre comme un disque plat entouré d'un océan circulaire, avec Babylone en son centre. C'est une carte autant politique que géographique : placer sa ville au centre du monde, c'est déjà de la propagande. Toutes les civilisations l'ont fait depuis."
+          }
+        ],
+        "kind": "histoire"
+      }
+    ]
+  },
+  {
+    "era": "✦ Égypte Antique",
+    "cls": "meso",
+    "events": [
+      {
+        "icon": "🔺",
+        "tag": "Monument",
+        "date": "–2 560 av. J.-C.",
+        "title": "Les Pyramides de Gizeh — L'Impossible Réalisé",
+        "desc": "Sous le règne de Khéops, 20 000 ouvriers — pas des esclaves, des artisans organisés en équipes — érigent la Grande Pyramide en 20 ans. 2,3 millions de blocs de calcaire, chacun pesant en moyenne 2,5 tonnes. Pendant 3 800 ans, la pyramide de Khéops est le plus grand bâtiment du monde. Son alignement avec le nord géographique est précis à 0,05 degrés. On ne sait toujours pas exactement comment.",
+        "anecdotes": [
+          {
+            "e": "🧱",
+            "t": "<b>Les ouvriers étaient payés, logés, soignés — et en grève.</b> Des papyrus retrouvés montrent la première grève ouvrière connue de l'histoire, sous Ramsès III (–1170 av. J.-C.) : les artisans du village de Deir el-Médineh cessèrent le travail parce que leurs rations de grain avaient du retard. L'Égypte antique avait des syndicats avant la lettre."
+          },
+          {
+            "e": "🌟",
+            "t": "<b>L'alignement de la Grande Pyramide est stupéfiant.</b> Ses quatre faces pointent vers le nord, le sud, l'est et l'ouest avec une précision de 0,05 degré — mieux que l'Observatoire de Paris construit 4 400 ans plus tard. Les égyptologues débattent encore des méthodes utilisées pour atteindre cette précision sans instruments modernes."
+          },
+          {
+            "e": "🐪",
+            "t": "<b>Cléopâtre vivait plus près de nous que de la construction des pyramides.</b> Cléopâtre VII est morte en –30 av. J.-C. — soit 2 490 ans après Khéops. Pour nous, Cléopâtre est l'Antiquité lointaine. Pour elle, Khéops était aussi loin que l'est Vercingétorix pour nous. L'Égypte antique a duré trois fois plus longtemps que toute l'ère chrétienne."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "☀️",
+        "tag": "Pharaon",
+        "date": "–1 279 à –1 213 av. J.-C.",
+        "title": "Ramsès II — Le Pharaon Bâtisseur",
+        "desc": "Ramsès II règne 66 ans — le plus long règne de l'histoire égyptienne. Il fait ériger Abu Simbel, Karnak, le Ramesseum. Il mène la bataille de Qadesh contre les Hittites — la première bataille de l'histoire documentée en détail — et conclut le premier traité de paix international connu. Il eut probablement plus de 100 enfants.",
+        "anecdotes": [
+          {
+            "e": "🪨",
+            "t": "<b>Les deux temples d'Abu Simbel ont été entièrement déplacés en 1968</b> pour les sauver de la montée des eaux du barrage d'Assouan. 50 nations financèrent l'opération UNESCO : les quatre colosses de 20 mètres furent découpés en 1 036 blocs de 20 tonnes et remontés 65 mètres plus haut. Un exploit du XXe siècle pour sauver un monument du XIIIe siècle av. J.-C."
+          },
+          {
+            "e": "📜",
+            "t": "<b>Le traité de Qadesh (–1 259 av. J.-C.) est le plus ancien traité de paix connu.</b> Signé entre Ramsès II et le roi hittite Hattusili III après des années de guerre, il prévoyait une aide mutuelle en cas d'attaque extérieure et le renvoi des réfugiés politiques. Une copie en argile est conservée au musée d'Istanbul ; une autre est accrochée au siège de l'ONU à New York."
+          },
+          {
+            "e": "🧬",
+            "t": "<b>La momie de Ramsès II a un passeport français.</b> En 1974, la momie dut voyager à Paris pour être traitée contre un champignon. Les autorités françaises lui délivrèrent un passeport officiel — avec pour profession : « Roi (décédé) ». À l'aéroport du Caire, il fut accueilli avec les honneurs militaires réservés aux chefs d'État."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🐍",
+        "tag": "Reine",
+        "date": "–51 à –30 av. J.-C.",
+        "title": "Cléopâtre VII — La Dernière Pharaonne",
+        "desc": "Cléopâtre VII n'est pas égyptienne de sang — elle est grecque, de la dynastie ptolémaïque fondée par un général d'Alexandre. Elle est la première de sa lignée à parler égyptien. Stratège politique brillante, elle s'allie à César puis à Marc Antoine pour tenter de sauver l'Égypte de l'annexion romaine. Elle échoue — et son suicide en –30 met fin à 3 000 ans de civilisation pharaonique.",
+        "anecdotes": [
+          {
+            "e": "🧠",
+            "t": "<b>Cléopâtre parlait 9 langues</b> selon les sources antiques : égyptien, grec, latin, hébreu, araméen, arabe, éthiopien, perse et peut-être une autre. Elle était doctorante en philosophie et mathématiques. Le cliché de la séductrice efface la réalité : c'était avant tout une cheffe d'État redoutablement intelligente dans un monde d'hommes."
+          },
+          {
+            "e": "🐍",
+            "t": "<b>Elle ne s'est probablement pas suicidée avec un serpent.</b> Les historiens modernes penchent pour un poison ingéré — l'aspic dans la corbeille de figues est une invention littéraire romantique. Mais la mort par morsure de cobra rend Cléopâtre associée à Rê, dieu soleil — un ultime acte de communication politique même dans la mort."
+          },
+          {
+            "e": "🌍",
+            "t": "<b>Sa mort en –30 av. J.-C. marque la fin de l'Antiquité orientale indépendante.</b> L'Égypte devient une province romaine — la plus riche de l'Empire. Son blé nourrit Rome. Sans l'Égypte de Cléopâtre, l'Empire romain n'aurait peut-être pas pu se maintenir assez longtemps pour christianiser l'Europe."
+          }
+        ],
+        "kind": "histoire"
+      }
+    ]
+  },
+  {
+    "era": "✦ Grèce Antique",
+    "cls": "antique",
+    "events": [
+      {
+        "icon": "🏛️",
+        "tag": "Civilisation",
+        "date": "–508 à –322 av. J.-C.",
+        "title": "Athènes — La Démocratie & la Philosophie",
+        "desc": "Athènes invente la démocratie sous Clisthène (–508), puis la porte à son apogée sous Périclès. En moins de deux siècles, Socrate, Platon et Aristote posent les fondements de toute la philosophie occidentale. Le Parthénon est construit. Sophocle, Euripide et Aristophane inventent le théâtre. Cette explosion intellectuelle unique dans l'histoire n'a jamais été égalée en si peu de temps.",
+        "anecdotes": [
+          {
+            "e": "🗳️",
+            "t": "<b>La démocratie athénienne excluait femmes, esclaves et étrangers</b> — soit 80 à 90 % de la population. Les 30 000 à 40 000 citoyens qui votaient à l'Assemblée représentaient une élite masculine. Mais l'idée que les lois devaient être décidées collectivement, et non imposées par un roi, était une révolution absolue dont nous vivons encore l'héritage."
+          },
+          {
+            "e": "🍷",
+            "t": "<b>Socrate n'a jamais rien écrit.</b> Tout ce qu'on sait de lui vient de son élève Platon — qui inventa peut-être une partie de sa pensée. Condamné à mort par ses concitoyens en –399 pour « corrompre la jeunesse et nier les dieux », il accepta de boire la ciguë plutôt que de s'exiler. La démocratie athénienne tua son plus grand philosophe."
+          },
+          {
+            "e": "🏟️",
+            "t": "<b>Le théâtre grec a inventé tous les genres que nous connaissons encore.</b> Tragédie, comédie, satire — et les émotions qu'ils provoquent : Aristote appelait cela la catharsis, la purification par les émotions. Les Grecs comprirent que regarder des acteurs souffrir sur scène faisait du bien au public. Hollywood n'a rien inventé."
+          }
+        ],
+        "kind": "histoire"
+      },
+      {
+        "icon": "🌍",
+        "tag": "Conquérant",
+        "date": "–336 à –323 av. J.-C.",
+        "title": "Alexandre le Grand — Le Plus Grand Conquérant",
+        "desc": "En 13 ans, Alexandre de Macédoine conquiert un empire s'étendant de la Grèce à l'Inde — sans jamais perdre une bataille. Élève d'Aristote à 13 ans, roi à 20 ans, il renverse l'Empire perse, libère l'Égypte, franchit l'Hindou Kouch, atteint l'Indus. Il meurt à Babylone à 32 ans, d'une cause encore débattue. Son empire se fracture immédiatement — mais la culture grecque, elle, se répand dans tout le monde connu.",
+        "anecdotes": [
+          {
+            "e": "📚",
+            "t": "<b>Alexandre dormait avec L'Iliade et un poignard sous l'oreiller.</b> Son maître Aristote lui avait offert un exemplaire annoté de sa main. Il se considérait comme un nouvel Achille — et tenta toute sa vie de vivre à la hauteur de ce héros homérique. La littérature influença directement la conquête du monde antique."
+          },
+          {
+            "e": "🐎",
+            "t": "<b>Son cheval Bucéphale refusait de se laisser monter par quiconque.</b> Alexandre, à 16 ans, remarqua que le cheval avait peur de son ombre — et le positionna face au soleil. Il le dompte en quelques minutes sous les yeux de son père Philippe II, stupéfait. À la mort de Bucéphale en Inde, Alexandre fonda une ville à son nom : Bucéphalie."
+          },
+          {
+            "e": "🌐",
+            "t": "<b>Alexandre ne conquit pas pour détruire, mais pour fusionner.</b> Il épousa une princesse perse, adopta les costumes orientaux, intégra les soldats perses dans son armée. Ses généraux le trouvèrent trop orientalisé. Son vrai héritage n'est pas militaire — c'est l'hellénisation du monde : la langue grecque devient la lingua franca de l'Antiquité, et reste celle du Nouveau Testament 300 ans plus tard."
+          }
+        ],
+        "kind": "histoire"
+      }
+    ]
+  },
+  {
     "era": "✦ Gaule Celtique & Conquête Romaine",
     "cls": "antique",
     "events": [
@@ -20,7 +192,7 @@
           },
           {
             "e": "🛡️",
-            "t": "<b>Les Gaulois inventèrent le savoir-faire métallurgique européen.</b> Leurs épées en fer étaient supérieures aux lames romaines. Ils inventèrent aussi le tonneau (remplaçant les amphores), le savon, la chaîne de transmission et le recuit de l'acier — autant d'innovations que Rome s'empressa d'adopter après la conquête."
+            "t": "<b>Les Gaulois inventèrent le savoir-faire métallurgique européen.</b> Leurs épées en fer étaient supérieures aux lames romaines. Ils inventèrent aussi le tonneau, le savon, la chaîne de transmission et le recuit de l'acier — autant d'innovations que Rome s'empressa d'adopter après la conquête."
           }
         ],
         "kind": "histoire"
@@ -30,7 +202,7 @@
         "tag": "Fondation",
         "date": "–600 av. J.-C.",
         "title": "Fondation de Massalia — La Plus Vieille Ville de France",
-        "desc": "Des marins phocéens (Grecs d'Asie Mineure) fondent Massalia sur une calanque naturelle du littoral méditerranéen. C'est l'actuelle Marseille — la plus ancienne ville de France, 2 600 ans avant d'être le théâtre de l'hymne national. Cette colonie grecque introduit la vigne, l'olivier et l'écriture alphabétique en Gaule, et devient le principal port de commerce entre la Méditerranée et l'Europe continentale.",
+        "desc": "Des marins phocéens (Grecs d'Asie Mineure) fondent Massalia sur une calanque naturelle du littoral méditerranéen. C'est l'actuelle Marseille — la plus ancienne ville de France, 2 600 ans avant d'être le théâtre de l'hymne national. Cette colonie grecque introduit la vigne, l'olivier et l'écriture alphabétique en Gaule.",
         "anecdotes": [
           {
             "e": "🍷",
@@ -38,11 +210,11 @@
           },
           {
             "e": "🌊",
-            "t": "<b>Massalia était si puissante</b> qu'elle battait sa propre monnaie et possédait des comptoirs commerciaux jusqu'en Espagne et en Bretagne. Elle était l'alliée de Rome contre Carthage — ce qui lui valut la protection de la République romaine pendant 400 ans, bien avant la conquête de la Gaule."
+            "t": "<b>Massalia était si puissante</b> qu'elle battait sa propre monnaie et possédait des comptoirs jusqu'en Espagne et en Bretagne. Alliée de Rome contre Carthage, elle bénéficia de la protection romaine pendant 400 ans, bien avant la conquête de la Gaule."
           },
           {
             "e": "🧭",
-            "t": "<b>Pythéas, navigateur massaliote du IVe siècle av. J.-C.</b>, fut le premier à contourner la Bretagne, à atteindre les îles Britanniques et peut-être même la Scandinavie. Il décrivit la « Thulé », terre mystérieuse du Grand Nord. Ses récits furent jugés invraisemblables par ses contemporains — et prouvés exacts par l'archéologie moderne."
+            "t": "<b>Pythéas, navigateur massaliote du IVe siècle av. J.-C.</b>, fut le premier à contourner la Bretagne et atteindre les îles Britanniques — peut-être même la Scandinavie. Il décrivit la mystérieuse « Thulé » du Grand Nord. Ses récits jugés invraisemblables par ses contemporains furent prouvés exacts par l'archéologie moderne."
           }
         ],
         "kind": "histoire"
@@ -52,15 +224,15 @@
         "tag": "Conquête",
         "date": "–58 à –52 av. J.-C.",
         "title": "La Guerre des Gaules — César Contre les Gaulois",
-        "desc": "En 8 ans, Jules César conquiert méthodiquement toute la Gaule au nom de Rome — officiellement pour « protéger » les alliés gaulois, en réalité pour s'enrichir et asseoir sa puissance politique à Rome. Dans ses Commentaires, il raconte lui-même cette guerre avec une précision glaçante. Selon ses propres chiffres : 1 million de Gaulois tués, 1 million réduits en esclavage.",
+        "desc": "En 8 ans, Jules César conquiert méthodiquement toute la Gaule — officiellement pour protéger les alliés gaulois, en réalité pour s'enrichir et asseoir sa puissance à Rome. Selon ses propres chiffres dans ses Commentaires : 1 million de Gaulois tués, 1 million réduits en esclavage, sur une population de 8 à 10 millions d'habitants.",
         "anecdotes": [
           {
             "e": "📖",
-            "t": "<b>« La Gaule est divisée en trois parties. »</b> (Gallia est omnis divisa in partes tres) — c'est la première phrase des Commentaires de César, le livre le plus étudié en latin pendant des siècles. César était autant stratège militaire que génie de la communication : il envoyait ses rapports de victoire à Rome en temps réel pour nourrir sa gloire politique."
+            "t": "<b>« La Gaule est divisée en trois parties. »</b> (Gallia est omnis divisa in partes tres) — première phrase des Commentaires de César, le livre le plus étudié en latin pendant des siècles. César était autant génie militaire que génie de communication : il envoyait ses rapports de victoire à Rome en temps réel pour nourrir sa gloire politique."
           },
           {
             "e": "💀",
-            "t": "<b>La Guerre des Gaules fut un génocide selon les critères modernes.</b> César lui-même revendique un million de morts et un million d'esclaves sur une population estimée à 8-10 millions. Certaines tribus furent entièrement exterminées. Plutarque, à Rome, jugeait ces chiffres scandaleux."
+            "t": "<b>La Guerre des Gaules fut un génocide selon les critères modernes.</b> César revendique lui-même un million de morts et un million d'esclaves. Certaines tribus furent entièrement exterminées. Plutarque, à Rome, jugeait ces chiffres scandaleux — même dans l'Antiquité, l'ampleur du massacre choquait."
           },
           {
             "e": "🏆",
@@ -74,7 +246,7 @@
         "tag": "Événement",
         "date": "–52 av. J.-C.",
         "title": "Alésia — La Gaule Devient Romaine",
-        "desc": "Vercingétorix unifie les peuples gaulois dans un dernier sursaut de résistance. Après des victoires initiales, il est assiégé dans l'oppidum d'Alésia (Bourgogne). César construit une double enceinte de fortification de 40 km — pour assiéger Alésia tout en se défendant d'une armée de secours de 250 000 hommes. Après 6 semaines de siège, Vercingétorix se rend. La Gaule devient province romaine.",
+        "desc": "Vercingétorix unifie les peuples gaulois dans un dernier sursaut de résistance. Assiégé dans l'oppidum d'Alésia (Bourgogne), il fait face à César qui construit une double enceinte de 40 km — pour assiéger la ville tout en repoussant une armée de secours de 250 000 hommes. Après 6 semaines, Vercingétorix se rend. La Gaule devient province romaine.",
         "anecdotes": [
           {
             "e": "📖",
@@ -82,32 +254,14 @@
           },
           {
             "e": "⛏️",
-            "t": "<b>Les fouilles archéologiques ont confirmé chaque détail de César</b> : fossés, palissades, tours de guet — tout a été retrouvé à Alise-Sainte-Reine. Le site d'Alésia est l'un des chantiers archéologiques les plus importants de France. La bataille que César décrit au millimètre est réelle."
+            "t": "<b>Les fouilles archéologiques ont confirmé chaque détail de César</b> : fossés, palissades, tours de guet — tout retrouvé à Alise-Sainte-Reine. La bataille décrite au millimètre par César est réelle. Alésia est l'un des chantiers archéologiques les plus importants de France."
           },
           {
             "e": "🍷",
-            "t": "<b>La romanisation fut fulgurante et profonde.</b> En moins d'un siècle, les élites gauloises parlent latin, portent la toge, bâtissent des temples romains. La France parle encore ce latin transformé 2 000 ans plus tard — chaque mot français est un vestige de la conquête d'Alésia."
+            "t": "<b>La romanisation fut fulgurante.</b> En moins d'un siècle, les élites gauloises parlent latin, portent la toge, bâtissent des temples romains. La France parle encore ce latin transformé 2 000 ans plus tard — chaque mot français est un vestige direct de la conquête d'Alésia."
           }
         ],
         "kind": "histoire"
-      },
-      {
-        "kind": "histoire",
-        "icon": "⚙️",
-        "tag": "Invention",
-        "date": "~Ier siècle ap. J.-C.",
-        "title": "La Faucille & la Moissonneuse Gauloise",
-        "desc": "Les Gaulois romanisés perfectionnent la vallus — une moissonneuse tirée par un bœuf qui coupe les épis à hauteur d'épi. Décrite par Pline l'Ancien au Ier siècle, cette invention précède la moissonneuse industrielle de 1 800 ans et témoigne du génie technique gallo-romain, né de la fusion des savoir-faire gaulois et de l'organisation romaine.",
-        "anecdotes": [
-          {
-            "e": "🌾",
-            "t": "<b>La vallus gauloise fut décrite par Pline l'Ancien — puis complètement oubliée.</b> Elle ne fut « réinventée » qu'au XIXe siècle lors de la Révolution industrielle, par des ingénieurs qui ne savaient pas qu'ils recréaient quelque chose d'existant 1 800 ans plus tôt."
-          },
-          {
-            "e": "⚙️",
-            "t": "<b>Les Gaulois étaient d'excellents ingénieurs.</b> Ils inventèrent le tonneau en bois (remplaçant les amphores), le savon, la chaîne de transmission, le recuit de l'acier et la faucille à dents — toutes des innovations que Rome adopta et diffusa dans tout l'empire."
-          }
-        ]
       }
     ]
   },
@@ -120,63 +274,81 @@
         "tag": "Fondation",
         "date": "–15 av. J.-C.",
         "title": "Lugdunum (Lyon) — Capitale des Gaules",
-        "desc": "L'empereur Auguste fait de Lugdunum (l'actuelle Lyon) la capitale administrative des Trois Gaules. Carrefour entre Rhin, Rhône et Loire, elle devient la deuxième ville de l'Empire après Rome, avec 50 000 à 80 000 habitants. Deux empereurs romains y naîtront : Claude et Caracalla. C'est par Lyon que le christianisme entre en Gaule.",
+        "desc": "L'empereur Auguste fait de Lugdunum (Lyon) la capitale administrative des Trois Gaules. Deuxième ville de l'Empire après Rome, avec 50 000 à 80 000 habitants. Deux empereurs romains y naîtront : Claude et Caracalla. C'est par Lyon que le christianisme entre en Gaule — et que naît le réseau routier en étoile de toute la France.",
         "anecdotes": [
           {
             "e": "🛣️",
-            "t": "<b>Toutes les routes gauloises partaient de Lyon.</b> Agrippa, le gendre d'Auguste, y fit construire le réseau routier en étoile de la Gaule : 4 grandes voies rayonnant vers l'Atlantique, la Manche, le Rhin et la Méditerranée. Ces routes romaines sont encore visibles sous certaines nationales françaises."
+            "t": "<b>Toutes les routes gauloises partaient de Lyon.</b> Agrippa fit construire 4 grandes voies rayonnant vers l'Atlantique, la Manche, le Rhin et la Méditerranée. Ces routes romaines sont encore visibles sous certaines nationales françaises — l'autoroute A6 suit en partie la Via Agrippa vieille de 2 000 ans."
           },
           {
             "e": "👑",
-            "t": "<b>Claude, né à Lyon en –10 av. J.-C., devint empereur de Rome.</b> Dans un discours célèbre gravé sur bronze (retrouvé à Lyon), il plaida pour que les notables gaulois puissent accéder au Sénat romain — une révolution dans la conception de la citoyenneté. Ce texte est encore visible au musée de la Civilisation gallo-romaine de Lyon."
+            "t": "<b>Claude, né à Lyon en –10 av. J.-C., devint empereur de Rome.</b> Dans un discours gravé sur bronze (retrouvé à Lyon), il plaida pour que les notables gaulois accèdent au Sénat romain — une révolution dans la conception de la citoyenneté. Ce texte est encore visible au musée de la Civilisation gallo-romaine de Lyon."
           },
           {
             "e": "🩸",
-            "t": "<b>En 177 ap. J.-C., le massacre de 48 chrétiens à Lyon</b> est le premier grand martyre attesté en Gaule. Blandine, une esclave, fut livrée aux lions dans l'amphithéâtre. Ses souffrances et sa sérénité frappèrent tellement les témoins que sa mémoire traversa les siècles. L'amphithéâtre des Trois-Gaules est encore visible à Lyon."
+            "t": "<b>En 177 ap. J.-C., le massacre de 48 chrétiens à Lyon</b> est le premier grand martyre attesté en Gaule. Blandine, une esclave, fut livrée aux lions dans l'amphithéâtre. Sa sérénité frappa tellement les témoins que sa mémoire traversa les siècles. L'amphithéâtre des Trois-Gaules est encore visible à Lyon."
           }
         ],
         "kind": "histoire"
       },
       {
-        "icon": "🏛️",
+        "icon": "🏗️",
         "tag": "Architecture",
-        "date": "~19 av. J.-C.",
+        "date": "19 av. J.-C.",
         "title": "Le Pont du Gard — Le Génie Romain",
-        "desc": "Construit sous Auguste près de Nîmes, le Pont du Gard est l'aqueduc le plus haut du monde romain : 49 mètres, 3 niveaux d'arcades, 50 km de canal pour alimenter Nîmes en eau potable. Sans ciment — uniquement des blocs de pierre ajustés au millimètre, certains pesant 6 tonnes, posés sans mortier. Il a traversé 2 000 ans intact.",
+        "desc": "Construit sous Auguste près de Nîmes, le Pont du Gard est l'aqueduc le plus haut du monde romain : 49 mètres, 3 niveaux d'arcades, 50 km de canal pour acheminer 40 000 m³ d'eau par jour vers Nîmes. Aucun mortier — uniquement des blocs de pierre ajustés au millimètre, certains pesant 6 tonnes. Il a traversé 2 000 ans pratiquement intact.",
         "anecdotes": [
           {
             "e": "📐",
-            "t": "<b>La pente du canal est de 34 cm sur 50 km</b> — soit 0,07 % d'inclinaison constante sur un demi-siècle de distance. Cette précision géodésique, maintenue dans un relief accidenté, sans instruments modernes, représente un exploit d'ingénierie que peu de civilisations pourraient reproduire avant le XIXe siècle."
+            "t": "<b>La pente du canal est de 34 cm sur 50 km</b> — soit 0,07 % d'inclinaison constante dans un relief accidenté, sans instruments modernes. Cette précision géodésique représente un exploit que peu de civilisations auraient pu reproduire avant le XIXe siècle."
           },
           {
             "e": "💧",
-            "t": "<b>Nîmes recevait 40 000 m³ d'eau par jour</b> — soit 400 litres par habitant, davantage que la plupart des villes européennes au XIXe siècle. Les Romains avaient des fontaines publiques, des thermes, des toilettes à chasse d'eau et des égouts. Après la chute de Rome, l'Europe attendit 1 500 ans pour retrouver ce niveau de confort sanitaire."
+            "t": "<b>Nîmes recevait 400 litres d'eau par habitant par jour</b> — davantage que la plupart des villes européennes au XIXe siècle. Les Romains avaient fontaines publiques, thermes, toilettes à chasse d'eau et égouts. Après la chute de Rome, l'Europe attendit 1 500 ans pour retrouver ce niveau de confort sanitaire."
           },
           {
             "e": "🏗️",
-            "t": "<b>Les blocs ont été taillés à sec, sans mortier.</b> Les bâtisseurs gravèrent des repères sur les pierres pour s'y retrouver lors du montage — certains de ces signes de tailleur sont encore visibles. En 2 siècles d'utilisation, une couche de calcaire de 5 cm s'est déposée sur les parois — elle préserve encore le canal aujourd'hui."
+            "t": "<b>Les blocs ont été taillés à sec, sans mortier.</b> Les bâtisseurs gravèrent des repères sur chaque pierre pour le montage — certains de ces signes de tailleur sont encore visibles aujourd'hui. En 2 siècles d'utilisation, 5 cm de calcaire se déposèrent sur les parois, préservant encore le canal."
           }
         ],
         "kind": "histoire"
+      },
+      {
+        "kind": "histoire",
+        "icon": "⚙️",
+        "tag": "Invention",
+        "date": "Ier siècle ap. J.-C.",
+        "title": "La Faucille & la Moissonneuse Gauloise",
+        "desc": "Les Gaulois romanisés perfectionnent la vallus — une moissonneuse tirée par un bœuf qui coupe les épis directement dans le champ. Décrite par Pline l'Ancien, cette machine précède la moissonneuse industrielle de 1 800 ans et témoigne du génie gallo-romain : la fusion du savoir-faire gaulois et de l'organisation romaine produit des innovations que l'Europe n'atteindra pas à nouveau avant le XIXe siècle.",
+        "anecdotes": [
+          {
+            "e": "🌾",
+            "t": "<b>La vallus gauloise fut décrite par Pline l'Ancien — puis complètement oubliée.</b> Elle ne fut réinventée qu'au XIXe siècle par des ingénieurs qui ignoraient recréer quelque chose d'existant 1 800 ans plus tôt. Une invention perdue pendant un millénaire et demi."
+          },
+          {
+            "e": "⚙️",
+            "t": "<b>Les Gaulois romanisés étaient d'excellents ingénieurs.</b> Ils inventèrent aussi le tonneau en bois (remplaçant les amphores), le savon, la chaîne de transmission et le recuit de l'acier — innovations que Rome adopta et diffusa dans tout l'Empire."
+          }
+        ]
       },
       {
         "icon": "🏟️",
         "tag": "Époque",
         "date": "Ier–IIe siècle ap. J.-C.",
         "title": "La Gaule Romaine — Villes, Routes & Romanisation",
-        "desc": "Pendant deux siècles, la Gaule est l'une des provinces les plus riches et les plus pacifiées de l'empire. De Lugdunum à Lutetia, des dizaines de villes romaines naissent avec leurs forums, amphithéâtres, thermes, temples et aqueducs. La langue gauloise disparaît au profit du latin vulgaire — qui deviendra le français.",
+        "desc": "Pendant deux siècles, la Gaule est l'une des provinces les plus riches de l'Empire. De Lugdunum à Lutetia, des dizaines de villes romaines naissent avec leurs forums, amphithéâtres, thermes et aqueducs. La langue gauloise disparaît au profit du latin vulgaire — qui deviendra le français.",
         "anecdotes": [
           {
             "e": "🗺️",
-            "t": "<b>La France doit son réseau routier aux Romains.</b> 30 000 km de routes pavées reliaient les villes gauloises à Rome. La Via Agrippa partait de Lyon vers Boulogne — itinéraire que suit encore en partie l'autoroute A6. Ces routes, construites pour les légions, furent utilisées pendant 1 500 ans après la chute de Rome."
+            "t": "<b>La France doit son réseau routier aux Romains.</b> 30 000 km de routes pavées reliaient les villes gauloises à Rome. Ces routes, construites pour les légions, furent utilisées pendant 1 500 ans après la chute de Rome — et certaines nationales françaises les suivent encore."
           },
           {
             "e": "🏛️",
-            "t": "<b>Les Arènes de Nîmes et le théâtre d'Orange</b> sont parmi les mieux conservés du monde romain — plus intacts que beaucoup de monuments à Rome même. Le Maison Carrée de Nîmes (–19 av. J.-C.) inspira Thomas Jefferson pour l'architecture du Capitole de Virginie : la Gaule romaine a influencé la démocratie américaine."
+            "t": "<b>Les Arènes de Nîmes et le théâtre d'Orange</b> sont parmi les mieux conservés du monde romain — plus intacts que beaucoup de monuments à Rome même. La Maison Carrée de Nîmes inspira Thomas Jefferson pour le Capitole de Virginie : la Gaule romaine a influencé l'architecture de la démocratie américaine."
           },
           {
             "e": "🗣️",
-            "t": "<b>Le français est du latin mal prononcé par des Gaulois.</b> Le mot « cheval » vient du latin vulgaire caballus (cheval de travail, pas equus le cheval noble). « Tête » vient de testa (pot de terre — les Gaulois utilisaient ce mot d'argot). « Maison » vient de mansionem. Parler français, c'est parler la langue des légionnaires de César."
+            "t": "<b>Le français est du latin mal prononcé par des Gaulois.</b> « Cheval » vient de caballus (cheval de travail). « Tête » vient de testa (pot de terre — l'argot gaulois). « Maison » de mansionem. Parler français aujourd'hui, c'est parler la langue des légionnaires de César transformée par 2 000 ans d'usage."
           }
         ],
         "kind": "histoire"
@@ -186,19 +358,19 @@
         "tag": "Fondation",
         "date": "Ier–IIe siècle ap. J.-C.",
         "title": "Lutèce — La Naissance de Paris",
-        "desc": "Sur l'île de la Cité et la rive gauche de la Seine, les Romains développent Lutèce, chef-lieu de la tribu gauloise des Parisii. Forum, thermes (les arènes de Lutèce), amphithéâtre, temple — une ville romaine compacte de 8 000 à 10 000 habitants. Les thermes de Cluny, encore debout à Paris, datent de cette époque.",
+        "desc": "Sur l'île de la Cité et la rive gauche de la Seine, les Romains développent Lutèce, chef-lieu des Parisii. Forum, thermes, amphithéâtre, temple — une ville compacte de 10 000 habitants. Les thermes de Cluny, encore debout aujourd'hui au cœur de Paris, datent de cette époque.",
         "anecdotes": [
           {
             "e": "🛁",
-            "t": "<b>Les thermes de Cluny sont encore debout au cœur de Paris,</b> au coin du boulevard Saint-Michel. Construits au IIe siècle, leurs voûtes de 14 mètres de haut ont traversé 1 800 ans. Les Parisiens du Moyen Âge les appelèrent « les thermes de Julien » — ils croyaient que l'empereur Julien (qui vécut à Lutèce) les avait construits."
+            "t": "<b>Les thermes de Cluny sont encore debout au cœur de Paris</b>, boulevard Saint-Michel. Construits au IIe siècle, leurs voûtes de 14 mètres ont traversé 1 800 ans. Les Parisiens médiévaux les appelaient « les thermes de Julien » — croyant que l'empereur Julien (qui vécut à Lutèce) les avait bâtis."
           },
           {
             "e": "🌊",
-            "t": "<b>Lutèce tire son nom des Parisii</b>, tribu gauloise installée sur l'île de la Cité. « Lutetia » signifie peut-être « lieu marécageux » en gaulois — la Seine débordait régulièrement sur les rives basses. C'est pour ça que Paris se construisit d'abord en hauteur, sur la rive gauche collinaire, avant de descendre vers la Seine."
+            "t": "<b>Lutèce tire son nom des Parisii</b>, tribu gauloise de l'île de la Cité. « Lutetia » signifie peut-être « lieu marécageux » — la Seine débordait régulièrement. C'est pourquoi Paris se construisit d'abord en hauteur sur la rive gauche collinaire, avant de descendre vers le fleuve."
           },
           {
             "e": "👑",
-            "t": "<b>En 360 ap. J.-C., les légions proclamèrent Julien Empereur à Lutèce</b> — contre la volonté de Constantinople. C'est l'une des rares fois où Paris fut le théâtre d'un coup d'État romain. Julien, dernier empereur paien, tenta en vain de stopper la montée du christianisme."
+            "t": "<b>En 360 ap. J.-C., les légions proclamèrent Julien Empereur à Lutèce</b> contre la volonté de Constantinople. Paris, théâtre d'un coup d'État romain. Julien, dernier empereur paien, tenta en vain de stopper la montée du christianisme — et mourut en campagne contre les Perses deux ans plus tard."
           }
         ],
         "kind": "histoire"
@@ -206,21 +378,21 @@
       {
         "icon": "✝️",
         "tag": "Religion",
-        "date": "~250 ap. J.-C.",
+        "date": "250 ap. J.-C.",
         "title": "Saint Denis & les Premiers Martyrs Chrétiens",
-        "desc": "Denis, premier évêque de Paris, est décapité sur la butte Montmartre (du latin Mons Martyrum — la colline des martyrs) lors des persécutions de l'empereur Dèce. Selon la légende, il ramassa sa tête et marcha jusqu'à l'endroit où il voulait être enterré — à 6 km au nord. La basilique Saint-Denis, future nécropole royale de France, y fut bâtie.",
+        "desc": "Denis, premier évêque de Paris, est décapité sur la butte Montmartre — dont le nom vient du latin Mons Martyrum, la colline des martyrs. Selon la légende, il ramassa sa tête et marcha 6 km jusqu'à l'endroit où il voulait être enterré. La basilique Saint-Denis, future nécropole royale de France, y fut bâtie.",
         "anecdotes": [
           {
             "e": "🚶",
-            "t": "<b>Un saint qui marche 6 km avec sa tête coupée à la main</b> s'appelle un céphalophore. Saint Denis est le plus célèbre de ces saints décapités de la tradition catholique. La légende, bien sûr, est symbolique — mais elle explique pourquoi tous les rois de France furent enterrés à Saint-Denis, à l'endroit désigné par le martyr."
+            "t": "<b>Un saint qui marche avec sa tête coupée</b> s'appelle un céphalophore. Saint Denis est le plus célèbre. La légende est symbolique — mais elle explique pourquoi tous les rois de France furent enterrés à Saint-Denis pendant 1 186 ans, de Dagobert (638) à Louis XVIII (1824)."
           },
           {
             "e": "🏰",
-            "t": "<b>La basilique Saint-Denis abrite les tombeaux de presque tous les rois de France</b> depuis Dagobert Ier (638) jusqu'à Louis XVIII (1824) — soit 1 186 ans de continuité dynastique dans un même lieu. Pendant la Révolution, les tombeaux furent profanés et les ossements des rois jetés dans des fosses communes."
+            "t": "<b>Pendant la Révolution, les tombeaux royaux de Saint-Denis furent profanés.</b> Les ossements de tous les rois de France furent jetés dans des fosses communes en 1793. Le sarcophage de Dagobert fut ouvert, celui de Louis XIV aussi. La Révolution voulait effacer jusqu'aux restes de l'Ancien Régime."
           },
           {
             "e": "🌍",
-            "t": "<b>Le christianisme arriva en Gaule par les routes commerciales romaines</b> — d'abord à Lyon et Marseille, villes cosmopolites. Les premiers chrétiens gaulois étaient souvent des marchands orientaux, des esclaves ou des soldats. La religion des persécutés devint celle des empereurs en moins de 60 ans — une révolution sans précédent."
+            "t": "<b>Le christianisme arriva en Gaule par les routes romaines</b> — d'abord à Lyon et Marseille. Les premiers chrétiens gaulois étaient des marchands orientaux, des esclaves ou des soldats. La religion des persécutés devint celle des empereurs en moins de 60 ans — une des retournements les plus spectaculaires de l'histoire."
           }
         ],
         "kind": "histoire"
@@ -230,19 +402,19 @@
         "tag": "Événement",
         "date": "313 ap. J.-C.",
         "title": "L'Édit de Milan — La Victoire du Christianisme",
-        "desc": "L'empereur Constantin et son co-empereur Licinius proclament à Milan la liberté de culte dans tout l'Empire romain. Le christianisme, religion des persécutés depuis trois siècles, devient légal — puis bientôt officielle. En moins d'une génération, les temples gaulois ferment, les basiliques chrétiennes s'élèvent. L'Europe médiévale vient de naître.",
+        "desc": "L'empereur Constantin proclame la liberté de culte dans tout l'Empire. Le christianisme, religion des persécutés depuis trois siècles, devient légal — puis bientôt officielle. En moins d'une génération, les temples gaulois ferment, les basiliques s'élèvent. L'Europe médiévale vient de naître.",
         "anecdotes": [
           {
             "e": "⚔️",
-            "t": "<b>La veille de la bataille du pont Milvius (312),</b> Constantin aurait vu une croix lumineuse dans le ciel avec l'inscription « In hoc signo vinces » (Par ce signe tu vaincras). Il fit peindre la croix sur les boucliers de ses soldats — et remporta la victoire. Vision mystique, calcul politique, ou les deux ? Les historiens débattent encore."
+            "t": "<b>La veille de la bataille du pont Milvius (312),</b> Constantin aurait vu une croix dans le ciel : « In hoc signo vinces » (Par ce signe tu vaincras). Il fit peindre la croix sur les boucliers — et remporta la victoire. Vision mystique ou calcul politique ? Les historiens débattent encore."
           },
           {
             "e": "🏛️",
-            "t": "<b>Constantin ne se fit baptiser que sur son lit de mort</b> en 337. Il avait passé sa vie à présider des conciles chrétiens tout en maintenant le culte solaire romain et en faisant assassiner son propre fils et sa femme. Le premier « empereur chrétien » est l'un des personnages les plus ambigus de l'histoire."
+            "t": "<b>Constantin ne se fit baptiser que sur son lit de mort</b> en 337. Il avait passé sa vie à présider des conciles chrétiens tout en maintenant le culte solaire et en faisant assassiner son fils et sa femme. Le premier « empereur chrétien » est l'un des personnages les plus ambigus de l'Antiquité."
           },
           {
             "e": "📅",
-            "t": "<b>L'Édit de Milan est aussi la naissance du calendrier que nous utilisons encore.</b> Constantin imposa le dimanche comme jour de repos (« dies Solis » — le jour du Soleil, puis jour du Seigneur). La semaine de 7 jours avec repos dominical, héritée de Rome et du christianisme, structure encore notre vie 1 700 ans plus tard."
+            "t": "<b>Constantin imposa le dimanche comme jour de repos</b> (dies Solis — le jour du Soleil). La semaine de 7 jours avec repos dominical, héritée de Rome et du christianisme, structure encore nos vies 1 700 ans plus tard. Chaque week-end est un héritage de Constantin."
           }
         ],
         "kind": "histoire"
