@@ -559,7 +559,7 @@ body{padding-top:44px;}
     <div class="mdate" id="mdate"></div>
     <div class="mtitle" id="mtitle"></div>
     <div class="mimg-wrap" id="mimg-wrap">
-      <img id="mimg" src="" alt="">
+      <img id="mimg" src="" alt="" referrerpolicy="no-referrer" crossorigin="anonymous">
       <div class="mimg-credit" id="mimg-credit"></div>
     </div>
     <div class="mintro" id="mintro"></div>
@@ -620,7 +620,7 @@ function openModal(ev,cls){
   const imgEl=document.getElementById('mimg');
   const creditEl=document.getElementById('mimg-credit');
   if(ev.img){
-    imgEl.src=ev.img.startsWith('http')?ev.img:'img/'+ev.img;
+    imgEl.src='img/'+ev.img;
     imgEl.alt=ev.title;
     creditEl.textContent=ev.imgCredit||'';
     creditEl.style.display=ev.imgCredit?'block':'none';
@@ -697,20 +697,6 @@ function openDiscModal(dv){
   const tit=document.getElementById('mtitle');tit.textContent=dv.title;tit.style.color=c;
   document.getElementById('mintro').textContent=dv.desc;
   document.getElementById('manec').innerHTML=(dv.anecdotes||[]).map(a=>`<div class="anec"><span class="abullet">${a.e}</span><div class="atext">${a.t}</div></div>`).join('');
-  // Image (disc events)
-  const wrapD=document.getElementById('mimg-wrap');
-  const imgElD=document.getElementById('mimg');
-  const creditElD=document.getElementById('mimg-credit');
-  if(dv.img){
-    imgElD.src=dv.img.startsWith('http')?dv.img:'img/'+dv.img;
-    imgElD.alt=dv.title;
-    creditElD.textContent=dv.imgCredit||'';
-    creditElD.style.display=dv.imgCredit?'block':'none';
-    wrapD.classList.add('has-img');
-  } else {
-    wrapD.classList.remove('has-img');
-    imgElD.src='';
-  }
   ov.classList.add('open');document.body.style.overflow='hidden';
 }
 
