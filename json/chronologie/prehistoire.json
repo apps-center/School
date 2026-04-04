@@ -29,7 +29,7 @@
           "r": "13,8 milliards d'années",
           "hint": "C'est la première date de toute la chronologie"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/CMB_Timeline300_no_WMAP.jpg/1280px-CMB_Timeline300_no_WMAP.jpg",
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/CMB_Timeline300_no_WMAP.jpg",
         "imgCredit": "NASA / WMAP Science Team (domaine public)"
       },
       {
@@ -58,7 +58,7 @@
           "r": "99,86 %",
           "hint": "Toutes les planètes réunies ne font que 0,14 %"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Planets2013.svg/1280px-Planets2013.svg.png",
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Solar_sys8.jpg",
         "imgCredit": "NASA (domaine public)"
       },
       {
@@ -87,7 +87,7 @@
           "r": "3,8 cm par an",
           "hint": "À sa formation, elle était 15 fois plus proche"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/1024px-The_Earth_seen_from_Apollo_17.jpg",
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Earth_seen_from_Apollo_17.jpg",
         "imgCredit": "NASA / Apollo 17 (domaine public)"
       }
     ]
@@ -122,8 +122,8 @@
           "r": "Autour de cheminées hydrothermales sous-marines",
           "hint": "À 300°C dans les profondeurs des océans primitifs"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Stromatolites_Shark_Bay.jpg/1280px-Stromatolites_Shark_Bay.jpg",
-        "imgCredit": "Paul Harrison, CC BY-SA 3.0 (Wikimedia Commons)"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Stromatolites_Shark_Bay.jpg",
+        "imgCredit": "Paul Harrison, CC BY-SA 3.0"
       },
       {
         "icon": "🟢",
@@ -150,7 +150,9 @@
           "q": "Quel pourcentage de l'oxygène mondial les algues marines produisent-elles encore aujourd'hui ?",
           "r": "50 % — la moitié",
           "hint": "Plus que toutes les forêts terrestres réunies"
-        }
+        },
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Caulerpa_taxifolia.jpg",
+        "imgCredit": "Albert Kok, CC BY-SA 3.0"
       },
       {
         "icon": "🐚",
@@ -178,8 +180,8 @@
           "r": "L'œil",
           "hint": "Avant, personne ne voyait — donc personne ne se cachait"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Ottoia_prolifica-Smithsonian.jpg/1024px-Ottoia_prolifica-Smithsonian.jpg",
-        "imgCredit": "Smithsonian Institution (domaine public)"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Anomalocaris_canadensis.jpg",
+        "imgCredit": "Nobu Tamura, CC BY-SA 4.0"
       },
       {
         "icon": "🌿",
@@ -206,7 +208,9 @@
           "q": "Combien d'années une forêt met-elle pour produire 1 cm de sol fertile ?",
           "r": "1 000 ans",
           "hint": "Les plantes ont littéralement fabriqué la terre depuis la roche nue"
-        }
+        },
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Devonian_Forest_Reconstruction_swp.jpg",
+        "imgCredit": "Eduard Riou / Smithsonian (domaine public)"
       },
       {
         "icon": "🦕",
@@ -234,8 +238,8 @@
           "r": "165 millions d'années",
           "hint": "Soit 40 fois la durée d'existence de notre espèce"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Diplodocus_carnegii_hatcher.jpg/1280px-Diplodocus_carnegii_hatcher.jpg",
-        "imgCredit": "Smithsonian Institution / Joseph Smit (domaine public)"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Diplodocus_carnegii_hatcher.jpg",
+        "imgCredit": "Smithsonian / Joseph Smit (domaine public)"
       },
       {
         "icon": "☄️",
@@ -263,7 +267,7 @@
           "r": "–66 millions d'années",
           "hint": "Et non –65 Ma comme dans les anciens manuels"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Chicxulub_radar_topography.jpg/1280px-Chicxulub_radar_topography.jpg",
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicxulub_radar_topography.jpg",
         "imgCredit": "NASA / JPL (domaine public)"
       }
     ]
@@ -298,8 +302,8 @@
           "r": "Sahelanthropus tchadensis",
           "hint": "Il vivait il y a 7 millions d'années — juste après la séparation avec les chimpanzés"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Sahelanthropus_tchadensis_-_TM_266-01-060-1.jpg/800px-Sahelanthropus_tchadensis_-_TM_266-01-060-1.jpg",
-        "imgCredit": "Didier Descouens, CC BY-SA 4.0 (Wikimedia Commons)"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sahelanthropus_tchadensis_-_TM_266-01-060-1.jpg",
+        "imgCredit": "Didier Descouens, CC BY-SA 4.0"
       },
       {
         "kind": "histoire",
@@ -325,7 +329,9 @@
           "q": "Pendant combien de millions d'années le biface a-t-il été utilisé sans modification ?",
           "r": "1,5 million d'années",
           "hint": "La plus longue tradition technologique de toute l'histoire humaine"
-        }
+        },
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bifaz_achelense.jpg",
+        "imgCredit": "José-Manuel Benito, CC BY-SA 2.5"
       },
       {
         "icon": "🔥",
@@ -353,7 +359,7 @@
           "r": "La grotte de Wonderwerk",
           "hint": "Des os et végétaux brûlés y ont été retrouvés"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Campfire_at_the_Spotted_Bear_Ranger_Station.jpg/1280px-Campfire_at_the_Spotted_Bear_Ranger_Station.jpg",
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Campfire_at_the_Spotted_Bear_Ranger_Station.jpg",
         "imgCredit": "US Forest Service (domaine public)"
       },
       {
@@ -380,7 +386,9 @@
           "q": "Dans quelle ville allemande ont été retrouvées les 8 lances en bois vieilles de 400 000 ans ?",
           "r": "Schöningen",
           "hint": "Leur équilibre est identique à celui d'un javelot olympique moderne"
-        }
+        },
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Schoninger_speere.jpg",
+        "imgCredit": "Thilo Parg, CC BY-SA 3.0"
       },
       {
         "icon": "🧠",
@@ -408,8 +416,8 @@
           "r": "Jebel Irhoud",
           "hint": "Ces crânes ressemblent déjà aux nôtres, mais avec une boîte crânienne plus allongée"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Jebel_Irhoud_1.jpg/800px-Jebel_Irhoud_1.jpg",
-        "imgCredit": "Hublin et al., CC BY-SA 4.0 (Wikimedia Commons)"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Jebel_Irhoud_1.jpg",
+        "imgCredit": "Hublin et al., CC BY-SA 4.0"
       },
       {
         "kind": "histoire",
@@ -435,7 +443,9 @@
           "q": "Quel matériau les Néandertaliens utilisaient-ils pour coller les pointes de silex sur leurs lances ?",
           "r": "La résine de bouleau (goudron naturel)",
           "hint": "Obtenue en chauffant l'écorce à 340°C en atmosphère pauvre en oxygène"
-        }
+        },
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Pointe_levallois_Beuzeville.jpg",
+        "imgCredit": "Didier Descouens, CC BY-SA 4.0"
       },
       {
         "kind": "histoire",
@@ -462,8 +472,8 @@
           "r": "Blombos Cave",
           "hint": "Ces coquillages avaient été transportés à 35 km de la côte — preuve de valeur symbolique"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Blombos_Cave_Entrance.jpg/1280px-Blombos_Cave_Entrance.jpg",
-        "imgCredit": "Magnus Haaland, CC BY-SA 4.0 (Wikimedia Commons)"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Blombos_ochre.jpg",
+        "imgCredit": "CC BY-SA 4.0, Wikimedia Commons"
       },
       {
         "kind": "histoire",
@@ -489,7 +499,9 @@
           "q": "Quel insecte parasite a permis aux scientifiques de dater l'apparition des vêtements à –80 000 ans ?",
           "r": "Le pou de corps",
           "hint": "Il diverge génétiquement du pou de tête dès que l'humain commence à se couvrir en permanence"
-        }
+        },
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Sewing_by_hand.jpg",
+        "imgCredit": "Domaine public, Wikimedia Commons"
       },
       {
         "kind": "histoire",
@@ -512,8 +524,8 @@
           "r": "Le détroit de Bab-el-Mandeb",
           "hint": "Entre la Corne de l'Afrique et le Yémen actuel"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Out_of_Africa_map.svg/1280px-Out_of_Africa_map.svg.png",
-        "imgCredit": "Muntuwandi, CC BY-SA 3.0 (Wikimedia Commons)"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Map_of_human_migrations.jpg",
+        "imgCredit": "Muntuwandi, CC BY-SA 3.0"
       },
       {
         "kind": "histoire",
@@ -535,7 +547,9 @@
           "q": "Quelle distance océanique minimale les premiers humains ont-ils dû traverser pour atteindre l'Australie ?",
           "r": "Au moins 90 km d'océan ouvert",
           "hint": "Le niveau des mers était 60 m plus bas, mais ce bras de mer restait infranchissable à pied"
-        }
+        },
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Australia_Aboriginal_Culture_010.jpg",
+        "imgCredit": "Domaine public, Wikimedia Commons"
       },
       {
         "kind": "histoire",
@@ -557,7 +571,9 @@
           "q": "Quel pourcentage d'ADN néandertalien les Européens et Asiatiques actuels portent-ils ?",
           "r": "1 à 4 %",
           "hint": "Héritage de croisements anciens entre Sapiens et Néandertaliens"
-        }
+        },
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Homo_neanderthalensis_adult_male_-_head_model_-_Smithsonian_Museum_of_Natural_History_-_2012-05-17.jpg",
+        "imgCredit": "Tim Evanson, CC BY-SA 2.0"
       },
       {
         "kind": "histoire",
@@ -580,8 +596,8 @@
           "r": "L'Ardèche",
           "hint": "Elle contient plus de 400 figures d'animaux — dont des rhinocéros laineux et des lions des cavernes"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Lascaux_painting.jpg/1280px-Lascaux_painting.jpg",
-        "imgCredit": "Prof saxx, CC BY-SA 3.0 (Wikimedia Commons)"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chauvet_cave_paintings_-_horse_figures.jpg",
+        "imgCredit": "Domaine public, Wikimedia Commons"
       },
       {
         "kind": "histoire",
@@ -607,7 +623,9 @@
           "q": "À quelle vitesse une sagaie lancée au propulseur peut-elle atteindre sa cible ?",
           "r": "150 km/h",
           "hint": "Suffisant pour transpercer 10 cm de chair à 50 mètres"
-        }
+        },
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Atlatl-use-by-Aztec.jpg",
+        "imgCredit": "Domaine public (Wikimedia Commons)"
       },
       {
         "kind": "histoire",
@@ -629,7 +647,9 @@
           "q": "Dans quelle matière est taillée la flûte de Hohle Fels, la plus ancienne connue ?",
           "r": "Un os de vautour fauve (le radius)",
           "hint": "Elle possède 5 trous digitaux et peut encore produire des sons aujourd'hui"
-        }
+        },
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Hohle_fels_flute.jpg",
+        "imgCredit": "Thilo Parg, CC BY-SA 3.0"
       },
       {
         "kind": "histoire",
@@ -655,7 +675,9 @@
           "q": "Dans quel pays ont été retrouvées des huttes construites entièrement en os de mammouths ?",
           "r": "En Ukraine (site de Mezhirich, –15 000 ans)",
           "hint": "Leurs charpentes utilisaient des centaines de mandibules et fémurs soigneusement assemblés"
-        }
+        },
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Woolly_mammoth.jpg",
+        "imgCredit": "Domaine public, Wikimedia Commons"
       },
       {
         "kind": "histoire",
@@ -681,7 +703,9 @@
           "q": "Dans quelle région du monde les premières aiguilles à coudre préhistoriques ont-elles été retrouvées ?",
           "r": "En Sibérie, à Denisova",
           "hint": "Leur finesse rivalise avec nos aiguilles modernes"
-        }
+        },
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Bone_needle,_Hohle_Fels.jpg",
+        "imgCredit": "Thilo Parg, CC BY-SA 3.0"
       },
       {
         "kind": "histoire",
@@ -707,7 +731,9 @@
           "q": "De combien de mètres le niveau des mers était-il plus bas au maximum glaciaire, vers –20 000 ans ?",
           "r": "120 mètres plus bas",
           "hint": "La Grande-Bretagne était reliée au continent, la Sibérie à l'Alaska"
-        }
+        },
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Last_glacial_vegetation_map.png",
+        "imgCredit": "Domaine public, Wikimedia Commons"
       },
       {
         "kind": "histoire",
@@ -729,7 +755,9 @@
           "q": "Dans quels pays ont été retrouvées les premières poteries connues de l'humanité ?",
           "r": "En Chine et au Japon",
           "hint": "Elles précèdent l'agriculture de 5 000 ans — inventées par des chasseurs-cueilleurs"
-        }
+        },
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Chinese_pottery_Neolithic.jpg",
+        "imgCredit": "Domaine public, Wikimedia Commons"
       },
       {
         "kind": "histoire",
@@ -752,8 +780,8 @@
           "r": "1963",
           "hint": "Le CO₂ et les moisissures des visiteurs menaçaient les peintures vieilles de 17 000 ans"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Lascaux_II.jpg/1280px-Lascaux_II.jpg",
-        "imgCredit": "Jack Versloot, CC BY 2.0 (Wikimedia Commons)"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Lascaux_painting.jpg",
+        "imgCredit": "Prof saxx, CC BY-SA 3.0"
       },
       {
         "kind": "histoire",
@@ -776,8 +804,8 @@
           "r": "Du loup gris",
           "hint": "C'est le premier animal domestiqué — bien avant les vaches, moutons ou chevaux"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/YellowLabradorLooking_new.jpg/1024px-YellowLabradorLooking_new.jpg",
-        "imgCredit": "Luke Lai, CC BY-SA 2.5 (Wikimedia Commons)"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Canis_lupus_laying.jpg",
+        "imgCredit": "Domaine public, Wikimedia Commons"
       },
       {
         "kind": "histoire",
@@ -799,7 +827,9 @@
           "q": "Par quel pont terrestre les premiers humains ont-ils rejoint l'Amérique depuis la Sibérie ?",
           "r": "La Béringie",
           "hint": "Une vaste plaine aujourd'hui engloutie sous le détroit de Béring"
-        }
+        },
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Possible_migrations_of_pre-Columbian_peoples.jpg",
+        "imgCredit": "Roblespepe, CC BY-SA 4.0"
       },
       {
         "icon": "🌾",
@@ -827,8 +857,8 @@
           "r": "Environ 4 heures par jour",
           "hint": "L'agriculture a rendu les humains plus nombreux — mais aussi plus petits et moins en bonne santé"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Fertile_Crescent_map.png/1280px-Fertile_Crescent_map.png",
-        "imgCredit": "Nafsadh, CC BY-SA 4.0 (Wikimedia Commons)"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fertile_Crescent_map.png",
+        "imgCredit": "Nafsadh, CC BY-SA 4.0"
       },
       {
         "kind": "histoire",
@@ -851,8 +881,8 @@
           "r": "5 %",
           "hint": "Le géoradar révèle au moins 16 enceintes encore enfouies sous la terre"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/G%C3%B6bekli_Tepe%2C_Urfa.jpg/1280px-G%C3%B6bekli_Tepe%2C_Urfa.jpg",
-        "imgCredit": "Teomancimit, CC BY-SA 3.0 (Wikimedia Commons)"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Göbekli_Tepe,_Urfa.jpg",
+        "imgCredit": "Teomancimit, CC BY-SA 3.0"
       },
       {
         "kind": "histoire",
@@ -878,7 +908,9 @@
           "q": "Quel est le taux de survie des patients trépanés au Néolithique, d'après l'étude des crânes ?",
           "r": "Plus de 50 %",
           "hint": "Les bords recalcifiés des trous prouvent que les patients ont survécu à l'opération"
-        }
+        },
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Trepanated_skull.jpg",
+        "imgCredit": "Domaine public, Wikimedia Commons"
       },
       {
         "kind": "histoire",
@@ -905,8 +937,8 @@
           "r": "Plus de 3 000 menhirs",
           "hint": "Disposés en 11 rangées sur 4 km — le plus grand ensemble mégalithique du monde"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Megalithes_carnac.jpg/1280px-Megalithes_carnac.jpg",
-        "imgCredit": "Isiwal, CC BY-SA 4.0 (Wikimedia Commons)"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Megalithes_carnac.jpg",
+        "imgCredit": "Isiwal, CC BY-SA 4.0"
       },
       {
         "kind": "histoire",
@@ -933,8 +965,8 @@
           "r": "Les steppes d'Eurasie (culture Botaï, Kazakhstan actuel)",
           "hint": "La preuve : des résidus de lait de jument retrouvés sur des poteries"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Collage_of_Nine_Horses.jpg/1280px-Collage_of_Nine_Horses.jpg",
-        "imgCredit": "Various, CC BY-SA 3.0 (Wikimedia Commons)"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Przewalski's_Horse_2009_01.jpg",
+        "imgCredit": "Claudia Feh, CC BY-SA 3.0"
       },
       {
         "kind": "histoire",
@@ -962,8 +994,8 @@
           "r": "Le tour du potier",
           "hint": "Pour façonner l'argile en la faisant tourner — le chariot vint ensuite"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Wheelbarrow_2.jpg/1280px-Wheelbarrow_2.jpg",
-        "imgCredit": "Domaine public (Wikimedia Commons)"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Roue_gallo-romaine.jpg",
+        "imgCredit": "Domaine public, Wikimedia Commons"
       },
       {
         "icon": "🧊",
@@ -987,8 +1019,8 @@
           "r": "Assassiné — une pointe de flèche lui a sectionné une artère",
           "hint": "Premier 'cold case' de l'histoire, vieux de 5 300 ans"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Otzi-Quinson.jpg/800px-Otzi-Quinson.jpg",
-        "imgCredit": "Quinson Musée (CC BY-SA 3.0, Wikimedia Commons)"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Otzi-Quinson.jpg",
+        "imgCredit": "Musée de Quinson, CC BY-SA 3.0"
       },
       {
         "kind": "histoire",
@@ -1015,8 +1047,8 @@
           "r": "Kushim",
           "hint": "C'était un comptable d'Uruk — pas un roi, pas un héros"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mesopotamia_6000bc.jpg/1280px-Mesopotamia_6000bc.jpg",
-        "imgCredit": "Domaine public (Wikimedia Commons)"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruins_of_Ur.jpg",
+        "imgCredit": "M.Lubinski, CC BY-SA 2.0"
       },
       {
         "kind": "histoire",
@@ -1044,8 +1076,8 @@
           "r": "L'écriture",
           "hint": "Apparue vers –3 200 av. J.-C. à Uruk, en Mésopotamie"
         },
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Cuneiform_tablet-_administrative_account_of_barley_distribution_with_cylinder_seal_impression_of_a_male_figure%2C_hunting_dogs%2C_and_boars%2C_3100-2900_BC%2C_Jamdat_Nasr_period%2C_clay_-_Oriental_Institute_Museum%2C_University_of_Chicago_-_DSC07117.JPG/1024px-thumbnail.jpg",
-        "imgCredit": "Daderot (domaine public, Wikimedia Commons)"
+        "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tableta_con_trigos.png",
+        "imgCredit": "Domaine public, Wikimedia Commons"
       }
     ]
   }
