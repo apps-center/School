@@ -1272,7 +1272,13 @@ async function loadAtlasData(){
       if(!r.ok) throw new Error('HTTP '+r.status);
       const data = await r.json();
       if(name==='CAPITALS')      CAPITALS=data;
-      else if(name==='FICHES')        FICHES=data;
+      else if(name==='FICHES'){
+        FICHES = data;
+        try {
+          const r2 = await fetch(base + 'fiches_pays_2.json');
+          if(r2.ok) FICHES = Object.assign({}, FICHES, await r2.json());
+        } catch(e){}
+      }
       else if(name==='LAYER_COLORS')  LAYER_COLORS=data;
       else if(name==='RES_DATA')      RES_DATA=data;
       else if(name==='RES_META')      RES_META=data;
