@@ -306,7 +306,7 @@ const overlay=()=>document.getElementById('overlay');
 /* ── LOAD CONTENT ── */
 function loadContent(){
   const card=deck[idx];
-  document.getElementById('fc-img').src=card.img;
+  document.getElementById('fc-img').src='../img/histoire/'+card.img;
   document.getElementById('fc-era').textContent=card.era;
   document.getElementById('fc-date').textContent=card.date;
   document.getElementById('fc-title').textContent=card.title;
@@ -388,7 +388,7 @@ function buildStrip(){
   const strip=document.getElementById('strip');strip.innerHTML='';
   deck.forEach((card,i)=>{
     const img=document.createElement('img');
-    img.src=card.img;img.alt=card.title;
+    img.src='../img/histoire/'+card.img;img.alt=card.title;
     img.className='thumb'+(i===0?' cur':'');
     img.onclick=()=>{idx=i;advance();};
     img.title=card.title;
