@@ -37,13 +37,13 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
 .panel.active{display:block;}
 
 /* ══════════════ FRISE ══════════════ */
-.frise-container{max-width:960px;margin:40px auto 0;position:relative;}
+.frise-container{max-width:960px;margin:40px auto 0;}.frise-items-wrap{position:relative;}
 .frise-line{position:absolute;left:50%;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,transparent,rgba(78,221,138,.4) 5%,rgba(78,221,138,.4) 95%,transparent);transform:translateX(-50%);}
 .frise-item{display:flex;gap:40px;margin-bottom:64px;align-items:flex-start;}
-.frise-item:nth-child(even){flex-direction:row-reverse;}
+
 .frise-side{flex:1;display:flex;flex-direction:column;}
-.frise-item:nth-child(odd) .frise-side{align-items:flex-end;text-align:right;}
-.frise-item:nth-child(even) .frise-side{align-items:flex-start;text-align:left;}
+.frise-item.left .frise-side{align-items:flex-end;text-align:right;}
+.frise-item.right .frise-side{align-items:flex-start;text-align:left;}
 .frise-dot{width:18px;height:18px;border-radius:50%;background:var(--green);border:3px solid var(--bg);box-shadow:0 0 14px rgba(78,221,138,.6);flex-shrink:0;margin-top:8px;position:relative;z-index:2;}
 .frise-period{font-size:.58rem;letter-spacing:.22em;text-transform:uppercase;color:var(--green);margin-bottom:6px;opacity:.85;}
 .frise-discipline{display:inline-block;font-size:.5rem;letter-spacing:.16em;text-transform:uppercase;padding:2px 8px;border-radius:2px;border:1px solid rgba(78,221,138,.25);color:rgba(78,221,138,.6);margin-bottom:8px;}
@@ -95,8 +95,8 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
 
 @media(max-width:700px){
   .frise-line{left:20px;}
-  .frise-item,.frise-item:nth-child(even){flex-direction:column;padding-left:48px;}
-  .frise-side,.frise-item:nth-child(odd) .frise-side,.frise-item:nth-child(even) .frise-side{align-items:flex-start;text-align:left;}
+  .frise-item,.frise-item.right{flex-direction:column;padding-left:48px;}
+  .frise-side,.frise-item:nth-child(odd) .frise-side,.frise-item.right .frise-side{align-items:flex-start;text-align:left;}
   .frise-item:nth-child(odd) .frise-anecdote{border-left:2px solid rgba(212,168,67,.4);border-right:none;border-radius:0 6px 6px 0;}
   .frise-dot{position:absolute;left:12px;}
   .demos-grid{grid-template-columns:1fr;}
@@ -126,9 +126,10 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
 <!-- ══════════ FRISE ══════════ -->
 <div class="panel active" id="panel-frise">
 <div class="frise-container">
+<div class="frise-items-wrap">
 <div class="frise-line"></div>
 
-<div class="frise-item">
+<div class="frise-item left">
   <div class="frise-side">
     <div class="frise-period">− 350 av. J.-C.</div>
     <div class="frise-discipline">Biologie · Physique</div>
@@ -140,7 +141,7 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
   <div style="flex:1"></div>
 </div>
 
-<div class="frise-item">
+<div class="frise-item right">
   <div style="flex:1"></div>
   <div class="frise-dot"></div>
   <div class="frise-side">
@@ -152,7 +153,7 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
   </div>
 </div>
 
-<div class="frise-item">
+<div class="frise-item left">
   <div class="frise-side">
     <div class="frise-period">1543</div>
     <div class="frise-discipline">Astronomie</div>
@@ -164,7 +165,7 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
   <div style="flex:1"></div>
 </div>
 
-<div class="frise-item">
+<div class="frise-item right">
   <div style="flex:1"></div>
   <div class="frise-dot"></div>
   <div class="frise-side">
@@ -176,7 +177,7 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
   </div>
 </div>
 
-<div class="frise-item">
+<div class="frise-item left">
   <div class="frise-side">
     <div class="frise-period">1628</div>
     <div class="frise-discipline">Biologie · Médecine</div>
@@ -188,7 +189,7 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
   <div style="flex:1"></div>
 </div>
 
-<div class="frise-item">
+<div class="frise-item right">
   <div style="flex:1"></div>
   <div class="frise-dot"></div>
   <div class="frise-side">
@@ -200,7 +201,7 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
   </div>
 </div>
 
-<div class="frise-item">
+<div class="frise-item left">
   <div class="frise-side">
     <div class="frise-period">1789</div>
     <div class="frise-discipline">Chimie</div>
@@ -212,7 +213,7 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
   <div style="flex:1"></div>
 </div>
 
-<div class="frise-item">
+<div class="frise-item right">
   <div style="flex:1"></div>
   <div class="frise-dot"></div>
   <div class="frise-side">
@@ -224,7 +225,7 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
   </div>
 </div>
 
-<div class="frise-item">
+<div class="frise-item left">
   <div class="frise-side">
     <div class="frise-period">1865</div>
     <div class="frise-discipline">Biologie · Génétique</div>
@@ -236,7 +237,7 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
   <div style="flex:1"></div>
 </div>
 
-<div class="frise-item">
+<div class="frise-item right">
   <div style="flex:1"></div>
   <div class="frise-dot"></div>
   <div class="frise-side">
@@ -248,7 +249,7 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
   </div>
 </div>
 
-<div class="frise-item">
+<div class="frise-item left">
   <div class="frise-side">
     <div class="frise-period">1953</div>
     <div class="frise-discipline">Biologie · Génétique</div>
@@ -260,7 +261,7 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
   <div style="flex:1"></div>
 </div>
 
-<div class="frise-item">
+<div class="frise-item right">
   <div style="flex:1"></div>
   <div class="frise-dot"></div>
   <div class="frise-side">
