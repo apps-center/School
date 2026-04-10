@@ -38,10 +38,10 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
 .panel.active{display:block;}
 
 /* ══════════════ FRISE ══════════════ */
-.frise-container{max-width:960px;margin:40px auto 0;}.frise-items-wrap{position:relative;}
+.frise-container{max-width:960px;margin:40px auto 0;position:relative;}
+.frise-items-wrap{position:relative;}
 .frise-line{position:absolute;left:50%;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,transparent,rgba(74,158,221,.4) 5%,rgba(74,158,221,.4) 95%,transparent);transform:translateX(-50%);}
 .frise-item{display:flex;gap:40px;margin-bottom:64px;align-items:flex-start;}
-
 .frise-side{flex:1;display:flex;flex-direction:column;}
 .frise-item.left .frise-side{align-items:flex-end;text-align:right;}
 .frise-item.right .frise-side{align-items:flex-start;text-align:left;}
@@ -102,8 +102,8 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
 
 @media(max-width:700px){
   .frise-line{left:20px;}
-  .frise-item,.frise-item.right{flex-direction:column;padding-left:48px;}
-  .frise-side,.frise-item:nth-child(odd) .frise-side,.frise-item.right .frise-side{align-items:flex-start;text-align:left;}
+  .frise-item,.frise-item.left,.frise-item.right{flex-direction:column;padding-left:48px;}
+  .frise-side,.frise-item.left .frise-side,.frise-item.right .frise-side{align-items:flex-start;text-align:left;}
   .frise-item.left .frise-anecdote{border-left:2px solid rgba(212,168,67,.4);border-right:none;border-radius:0 6px 6px 0;text-align:left;}
   .frise-dot{position:absolute;left:12px;}
   .demos-grid{grid-template-columns:1fr;}
@@ -257,8 +257,8 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
   <div style="flex:1"></div>
 </div>
 
-</div>
-</div>
+</div><!-- /frise-items-wrap -->
+</div><!-- /frise-container -->
 
 <!-- ══════════ PANEL DÉMONSTRATIONS ══════════ -->
 <div class="panel" id="panel-demos">
@@ -575,6 +575,7 @@ h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem)
 </div>
 
 </div><!-- /content -->
+</div><!-- EXTRA CLOSE -->
 
 <script>
 function showTab(tab, btn){
