@@ -64,7 +64,7 @@ h1{font-family:'Cinzel',serif;font-size:clamp(1.8rem,5vw,3.6rem);font-weight:900
 .ev.L{flex-direction:row;}
 .ev.R{flex-direction:row-reverse;}
 
-.card{width:calc(50% - 42px);padding:14px 16px 12px;border-radius:4px;
+.card{width:calc(50% - 54px);padding:14px 16px 12px;border-radius:4px;
   border:1px solid rgba(200,180,120,.12);background:rgba(6,10,20,.88);
   backdrop-filter:blur(8px);position:relative;cursor:pointer;
   transition:transform .2s,border-color .2s,box-shadow .2s;}
@@ -79,6 +79,14 @@ h1{font-family:'Cinzel',serif;font-size:clamp(1.8rem,5vw,3.6rem);font-weight:900
   transform:translateX(-50%);border:2px solid var(--bg);z-index:2;transition:box-shadow .25s;}
 .ev:hover .dot{box-shadow:0 0 12px 4px currentColor;}
 .conn{width:42px;height:2px;background:var(--line);align-self:flex-start;margin-top:22px;flex-shrink:0;}
+
+/* IMAGE MINIATURE côté opposé à la carte */
+.ev-img{width:calc(50% - 42px);flex-shrink:0;display:flex;align-items:flex-start;}
+.ev-img img{width:100%;max-height:130px;object-fit:cover;border-radius:5px;
+  border:1px solid rgba(200,180,120,.18);opacity:.75;
+  transition:opacity .3s,transform .3s,box-shadow .3s;cursor:pointer;}
+.ev:hover .ev-img img{opacity:1;transform:scale(1.025);box-shadow:0 4px 20px rgba(0,0,0,.5);}
+.ev-img-placeholder{width:calc(50% - 42px);flex-shrink:0;}
 
 .ctag{display:inline-block;font-size:.64rem;letter-spacing:.14em;text-transform:uppercase;
   padding:3px 9px;border-radius:3px;margin-bottom:7px;border:1px solid;opacity:.9;font-weight:600;}
@@ -192,6 +200,10 @@ footer{position:relative;z-index:10;text-align:center;padding:0 20px 50px;
 
   /* Cards full width */
   .card{width:100%;border-left-width:3px !important;}
+
+  /* Image côté opposé — masquée sur mobile, affichée sous la carte */
+  .ev-img,.ev-img-placeholder{display:none;}
+  .ev .card{grid-column:2;grid-row:1;width:100%;}
 
   /* Tabs: scrollable row */
   .tabs{gap:0;padding:10px 8px;overflow-x:auto;justify-content:flex-start;flex-wrap:nowrap;}
@@ -652,6 +664,9 @@ function renderBranch(branchId){
         // Full card
         const dir=side%2===0?'L':'R';side++;
         const d=document.createElement('div');d.className=`ev ${dir}`;
+        const imgHtml=ev.img
+          ?`<div class="conn"></div><div class="ev-img"><img src="img/${ev.img}" alt="${ev.title}" loading="lazy" title="${ev.title}"></div>`
+          :`<div class="conn"></div><div class="ev-img-placeholder"></div>`;
         d.innerHTML=`<div class="card era-col ${era.cls}" tabindex="0" role="button" aria-label="${ev.title}">
           <span class="ctag">${ev.tag||''}</span>
           <span class="cicon">${ev.icon||''}</span>
@@ -659,10 +674,14 @@ function renderBranch(branchId){
           <div class="ctitle">${ev.title}</div>
           <div class="cdesc">${ev.desc}</div>
           <div class="chint">✦ Cliquer pour les anecdotes</div>
-        </div><div class="conn"></div><div class="dot era-col ${era.cls}"></div>`;
+        </div><div class="conn"></div><div class="dot era-col ${era.cls}"></div>${imgHtml}`;
         d.querySelector('.card').addEventListener('click',()=>openModal(ev,era.cls));
         d.querySelector('.card').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' ')openModal(ev,era.cls);});
-        if(ev.img){const _p=new Image();_p.src='img/'+ev.img;}
+        if(ev.img){
+          const _p=new Image();_p.src='img/'+ev.img;
+          const imgEl=d.querySelector('.ev-img img');
+          if(imgEl)imgEl.addEventListener('click',()=>openModal(ev,era.cls));
+        }
         tl.appendChild(d);
       } else {
         // Compact pill — alternates side based on same counter
