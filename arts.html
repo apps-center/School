@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arts & Culture — L'Encyclopédie des Explorateurs</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#060a14; --gold:#d4a843; --gold-dim:rgba(200,180,120,.18);
+  --text:#e8dfc4; --text-dim:rgba(232,223,196,.48);
+  --card-bg:rgba(8,13,26,.94); --border:rgba(200,180,120,.18);
+  --rose:#e87ab0; --purple:#a87be8;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{background:var(--bg);color:var(--text);font-family:'Crimson Pro',Georgia,serif;min-height:100vh;overflow-x:hidden;}
+#stars{position:fixed;inset:0;z-index:0;pointer-events:none;}
+.content{position:relative;z-index:1;}
+
+/* BACK */
+.back{position:fixed;top:22px;left:24px;z-index:100;font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.25em;text-transform:uppercase;color:rgba(212,168,67,.5);text-decoration:none;display:flex;align-items:center;gap:8px;transition:color .2s;}
+.back:hover{color:var(--gold);}
+
+/* HEADER */
+header{text-align:center;padding:60px 20px 32px;}
+.enc-label{font-size:.68rem;letter-spacing:.38em;text-transform:uppercase;color:var(--text-dim);margin-bottom:12px;}
+h1{font-family:'Cinzel',serif;font-weight:900;font-size:clamp(1.8rem,5vw,3.4rem);background:linear-gradient(135deg,#f5d0e8,#e87ab0 38%,#c0a0f0 68%,#fff0f8);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1.1;}
+.tagline{margin-top:10px;font-size:.95rem;color:var(--text-dim);font-style:italic;}
+
+/* NAV TABS */
+.nav-tabs{display:flex;justify-content:center;gap:4px;padding:28px 20px 0;flex-wrap:wrap;}
+.tab-btn{font-family:'Cinzel',serif;font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;padding:12px 28px;border:1px solid var(--border);background:rgba(6,10,20,.9);color:var(--text-dim);cursor:pointer;transition:all .25s;border-radius:3px;}
+.tab-btn:hover{border-color:rgba(232,122,176,.4);color:var(--rose);}
+.tab-btn.active{border-color:var(--rose);color:var(--rose);background:rgba(232,122,176,.08);box-shadow:0 0 20px rgba(232,122,176,.12);}
+.tab-divider{height:1px;background:linear-gradient(to right,transparent,rgba(200,180,120,.2),transparent);margin:0 40px;}
+
+/* PANELS */
+.panel{display:none;padding:0 20px 80px;}
+.panel.active{display:block;}
+
+/* ═══════════════════════════════════════════
+   PANEL 1 — FRISE
+═══════════════════════════════════════════ */
+.frise-container{max-width:1000px;margin:40px auto 0;position:relative;}
+.frise-line{position:absolute;left:50%;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,transparent,rgba(232,122,176,.4) 5%,rgba(232,122,176,.4) 95%,transparent);transform:translateX(-50%);}
+.frise-item{display:flex;gap:40px;margin-bottom:60px;align-items:flex-start;}
+.frise-item:nth-child(even){flex-direction:row-reverse;}
+.frise-side{flex:1;display:flex;flex-direction:column;}
+.frise-item:nth-child(odd) .frise-side{align-items:flex-end;text-align:right;}
+.frise-item:nth-child(even) .frise-side{align-items:flex-start;text-align:left;}
+.frise-dot{width:16px;height:16px;border-radius:50%;background:var(--rose);border:3px solid var(--bg);box-shadow:0 0 12px rgba(232,122,176,.5);flex-shrink:0;margin-top:8px;position:relative;z-index:2;cursor:pointer;transition:transform .2s;}
+.frise-dot:hover{transform:scale(1.4);}
+.frise-period{font-size:.58rem;letter-spacing:.22em;text-transform:uppercase;color:var(--rose);margin-bottom:6px;opacity:.8;}
+.frise-title{font-family:'Cinzel',serif;font-size:1.1rem;font-weight:700;color:var(--text);margin-bottom:8px;cursor:pointer;}
+.frise-title:hover{color:var(--rose);}
+.frise-desc{font-size:.88rem;line-height:1.65;color:var(--text-dim);max-width:340px;}
+.frise-artists{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;}
+.frise-item:nth-child(odd) .frise-artists{justify-content:flex-end;}
+.artist-chip{font-size:.6rem;letter-spacing:.1em;padding:3px 10px;border-radius:2px;border:1px solid rgba(232,122,176,.25);color:rgba(232,122,176,.7);cursor:pointer;transition:all .18s;}
+.artist-chip:hover{border-color:var(--rose);color:var(--rose);background:rgba(232,122,176,.08);}
+.frise-thumb{width:100%;max-width:260px;height:160px;object-fit:cover;border-radius:6px;border:1px solid rgba(200,180,120,.15);margin-top:12px;cursor:pointer;transition:transform .25s,box-shadow .25s;}
+.frise-thumb:hover{transform:scale(1.03);box-shadow:0 8px 30px rgba(0,0,0,.5);}
+
+/* ═══════════════════════════════════════════
+   PANEL 2 — GALERIE
+═══════════════════════════════════════════ */
+.galerie-filters{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;padding:32px 20px 24px;}
+.gal-filter{font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.16em;text-transform:uppercase;padding:6px 14px;border-radius:3px;border:1px solid var(--border);background:rgba(6,10,20,.9);color:var(--text-dim);cursor:pointer;transition:all .2s;}
+.gal-filter:hover,.gal-filter.active{border-color:rgba(232,122,176,.5);color:var(--rose);background:rgba(232,122,176,.07);}
+.galerie-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px;max-width:1100px;margin:0 auto;padding:0 20px;}
+.oeuvre-card{position:relative;border-radius:8px;overflow:hidden;border:1px solid rgba(200,180,120,.12);cursor:pointer;transition:transform .28s cubic-bezier(.22,1,.36,1),box-shadow .28s;background:var(--card-bg);}
+.oeuvre-card:hover{transform:translateY(-5px) scale(1.01);box-shadow:0 12px 40px rgba(0,0,0,.6),0 0 20px rgba(232,122,176,.08);}
+.oeuvre-img{width:100%;height:200px;object-fit:cover;display:block;transition:transform .4s;}
+.oeuvre-card:hover .oeuvre-img{transform:scale(1.04);}
+.oeuvre-info{padding:14px 16px 16px;}
+.oeuvre-titre{font-family:'Cinzel',serif;font-size:.88rem;font-weight:700;color:var(--text);margin-bottom:4px;}
+.oeuvre-meta{font-size:.78rem;color:var(--text-dim);font-style:italic;}
+.oeuvre-mouvement{display:inline-block;margin-top:8px;font-size:.52rem;letter-spacing:.14em;text-transform:uppercase;padding:2px 8px;border-radius:2px;border:1px solid rgba(232,122,176,.25);color:rgba(232,122,176,.7);}
+
+/* ═══════════════════════════════════════════
+   PANEL 3 — ARTISTES
+═══════════════════════════════════════════ */
+.artistes-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px;max-width:1100px;margin:32px auto 0;padding:0 20px;}
+.artiste-card{background:var(--card-bg);border:1px solid rgba(200,180,120,.14);border-radius:8px;overflow:hidden;cursor:pointer;transition:transform .28s cubic-bezier(.22,1,.36,1),border-color .25s,box-shadow .28s;}
+.artiste-card:hover{transform:translateY(-4px);border-color:rgba(232,122,176,.3);box-shadow:0 8px 32px rgba(0,0,0,.5),0 0 20px rgba(232,122,176,.06);}
+.artiste-header{display:flex;gap:18px;padding:22px 22px 16px;}
+.artiste-portrait{width:72px;height:72px;border-radius:50%;object-fit:cover;border:2px solid rgba(232,122,176,.3);flex-shrink:0;}
+.artiste-portrait-placeholder{width:72px;height:72px;border-radius:50%;background:rgba(232,122,176,.1);border:2px solid rgba(232,122,176,.25);display:flex;align-items:center;justify-content:center;font-size:1.8rem;flex-shrink:0;}
+.artiste-meta{flex:1;}
+.artiste-nom{font-family:'Cinzel',serif;font-size:1rem;font-weight:700;color:var(--text);margin-bottom:4px;}
+.artiste-dates{font-size:.75rem;color:var(--text-dim);font-style:italic;margin-bottom:6px;}
+.artiste-style{font-size:.58rem;letter-spacing:.15em;text-transform:uppercase;padding:3px 10px;border-radius:2px;border:1px solid rgba(232,122,176,.25);color:rgba(232,122,176,.75);display:inline-block;}
+.artiste-bio{padding:0 22px 18px;font-size:.88rem;line-height:1.65;color:var(--text-dim);}
+.artiste-oeuvres{padding:0 22px 20px;}
+.artiste-oeuvres-label{font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);opacity:.6;margin-bottom:8px;}
+.artiste-oeuvres-list{display:flex;flex-wrap:wrap;gap:6px;}
+.oeuvre-tag{font-size:.6rem;padding:3px 8px;border-radius:2px;border:1px solid rgba(200,180,120,.16);color:rgba(232,223,196,.45);}
+
+/* ═══════════════════════════════════════════
+   MODAL
+═══════════════════════════════════════════ */
+.modal-bg{position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:200;display:flex;align-items:center;justify-content:center;padding:20px;opacity:0;pointer-events:none;transition:opacity .25s;}
+.modal-bg.open{opacity:1;pointer-events:all;}
+.modal{background:linear-gradient(145deg,#0a1220,#111e33);border:1px solid rgba(200,180,120,.2);border-radius:12px;max-width:820px;width:100%;max-height:90vh;overflow-y:auto;position:relative;transform:scale(.96);transition:transform .25s;}
+.modal-bg.open .modal{transform:scale(1);}
+.modal-close{position:absolute;top:16px;right:20px;font-size:1.4rem;color:var(--text-dim);cursor:pointer;transition:color .2s;z-index:10;}
+.modal-close:hover{color:var(--text);}
+.modal-img{width:100%;max-height:420px;object-fit:contain;background:#000;border-radius:12px 12px 0 0;}
+.modal-body{padding:28px 32px 32px;}
+.modal-badge{font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;color:var(--rose);border:1px solid rgba(232,122,176,.35);padding:3px 12px;border-radius:2px;display:inline-block;margin-bottom:14px;}
+.modal-titre{font-family:'Cinzel',serif;font-size:1.5rem;font-weight:900;color:var(--text);margin-bottom:6px;}
+.modal-meta{font-size:.9rem;color:var(--text-dim);font-style:italic;margin-bottom:18px;}
+.modal-desc{font-size:.95rem;line-height:1.8;color:rgba(232,223,196,.7);}
+@media(max-width:600px){.frise-line{left:24px;}.frise-item,.frise-item:nth-child(even){flex-direction:column;padding-left:50px;}.frise-side,.frise-item:nth-child(odd) .frise-side,.frise-item:nth-child(even) .frise-side{align-items:flex-start;text-align:left;}.frise-item:nth-child(odd) .frise-artists{justify-content:flex-start;}.frise-dot{position:absolute;left:16px;}}
+</style>
+</head>
+<body>
+<canvas id="stars"></canvas>
+<a class="back" href="accueil.html">← Accueil</a>
+
+<div class="content">
+<header>
+  <div class="enc-label">L'Encyclopédie des Explorateurs</div>
+  <h1>Arts & Culture</h1>
+  <p class="tagline">Frise des mouvements · Galerie des œuvres · Fiches artistes</p>
+</header>
+
+<div class="nav-tabs">
+  <button class="tab-btn active" onclick="showTab('frise',this)">📅 Frise chronologique</button>
+  <button class="tab-btn" onclick="showTab('galerie',this)">🖼 Galerie des œuvres</button>
+  <button class="tab-btn" onclick="showTab('artistes',this)">👤 Fiches artistes</button>
+</div>
+<div class="tab-divider" style="margin-top:20px;"></div>
+
+<!-- ══════════════ PANEL FRISE ══════════════ -->
+<div class="panel active" id="panel-frise">
+<div class="frise-container">
+  <div class="frise-line"></div>
+
+  <div class="frise-item">
+    <div class="frise-side">
+      <div class="frise-period">− 30 000 av. J.-C.</div>
+      <div class="frise-title" onclick="openModal('prehistoire')">Art Préhistorique</div>
+      <div class="frise-desc">Les premières expressions artistiques de l'humanité — peintures rupestres, sculptures et gravures. Lascaux, Altamira, la Vénus de Willendorf.</div>
+      <div class="frise-artists"><span class="artist-chip">Homo sapiens</span></div>
+      <img class="frise-thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Lascaux_painting.jpg/320px-Lascaux_painting.jpg" alt="Lascaux" onclick="openModal('prehistoire')">
+    </div>
+    <div class="frise-dot" onclick="openModal('prehistoire')"></div>
+    <div style="flex:1"></div>
+  </div>
+
+  <div class="frise-item">
+    <div style="flex:1"></div>
+    <div class="frise-dot" onclick="openModal('antiquite')"></div>
+    <div class="frise-side">
+      <div class="frise-period">− 3 000 av. J.-C. → 500 ap. J.-C.</div>
+      <div class="frise-title" onclick="openModal('antiquite')">Art Antique</div>
+      <div class="frise-desc">Égypte, Grèce, Rome — art au service des dieux et du pouvoir. Idéalisation du corps humain, fresque, mosaïque, sculpture monumentale.</div>
+      <div class="frise-artists"><span class="artist-chip">Phidias</span><span class="artist-chip">Praxitèle</span><span class="artist-chip">Myron</span></div>
+      <img class="frise-thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Great_Sphinx_of_Giza_-_20080716a.jpg/320px-Great_Sphinx_of_Giza_-_20080716a.jpg" alt="Sphinx" onclick="openModal('antiquite')">
+    </div>
+  </div>
+
+  <div class="frise-item">
+    <div class="frise-side">
+      <div class="frise-period">500 → 1400</div>
+      <div class="frise-title" onclick="openModal('medievale')">Art Médiéval</div>
+      <div class="frise-desc">L'art au service de Dieu — enluminures, vitraux, cathédrales gothiques. L'artiste reste anonyme, au profit du message religieux.</div>
+      <div class="frise-artists"><span class="artist-chip">Giotto</span><span class="artist-chip">Anonymes</span></div>
+      <img class="frise-thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Notre-Dame_de_Paris%2C_8_January_2013_002.jpg/320px-Notre-Dame_de_Paris%2C_8_January_2013_002.jpg" alt="Notre-Dame" onclick="openModal('medievale')">
+    </div>
+    <div class="frise-dot" onclick="openModal('medievale')"></div>
+    <div style="flex:1"></div>
+  </div>
+
+  <div class="frise-item">
+    <div style="flex:1"></div>
+    <div class="frise-dot" onclick="openModal('renaissance')"></div>
+    <div class="frise-side">
+      <div class="frise-period">1400 → 1600</div>
+      <div class="frise-title" onclick="openModal('renaissance')">Renaissance</div>
+      <div class="frise-desc">Retour à l'Antiquité, découverte de la perspective, humanisme. L'artiste devient un génie. Florence et Rome sont les capitales mondiales de l'art.</div>
+      <div class="frise-artists"><span class="artist-chip" onclick="showArtiste('davinci')">Léonard de Vinci</span><span class="artist-chip" onclick="showArtiste('michel_ange')">Michel-Ange</span><span class="artist-chip" onclick="showArtiste('raphael')">Raphaël</span></div>
+      <img class="frise-thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/240px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg" alt="Joconde" onclick="openModal('renaissance')">
+    </div>
+  </div>
+
+  <div class="frise-item">
+    <div class="frise-side">
+      <div class="frise-period">1600 → 1750</div>
+      <div class="frise-title" onclick="openModal('baroque')">Baroque</div>
+      <div class="frise-desc">Grandeur, mouvement, émotion dramatique. L'art au service de la Contre-Réforme. Contraste violent entre lumière et ombre (clair-obscur).</div>
+      <div class="frise-artists"><span class="artist-chip" onclick="showArtiste('caravage')">Caravage</span><span class="artist-chip" onclick="showArtiste('rembrandt')">Rembrandt</span><span class="artist-chip">Vélasquez</span><span class="artist-chip">Rubens</span></div>
+      <img class="frise-thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Caravaggio_-_The_Calling_of_Saint_Matthew.jpg/320px-Caravaggio_-_The_Calling_of_Saint_Matthew.jpg" alt="Caravage" onclick="openModal('baroque')">
+    </div>
+    <div class="frise-dot" onclick="openModal('baroque')"></div>
+    <div style="flex:1"></div>
+  </div>
+
+  <div class="frise-item">
+    <div style="flex:1"></div>
+    <div class="frise-dot" onclick="openModal('romantisme')"></div>
+    <div class="frise-side">
+      <div class="frise-period">1780 → 1850</div>
+      <div class="frise-title" onclick="openModal('romantisme')">Romantisme</div>
+      <div class="frise-desc">Réaction à la raison des Lumières — retour aux émotions, à la nature sauvage, à l'histoire. Les ruines, les tempêtes, le sublime.</div>
+      <div class="frise-artists"><span class="artist-chip">Delacroix</span><span class="artist-chip">Géricault</span><span class="artist-chip">Caspar Friedrich</span><span class="artist-chip">Turner</span></div>
+      <img class="frise-thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Camille_Corot_-_Haydee%2C_Souvenir_of_Greece.jpg/320px-Camille_Corot_-_Haydee%2C_Souvenir_of_Greece.jpg" alt="Romantisme" onclick="openModal('romantisme')">
+    </div>
+  </div>
+
+  <div class="frise-item">
+    <div class="frise-side">
+      <div class="frise-period">1860 → 1900</div>
+      <div class="frise-title" onclick="openModal('impressionnisme')">Impressionnisme</div>
+      <div class="frise-desc">Peindre la lumière et l'instant. Touches visibles, plein air, couleurs pures. Révolution contre l'académisme du Salon officiel parisien.</div>
+      <div class="frise-artists"><span class="artist-chip" onclick="showArtiste('monet')">Monet</span><span class="artist-chip" onclick="showArtiste('renoir')">Renoir</span><span class="artist-chip">Degas</span><span class="artist-chip">Pissarro</span></div>
+      <img class="frise-thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/320px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg" alt="Monet" onclick="openModal('impressionnisme')">
+    </div>
+    <div class="frise-dot" onclick="openModal('impressionnisme')"></div>
+    <div style="flex:1"></div>
+  </div>
+
+  <div class="frise-item">
+    <div style="flex:1"></div>
+    <div class="frise-dot" onclick="openModal('postimpressionnisme')"></div>
+    <div class="frise-side">
+      <div class="frise-period">1886 → 1910</div>
+      <div class="frise-title" onclick="openModal('postimpressionnisme')">Post-Impressionnisme</div>
+      <div class="frise-desc">Chacun pousse l'impressionnisme à ses limites. Cézanne construit la forme, Gauguin part vers l'exotisme, Van Gogh libère l'émotion.</div>
+      <div class="frise-artists"><span class="artist-chip" onclick="showArtiste('vangogh')">Van Gogh</span><span class="artist-chip">Cézanne</span><span class="artist-chip">Gauguin</span><span class="artist-chip">Seurat</span></div>
+      <img class="frise-thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/320px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" alt="Van Gogh" onclick="openModal('postimpressionnisme')">
+    </div>
+  </div>
+
+  <div class="frise-item">
+    <div class="frise-side">
+      <div class="frise-period">1907 → 1940</div>
+      <div class="frise-title" onclick="openModal('modernisme')">Modernisme & Avant-gardes</div>
+      <div class="frise-desc">Cubisme, Fauvisme, Dadaïsme, Surréalisme, Abstraction — rupture totale avec la représentation classique. L'art questionne sa propre nature.</div>
+      <div class="frise-artists"><span class="artist-chip" onclick="showArtiste('picasso')">Picasso</span><span class="artist-chip" onclick="showArtiste('dali')">Dalí</span><span class="artist-chip">Matisse</span><span class="artist-chip">Kandinsky</span></div>
+      <img class="frise-thumb" src="https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Guernica.jpg/320px-Guernica.jpg" alt="Guernica" onclick="openModal('modernisme')">
+    </div>
+    <div class="frise-dot" onclick="openModal('modernisme')"></div>
+    <div style="flex:1"></div>
+  </div>
+
+  <div class="frise-item">
+    <div style="flex:1"></div>
+    <div class="frise-dot" onclick="openModal('contemporain')"></div>
+    <div class="frise-side">
+      <div class="frise-period">1945 → aujourd'hui</div>
+      <div class="frise-title" onclick="openModal('contemporain')">Art Contemporain</div>
+      <div class="frise-desc">Pop Art, Art Conceptuel, Street Art, Art Numérique — plus de frontières. L'œuvre peut être une idée, un geste, une installation ou un NFT.</div>
+      <div class="frise-artists"><span class="artist-chip">Warhol</span><span class="artist-chip">Basquiat</span><span class="artist-chip">Banksy</span><span class="artist-chip">Koons</span></div>
+      <img class="frise-thumb" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Andy_Warhol%2C_1963.jpg/240px-Andy_Warhol%2C_1963.jpg" alt="Pop Art" onclick="openModal('contemporain')">
+    </div>
+  </div>
+
+</div>
+</div>
+
+<!-- ══════════════ PANEL GALERIE ══════════════ -->
+<div class="panel" id="panel-galerie">
+<div class="galerie-filters">
+  <button class="gal-filter active" onclick="filterGalerie('all',this)">Tout</button>
+  <button class="gal-filter" onclick="filterGalerie('Renaissance',this)">Renaissance</button>
+  <button class="gal-filter" onclick="filterGalerie('Baroque',this)">Baroque</button>
+  <button class="gal-filter" onclick="filterGalerie('Impressionnisme',this)">Impressionnisme</button>
+  <button class="gal-filter" onclick="filterGalerie('Post-Impressionnisme',this)">Post-Imp.</button>
+  <button class="gal-filter" onclick="filterGalerie('Modernisme',this)">Modernisme</button>
+</div>
+<div class="galerie-grid" id="galerie-grid"></div>
+</div>
+
+<!-- ══════════════ PANEL ARTISTES ══════════════ -->
+<div class="panel" id="panel-artistes">
+<div class="artistes-grid" id="artistes-grid"></div>
+</div>
+
+</div><!-- /content -->
+
+<!-- MODAL -->
+<div class="modal-bg" id="modal-bg" onclick="closeModal(event)">
+  <div class="modal" id="modal">
+    <span class="modal-close" onclick="closeModal()">✕</span>
+    <img class="modal-img" id="modal-img" src="" alt="">
+    <div class="modal-body">
+      <div class="modal-badge" id="modal-badge"></div>
+      <div class="modal-titre" id="modal-titre"></div>
+      <div class="modal-meta" id="modal-meta"></div>
+      <div class="modal-desc" id="modal-desc"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ═══ DONNÉES ═══ */
+const MOUVEMENTS = {
+  prehistoire:{badge:"− 30 000 av. J.-C.",titre:"Art Préhistorique",meta:"Lascaux · Altamira · Vénus de Willendorf",img:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Lascaux_painting.jpg/800px-Lascaux_painting.jpg",desc:"Les premières œuvres humaines datent de plus de 30 000 ans. Dans les grottes de Lascaux (France) et Altamira (Espagne), les hommes du Paléolithique ont représenté animaux, mains et scènes de chasse avec une maîtrise étonnante. La Vénus de Willendorf (~25 000 av. J.-C.) est l'une des premières sculptures connues. Ces œuvres avaient probablement une fonction rituelle et magique."},
+  antiquite:{badge:"−3000 → 500 ap. J.-C.",titre:"Art Antique",meta:"Égypte · Grèce · Rome",img:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Great_Sphinx_of_Giza_-_20080716a.jpg/800px-Great_Sphinx_of_Giza_-_20080716a.jpg",desc:"L'art antique couvre trois grandes civilisations. L'Égypte produit un art symbolique et hiérarchique (pyramides, fresques, hiéroglyphes). La Grèce invente l'idéal de beauté (le 'kalos kagathos') et perfectionne la représentation du corps humain. Rome adapte et diffuse cet héritage avec l'architecture monumentale, la mosaïque et la fresque. La perspective n'est pas encore découverte."},
+  medievale:{badge:"500 → 1400",titre:"Art Médiéval",meta:"Enluminures · Vitraux · Architecture gothique",img:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Notre-Dame_de_Paris%2C_8_January_2013_002.jpg/600px-Notre-Dame_de_Paris%2C_8_January_2013_002.jpg",desc:"L'art médiéval est essentiellement religieux. L'artiste reste anonyme — seule la gloire de Dieu compte. Les cathédrales gothiques (Notre-Dame, Chartres) sont de véritables encyclopédies de pierre. Les enluminures des manuscrits et les vitraux transmettent les textes sacrés à une population analphabète. Giotto di Bondone (1267-1337) introduit les prémices de la perspective."},
+  renaissance:{badge:"1400 → 1600",titre:"Renaissance",meta:"Florence · Rome · Venise",img:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/600px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",desc:"La Renaissance est une révolution artistique et intellectuelle née à Florence. Le retour aux textes grecs et latins, la découverte de la perspective linéaire (Brunelleschi, 1420) et l'humanisme transforment l'art. Léonard de Vinci incarne le génie universel de cette époque. Michel-Ange peint le plafond de la Chapelle Sixtine (1508-1512). Raphaël parfait l'harmonie classique. L'artiste n'est plus un artisan anonyme mais un créateur reconnu."},
+  baroque:{badge:"1600 → 1750",titre:"Baroque",meta:"Rome · Flandres · Espagne · Pays-Bas",img:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Caravaggio_-_The_Calling_of_Saint_Matthew.jpg/800px-Caravaggio_-_The_Calling_of_Saint_Matthew.jpg",desc:"Le Baroque naît à Rome dans le contexte de la Contre-Réforme catholique. L'art doit émouvoir et convaincre. Caravage révolutionne la peinture avec son clair-obscur radical (tenebrismo). Rembrandt maîtrise la lumière comme personne. Rubens exprime la vitalité charnelle. Le Baroque se distingue par le mouvement, le dramatisme et la grandeur — pensez à Versailles ou au Bernin."},
+  romantisme:{badge:"1780 → 1850",titre:"Romantisme",meta:"France · Allemagne · Angleterre",img:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg/600px-Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg",desc:"Le Romantisme est une réaction contre la froide raison des Lumières et le néoclassicisme. Les artistes célèbrent les émotions, la nature sauvage, l'histoire médiévale. 'Le Voyageur au-dessus de la mer de nuages' de Friedrich symbolise l'individu face au sublime de la nature. Delacroix, avec 'La Liberté guidant le peuple', politise l'art romantique. Géricault choque avec 'Le Radeau de la Méduse'."},
+  impressionnisme:{badge:"1860 → 1900",titre:"Impressionnisme",meta:"Paris — Salon des Refusés 1863",img:"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/800px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg",desc:"L'Impressionnisme naît du rejet — les œuvres de Monet, Renoir, Degas sont refusées par le Salon officiel en 1863. Ils exposent alors au 'Salon des Refusés'. Le critique Louis Leroy invente le terme 'impressionniste' par dérision, à partir d''Impression, soleil levant' de Monet (1872). Ces artistes peignent en plein air, capturant la lumière changeante avec des touches courtes et des couleurs pures, brisant les contours nets."},
+  postimpressionnisme:{badge:"1886 → 1910",titre:"Post-Impressionnisme",meta:"Van Gogh · Cézanne · Gauguin · Seurat",img:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/800px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",desc:"Le Post-Impressionnisme n'est pas un mouvement unifié mais une série de réactions individuelles à l'Impressionnisme. Cézanne veut 'faire du Poussin sur nature' — ses géométrisations préparent le Cubisme. Gauguin fuit la civilisation pour Tahiti, cherchant un art primitif et symbolique. Van Gogh libère la couleur et le geste expressif, préfigurant l'Expressionnisme. Seurat invente le Pointillisme, appliquant les théories scientifiques de la couleur."},
+  modernisme:{badge:"1905 → 1945",titre:"Modernisme & Avant-gardes",meta:"Fauvisme · Cubisme · Dada · Surréalisme · Abstraction",img:"https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Guernica.jpg/800px-Guernica.jpg",desc:"Le XXe siècle est une explosion de mouvements. Le Fauvisme (Matisse) libère la couleur de toute contrainte. Le Cubisme (Picasso, Braque) déconstruit la perspective en montrant plusieurs angles simultanément. Dada (Duchamp, 'Fontaine' 1917) conteste la notion même d'art. Le Surréalisme (Dalí, Magritte) explore l'inconscient freudien. L'Abstraction (Kandinsky, Mondrian) abandonne toute référence au réel. Guernica (1937) de Picasso est le chef-d'œuvre politique du siècle."},
+  contemporain:{badge:"1945 → aujourd'hui",titre:"Art Contemporain",meta:"Pop Art · Art Conceptuel · Street Art · Art Numérique",img:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Andy_Warhol%2C_1963.jpg/600px-Andy_Warhol%2C_1963.jpg",desc:"L'art d'après-guerre efface toutes les frontières. Le Pop Art (Warhol, Lichtenstein) intègre la culture de masse. L'Art Conceptuel (Beuys, Kosuth) affirme que l'idée prime sur l'objet. Le Street Art (Banksy, Basquiat) sort l'art dans la rue. Les installations (Serra, Turrell) transforment l'espace. L'art numérique et les NFTs ouvrent de nouvelles questions sur l'originalité et la valeur. Qu'est-ce qu'une œuvre d'art aujourd'hui ?"}
+};
+
+const OEUVRES = [
+  {id:'joconde',titre:'La Joconde',artiste:'Léonard de Vinci',date:'1503-1519',mouvement:'Renaissance',img:'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/300px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg',desc:"Portrait de Lisa Gherardini, épouse de Francesco del Giocondo. Le sourire énigmatique et le sfumato en font l'œuvre la plus célèbre du monde. Conservée au Louvre, Paris."},
+  {id:'creation',titre:'La Création d\'Adam',artiste:'Michel-Ange',date:'1508-1512',mouvement:'Renaissance',img:'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg/320px-Michelangelo_-_Creation_of_Adam_%28cropped%29.jpg',desc:"Fresque du plafond de la Chapelle Sixtine. Le doigt de Dieu et le doigt d'Adam, séparés par un espace infime, est l'une des images les plus reconnues de l'histoire de l'art."},
+  {id:'nuitsteilee',titre:'La Nuit étoilée',artiste:'Vincent van Gogh',date:'1889',mouvement:'Post-Impressionnisme',img:'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/320px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg',desc:"Peinte depuis sa chambre à l'asile de Saint-Rémy-de-Provence. Les tourbillons d'étoiles expriment l'agitation intérieure de Van Gogh. MoMA, New York."},
+  {id:'guernica',titre:'Guernica',artiste:'Pablo Picasso',date:'1937',mouvement:'Modernisme',img:'https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Guernica.jpg/320px-Guernica.jpg',desc:"Réponse au bombardement de la ville basque de Guernica par les nazis. Chef-d'œuvre du cubisme et symbole anti-guerre universel. Musée Reina Sofía, Madrid."},
+  {id:'impression',titre:'Impression, soleil levant',artiste:'Claude Monet',date:'1872',mouvement:'Impressionnisme',img:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet%2C_Impression%2C_soleil_levant.jpg/320px-Claude_Monet%2C_Impression%2C_soleil_levant.jpg',desc:"Cette œuvre a donné son nom à tout le mouvement impressionniste. Le critique Louis Leroy l'utilisa par moquerie, mais le terme fut adopté avec fierté. Musée Marmottan, Paris."},
+  {id:'caravage_matthieu',titre:'La Vocation de Saint Matthieu',artiste:'Caravage',date:'1599-1600',mouvement:'Baroque',img:'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Caravaggio_-_The_Calling_of_Saint_Matthew.jpg/320px-Caravaggio_-_The_Calling_of_Saint_Matthew.jpg',desc:"Le rayon de lumière qui traverse l'obscurité, désignant Matthieu parmi les collecteurs de taxes, est l'exemple parfait du clair-obscur révolutionnaire de Caravage. Église San Luigi dei Francesi, Rome."},
+  {id:'venus_naissance',titre:'La Naissance de Vénus',artiste:'Sandro Botticelli',date:'1484-1486',mouvement:'Renaissance',img:'https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/320px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg',desc:"Commande des Médicis. La déesse Vénus émerge de l'écume de la mer sur un coquillage. Allégorie néoplatonicienne de la beauté. Galerie des Offices, Florence."},
+  {id:'persistance',titre:'La Persistance de la mémoire',artiste:'Salvador Dalí',date:'1931',mouvement:'Modernisme',img:'https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/The_Persistence_of_Memory.jpg/320px-The_Persistence_of_Memory.jpg',desc:"Les montres molles fondent dans un paysage aride — métaphore du temps subjectif et de la fluidité de la mémoire. Chef-d'œuvre du surréalisme. MoMA, New York."},
+  {id:'nympheas',titre:'Les Nymphéas',artiste:'Claude Monet',date:'1896-1926',mouvement:'Impressionnisme',img:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg/320px-Claude_Monet_-_Water_Lilies_-_1906%2C_Ryerson.jpg',desc:"Plus de 250 variations sur le même motif — le bassin de son jardin à Giverny. Les Grandes Décorations de l'Orangerie à Paris forment un ensemble immersif de 100 mètres de long."},
+  {id:'dejeuner',titre:'Le Déjeuner sur l\'herbe',artiste:'Édouard Manet',date:'1863',mouvement:'Impressionnisme',img:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Edouard_Manet_-_Le_D%C3%A9jeuner_sur_l%27herbe_-_Google_Art_Project.jpg/320px-Edouard_Manet_-_Le_D%C3%A9jeuner_sur_l%27herbe_-_Google_Art_Project.jpg',desc:"Scandale au Salon des Refusés de 1863 : une femme nue regarde le spectateur en face, entourée d'hommes habillés. Manet rompt avec les conventions académiques. Musée d'Orsay, Paris."},
+  {id:'nuit_rembrandt',titre:'La Ronde de nuit',artiste:'Rembrandt',date:'1642',mouvement:'Baroque',img:'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Night_Watch_-_HD.jpg/320px-The_Night_Watch_-_HD.jpg',desc:"Portrait de groupe de la milice d'Amsterdam. L'utilisation révolutionnaire de la lumière et du mouvement en fait le plus célèbre tableau hollandais. Rijksmuseum, Amsterdam."},
+  {id:'cri',titre:'Le Cri',artiste:'Edvard Munch',date:'1893',mouvement:'Post-Impressionnisme',img:'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/320px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg',desc:"L'icône de l'angoisse moderne. Munch décrit dans son journal avoir ressenti 'un cri infini traversant la nature'. Préfigure l'Expressionnisme allemand. Galerie Nationale, Oslo."},
+];
+
+const ARTISTES = [
+  {id:'davinci',nom:'Léonard de Vinci',dates:'1452 – 1519',style:'Renaissance',nationalite:'Italien',portrait:'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Leonardo_self_portrait.jpg/200px-Leonardo_self_portrait.jpg',bio:"Peintre, sculpteur, architecte, ingénieur, scientifique et musicien — Léonard incarne le génie universel de la Renaissance. Son insatiable curiosité le conduit à étudier l'anatomie, l'hydrodynamique, l'aviation et la botanique.",oeuvres:['La Joconde','La Cène','Vitruve','La Vierge aux rochers']},
+  {id:'michel_ange',nom:'Michel-Ange',dates:'1475 – 1564',style:'Renaissance',nationalite:'Italien',portrait:'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg/200px-Miguel_%C3%81ngel%2C_por_Daniele_da_Volterra_%28detalle%29.jpg',bio:"Sculpteur, peintre, architecte et poète. Il est l'auteur du David, de la Pietà et du plafond de la Chapelle Sixtine — œuvres qui restent parmi les sommets absolus de la civilisation occidentale.",oeuvres:['Le Plafond de la Sixtine','Le David','La Pietà','Le Jugement dernier']},
+  {id:'raphael',nom:'Raphaël',dates:'1483 – 1520',style:'Renaissance',nationalite:'Italien',portrait:'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Raffaello_Sanzio.jpg/200px-Raffaello_Sanzio.jpg',bio:"Mort à 37 ans, Raphaël a laissé une œuvre d'une harmonie et d'une grâce incomparables. Ses Madones et ses fresques du Vatican (L'École d'Athènes) définissent l'idéal classique de la beauté.",oeuvres:["L'École d'Athènes",'La Sixtine','Les Madones','Les Stances du Vatican']},
+  {id:'caravage',nom:'Caravage',dates:'1571 – 1610',style:'Baroque',nationalite:'Italien',portrait:'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Caravaggio_%28Michelangelo_Merisi%29_-_Self-Portrait_as_Sick_Bacchus_-_Google_Art_Project.jpg/200px-Caravaggio_%28Michelangelo_Merisi%29_-_Self-Portrait_as_Sick_Bacchus_-_Google_Art_Project.jpg',bio:"Génie turbulent et vie scandaleuse — il tue un homme en 1606 et finit banni de Rome. Sa technique du clair-obscur radical (tenebrismo) révolutionne la peinture européenne et influence encore les cinéastes aujourd'hui.",oeuvres:['La Vocation de Saint Matthieu','Judith et Holopherne','La Mise au tombeau','David avec la tête de Goliath']},
+  {id:'rembrandt',nom:'Rembrandt',dates:'1606 – 1669',style:'Baroque',nationalite:'Néerlandais',portrait:'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg/200px-Rembrandt_van_Rijn_-_Self-Portrait_-_Google_Art_Project.jpg',bio:"Le maître hollandais de la lumière. Ses autoportraits (plus de 80 !) forment un journal intime unique. Ruiné à la fin de sa vie, il continue de peindre jusqu'à sa mort avec une profondeur psychologique inégalée.",oeuvres:['La Ronde de nuit','La Leçon d\'anatomie','Les autoportraits','La Fiancée juive']},
+  {id:'monet',nom:'Claude Monet',dates:'1840 – 1926',style:'Impressionnisme',nationalite:'Français',portrait:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Claude_Monet_1899_Nadar_crop.jpg/200px-Claude_Monet_1899_Nadar_crop.jpg',bio:"Chef de file de l'impressionnisme, Monet consacre sa vie à peindre la lumière changeante. Il crée son célèbre jardin de Giverny en Normandie et peindra le même motif des Nymphéas pendant 30 ans, malgré la cataracte.",oeuvres:['Les Nymphéas','Impression soleil levant','La Cathédrale de Rouen','Les Meules']},
+  {id:'renoir',nom:'Auguste Renoir',dates:'1841 – 1919',style:'Impressionnisme',nationalite:'Français',portrait:'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Pierre-Auguste_Renoir_-_Self-Portrait_1876.jpg/200px-Pierre-Auguste_Renoir_-_Self-Portrait_1876.jpg',bio:"Renoir célèbre la joie de vivre, les corps lumineux et la convivialité. Son tableau 'Le Bal du Moulin de la Galette' capture le Paris populaire du XIXe siècle. Atteint de polyarthrite rhumatoïde, il peindra encore le pinceau attaché à la main.",oeuvres:['Bal du Moulin de la Galette','Les Grandes Baigneuses','La Loge','Portrait de Jeanne Samary']},
+  {id:'vangogh',nom:'Vincent van Gogh',dates:'1853 – 1890',style:'Post-Impressionnisme',nationalite:'Néerlandais',portrait:'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg/200px-Vincent_van_Gogh_-_Self-Portrait_-_Google_Art_Project_%28454045%29.jpg',bio:"Mort à 37 ans après une vie de souffrance et de passion, Van Gogh n'a vendu qu'un seul tableau de son vivant. Il lègue 900 peintures et 1100 dessins au monde. Sa correspondance avec son frère Theo est un document humain exceptionnel.",oeuvres:['La Nuit étoilée','Les Tournesols','La Chambre à Arles','Autoportrait à l\'oreille bandée']},
+  {id:'picasso',nom:'Pablo Picasso',dates:'1881 – 1973',style:'Cubisme / Modernisme',nationalite:'Espagnol',portrait:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pablo_picasso_1.jpg/200px-Pablo_picasso_1.jpg',bio:"L'artiste le plus influent du XXe siècle. Co-fondateur du Cubisme avec Braque, Picasso traverse plusieurs périodes (bleue, rose, cubiste, classique, surréaliste). Il reste productif jusqu'à 91 ans, laissant plus de 20 000 œuvres.",oeuvres:['Guernica','Les Demoiselles d\'Avignon','Le Vieux Guitariste','Portrait de Dora Maar']},
+  {id:'dali',nom:'Salvador Dalí',dates:'1904 – 1989',style:'Surréalisme',nationalite:'Espagnol',portrait:'https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Portrait_of_Salvador_Dal%C3%AD_%28HS85-10-36%29_EDIT.jpg/200px-Portrait_of_Salvador_Dal%C3%AD_%28HS85-10-36%29_EDIT.jpg',bio:"Maître du surréalisme et personnage excentrique. Dalí transforme ses rêves et obsessions en peintures d'une précision technique parfaite. Il crée son propre musée-théâtre à Figueras (Espagne), véritable œuvre d'art totale.",oeuvres:['La Persistance de la mémoire','La Tentation de Saint Antoine','Christ de Saint Jean de la Croix','Rêve causé par le vol d\'une abeille']},
+];
+
+/* ═══ NAVIGATION ═══ */
+function showTab(tab, btn){
+  document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('panel-'+tab).classList.add('active');
+  if(tab==='galerie' && !document.querySelector('.oeuvre-card')) buildGalerie();
+  if(tab==='artistes' && !document.querySelector('.artiste-card')) buildArtistes();
+}
+
+/* ═══ GALERIE ═══ */
+function buildGalerie(filtre='all'){
+  const grid = document.getElementById('galerie-grid');
+  grid.innerHTML='';
+  const liste = filtre==='all' ? OEUVRES : OEUVRES.filter(o=>o.mouvement===filtre);
+  liste.forEach(o=>{
+    const el=document.createElement('div');
+    el.className='oeuvre-card';
+    el.innerHTML=`<img class="oeuvre-img" src="${o.img}" alt="${o.titre}" loading="lazy">
+    <div class="oeuvre-info">
+      <div class="oeuvre-titre">${o.titre}</div>
+      <div class="oeuvre-meta">${o.artiste} · ${o.date}</div>
+      <div class="oeuvre-mouvement">${o.mouvement}</div>
+    </div>`;
+    el.onclick=()=>openOeuvreModal(o);
+    grid.appendChild(el);
+  });
+}
+function filterGalerie(filtre, btn){
+  document.querySelectorAll('.gal-filter').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  buildGalerie(filtre);
+}
+function openOeuvreModal(o){
+  document.getElementById('modal-img').src=o.img;
+  document.getElementById('modal-badge').textContent=o.mouvement;
+  document.getElementById('modal-titre').textContent=o.titre;
+  document.getElementById('modal-meta').textContent=o.artiste+' · '+o.date;
+  document.getElementById('modal-desc').textContent=o.desc;
+  document.getElementById('modal-bg').classList.add('open');
+}
+
+/* ═══ ARTISTES ═══ */
+function buildArtistes(){
+  const grid=document.getElementById('artistes-grid');
+  grid.innerHTML='';
+  ARTISTES.forEach(a=>{
+    const el=document.createElement('div');
+    el.className='artiste-card';
+    const portrait=a.portrait
+      ? `<img class="artiste-portrait" src="${a.portrait}" alt="${a.nom}" loading="lazy">`
+      : `<div class="artiste-portrait-placeholder">👤</div>`;
+    el.innerHTML=`
+    <div class="artiste-header">
+      ${portrait}
+      <div class="artiste-meta">
+        <div class="artiste-nom">${a.nom}</div>
+        <div class="artiste-dates">${a.dates} · ${a.nationalite}</div>
+        <div class="artiste-style">${a.style}</div>
+      </div>
+    </div>
+    <div class="artiste-bio">${a.bio}</div>
+    <div class="artiste-oeuvres">
+      <div class="artiste-oeuvres-label">Œuvres clés</div>
+      <div class="artiste-oeuvres-list">${a.oeuvres.map(o=>`<span class="oeuvre-tag">${o}</span>`).join('')}</div>
+    </div>`;
+    grid.appendChild(el);
+  });
+}
+function showArtiste(id){
+  showTab('artistes', document.querySelectorAll('.tab-btn')[2]);
+  if(!document.querySelector('.artiste-card')) buildArtistes();
+  setTimeout(()=>{
+    const cards=[...document.querySelectorAll('.artiste-card')];
+    const idx=ARTISTES.findIndex(a=>a.id===id);
+    if(idx>=0) cards[idx].scrollIntoView({behavior:'smooth',block:'center'});
+  },100);
+}
+
+/* ═══ MODAL FRISE ═══ */
+function openModal(id){
+  const m=MOUVEMENTS[id]; if(!m) return;
+  document.getElementById('modal-img').src=m.img;
+  document.getElementById('modal-badge').textContent=m.badge;
+  document.getElementById('modal-titre').textContent=m.titre;
+  document.getElementById('modal-meta').textContent=m.meta;
+  document.getElementById('modal-desc').textContent=m.desc;
+  document.getElementById('modal-bg').classList.add('open');
+}
+function closeModal(e){
+  if(!e||e.target===document.getElementById('modal-bg')||e.type==='click'&&!e.target.closest('.modal'))
+    document.getElementById('modal-bg').classList.remove('open');
+}
+document.getElementById('modal-bg').addEventListener('click',e=>{
+  if(e.target===document.getElementById('modal-bg')) closeModal();
+});
+
+/* ═══ STARS ═══ */
+(function(){
+  const c=document.getElementById('stars'),ctx=c.getContext('2d');let W,H,stars=[];
+  function resize(){W=c.width=innerWidth;H=c.height=innerHeight;}
+  function init(){stars=[];for(let i=0;i<180;i++)stars.push({x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.1+.2,a:Math.random()*.6+.1,sp:Math.random()*.4+.1,ph:Math.random()*Math.PI*2});}
+  function draw(t){ctx.clearRect(0,0,W,H);stars.forEach(s=>{const a=s.a*(0.6+0.4*Math.sin(t*.001*s.sp+s.ph));ctx.beginPath();ctx.arc(s.x,s.y,s.r,0,Math.PI*2);ctx.fillStyle=`rgba(255,210,230,${a})`;ctx.fill();});requestAnimationFrame(draw);}
+  window.addEventListener('resize',()=>{resize();init();});
+  resize();init();requestAnimationFrame(draw);
+})();
+</script>
+</body>
+</html>
