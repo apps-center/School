@@ -202,7 +202,8 @@
           "q": "Combien d'années une forêt met-elle pour produire 1 cm de sol fertile ?",
           "r": "1 000 ans",
           "hint": "Les plantes ont littéralement fabriqué la terre depuis la roche nue"
-        }
+        },
+        "img": "histoire/Premiers_pas_de_la_vie_végétale.webp"
       },
       {
         "icon": "🦕",
@@ -318,7 +319,8 @@
           "q": "Pendant combien de millions d'années le biface a-t-il été utilisé sans modification ?",
           "r": "1,5 million d'années",
           "hint": "La plus longue tradition technologique de toute l'histoire humaine"
-        }
+        },
+        "img": "histoire/L'artisanat_préhistorique_à_l'ère_de_la_pierre.webp"
       },
       {
         "icon": "🔥",
@@ -372,7 +374,8 @@
           "q": "Dans quelle ville allemande ont été retrouvées les 8 lances en bois vieilles de 400 000 ans ?",
           "r": "Schöningen",
           "hint": "Leur équilibre est identique à celui d'un javelot olympique moderne"
-        }
+        },
+        "img": "histoire/Chasseur_préhistorique_et_mammouth_sauvage.webp"
       },
       {
         "icon": "🧠",
@@ -793,7 +796,8 @@
           "q": "Par quel pont terrestre les premiers humains ont-ils rejoint l'Amérique depuis la Sibérie ?",
           "r": "La Béringie",
           "hint": "Une vaste plaine aujourd'hui engloutie sous le détroit de Béring"
-        }
+        },
+        "img": "histoire/Groupe_préhistorique_dans_la_tempête_de_neige.webp"
       },
       {
         "icon": "🌾",
