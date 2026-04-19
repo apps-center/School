@@ -1,0 +1,811 @@
+[
+  {
+    "era": "Renaissance",
+    "events": [
+      {
+        "title": "La Joconde — Léonard de Vinci",
+        "artiste": "Léonard de Vinci",
+        "date": "1503–1519",
+        "mouvement": "Renaissance",
+        "img": "img/arts/joconde.webp",
+        "musee": "Musée du Louvre, Paris",
+        "technique": "Huile sur panneau de bois de peuplier, 77 × 53 cm",
+        "desc": "La Joconde est le tableau le plus célèbre et le plus visité du monde. Elle représente probablement Lisa Gherardini, épouse d'un marchand florentin, mais son identité reste débattue. Léonard innove avec le sfumato — une technique de glacis superposés créant des contours flous et un modelé atmosphérique jamais vu. Son sourire ambigu et son regard qui suit le spectateur ont fasciné des générations de visiteurs.",
+        "anecdotes": [
+          {
+            "e": "🕵️",
+            "t": "<b>La Joconde a été volée en 1911.</b> Vincenzo Peruggia, un ouvrier du Louvre, la cacha sous son manteau. Le tableau disparut deux ans sans qu'on le retrouve. Pablo Picasso fut même interrogé comme suspect. Peruggia fut arrêté en 1913 en tentant de la vendre à un marchand florentin."
+          },
+          {
+            "e": "😐",
+            "t": "<b>Elle est plus petite que tout le monde ne l'imagine.</b> 77 × 53 cm — à peu près la taille d'une feuille A1. Les visiteurs du Louvre sont souvent déçus : ils s'attendent à une œuvre immense et découvrent un tableau que l'on pourrait porter sous le bras. Elle est protégée derrière un verre blindé depuis 1956."
+          },
+          {
+            "e": "🧬",
+            "t": "<b>Les sourcils de Mona Lisa ont disparu.</b> Léonard les avait peints, mais des restaurations maladroites au fil des siècles les ont effacés. Un ingénieur français a scanné le tableau en 2007 à ultra-haute résolution et retrouvé des traces d'un sourcil gauche à peine perceptible."
+          }
+        ],
+        "quiz": {
+          "q": "Quelle technique de Léonard crée les contours flous caractéristiques de la Joconde ?",
+          "r": "Le sfumato — des glacis translucides superposés qui fondent les contours dans la lumière",
+          "hint": "Ce mot vient de l'italien 'sfumare' : s'estomper, comme la fumée"
+        }
+      },
+      {
+        "title": "L'École d'Athènes — Raphaël",
+        "artiste": "Raphaël",
+        "date": "1509–1510",
+        "mouvement": "Renaissance",
+        "img": "img/arts/LEcole-dAthenes-de-Raphael.webp",
+        "musee": "Musées du Vatican, Rome",
+        "technique": "Fresque, 500 × 770 cm",
+        "desc": "Commandée par le pape Jules II pour décorer sa bibliothèque, L'École d'Athènes est le sommet de la peinture de la Haute Renaissance. Elle rassemble les plus grands philosophes de l'Antiquité dans un décor architectural inspiré de Bramante. Au centre, Platon pointe vers le ciel (le monde des Idées) et Aristote vers la terre (le monde réel). Raphaël a donné aux philosophes antiques les visages de ses contemporains : Platon ressemble à Léonard de Vinci.",
+        "anecdotes": [
+          {
+            "e": "🧠",
+            "t": "<b>Raphaël s'est représenté lui-même dans le coin droit.</b> Il se glisse discrètement dans la foule des philosophes, coiffé d'un béret noir, regardant le spectateur. Cette pratique de l'autoportrait caché (putative) était courante chez les artistes de la Renaissance pour signer discrètement leurs œuvres."
+          },
+          {
+            "e": "🤔",
+            "t": "<b>Héraclite, seul assis, représente Michel-Ange.</b> Raphaël aurait ajouté ce personnage isolé et mélancolique après avoir vu les premières esquisses du plafond de la Chapelle Sixtine. Michel-Ange n'avait pas laissé Raphaël entrer pour voir son travail — cette figure serait un hommage indirect au grand rival."
+          },
+          {
+            "e": "📐",
+            "t": "<b>La perspective est mathématiquement parfaite.</b> Le point de fuite central tombe exactement entre les deux philosophes principaux. L'architecture en arches rappelle les grandes basiliques romaines et crée une profondeur vertigineuse qui n'existait dans aucune peinture antérieure."
+          }
+        ],
+        "quiz": {
+          "q": "Quel philosophe, au centre, pointe vers le ciel pour symboliser le monde des Idées ?",
+          "r": "Platon — auquel Raphaël aurait donné le visage de Léonard de Vinci",
+          "hint": "Son opposé Aristote pointe vers la terre, symbolisant le monde réel et l'empirisme"
+        }
+      },
+      {
+        "title": "La Naissance de Vénus — Botticelli",
+        "artiste": "Sandro Botticelli",
+        "date": "1484–1486",
+        "mouvement": "Renaissance",
+        "img": "img/arts/naissance de venus.webp",
+        "musee": "Galerie des Offices, Florence",
+        "technique": "Tempera sur toile, 172,5 × 278,9 cm",
+        "desc": "Vénus, née de l'écume de la mer, arrive sur le rivage portée par les vents Zéphyr et Chloris, tandis qu'une Heure lui tend un manteau fleuri. Commandée par la famille Médicis, cette œuvre illustre le néoplatonisme florentin — Vénus n'est pas une déesse de chair, mais le symbole de la Beauté céleste, de l'amour divin. C'est la première grande peinture de nu féminin depuis l'Antiquité.",
+        "anecdotes": [
+          {
+            "e": "👱",
+            "t": "<b>Le modèle serait Simonetta Vespucci, aimée de Julien de Médicis.</b> Cette beauté florentine morte à 23 ans de tuberculose était célébrée comme l'idéal de beauté de la Florence des Médicis. Botticelli, dit-on, demanda à être enterré à ses pieds dans l'église Ognissanti — ce qui fut fait en 1510."
+          },
+          {
+            "e": "🏃",
+            "t": "<b>Les nazis failli s'en emparer — et elle survécut cachée dans une villa.</b> En 1943, les Offices de Florence furent évacués pour protéger les collections de la guerre. La Naissance de Vénus et d'autres chefs-d'œuvre furent démontés et cachés dans des châteaux et villas de campagne. Les Allemands confisquèrent certaines œuvres, mais Vénus leur échappa."
+          },
+          {
+            "e": "📐",
+            "t": "<b>Les proportions de Vénus sont délibérément irréelles.</b> Son cou est trop long, ses épaules trop tombantes, sa hanche gauche anatomiquement impossible. Botticelli ne cherche pas le réalisme mais l'idéal — une beauté spirituelle qui transcende la nature. Cette 'erreur' voulue est signature du style botticellien."
+          }
+        ],
+        "quiz": {
+          "q": "Pourquoi Botticelli a-t-il peint les proportions de Vénus de façon anatomiquement incorrecte ?",
+          "r": "Délibérément — il cherchait non le réalisme mais un idéal de beauté spirituelle qui transcende la nature",
+          "hint": "Son cou est trop long, ses épaules trop tombantes — c'est la signature du style botticellien et du néoplatonisme"
+        }
+      }
+    ]
+  },
+  {
+    "era": "Baroque",
+    "events": [
+      {
+        "title": "La Fille à la Perle — Vermeer",
+        "artiste": "Johannes Vermeer",
+        "date": "1665",
+        "mouvement": "Baroque",
+        "img": "img/arts/la fille a la perle.webp",
+        "musee": "Mauritshuis, La Haye",
+        "technique": "Huile sur toile, 44,5 × 39 cm",
+        "desc": "Surnommée 'la Joconde du Nord', cette œuvre représente une jeune fille au regard tourné par-dessus l'épaule, portant un turban bleu et une perle pendante. Contrairement aux portraits d'apparat, ce n'est pas un portrait commandé mais une 'tronie' — étude d'expression. Le fond sombre et la lumière dramatique plongeant sur le visage créent une intimité saisissante.",
+        "anecdotes": [
+          {
+            "e": "🔬",
+            "t": "<b>La 'perle' n'est peut-être pas une perle.</b> Des experts ont analysé l'objet à haute résolution : sa forme, son éclat et sa taille correspondent davantage à du verre soufflé peint. Les vraies perles de cette taille auraient été extraordinairement rares et chères. Mais l'ambiguïté fait partie du mystère Vermeer."
+          },
+          {
+            "e": "📖",
+            "t": "<b>Un roman best-seller et un film lui ont été consacrés.</b> Tracy Chevalier a imaginé en 1999 l'histoire fictive de la servante qui aurait servi de modèle ('La Jeune Fille à la perle'). Le film avec Scarlett Johansson et Colin Firth (2003) a relancé l'intérêt mondial pour Vermeer et pour ce tableau en particulier."
+          },
+          {
+            "e": "🏠",
+            "t": "<b>Vermeer ne vendait presque rien de son vivant.</b> Il peignait lentement — peut-être 2 à 3 tableaux par an — et mourut endetté en 1675 à 43 ans. Sa femme dut déposer le bilan. Pourtant, il est aujourd'hui l'un des peintres les plus admirés et les plus étudiés de l'histoire."
+          }
+        ],
+        "quiz": {
+          "q": "Qu'est-ce qu'une 'tronie', le genre auquel appartient La Fille à la Perle ?",
+          "r": "Une étude d'expression ou de type humain — pas un portrait d'identité précise, mais une figure imaginaire ou anonyme",
+          "hint": "Ce genre néerlandais du XVIIe siècle s'intéressait aux expressions, aux costumes exotiques et aux effets de lumière"
+        }
+      },
+      {
+        "title": "La Ronde de Nuit — Rembrandt",
+        "artiste": "Rembrandt van Rijn",
+        "date": "1642",
+        "mouvement": "Baroque",
+        "img": "img/arts/la ronde de nuit.webp",
+        "musee": "Rijksmuseum, Amsterdam",
+        "technique": "Huile sur toile, 363 × 437 cm",
+        "desc": "Ce tableau monumental représente la milice bourgeoise du capitaine Frans Banninck Cocq partant en ronde. Rembrandt révolutionne le portrait de groupe en le transformant en scène d'action vivante, avec une lumière dramatique qui distingue les personnages principaux dans l'obscurité. Contrairement à ce que son titre suggère, la scène se passe en plein jour — la couche de vernis obscurcissant l'a rendu 'nocturne' avec le temps.",
+        "anecdotes": [
+          {
+            "e": "✂️",
+            "t": "<b>Le tableau fut découpé pour s'adapter à une porte.</b> Au XVIIIe siècle, La Ronde de Nuit fut déplacée dans l'hôtel de ville d'Amsterdam. Comme elle était trop grande pour le mur prévu, on coupa simplement les bords — perdant deux personnages à gauche et une portion du décor. Une copie ancienne montre ce qui existait avant la mutilation."
+          },
+          {
+            "e": "🔪",
+            "t": "<b>Elle a été attaquée à l'acide et au couteau, deux fois au XXe siècle.</b> En 1975, un chômeur au couteau lacéra le tableau de plusieurs coups avant d'être maîtrisé. En 1990, un homme aspergea d'acide sulfurique la surface avant que des gardiens l'arrêtent. Les restaurateurs ont effacé les dégâts, mais certaines zones restent fragilisées."
+          },
+          {
+            "e": "🧒",
+            "t": "<b>La mystérieuse petite fille blonde en or est une énigme.</b> Au milieu du tableau, une enfant en robe dorée avance, tenant une poule morte à sa ceinture. Elle semble surgir d'un autre monde. Certains historiens pensent qu'elle est le mascotte de la milice ; d'autres y voient une allégorie. Son identité reste inconnue."
+          }
+        ],
+        "quiz": {
+          "q": "Pourquoi le titre 'La Ronde de Nuit' est-il trompeur ?",
+          "r": "La scène se passe en plein jour — l'accumulation de vernis obscurcissant au fil des siècles a donné l'impression d'une scène nocturne",
+          "hint": "Un nettoyage au XXe siècle a révélé que les couleurs originales étaient bien plus claires"
+        }
+      }
+    ]
+  },
+  {
+    "era": "Romantisme",
+    "events": [
+      {
+        "title": "La Liberté Guidant le Peuple — Delacroix",
+        "artiste": "Eugène Delacroix",
+        "date": "1830",
+        "mouvement": "Romantisme",
+        "img": "img/arts/la liberte guidant le peuple.webp",
+        "musee": "Musée du Louvre, Paris",
+        "technique": "Huile sur toile, 260 × 325 cm",
+        "desc": "Peint dans la foulée des Trois Glorieuses de juillet 1830, ce tableau représente Marianne — figure allégorique de la France — brandissant le drapeau tricolore par-dessus des barricades et des cadavres. À ses côtés, un gamin parisien armé de pistolets, un ouvrier avec un sabre, un bourgeois en chapeau. Delacroix s'est représenté lui-même en chapeau haut-de-forme à gauche.",
+        "anecdotes": [
+          {
+            "e": "🗓️",
+            "t": "<b>Delacroix ne participa pas aux combats mais en fut témoin.</b> Il écrivit à son frère : 'Si je n'ai pas combattu pour la patrie, au moins peindrai-je pour elle.' Cette honnêteté est touchante — le tableau est à la fois engagement et aveu. Bourgeois libéral, Delacroix était plus à l'aise avec un pinceau qu'un fusil."
+          },
+          {
+            "e": "🇫🇷",
+            "t": "<b>Ce tableau est devenu un symbole si puissant qu'il figure sur les billets de 100 francs.</b> Marianne aux seins nus guidant le peuple est l'image de la France révolutionnaire par excellence. Elle a inspiré des dizaines d'interprétations contemporaines — dont Coldplay pour une pochette d'album, et des graffeurs du monde entier."
+          },
+          {
+            "e": "🎭",
+            "t": "<b>La femme n'est pas une vraie femme — c'est une allégorie.</b> Contrairement à ce que l'on croit souvent, Marianne n'est pas un portrait. C'est la France, la Liberté, la République personnifiées. Ses seins nus ne sont pas érotiques mais symboliques — la mère patrie nourrissante et combattante. Cette distinction entre symbole et réalité était parfaitement comprise au XIXe siècle."
+          }
+        ],
+        "quiz": {
+          "q": "Qui Delacroix a-t-il représenté dans son propre tableau à gauche de la composition ?",
+          "r": "Lui-même — en chapeau haut-de-forme, bourgeois au milieu des combattants qu'il n'avait pas rejoint",
+          "hint": "Il écrivit à son frère : 'Si je n'ai pas combattu, au moins peindrai-je pour la patrie'"
+        }
+      },
+      {
+        "title": "Le Radeau de la Méduse — Géricault",
+        "artiste": "Théodore Géricault",
+        "date": "1818–1819",
+        "mouvement": "Romantisme",
+        "img": "img/arts/radeau de la meduse.webp",
+        "musee": "Musée du Louvre, Paris",
+        "technique": "Huile sur toile, 491 × 716 cm",
+        "desc": "Ce tableau colossal représente le naufrage de la frégate Méduse en 1816 — scandale d'État car le capitaine incompétent avait été nommé par favoritisme royaliste. 147 personnes furent abandonnées sur un radeau de fortune ; seules 15 survécurent au prix de scènes d'horreur (cannibalisme). Géricault interrogea des survivants, étudia des corps et des membres à la morgue, et peignit la vérité brute.",
+        "anecdotes": [
+          {
+            "e": "💀",
+            "t": "<b>Géricault conservait des membres humains dans son atelier.</b> Pour peindre les corps avec un réalisme absolu, il emprunta à la morgue et aux hôpitaux des membres et des têtes de morts. Ses amis et modèles évitaient de venir dans son atelier à cause de l'odeur. Cette recherche obsessionnelle du réalisme était révolutionnaire."
+          },
+          {
+            "e": "⚖️",
+            "t": "<b>Le tableau était un brûlot politique contre le gouvernement royaliste.</b> Le capitaine de la Méduse avait été nommé par pure faveur politique malgré son incompétence notoire. Géricault interviewa les survivants et lut le rapport accablant du chirurgien Henri Savigny. En peignant ce désastre, il dénonçait le régime de la Restauration."
+          },
+          {
+            "e": "🏛️",
+            "t": "<b>Le Salon officiel l'accueillit dans l'embarras.</b> Le jury du Salon de 1819 ne pouvait pas refuser ce chef-d'œuvre techniquement parfait — mais il était gênant politiquement. Ils lui attribuèrent une médaille d'or tout en minimisant son impact dans les journaux officiels."
+          }
+        ],
+        "quiz": {
+          "q": "Pourquoi Géricault conservait-il des membres humains dans son atelier pendant qu'il peignait Le Radeau ?",
+          "r": "Pour étudier les corps avec un réalisme absolu — il les empruntait à la morgue et aux hôpitaux",
+          "hint": "Ses amis évitaient de lui rendre visite à cause de l'odeur — cette recherche du réalisme était révolutionnaire"
+        }
+      }
+    ]
+  },
+  {
+    "era": "Réalisme / Précurseur Impressionnisme",
+    "events": [
+      {
+        "title": "Le Déjeuner sur l'Herbe — Manet",
+        "artiste": "Édouard Manet",
+        "date": "1863",
+        "mouvement": "Réalisme / Précurseur Impressionnisme",
+        "img": "img/arts/le dejeuner sur l herbe.webp",
+        "musee": "Musée d'Orsay, Paris",
+        "technique": "Huile sur toile, 208 × 265 cm",
+        "desc": "Ce tableau scandalisa Paris lors du Salon des Refusés de 1863. Une femme nue regarde le spectateur sans gêne, assise avec deux hommes habillés en bourgeois. Le scandale vient du mélange : ce n'est pas une scène mythologique (la nudité y est tolérée) mais une scène réaliste contemporaine. La confrontation directe du regard de la femme avec le public était une insolence délibérée.",
+        "anecdotes": [
+          {
+            "e": "😡",
+            "t": "<b>L'Impératrice Eugénie détourna les yeux, scandalisée.</b> Napoléon III lui-même jugea le tableau 'immodeste' lors de sa visite au Salon. Des visiteurs crachotaient dessus ou brandissaient leur canne. Pourtant, Manet s'était inspiré d'une gravure de Raphaël montrant des divinités fluviales — la vraie différence, c'est que ses personnages sont contemporains et réels."
+          },
+          {
+            "e": "🖌️",
+            "t": "<b>Manet a voulu faire entrer le présent dans la peinture.</b> Toute la tradition académique reposait sur la représentation du passé mythologique ou historique. Manet peint ce qu'il voit autour de lui, avec les gens de son temps. Cette révolution — peindre le présent — est la vraie naissance de l'art moderne."
+          },
+          {
+            "e": "🤝",
+            "t": "<b>Manet est souvent confondu avec Monet — et ils étaient amis.</b> Leurs noms similaires et leur association au même mouvement créent une confusion perpétuelle. Manet est l'aîné et l'inspirateur ; Monet, plus jeune, est au cœur de l'Impressionnisme. Manet lui-même refusait d'être classé 'impressionniste' et continuait à soumettre ses œuvres au Salon."
+          }
+        ],
+        "quiz": {
+          "q": "Pourquoi Le Déjeuner sur l'Herbe fut-il scandaleux alors que les nus étaient acceptés dans la peinture académique ?",
+          "r": "Parce que c'est une scène réaliste contemporaine avec une femme nue réelle regardant le spectateur — pas une scène mythologique où la nudité était conventionnelle",
+          "hint": "Les mêmes corps nus dans un contexte de déesses ou de nymphes n'auraient choqué personne"
+        }
+      }
+    ]
+  },
+  {
+    "era": "Impressionnisme",
+    "events": [
+      {
+        "title": "Impression, Soleil Levant — Claude Monet",
+        "artiste": "Claude Monet",
+        "date": "1872",
+        "mouvement": "Impressionnisme",
+        "img": "img/arts/Claude Monet, Impression, soleil levanta.webp",
+        "musee": "Musée Marmottan Monet, Paris",
+        "technique": "Huile sur toile, 48 × 63 cm",
+        "desc": "Ce petit tableau peint en quelques heures dans le port du Havre a donné son nom à tout un mouvement artistique. Monet capture l'atmosphère brumeuse d'un lever de soleil sur le port industriel, avec des reflets orangés sur une eau bleue-grise. Quand le critique Louis Leroy le vit exposé en 1874, il railla son titre pour moquer tous les peintres du groupe : 'impressionnistes'. Le nom leur resta — avec fierté.",
+        "anecdotes": [
+          {
+            "e": "🌅",
+            "t": "<b>Un critique l'a baptisé 'Impressionnisme' par moquerie.</b> Louis Leroy écrit dans 'Le Charivari' : 'Impression — j'en étais sûr. Je me disais justement, puisque je suis impressionné, il doit y avoir de l'impression là-dedans.' Il voulait se moquer. Les peintres adoptèrent le terme avec fierté."
+          },
+          {
+            "e": "🔬",
+            "t": "<b>Le soleil orange est exactement aussi lumineux que le ciel gris.</b> Un chercheur américain a converti le tableau en niveaux de gris et découvert que le soleil disparaît — il a la même valeur tonale que le ciel environnant. Monet a capturé un phénomène optique réel : à l'aurore, le soleil semble brûler sans éblouir."
+          },
+          {
+            "e": "🕵️",
+            "t": "<b>Le tableau a été volé en 1985 et récupéré 5 ans plus tard.</b> Des voleurs masqués dérobèrent neuf tableaux du musée Marmottan. En 1990, la police retrouva l'ensemble au Japon, en possession d'un collectionneur corse. Tous les tableaux furent restitués en bon état."
+          }
+        ],
+        "quiz": {
+          "q": "Comment le terme 'Impressionnisme' est-il né ?",
+          "r": "Par moquerie du critique Louis Leroy qui raillait 'Impression, soleil levant' de Monet en 1874",
+          "hint": "Ce tableau exposé dans la première exposition indépendante des peintres rejetés par le Salon officiel"
+        }
+      },
+      {
+        "title": "Le Bal du Moulin de la Galette — Renoir",
+        "artiste": "Pierre-Auguste Renoir",
+        "date": "1876",
+        "mouvement": "Impressionnisme",
+        "img": "img/arts/bal du moulin de la galette.webp",
+        "musee": "Musée d'Orsay, Paris",
+        "technique": "Huile sur toile, 131 × 175 cm",
+        "desc": "Cette scène de liesse populaire représente un dimanche après-midi au Moulin de la Galette, guinguette de Montmartre où les Parisiens venaient danser et boire. Renoir a immortalisé ses amis et habitués du quartier dans cette lumière filtrée par les feuillages — des taches de soleil jouent sur les visages et les vêtements. C'est l'une des œuvres les plus chères jamais vendues.",
+        "anecdotes": [
+          {
+            "e": "🍾",
+            "t": "<b>Renoir transportait sa grande toile chaque jour à Montmartre.</b> Il voulait peindre sur le motif, dans la vraie guinguette. Ses amis l'aidaient à porter la toile de 131 × 175 cm dans les rues pentues de Montmartre chaque matin. Les personnages sont ses vrais amis et voisins, qui posaient tout en participant à la fête."
+          },
+          {
+            "e": "💰",
+            "t": "<b>Une version de ce tableau a été vendue 78 millions de dollars en 1990.</b> C'était alors le prix le plus élevé jamais payé pour une peinture aux enchères. L'acquéreur était le milliardaire japonais Ryoei Saito, qui scandalisa le monde de l'art en déclarant vouloir faire incinérer le tableau avec lui à sa mort."
+          },
+          {
+            "e": "☀️",
+            "t": "<b>Les taches de lumière sur les vêtements étaient révolutionnaires.</b> Les critiques conservateurs trouvaient les 'taches' de soleil vulgaires et non finies. Pour les impressionnistes, c'était au contraire la vraie peinture : capturer la lumière telle qu'elle est, mouvante et changeante, sans la lisser pour plaire à l'académisme."
+          }
+        ],
+        "quiz": {
+          "q": "Où se trouve la guinguette du Moulin de la Galette que Renoir a immortalisée ?",
+          "r": "Montmartre, à Paris — Renoir y transportait sa grande toile chaque jour pour peindre sur le motif",
+          "hint": "Ce quartier populaire de Paris était au XIXe siècle un village de vignes et de moulins"
+        }
+      },
+      {
+        "title": "Le Déjeuner des Canotiers — Renoir",
+        "artiste": "Pierre-Auguste Renoir",
+        "date": "1880–1881",
+        "mouvement": "Impressionnisme",
+        "img": "img/arts/dejeuner des canotiers.webp",
+        "musee": "Phillips Collection, Washington D.C.",
+        "technique": "Huile sur toile, 130 × 173 cm",
+        "desc": "Cette scène de déjeuner sur la terrasse du Restaurant Fournaise à Chatou montre des amis de Renoir — peintres, acteurs, canotiers — réunis dans la joie d'un repas d'été au bord de la Seine. La femme au premier plan jouant avec son chien est Aline Charigot, future épouse de Renoir. C'est l'un des tableaux les plus joyeux et vivants de tout l'impressionnisme.",
+        "anecdotes": [
+          {
+            "e": "💑",
+            "t": "<b>La femme au premier plan deviendra l'épouse de Renoir.</b> Aline Charigot, modèle et couturière de 20 ans, jouant avec un petit chien au premier plan. Renoir et elle se marièrent en 1890. Elle lui donnera trois fils, dont Pierre Renoir (acteur) et Jean Renoir (cinéaste, futur auteur de 'La Règle du Jeu')."
+          },
+          {
+            "e": "🥂",
+            "t": "<b>Les verres et bouteilles sont encore là, les convives arrivent ou partent.</b> Renoir a capturé cet instant suspendu où le repas touche à sa fin : verres vides, bouteilles, les uns s'attardent, d'autres se lèvent. La composition est savamment construite pour donner une impression de spontanéité totale."
+          },
+          {
+            "e": "🎨",
+            "t": "<b>Ce tableau marque un tournant dans la carrière de Renoir.</b> Après ce chef-d'œuvre, Renoir voyagera en Italie et sera impressionné par Raphaël. Il traversera une 'période aigre' en cherchant plus de rigueur et de dessin. Le bonheur solaire du Déjeuner des Canotiers ne se retrouvera plus jamais avec cette intensité."
+          }
+        ],
+        "quiz": {
+          "q": "Qui est la femme jouant avec le chien au premier plan du Déjeuner des Canotiers ?",
+          "r": "Aline Charigot, future épouse de Renoir et mère du cinéaste Jean Renoir",
+          "hint": "Renoir l'a rencontrée dans son atelier où elle venait poser — ils se marièrent dix ans plus tard"
+        }
+      },
+      {
+        "title": "Les Nymphéas — Claude Monet",
+        "artiste": "Claude Monet",
+        "date": "1896–1926",
+        "mouvement": "Impressionnisme",
+        "img": "img/arts/les nympheas.webp",
+        "musee": "Musée de l'Orangerie, Paris",
+        "technique": "Huile sur toile, séries de grands formats",
+        "desc": "Les Nymphéas constituent la grande œuvre tardive de Monet — près de 250 peintures du bassin de son jardin à Giverny, réalisées sur trente ans. Les huit panneaux géants de l'Orangerie (chacun faisant plusieurs mètres) sont son testament artistique. Monet les peignit alors qu'il perdait progressivement la vue, obsédé par la lumière changeante sur l'eau et les fleurs de lotus.",
+        "anecdotes": [
+          {
+            "e": "👁️",
+            "t": "<b>Monet peignit ses chefs-d'œuvre en perdant la vue.</b> À partir de 1912, une double cataracte obscurcit sa vision. Il voyait le monde à travers des filtres jaune-brun qui altéraient ses couleurs. Ses tableaux de cette période ont des tonalités rougeâtres caractéristiques. En 1923, opéré avec succès, il détruisit plusieurs tableaux peints 'à l'aveugle'."
+          },
+          {
+            "e": "🌸",
+            "t": "<b>Il a créé le jardin pour le peindre.</b> Monet acheta une propriété à Giverny en 1883 et consacra autant d'énergie à concevoir son jardin qu'à peindre. Il fit dériver la Epte pour créer l'étang, acheta des nénuphars japonais, construisit le pont vert. Le jardin était le tableau avant le tableau."
+          },
+          {
+            "e": "🕊️",
+            "t": "<b>Les grandes décorations de l'Orangerie furent offertes à la France le jour de l'Armistice.</b> Monet annonça en 1918 son intention d'offrir ces panneaux monumentaux à l'État français en souvenir de la victoire. Ils furent installés dans leur salle ovale spécialement construite et inaugurés en 1927, quelques mois après la mort du peintre."
+          }
+        ],
+        "quiz": {
+          "q": "Pourquoi les Nymphéas tardifs de Monet ont-ils des tonalités rougeâtres et dorées inhabituelles ?",
+          "r": "Monet souffrait d'une double cataracte qui filtrait sa vision en tons jaune-brun, altérant sa perception des couleurs",
+          "hint": "Il fut finalement opéré en 1923 et put voir à nouveau — mais détruisit plusieurs tableaux peints pendant sa 'période aveugle'"
+        }
+      }
+    ]
+  },
+  {
+    "era": "Post-Impressionnisme",
+    "events": [
+      {
+        "title": "Les Tournesols — Vincent van Gogh",
+        "artiste": "Vincent van Gogh",
+        "date": "1888",
+        "mouvement": "Post-Impressionnisme",
+        "img": "img/arts/les tournesols.webp",
+        "musee": "National Gallery, Londres (version principale)",
+        "technique": "Huile sur toile, 92 × 73 cm",
+        "desc": "Van Gogh peint plusieurs versions des Tournesols à Arles pour décorer la chambre de son ami Gauguin, attendu en visite. Les jaunes vibrants — Van Gogh utilisait jusqu'à cinq jaunes différents — sont rendus avec des empâtements épais, quasi sculptés. Les tournesols deviennent le symbole de l'amitié et de la gratitude, mais aussi de la fragilité — ils se fanent vite, comme les espoirs de Van Gogh.",
+        "anecdotes": [
+          {
+            "e": "🌻",
+            "t": "<b>Van Gogh a peint au moins 11 versions des Tournesols.</b> Il en fit deux séries : quatre avec des fleurs dans un vase en 1888, puis cinq autres versions en 1889. Chacune est légèrement différente. Le tableau de la National Gallery a failli être détruit en 1945 — l'entrepôt où il était caché fut bombardé."
+          },
+          {
+            "e": "😤",
+            "t": "<b>Gauguin, pour qui il peignait, n'aimait pas ces tableaux.</b> Gauguin préférait les peintures 'intellectuelles' et trouvait Van Gogh trop spontané, trop émotionnel. Leur cohabitation à Arles dura deux mois et se termina par la crise au cours de laquelle Van Gogh se coupa l'oreille."
+          },
+          {
+            "e": "💛",
+            "t": "<b>Le jaune de Van Gogh a viré au brun avec le temps.</b> Van Gogh utilisait du chrome jaune (jaune de chrome), un pigment moins stable que les pigments modernes. Certains jaunes de ses tableaux ont viré au brun verdâtre au fil des décennies. Les chimistes travaillent à comprendre le processus pour préserver ce qui reste."
+          }
+        ],
+        "quiz": {
+          "q": "Pour qui Van Gogh a-t-il peint les Tournesols d'Arles, et qu'est-il arrivé à cette amitié ?",
+          "r": "Pour accueillir Gauguin dans sa maison jaune — leur cohabitation dura deux mois et se termina par la crise où Van Gogh se coupa l'oreille",
+          "hint": "Gauguin n'appréciait pas vraiment le style émotionnel de Van Gogh"
+        }
+      },
+      {
+        "title": "La Nuit Étoilée — Vincent van Gogh",
+        "artiste": "Vincent van Gogh",
+        "date": "1889",
+        "mouvement": "Post-Impressionnisme",
+        "img": "img/arts/nuit etoilee 1.webp",
+        "musee": "Museum of Modern Art (MoMA), New York",
+        "technique": "Huile sur toile, 73,7 × 92,1 cm",
+        "desc": "Peinte depuis la fenêtre de sa chambre à l'asile Saint-Paul-de-Mausole à Saint-Rémy-de-Provence, La Nuit Étoilée est le tableau le plus célèbre de Van Gogh. Le ciel tourbillonnant d'énergie — avec ses étoiles et sa lune en spirales — contraste avec la quiétude du village endormi. Van Gogh y exprime à la fois son tourment intérieur et sa fascination mystique pour les astres et l'infini.",
+        "anecdotes": [
+          {
+            "e": "🌀",
+            "t": "<b>Les tourbillons de Van Gogh ressemblent à des turbulences scientifiques réelles.</b> Des physiciens ont analysé les spirales de La Nuit Étoilée et trouvé qu'elles correspondent aux équations mathématiques décrivant les turbulences des fluides. Van Gogh, dans ses crises, aurait capturé intuitivement des phénomènes naturels que la science n'avait pas encore formalisés."
+          },
+          {
+            "e": "🏥",
+            "t": "<b>Van Gogh l'a peinte depuis un asile psychiatrique.</b> Il s'y était lui-même interné en 1889 après sa crise et la mutilation de son oreille. Il avait vue sur un jardin et sur la campagne — qu'il peignait avec une productivité folle (plus d'une toile par jour certaines semaines). L'internement fut paradoxalement une période créative intense."
+          },
+          {
+            "e": "📬",
+            "t": "<b>Van Gogh ne l'aimait pas beaucoup.</b> Dans ses lettres à son frère Théo, il décrivait La Nuit Étoilée comme un 'échec' et une 'exagération'. Il préférait ses tableaux de plein air. Théo non plus ne fut pas enthousiaste. Aujourd'hui c'est l'un des tableaux les plus reproduits de l'histoire."
+          }
+        ],
+        "quiz": {
+          "q": "D'où Van Gogh peignait-il La Nuit Étoilée, et quelle était sa situation à ce moment ?",
+          "r": "Depuis sa chambre à l'asile psychiatrique de Saint-Paul-de-Mausole à Saint-Rémy, où il s'était lui-même interné",
+          "hint": "Il considérait ce tableau comme un échec — c'est aujourd'hui l'un des plus reproduits au monde"
+        }
+      },
+      {
+        "title": "Nuit Étoilée sur le Rhône — Vincent van Gogh",
+        "artiste": "Vincent van Gogh",
+        "date": "1888",
+        "mouvement": "Post-Impressionnisme",
+        "img": "img/arts/nuit etoilee 2.webp",
+        "musee": "Musée d'Orsay, Paris",
+        "technique": "Huile sur toile, 72,5 × 92 cm",
+        "desc": "Peinte à Arles quelques mois avant La Nuit Étoilée de Saint-Rémy, cette œuvre montre la Grande Ourse reflétée dans le Rhône, avec les lumières jaunes de la ville sur l'eau. Un couple se promène au bord de l'eau. Van Gogh écrivait à sa sœur Wil : 'Je désire absolument peindre un ciel étoilé.' Cette œuvre plus sereine que la Nuit Étoilée de New York montre une fascination pour le cosmos pleine d'espoir.",
+        "anecdotes": [
+          {
+            "e": "⭐",
+            "t": "<b>Van Gogh peignait la nuit, une bougie accrochée à son chapeau.</b> Pour capter les lumières nocturnes sur le Rhône, il fixait des bougies allumées à son chapeau de paille et à son chevalet. Les habitants d'Arles le regardaient, intrigués, cette silhouette lumineuse dans la nuit au bord du fleuve."
+          },
+          {
+            "e": "💌",
+            "t": "<b>Les étoiles ont un sens particulier pour Van Gogh.</b> Il écrivit à Théo : 'Pourquoi les lumières brillantes dans le firmament seraient-elles moins accessibles que les points noirs sur la carte de France ? Comme nous prenons le train pour aller à Tarascon ou à Rouen, nous prenons la mort pour aller dans une étoile.' Les astres étaient pour lui une promesse d'au-delà."
+          },
+          {
+            "e": "🌊",
+            "t": "<b>Les reflets sur l'eau sont aussi précis que des instantanés photographiques.</b> La Grande Ourse et ses sept étoiles sont reconnaissables avec une grande fidélité. Des astronomes ont pu vérifier que leur position correspond à l'orientation réelle du ciel au-dessus d'Arles en septembre 1888 — Van Gogh peignait vraiment ce qu'il voyait."
+          }
+        ],
+        "quiz": {
+          "q": "Comment Van Gogh éclairait-il son chevalet pour peindre de nuit au bord du Rhône ?",
+          "r": "Il fixait des bougies allumées à son chapeau de paille et à son chevalet",
+          "hint": "Les habitants d'Arles le regardaient, intrigués par cette silhouette lumineuse dans l'obscurité"
+        }
+      },
+      {
+        "title": "La Terrasse du Café le Soir — Van Gogh",
+        "artiste": "Vincent van Gogh",
+        "date": "1888",
+        "mouvement": "Post-Impressionnisme",
+        "img": "img/arts/la terrasse du cafe.webp",
+        "musee": "Kröller-Müller Museum, Otterlo",
+        "technique": "Huile sur toile, 80,7 × 65,3 cm",
+        "desc": "Ce café de la Place du Forum à Arles brille de jaune dans la nuit bleue — c'est l'une des premières peintures de nuit sans lumière noire. Van Gogh voulait exprimer qu'on peut se passer du noir absolu pour peindre la nuit : la couleur seule suffit. La terrasse éclairée s'oppose au ciel nocturne constellé d'étoiles dans un équilibre vibrant entre chaud et froid.",
+        "anecdotes": [
+          {
+            "e": "☕",
+            "t": "<b>Le café existe encore aujourd'hui et s'appelle 'Le Café van Gogh'.</b> Place du Forum à Arles, l'établissement a conservé (ou reconstitué) l'aspect jaune de la façade. Des milliers de touristes s'y retrouvent chaque année pour comparer la terrasse éclairée au tableau. La chaîne d'hôtels Van Gogh y a même installé une chambre dédiée."
+          },
+          {
+            "e": "🌙",
+            "t": "<b>C'est la première peinture de nuit sans noir de Van Gogh.</b> Il écrivit à Théo : 'Voilà une peinture de nuit sans noir. Rien que du beau bleu-violet, du vert et du jaune citron. Avec la place illuminée en vert pâle.' Peindre la nuit avec des couleurs — pas avec du noir — fut une de ses grandes innovations."
+          },
+          {
+            "e": "🔮",
+            "t": "<b>Certains chercheurs y voient une représentation de la Cène.</b> Douze clients sont assis à la terrasse, et le serveur en blanc au centre pourrait évoquer le Christ entouré de ses apôtres. Van Gogh, fils de pasteur protestant, intégrait souvent des références religieuses dans des scènes d'apparence banale."
+          }
+        ],
+        "quiz": {
+          "q": "Quelle innovation technique Van Gogh expérimenta-t-il dans La Terrasse du Café le Soir ?",
+          "r": "Peindre la nuit sans utiliser de noir — uniquement des bleus violets, verts et jaunes",
+          "hint": "Il écrivit à son frère : 'Voilà une peinture de nuit sans noir'"
+        }
+      }
+    ]
+  },
+  {
+    "era": "Art Nouveau / Symbolisme",
+    "events": [
+      {
+        "title": "Le Baiser — Gustav Klimt",
+        "artiste": "Gustav Klimt",
+        "date": "1907–1908",
+        "mouvement": "Art Nouveau / Symbolisme",
+        "img": "img/arts/le baiser.webp",
+        "musee": "Österreichische Galerie Belvedere, Vienne",
+        "technique": "Huile sur toile avec feuilles d'or, 180 × 180 cm",
+        "desc": "Un couple enlacé au bord d'un précipice fleuri, enveloppé d'un manteau d'or orné de motifs géométriques. Klimt utilise des feuilles d'or véritable, rappelant les mosaïques byzantines et les icônes orthodoxes vues lors de son voyage à Ravenne. Les deux amants semblent fusionner en une seule entité dorée — séparés du monde, hors du temps, dans une bulle d'amour absolu.",
+        "anecdotes": [
+          {
+            "e": "🌸",
+            "t": "<b>Klimt faisait de nombreux modèles travailler simultanément dans son atelier.</b> Il portait de longues robes de moine bleu et recevait des dizaines de femmes modèles chaque jour. Sa vie privée était aussi scandaleuse que son art — on lui attribue jusqu'à 14 enfants naturels avec différentes femmes."
+          },
+          {
+            "e": "🔥",
+            "t": "<b>Les Nazis détruisirent plusieurs de ses tableaux.</b> En 1945, les SS incendièrent le château d'Immendorf où étaient cachées des œuvres considérées comme 'dégénérées'. Plusieurs grands tableaux de Klimt brûlèrent dans cet incendie. D'autres furent pillés — dont le célèbre 'Portrait d'Adèle Bloch-Bauer', récupéré par la famille 60 ans plus tard."
+          },
+          {
+            "e": "💰",
+            "t": "<b>Une version de son 'Adèle' fut vendue 135 millions de dollars en 2006.</b> Maria Altmann, nièce d'Adèle Bloch-Bauer, lutta pendant des années pour récupérer les tableaux volés par les nazis à sa famille. En 2006, elle les vendit — dont ce portrait à Ronald Lauder pour 135 millions — record mondial à l'époque."
+          }
+        ],
+        "quiz": {
+          "q": "Quelle technique artistique ancienne Klimt a-t-il empruntée pour réaliser les fonds dorés du Baiser ?",
+          "r": "Les mosaïques byzantines de Ravenne et les icônes orthodoxes — utilisant des feuilles d'or véritable",
+          "hint": "Klimt visita Ravenne en 1903 et fut ébloui par les mosaïques en or de l'église San Vitale"
+        }
+      }
+    ]
+  },
+  {
+    "era": "Expressionnisme / Symbolisme",
+    "events": [
+      {
+        "title": "Le Cri — Edvard Munch",
+        "artiste": "Edvard Munch",
+        "date": "1893",
+        "mouvement": "Expressionnisme / Symbolisme",
+        "img": "img/arts/le cri 2.webp",
+        "musee": "Galerie nationale, Oslo",
+        "technique": "Tempera et pastel sur carton, 91 × 73,5 cm",
+        "desc": "La figure agonisante au premier plan, tenant son visage de ses mains, face à un ciel tourbillonnant rouge sang, est devenue l'icône de l'angoisse moderne. Munch nota dans son journal : 'Je marchais avec deux amis — le soleil se couchait — soudain le ciel devint rouge sang. Je m'arrêtai, fatigué, et m'appuyai contre une clôture — je vis des langues de feu et du sang au-dessus du fjord bleu-noir. Mes amis continuaient à marcher, et moi je tremblais d'anxiété — et je sentais un cri infini passer à travers la nature.'",
+        "anecdotes": [
+          {
+            "e": "🌋",
+            "t": "<b>Le ciel rouge vient peut-être de l'éruption du Krakatoa.</b> En 1883, l'éruption du volcan indonésien Krakatoa projeta des cendres dans l'atmosphère terrestre entière, colorant les couchers de soleil en rouge sang dans le monde entier pendant des mois. Des témoignages de l'époque à Oslo décrivent ces ciels apocalyptiques que Munch a peut-être vus dix ans avant de les peindre."
+          },
+          {
+            "e": "🖼️",
+            "t": "<b>Il existe quatre versions du Cri.</b> Deux peintures, un pastel et une lithographie. En 2012, la version pastel fut vendue 119,9 millions de dollars aux enchères chez Sotheby's — record mondial pour une œuvre sur papier. Un milliardaire américain l'acheta."
+          },
+          {
+            "e": "📝",
+            "t": "<b>Un graffiti mystérieux était inscrit au bas du tableau.</b> Pendant des décennies, les conservateurs remarquèrent une inscription au crayon : 'Ne peut avoir été peint que par un fou.' Pendant longtemps on l'attribua à un vandal. En 2021, une analyse d'écriture conclut que c'était Munch lui-même qui l'avait écrit — sans doute en réponse à ceux qui contestaient sa santé mentale."
+          }
+        ],
+        "quiz": {
+          "q": "Selon son journal, qu'a ressenti Munch qui lui a inspiré Le Cri ?",
+          "r": "Il sentit 'un cri infini passer à travers la nature' en voyant le ciel devenir rouge sang lors d'une promenade à Oslo",
+          "hint": "Ce n'est pas lui qui crie — c'est la nature entière qui hurle, et lui qui l'entend"
+        }
+      }
+    ]
+  },
+  {
+    "era": "Ukiyo-e (estampe japonaise)",
+    "events": [
+      {
+        "title": "La Vague de Kanagawa — Hokusai",
+        "artiste": "Katsushika Hokusai",
+        "date": "1831",
+        "mouvement": "Ukiyo-e (estampe japonaise)",
+        "img": "img/arts/vague de kanagawa.webp",
+        "musee": "Plusieurs musées (British Museum, Metmuseum…)",
+        "technique": "Estampe xylographique, 25,7 × 37,9 cm",
+        "desc": "Une vague monstrueuse menace de submerger des bateaux de pêche, avec le mont Fuji en arrière-plan, minuscule. C'est la première estampe de la série 'Trente-six vues du mont Fuji'. Cette image est devenue la représentation artistique japonaise la plus connue dans le monde entier, et l'une des œuvres les plus reproduites de l'histoire de l'art.",
+        "anecdotes": [
+          {
+            "e": "🔵",
+            "t": "<b>Le bleu utilisé — le 'bleu de Prusse' — était une nouvelle couleur arrivée du Japon.</b> Importé depuis l'Europe via les marchands néerlandais à Nagasaki, ce bleu synthétique intensa offrait des possibilités inédites. Hokusai l'adopta avec enthousiasme et en fit la signature chromatique de toute la série du Fuji."
+          },
+          {
+            "e": "🌊",
+            "t": "<b>Les griffes de la vague sont soigneusement étudiées.</b> Des physiciens marins ont analysé la forme des vagues de Hokusai et constaté leur remarquable précision hydrodynamique — la courbure, le déferlement, les embruns correspondent à ce qu'on sait des vagues de haute mer. Hokusai, fils de pêcheur, observait la mer avec une acuité scientifique."
+          },
+          {
+            "e": "🎨",
+            "t": "<b>Hokusai changea de nom professionnel plus de 30 fois.</b> Chaque changement de style s'accompagnait d'un nouveau pseudonyme. Il signa ses derniers travaux 'Gakyo Rojin Manji' — 'le vieil homme fou de dessin'. À 90 ans, il disait : 'Si le ciel m'accorde encore dix ans, ou même cinq, je deviendrai un vrai artiste.'"
+          }
+        ],
+        "quiz": {
+          "q": "D'où vient la couleur bleue particulièrement intense utilisée par Hokusai dans La Vague ?",
+          "r": "Du 'bleu de Prusse', un pigment synthétique européen importé au Japon via les marchands néerlandais",
+          "hint": "Ce bleu chimique, inconnu au Japon avant le XIXe siècle, offrait une intensité impossible avec les pigments naturels"
+        }
+      }
+    ]
+  },
+  {
+    "era": "Modernisme",
+    "events": [
+      {
+        "title": "La Persistance de la Mémoire — Salvador Dalí",
+        "artiste": "Salvador Dalí",
+        "date": "1931",
+        "mouvement": "Modernisme",
+        "img": "img/arts/persistance de la memoire.webp",
+        "musee": "Museum of Modern Art (MoMA), New York",
+        "technique": "Huile sur toile, 24 × 33 cm",
+        "desc": "Les montres molles qui fondent sur un paysage de Cap Creus en Catalogne sont l'image surréaliste la plus connue au monde. Dalí dit avoir eu l'idée en regardant fondre un camembert. Le tableau illustre la conception freudienne du temps dans les rêves — le temps n'y est pas linéaire, il se distord. La figure informe au centre serait un autoportrait de Dalí endormi.",
+        "anecdotes": [
+          {
+            "e": "🧀",
+            "t": "<b>L'idée vint d'un camembert trop mûr.</b> Dalí raconte : 'Je m'assis à table pour manger et vis un camembert qui fondait. Je le regardai et aussitôt l'idée des montres molles me vint. Je courus peindre.' Il aurait réalisé ce tableau en moins de deux heures, laissant Gala, sa femme, dormir."
+          },
+          {
+            "e": "🪰",
+            "t": "<b>La montre couverte de fourmis représente la décomposition et la mort.</b> Les fourmis apparaissent souvent dans les œuvres de Dalí — symbole de putréfaction, d'angoisse et d'obsession. Dalí avait une terreur enfantine des insectes, transformée en motif récurrent dans son art."
+          },
+          {
+            "e": "📏",
+            "t": "<b>Ce chef-d'œuvre est minuscule.</b> 24 × 33 cm — environ la taille d'une tablette numérique. Dalí préférait peindre petit pour atteindre une précision quasi photographique, inspirée des maîtres flamands du XVe siècle. Pourtant, cette œuvre semble immense dans l'imaginaire collectif."
+          }
+        ],
+        "quiz": {
+          "q": "Quelle vision quotidienne aurait inspiré à Dalí l'idée des montres molles ?",
+          "r": "Un camembert trop mûr qui fondait — il aurait peint le tableau en moins de deux heures",
+          "hint": "Ce fromage normand, observé pendant un repas, aurait déclenché l'une des images les plus célèbres de l'art"
+        }
+      },
+      {
+        "title": "Guernica — Pablo Picasso",
+        "artiste": "Pablo Picasso",
+        "date": "1937",
+        "mouvement": "Modernisme",
+        "img": "img/arts/guernica.webp",
+        "musee": "Museo Reina Sofía, Madrid",
+        "technique": "Huile sur toile, 349,3 × 776,6 cm",
+        "desc": "Guernica est la réponse de Picasso au bombardement de la ville basque de Guernica par l'aviation nazie et franquiste le 26 avril 1937, qui fit des centaines de civils morts. Peint en noir, blanc et gris — les couleurs des photographies de presse — en quelques semaines, ce tableau de presque 8 mètres de large est devenu le symbole universel contre la guerre et la barbarie.",
+        "anecdotes": [
+          {
+            "e": "🕊️",
+            "t": "<b>Un officier nazi demanda à Picasso : 'C'est vous qui avez fait ça ?'</b> Dans son atelier à Paris pendant l'Occupation, un officier allemand vit une reproduction de Guernica et demanda à Picasso si c'était lui l'auteur. Picasso répondit : 'Non, c'est vous.' Cette anecdote, peut-être apocryphe, symbolise l'engagement politique de l'œuvre."
+          },
+          {
+            "e": "✊",
+            "t": "<b>Le tableau vécut en exil 43 ans, comme les Républicains espagnols.</b> Picasso le confia au MoMA de New York avec instruction formelle : il ne devait retourner en Espagne que lorsque la liberté y serait rétablie. Franco mort, le tableau rentra à Madrid en 1981, six ans après la fin de la dictature."
+          },
+          {
+            "e": "🐴",
+            "t": "<b>Les symboles sont délibérément ambigus.</b> Picasso refusa toujours d'expliquer la signification du taureau, du cheval agonisant ou de la lampe. 'Le taureau est un taureau et le cheval un cheval', dit-il. Cette ambiguïté voulue laisse le spectateur libre d'interpréter le chaos de la violence à sa façon."
+          }
+        ],
+        "quiz": {
+          "q": "Pourquoi Picasso a-t-il peint Guernica uniquement en noir, blanc et gris ?",
+          "r": "Pour évoquer les couleurs des photographies de presse et des journaux — ancrer l'œuvre dans la réalité documentaire",
+          "hint": "La couleur aurait rendu la scène 'belle' — le noir et blanc la rend témoignage"
+        }
+      },
+      {
+        "title": "Les Demoiselles d'Avignon — Pablo Picasso",
+        "artiste": "Pablo Picasso",
+        "date": "1907",
+        "mouvement": "Modernisme",
+        "img": "img/arts/demoiselles d'avignon.webp",
+        "musee": "Museum of Modern Art (MoMA), New York",
+        "technique": "Huile sur toile, 243,9 × 233,7 cm",
+        "desc": "Ce tableau choc marque la naissance du Cubisme et révolutionne toute l'histoire de l'art. Picasso représente cinq femmes nues — des prostituées de la calle Avinyó à Barcelone — en fragmentant leurs corps en facettes géométriques, montrant plusieurs angles simultanément. Les deux figures de droite, aux visages comme des masques africains, indiquent l'influence de l'art tribal sur Picasso.",
+        "anecdotes": [
+          {
+            "e": "😱",
+            "t": "<b>Braque disait qu'il avait l'impression que Picasso 'voulait qu'on mange de l'étoupe et qu'on crache du feu'.</b> Même ses amis proches furent choqués. Matisse fut scandalisé. Degas hocha la tête de désapprobation. Seule Gertrude Stein soutint Picasso. Le tableau ne fut montré au public qu'en 1916 — neuf ans après sa création."
+          },
+          {
+            "e": "🌍",
+            "t": "<b>C'est l'art africain qui a tout changé.</b> Picasso visita une exposition d'art africain et océanien au Trocadéro en 1907 et fut bouleversé. Les masques africains lui révélèrent une façon de représenter le visage humain non comme il est vu, mais comme il est pensé — avec plusieurs faces simultanées. Cette rencontre changea l'art occidental pour toujours."
+          },
+          {
+            "e": "🖼️",
+            "t": "<b>Picasso travailla avec une centaine d'études préparatoires.</b> La composition originale incluait deux hommes (un marin et un étudiant en médecine). Peu à peu, Picasso supprima les hommes pour garder les cinq femmes dans leur confrontation directe avec le spectateur — rupture totale avec la convention du nu académique."
+          }
+        ],
+        "quiz": {
+          "q": "Quelle découverte artistique a transformé la peinture des deux figures de droite dans Les Demoiselles d'Avignon ?",
+          "r": "L'art africain et océanien — Picasso fut bouleversé par les masques africains vus au Trocadéro en 1907",
+          "hint": "Ces masques représentent le visage tel qu'il est pensé, pas tel qu'il est vu — plusieurs faces simultanées"
+        }
+      },
+      {
+        "title": "La Danse — Henri Matisse",
+        "artiste": "Henri Matisse",
+        "date": "1910",
+        "mouvement": "Modernisme",
+        "img": "img/arts/la danse.webp",
+        "musee": "Musée de l'Ermitage, Saint-Pétersbourg",
+        "technique": "Huile sur toile, 260 × 391 cm",
+        "desc": "Cinq figures nues forment une ronde dans un espace réduit à trois aplats de couleurs : le bleu du ciel, le vert de la colline, le rouge-brique des corps. Matisse simplifie tout à l'extrême — plus d'ombres, plus de profondeur, plus de détails. La puissance vient du rythme, du mouvement circulaire et de la vibration des couleurs complémentaires. C'est l'un des tableaux les plus influents du XXe siècle.",
+        "anecdotes": [
+          {
+            "e": "🎨",
+            "t": "<b>Matisse a réduit la peinture à ses éléments essentiels.</b> Pas de perspective, pas d'ombre, pas de détail anatomique. Juste la couleur et la ligne. Cette radicalité influencera tout l'art abstrait du XXe siècle — de Rothko à Ellsworth Kelly. Matisse appelait cela 'l'art de l'équilibre, de la pureté et du calme'."
+          },
+          {
+            "e": "🩺",
+            "t": "<b>Matisse était destiné à être avocat.</b> Cloué au lit par une appendicite à 20 ans, sa mère lui offrit une boîte de couleurs pour passer le temps. Il découvrit 'une sorte de paradis'. Il abandonna le droit et consacra sa vie à la peinture, devenant le grand rival et ami de Picasso."
+          },
+          {
+            "e": "✂️",
+            "t": "<b>Immobilisé à 70 ans, Matisse inventa les 'papiers découpés'.</b> Ne pouvant plus peindre debout, il demanda à ses assistants de peindre de grandes feuilles en aplats de couleurs, qu'il découpait et composait depuis son fauteuil. Ces Gouaches découpées — dont 'La Piscine' et 'L'Escargot' — sont parmi ses œuvres les plus radicales."
+          }
+        ],
+        "quiz": {
+          "q": "À combien de couleurs Matisse a-t-il réduit La Danse, et lesquelles ?",
+          "r": "Trois : bleu du ciel, vert de la colline, rouge-brique des corps — plus d'ombres ni de détails",
+          "hint": "Cette radicalité — tout simplifier à l'extrême — influencera tout l'art abstrait du siècle suivant"
+        }
+      },
+      {
+        "title": "Composition VIII — Wassily Kandinsky",
+        "artiste": "Wassily Kandinsky",
+        "date": "1923",
+        "mouvement": "Modernisme",
+        "img": "img/arts/kandinsky.webp",
+        "musee": "Solomon R. Guggenheim Museum, New York",
+        "technique": "Huile sur toile, 140 × 201 cm",
+        "desc": "Kandinsky est considéré comme le père de la peinture abstraite. Dans Composition VIII, formes géométriques — cercles, triangles, lignes — s'organisent dans un espace sans référence au monde visible. Pour Kandinsky, les formes et les couleurs ont des équivalents émotionnels et musicaux : le jaune est agressif, le bleu est spirituel, le cercle est la forme la plus pure. La peinture doit agir comme la musique — directement sur l'âme.",
+        "anecdotes": [
+          {
+            "e": "🎵",
+            "t": "<b>Kandinsky 'entendait' les couleurs et 'voyait' la musique.</b> Il souffrait de synesthésie — un croisement des sens qui lui faisait associer sons et couleurs. En entendant Wagner, il voyait des couleurs. Cette condition particulière fut pour lui une révélation : la peinture peut toucher l'âme directement, comme la musique, sans passer par la représentation du monde réel."
+          },
+          {
+            "e": "📚",
+            "t": "<b>Son livre 'Du Spirituel dans l'Art' (1912) est la bible de l'abstraction.</b> Il y théorise que chaque couleur a une 'résonance intérieure' — le jaune est actif et irritant, le bleu est profond et céleste, le rouge brûle. Ce manifeste, traduit dans le monde entier, donna aux artistes abstraits un cadre théorique pour défendre leur démarche."
+          },
+          {
+            "e": "🏫",
+            "t": "<b>Kandinsky enseigna au Bauhaus aux côtés de Klee et Moholy-Nagy.</b> Cette école révolutionnaire d'art et de design (1919-1933) voulait fondre les beaux-arts et l'artisanat. Lorsque les nazis fermèrent le Bauhaus en 1933, Kandinsky s'exila à Paris, où il mourut en 1944."
+          }
+        ],
+        "quiz": {
+          "q": "Pourquoi Kandinsky comparait-il la peinture abstraite à la musique ?",
+          "r": "Il souffrait de synesthésie et associait sons et couleurs — pour lui, la peinture pouvait toucher l'âme directement, sans représenter le monde visible",
+          "hint": "En entendant Wagner, il voyait des couleurs — cette condition rare fut sa révélation artistique"
+        }
+      }
+    ]
+  },
+  {
+    "era": "Néoclassicisme",
+    "events": [
+      {
+        "title": "Le Sacre de Napoléon — Jacques-Louis David",
+        "artiste": "Jacques-Louis David",
+        "date": "1805–1807",
+        "mouvement": "Néoclassicisme",
+        "img": "img/arts/Le Sacre de Napoléon.webp",
+        "musee": "Musée du Louvre, Paris",
+        "technique": "Huile sur toile, 621 × 979 cm",
+        "desc": "Cette œuvre monumentale immortalise le sacre de Napoléon Ier le 2 décembre 1804 à Notre-Dame de Paris. David, peintre officiel de l'Empire, a représenté non pas le moment où le pape Pie VII couronne Napoléon — qui s'est lui-même couronné — mais celui où Napoléon couronne Joséphine. Plus de 200 portraits sont reconnaissables dans ce tableau, véritable document historique autant qu'œuvre d'art.",
+        "anecdotes": [
+          {
+            "e": "👑",
+            "t": "<b>Napoléon s'est couronné lui-même, snobant le pape.</b> Pour ne devoir sa couronne qu'à lui-même, il prit la couronne des mains du pape Pie VII et se la posa sur la tête. David a 'corrigé' l'histoire en peignant à la place le couronnement de Joséphine — scène moins subversive et plus romantique."
+          },
+          {
+            "e": "👩",
+            "t": "<b>La mère de Napoléon est dans le tableau — alors qu'elle n'y était pas.</b> Laetitia Bonaparte avait boycotté la cérémonie par désapprobation. Napoléon ordonna à David de la peindre quand même dans la loge d'honneur. La peinture est donc un mensonge historique délibéré."
+          },
+          {
+            "e": "📏",
+            "t": "<b>Le tableau mesure plus de 6 mètres de haut sur presque 10 de large.</b> David travailla trois ans sur cette toile. Pour vérifier les ressemblances, les personnages venaient poser dans son atelier. Napoléon lui-même vint voir le tableau terminé et se serait écrié : 'Chapeau, David !'"
+          }
+        ],
+        "quiz": {
+          "q": "Qui Napoléon est-il en train de couronner dans le tableau de David ?",
+          "r": "Joséphine, son épouse — David a modifié la scène réelle où Napoléon s'était couronné lui-même",
+          "hint": "La mère de Napoléon est également présente dans le tableau… bien qu'elle ait boycotté la cérémonie"
+        }
+      },
+      {
+        "title": "Napoléon traversant les Alpes — David",
+        "artiste": "Jacques-Louis David",
+        "date": "1801–1805",
+        "mouvement": "Néoclassicisme",
+        "img": "img/arts/napoleon alpes.webp",
+        "musee": "Château de Malmaison / Charlottenburg / Belvedere (5 versions)",
+        "technique": "Huile sur toile, 261 × 221 cm",
+        "desc": "Napoléon, sur un cheval cabré, montre le chemin à ses troupes dans le col du Grand-Saint-Bernard. Le geste héroïque, le manteau rouge battant dans le vent, le regard déterminé — tout est glorification. En réalité, Napoléon traversa les Alpes sur un mulet et demanda à David de le peindre 'calme sur un cheval fougueux'. David livra ce monument de propagande.",
+        "anecdotes": [
+          {
+            "e": "🫏",
+            "t": "<b>Napoléon traversa les Alpes sur un mulet, pas un cheval.</b> C'est un guide local qui lui prêta l'animal plus sûr pour le terrain montagneux. David le peignit quand même sur un étalon cabré. Napoléon, pragmatique, se contenta de demander qu'on le représente 'calme sur un cheval fougueux'. La propagande primait sur la vérité."
+          },
+          {
+            "e": "5️⃣",
+            "t": "<b>David peignit cinq versions de ce tableau.</b> Commandées par différents souverains et États alliés de Napoléon, chacune présente des variations subtiles (couleur du manteau, position exacte des personnages). Les cinq versions existent encore dans différents musées européens."
+          },
+          {
+            "e": "🪨",
+            "t": "<b>Les noms gravés dans le rocher forment une séquence historique.</b> Dans la roche, on peut lire 'Hannibal', 'Karolus Magnus' (Charlemagne) et 'Bonaparte' — les trois grands chefs militaires qui traversèrent les Alpes. Napoléon s'inscrit délibérément dans une lignée de conquérants légendaires."
+          }
+        ],
+        "quiz": {
+          "q": "Sur quel animal Napoléon a-t-il réellement traversé les Alpes, contrairement à la peinture de David ?",
+          "r": "Sur un mulet — plus sûr sur le terrain montagneux — prêté par un guide local",
+          "hint": "Napoléon, pragmatique, demanda simplement à David de le peindre 'calme sur un cheval fougueux'"
+        }
+      }
+    ]
+  }
+]
