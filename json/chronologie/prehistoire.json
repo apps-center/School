@@ -484,7 +484,7 @@
           "r": "Le pou de corps",
           "hint": "Il diverge génétiquement du pou de tête dès que l'humain commence à se couvrir en permanence"
         },
-        "img": "histoire/Chasse_dans_la_tempête_de_neige.webp"
+        "img": "histoire/Chasseurs_sur_la_savane_au_lever_du_soleil.webp"
       },
       {
         "kind": "histoire",
@@ -653,7 +653,7 @@
           "r": "En Ukraine (site de Mezhirich, –15 000 ans)",
           "hint": "Leurs charpentes utilisaient des centaines de mandibules et fémurs soigneusement assemblés"
         },
-        "img": "histoire/Chasseurs_sur_la_savane_au_lever_du_soleil.webp"
+        "img": "histoire/Chasse_dans_la_tempête_de_neige.webp"
       },
       {
         "kind": "histoire",
@@ -1038,7 +1038,7 @@
           "r": "L'écriture",
           "hint": "Apparue vers –3 200 av. J.-C. à Uruk, en Mésopotamie"
         },
-        "img": "histoire/L'artisanat_préhistorique_à_l'ère_de_la_pierre.webp"
+        "img": "histoire/Main_d'un_scribe_sur_tablette_d'argile.webp"
       }
     ]
   }
