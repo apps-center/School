@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arts & Culture — L'Encyclopédie des Explorateurs</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:'Cinzel';font-display:swap;}
+@font-face{font-family:'Crimson Pro';font-display:swap;}
+:root{
+  --bg:#060a14;--star:#e8dfc4;--gold:#d4a843;--gold-dim:rgba(212,168,67,.35);
+  --line:rgba(200,180,120,.18);--card-bg:rgba(10,18,36,.92);
+  --modal-bg:#0a1220;--accent:#c8a060;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{background:var(--bg);color:var(--star);font-family:'Crimson Pro',Georgia,serif;min-height:100vh;overflow-x:hidden;}
+
+/* ── STARS ── */
+#stars{position:fixed;inset:0;z-index:0;pointer-events:none;}
+
+/* ── BACK NAV ── */
+.back-bar{position:relative;z-index:20;padding:18px 36px;display:flex;align-items:center;gap:12px;border-bottom:1px solid var(--line);}
+.back-link{font-family:'Cinzel',serif;font-size:.62rem;letter-spacing:.28em;text-transform:uppercase;color:rgba(212,168,67,.55);text-decoration:none;display:flex;align-items:center;gap:8px;transition:color .2s;}
+.back-link:hover{color:var(--gold);}
+.back-link::before{content:'←';font-size:.9rem;}
+
+/* ── HEADER ── */
+header{position:relative;z-index:10;text-align:center;padding:52px 20px 40px;}
+.over-title{font-size:.72rem;letter-spacing:.42em;text-transform:uppercase;color:rgba(212,168,67,.6);margin-bottom:18px;font-family:'Cinzel',serif;}
+h1{font-family:'Cinzel',serif;font-size:clamp(1.8rem,5vw,3.4rem);font-weight:900;line-height:1.08;
+  background:linear-gradient(135deg,#f5e6a3,#d4a843 38%,#f0c060 65%,#fff8e0);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.tagline{margin-top:14px;font-size:1rem;color:rgba(232,223,196,.45);font-style:italic;letter-spacing:.02em;}
+.header-deco{display:flex;align-items:center;justify-content:center;gap:18px;margin-top:26px;}
+.header-deco::before,.header-deco::after{content:'';flex:1;max-width:200px;height:1px;background:linear-gradient(to right,transparent,rgba(212,168,67,.35),transparent);}
+.header-deco span{font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.3em;color:rgba(212,168,67,.4);text-transform:uppercase;}
+
+/* ── FRISE (timeline) ── */
+.frise-wrap{position:relative;z-index:10;max-width:1100px;margin:0 auto 10px;padding:0 28px;}
+.frise{display:flex;align-items:center;gap:0;overflow-x:auto;padding:24px 0 12px;scrollbar-width:none;}
+.frise::-webkit-scrollbar{display:none;}
+.frise-track{position:relative;flex:1;height:2px;background:linear-gradient(to right,transparent,var(--line),transparent);}
+.frise-era-btn{position:relative;display:flex;flex-direction:column;align-items:center;gap:8px;cursor:pointer;flex-shrink:0;padding:0 16px;background:none;border:none;color:inherit;transition:transform .2s;}
+.frise-dot{width:10px;height:10px;border-radius:50%;border:2px solid rgba(212,168,67,.35);background:var(--bg);transition:all .25s;flex-shrink:0;}
+.frise-era-btn:hover .frise-dot,.frise-era-btn.active .frise-dot{background:var(--gold);border-color:var(--gold);box-shadow:0 0 10px rgba(212,168,67,.4);}
+.frise-label{font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(212,168,67,.45);white-space:nowrap;transition:color .25s;}
+.frise-era-btn:hover .frise-label,.frise-era-btn.active .frise-label{color:var(--gold);}
+.frise-era-btn.active{transform:translateY(-2px);}
+
+/* ── ERA NAV TABS ── */
+.era-nav{position:sticky;top:0;z-index:30;background:rgba(6,10,20,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);padding:0 28px;}
+.era-tabs{display:flex;gap:0;overflow-x:auto;scrollbar-width:none;max-width:1100px;margin:0 auto;}
+.era-tabs::-webkit-scrollbar{display:none;}
+.era-tab{flex-shrink:0;padding:14px 20px;font-family:'Cinzel',serif;font-size:.6rem;letter-spacing:.22em;text-transform:uppercase;color:rgba(212,168,67,.42);cursor:pointer;border-bottom:2px solid transparent;transition:color .22s,border-color .22s;background:none;border-top:none;border-left:none;border-right:none;white-space:nowrap;}
+.era-tab:hover{color:rgba(212,168,67,.75);}
+.era-tab.active{color:var(--gold);border-bottom-color:var(--gold);}
+
+/* ── MAIN CONTENT ── */
+.content{position:relative;z-index:10;max-width:1100px;margin:0 auto;padding:40px 28px 100px;}
+.era-section{margin-bottom:70px;opacity:0;transform:translateY(18px);transition:opacity .5s,transform .5s;}
+.era-section.vis{opacity:1;transform:none;}
+.era-header{margin-bottom:30px;}
+.era-title{font-family:'Cinzel',serif;font-size:1.6rem;font-weight:700;letter-spacing:.06em;
+  background:linear-gradient(135deg,#f5e6a3,#d4a843 50%,#f0c060);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  display:inline-block;}
+.era-line{height:1px;background:linear-gradient(to right,rgba(212,168,67,.3),transparent);margin-top:10px;}
+
+/* ── CARDS GRID ── */
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;}
+.art-card{position:relative;background:var(--card-bg);border:1px solid var(--line);border-radius:6px;overflow:hidden;cursor:pointer;
+  transition:transform .28s cubic-bezier(.22,1,.36,1),border-color .25s,box-shadow .28s;
+  display:flex;flex-direction:column;}
+.art-card:hover{transform:translateY(-5px) scale(1.013);border-color:rgba(200,180,120,.38);box-shadow:0 0 40px rgba(200,160,60,.08),0 8px 32px rgba(0,0,0,.5);}
+.card-img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;filter:brightness(.85) saturate(.9);transition:filter .3s;}
+.art-card:hover .card-img{filter:brightness(1) saturate(1);}
+.card-no-img{width:100%;aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;font-size:3rem;background:linear-gradient(135deg,rgba(30,20,10,.8),rgba(10,15,30,.9));}
+.card-body{padding:18px 18px 16px;flex:1;display:flex;flex-direction:column;gap:8px;}
+.card-mouvement{font-family:'Cinzel',serif;font-size:.52rem;letter-spacing:.22em;text-transform:uppercase;color:rgba(212,168,67,.5);}
+.card-title{font-family:'Cinzel',serif;font-size:.95rem;font-weight:700;letter-spacing:.04em;color:var(--star);line-height:1.3;}
+.card-meta{font-size:.8rem;color:rgba(232,223,196,.38);display:flex;flex-direction:column;gap:2px;margin-top:2px;}
+.card-date{font-style:italic;}
+.card-museum{font-size:.75rem;}
+.card-cta{margin-top:auto;padding-top:12px;font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(212,168,67,.4);display:flex;align-items:center;gap:6px;transition:color .2s;}
+.art-card:hover .card-cta{color:rgba(212,168,67,.85);}
+.card-cta::after{content:'→';transition:transform .22s;}
+.art-card:hover .card-cta::after{transform:translateX(4px);}
+
+/* ── MODAL ── */
+.modal-overlay{position:fixed;inset:0;z-index:100;background:rgba(2,5,14,.88);backdrop-filter:blur(8px);
+  display:flex;align-items:center;justify-content:center;padding:20px;
+  opacity:0;pointer-events:none;transition:opacity .3s;}
+.modal-overlay.open{opacity:1;pointer-events:all;}
+.modal{background:var(--modal-bg);border:1px solid rgba(200,180,120,.2);border-radius:8px;
+  width:100%;max-width:860px;max-height:90vh;overflow-y:auto;overflow-x:hidden;
+  position:relative;transform:translateY(20px) scale(.97);transition:transform .3s;
+  scrollbar-width:thin;scrollbar-color:rgba(212,168,67,.2) transparent;}
+.modal-overlay.open .modal{transform:none;}
+.modal::-webkit-scrollbar{width:4px;}
+.modal::-webkit-scrollbar-thumb{background:rgba(212,168,67,.2);border-radius:2px;}
+
+.modal-close{position:absolute;top:16px;right:18px;background:none;border:none;color:rgba(232,223,196,.4);font-size:1.4rem;cursor:pointer;z-index:10;line-height:1;transition:color .2s;}
+.modal-close:hover{color:var(--gold);}
+
+.modal-img-wrap{width:100%;aspect-ratio:16/7;overflow:hidden;position:relative;}
+.modal-img{width:100%;height:100%;object-fit:cover;filter:brightness(.9);}
+.modal-img-grad{position:absolute;inset:0;background:linear-gradient(to top,var(--modal-bg) 0%,transparent 55%);}
+
+.modal-body{padding:28px 32px 36px;}
+.modal-supra{font-family:'Cinzel',serif;font-size:.55rem;letter-spacing:.3em;text-transform:uppercase;color:rgba(212,168,67,.5);margin-bottom:10px;}
+.modal-title{font-family:'Cinzel',serif;font-size:1.5rem;font-weight:700;line-height:1.2;
+  background:linear-gradient(135deg,#f5e6a3,#d4a843 50%,#f0c060);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.modal-meta{display:flex;flex-wrap:wrap;gap:16px;margin:14px 0 22px;font-size:.82rem;color:rgba(232,223,196,.45);}
+.modal-meta span{display:flex;align-items:center;gap:5px;}
+.modal-meta strong{color:rgba(232,223,196,.7);font-weight:400;}
+.modal-desc{font-size:1rem;line-height:1.7;color:rgba(232,223,196,.72);}
+
+/* anecdotes */
+.anecdotes-title,.quiz-title{font-family:'Cinzel',serif;font-size:.62rem;letter-spacing:.28em;text-transform:uppercase;color:rgba(212,168,67,.55);margin:28px 0 14px;display:flex;align-items:center;gap:10px;}
+.anecdotes-title::after,.quiz-title::after{content:'';flex:1;height:1px;background:linear-gradient(to right,rgba(212,168,67,.2),transparent);}
+.anecdote{display:flex;gap:14px;padding:14px 16px;border:1px solid rgba(200,180,120,.1);border-radius:4px;margin-bottom:10px;background:rgba(255,255,255,.02);}
+.anecdote-icon{font-size:1.3rem;flex-shrink:0;margin-top:2px;}
+.anecdote-text{font-size:.9rem;line-height:1.6;color:rgba(232,223,196,.65);}
+.anecdote-text b{color:rgba(232,223,196,.9);font-weight:600;}
+
+/* quiz */
+.quiz-box{border:1px solid rgba(212,168,67,.18);border-radius:5px;padding:20px 22px;background:rgba(212,168,67,.04);}
+.quiz-q{font-size:1rem;font-style:italic;line-height:1.55;color:rgba(232,223,196,.8);margin-bottom:16px;}
+.quiz-hint{font-size:.82rem;color:rgba(232,223,196,.35);margin-bottom:14px;padding:10px 14px;border-left:2px solid rgba(212,168,67,.2);}
+.quiz-hint strong{color:rgba(212,168,67,.55);}
+.quiz-toggle{font-family:'Cinzel',serif;font-size:.58rem;letter-spacing:.22em;text-transform:uppercase;padding:9px 18px;background:transparent;border:1px solid rgba(212,168,67,.3);color:rgba(212,168,67,.7);cursor:pointer;border-radius:3px;transition:all .2s;}
+.quiz-toggle:hover{background:rgba(212,168,67,.08);border-color:rgba(212,168,67,.6);color:var(--gold);}
+.quiz-answer{margin-top:14px;padding:14px 16px;background:rgba(212,168,67,.07);border-radius:4px;font-size:.95rem;line-height:1.6;color:rgba(232,223,196,.82);display:none;}
+.quiz-answer.show{display:block;}
+
+/* ── FOOTER ── */
+footer{position:relative;z-index:10;text-align:center;padding:32px 20px 48px;border-top:1px solid var(--line);}
+footer p{font-size:.72rem;letter-spacing:.15em;text-transform:uppercase;color:rgba(232,223,196,.2);}
+
+/* ── RESPONSIVE ── */
+@media(max-width:600px){
+  .modal-body{padding:20px 18px 28px;}
+  .modal-title{font-size:1.2rem;}
+  .back-bar{padding:14px 20px;}
+  .content{padding:28px 16px 80px;}
+}
+</style>
+</head>
+<body>
+<canvas id="stars"></canvas>
+
+<nav class="back-bar">
+  <a class="back-link" href="accueil.html">Portail des savoirs</a>
+</nav>
+
+<header>
+  <div class="over-title">Modules interactifs</div>
+  <h1>Arts &amp; Culture</h1>
+  <p class="tagline">Renaissance, Baroque, Impressionnisme, Modernisme — œuvres, artistes &amp; anecdotes</p>
+  <div class="header-deco"><span>🎨</span></div>
+</header>
+
+<!-- FRISE CHRONOLOGIQUE -->
+<div class="frise-wrap">
+  <div class="frise" id="frise"></div>
+</div>
+
+<!-- ERA TABS -->
+<nav class="era-nav" id="era-nav">
+  <div class="era-tabs" id="era-tabs"></div>
+</nav>
+
+<!-- MAIN -->
+<main class="content" id="main-content"></main>
+
+<footer>
+  <p>L'Encyclopédie des Explorateurs &nbsp;·&nbsp; Arts &amp; Culture</p>
+</footer>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modal-overlay" role="dialog" aria-modal="true">
+  <div class="modal" id="modal">
+    <button class="modal-close" id="modal-close" aria-label="Fermer">✕</button>
+    <div id="modal-inner"></div>
+  </div>
+</div>
+
+<script>
+/* ──────────────────────────────────────────
+   DATA
+────────────────────────────────────────── */
+const DATA = [{"era":"Renaissance","events":[{"title":"La Joconde — Léonard de Vinci","artiste":"Léonard de Vinci","date":"1503–1519","mouvement":"Renaissance","img":"img/arts/joconde.webp","musee":"Musée du Louvre, Paris","technique":"Huile sur panneau de bois de peuplier, 77 × 53 cm","desc":"La Joconde est le tableau le plus célèbre et le plus visité du monde. Elle représente probablement Lisa Gherardini, épouse d'un marchand florentin, mais son identité reste débattue. Léonard innove avec le sfumato — une technique de glacis superposés créant des contours flous et un modelé atmosphérique jamais vu. Son sourire ambigu et son regard qui suit le spectateur ont fasciné des générations de visiteurs.","anecdotes":[{"e":"🕵️","t":"<b>La Joconde a été volée en 1911.</b> Vincenzo Peruggia, un ouvrier du Louvre, la cacha sous son manteau. Le tableau disparut deux ans sans qu'on le retrouve. Pablo Picasso fut même interrogé comme suspect. Peruggia fut arrêté en 1913 en tentant de la vendre à un marchand florentin."},{"e":"😐","t":"<b>Elle est plus petite que tout le monde ne l'imagine.</b> 77 × 53 cm — à peu près la taille d'une feuille A1. Les visiteurs du Louvre sont souvent déçus : ils s'attendent à une œuvre immense et découvrent un tableau que l'on pourrait porter sous le bras. Elle est protégée derrière un verre blindé depuis 1956."},{"e":"🧬","t":"<b>Les sourcils de Mona Lisa ont disparu.</b> Léonard les avait peints, mais des restaurations maladroites au fil des siècles les ont effacés. Un ingénieur français a scanné le tableau en 2007 à ultra-haute résolution et retrouvé des traces d'un sourcil gauche à peine perceptible."}],"quiz":{"q":"Quelle technique de Léonard crée les contours flous caractéristiques de la Joconde ?","r":"Le sfumato — des glacis translucides superposés qui fondent les contours dans la lumière","hint":"Ce mot vient de l'italien 'sfumare' : s'estomper, comme la fumée"}},{"title":"L'École d'Athènes — Raphaël","artiste":"Raphaël","date":"1509–1510","mouvement":"Renaissance","img":"img/arts/LEcole-dAthenes-de-Raphael.webp","musee":"Musées du Vatican, Rome","technique":"Fresque, 500 × 770 cm","desc":"Commandée par le pape Jules II pour décorer sa bibliothèque, L'École d'Athènes est le sommet de la peinture de la Haute Renaissance. Elle rassemble les plus grands philosophes de l'Antiquité dans un décor architectural inspiré de Bramante. Au centre, Platon pointe vers le ciel (le monde des Idées) et Aristote vers la terre (le monde réel). Raphaël a donné aux philosophes antiques les visages de ses contemporains : Platon ressemble à Léonard de Vinci.","anecdotes":[{"e":"🧠","t":"<b>Raphaël s'est représenté lui-même dans le coin droit.</b> Il se glisse discrètement dans la foule des philosophes, coiffé d'un béret noir, regardant le spectateur. Cette pratique de l'autoportrait caché (putative) était courante chez les artistes de la Renaissance pour signer discrètement leurs œuvres."},{"e":"🤔","t":"<b>Héraclite, seul assis, représente Michel-Ange.</b> Raphaël aurait ajouté ce personnage isolé et mélancolique après avoir vu les premières esquisses du plafond de la Chapelle Sixtine. Michel-Ange n'avait pas laissé Raphaël entrer pour voir son travail — cette figure serait un hommage indirect au grand rival."},{"e":"📐","t":"<b>La perspective est mathématiquement parfaite.</b> Le point de fuite central tombe exactement entre les deux philosophes principaux. L'architecture en arches rappelle les grandes basiliques romaines et crée une profondeur vertigineuse qui n'existait dans aucune peinture antérieure."}],"quiz":{"q":"Quel philosophe, au centre, pointe vers le ciel pour symboliser le monde des Idées ?","r":"Platon — auquel Raphaël aurait donné le visage de Léonard de Vinci","hint":"Son opposé Aristote pointe vers la terre, symbolisant le monde réel et l'empirisme"}},{"title":"La Naissance de Vénus — Botticelli","artiste":"Sandro Botticelli","date":"1484–1486","mouvement":"Renaissance","img":"img/arts/naissance de venus.webp","musee":"Galerie des Offices, Florence","technique":"Tempera sur toile, 172,5 × 278,9 cm","desc":"Vénus, née de l'écume de la mer, arrive sur le rivage portée par les vents Zéphyr et Chloris, tandis qu'une Heure lui tend un manteau fleuri. Commandée par la famille Médicis, cette œuvre illustre le néoplatonisme florentin — Vénus n'est pas une déesse de chair, mais le symbole de la Beauté céleste, de l'amour divin. C'est la première grande peinture de nu féminin depuis l'Antiquité.","anecdotes":[{"e":"👱","t":"<b>Le modèle serait Simonetta Vespucci, aimée de Julien de Médicis.</b> Cette beauté florentine morte à 23 ans de tuberculose était célébrée comme l'idéal de beauté de la Florence des Médicis. Botticelli, dit-on, demanda à être enterré à ses pieds dans l'église Ognissanti — ce qui fut fait en 1510."},{"e":"🏃","t":"<b>Les nazis faillirent s'en emparer — et elle survécut cachée dans une villa.</b> En 1943, les Offices de Florence furent évacués pour protéger les collections de la guerre. La Naissance de Vénus et d'autres chefs-d'œuvre furent démontés et cachés dans des châteaux et villas de campagne. Les Allemands confisquèrent certaines œuvres, mais Vénus leur échappa."},{"e":"📐","t":"<b>Les proportions de Vénus sont délibérément irréelles.</b> Son cou est trop long, ses épaules trop tombantes, sa hanche gauche anatomiquement impossible. Botticelli ne cherche pas le réalisme mais l'idéal — une beauté spirituelle qui transcende la nature. Cette 'erreur' voulue est signature du style botticellien."}],"quiz":{"q":"Pourquoi Botticelli a-t-il peint les proportions de Vénus de façon anatomiquement incorrecte ?","r":"Délibérément — il cherchait non le réalisme mais un idéal de beauté spirituelle qui transcende la nature","hint":"Son cou est trop long, ses épaules trop tombantes — c'est la signature du style botticellien et du néoplatonisme"}}]},{"era":"Baroque","events":[{"title":"La Fille à la Perle — Vermeer","artiste":"Johannes Vermeer","date":"1665","mouvement":"Baroque","img":"img/arts/la fille a la perle.webp","musee":"Mauritshuis, La Haye","technique":"Huile sur toile, 44,5 × 39 cm","desc":"Surnommée 'la Joconde du Nord', cette œuvre représente une jeune fille au regard tourné par-dessus l'épaule, portant un turban bleu et une perle pendante. Contrairement aux portraits d'apparat, ce n'est pas un portrait commandé mais une 'tronie' — étude d'expression. Le fond sombre et la lumière dramatique plongeant sur le visage créent une intimité saisissante.","anecdotes":[{"e":"🔬","t":"<b>La 'perle' n'est peut-être pas une perle.</b> Des experts ont analysé l'objet à haute résolution : sa forme, son éclat et sa taille correspondent davantage à du verre soufflé peint. Les vraies perles de cette taille auraient été extraordinairement rares et chères. Mais l'ambiguïté fait partie du mystère Vermeer."},{"e":"📖","t":"<b>Un roman best-seller et un film lui ont été consacrés.</b> Tracy Chevalier a imaginé en 1999 l'histoire fictive de la servante qui aurait servi de modèle ('La Jeune Fille à la perle'). Le film avec Scarlett Johansson et Colin Firth (2003) a relancé l'intérêt mondial pour Vermeer et pour ce tableau en particulier."},{"e":"🏠","t":"<b>Vermeer ne vendait presque rien de son vivant.</b> Il peignait lentement — peut-être 2 à 3 tableaux par an — et mourut endetté en 1675 à 43 ans. Sa femme dut déposer le bilan. Pourtant, il est aujourd'hui l'un des peintres les plus admirés et les plus étudiés de l'histoire."}],"quiz":{"q":"Qu'est-ce qu'une 'tronie', le genre auquel appartient La Fille à la Perle ?","r":"Une étude d'expression ou de type humain — pas un portrait d'identité précise, mais une figure imaginaire ou anonyme","hint":"Ce genre néerlandais du XVIIe siècle s'intéressait aux expressions, aux costumes exotiques et aux effets de lumière"}},{"title":"La Ronde de Nuit — Rembrandt","artiste":"Rembrandt van Rijn","date":"1642","mouvement":"Baroque","img":"img/arts/la ronde de nuit.webp","musee":"Rijksmuseum, Amsterdam","technique":"Huile sur toile, 363 × 437 cm","desc":"Ce tableau monumental représente la milice bourgeoise du capitaine Frans Banninck Cocq partant en ronde. Rembrandt révolutionne le portrait de groupe en le transformant en scène d'action vivante, avec une lumière dramatique qui distingue les personnages principaux dans l'obscurité. Contrairement à ce que son titre suggère, la scène se passe en plein jour — la couche de vernis obscurcissant l'a rendu 'nocturne' avec le temps.","anecdotes":[{"e":"✂️","t":"<b>Le tableau fut découpé pour s'adapter à une porte.</b> Au XVIIIe siècle, La Ronde de Nuit fut déplacée dans l'hôtel de ville d'Amsterdam. Comme elle était trop grande pour le mur prévu, on coupa simplement les bords — perdant deux personnages à gauche et une portion du décor. Une copie ancienne montre ce qui existait avant la mutilation."},{"e":"🔪","t":"<b>Elle a été attaquée à l'acide et au couteau, deux fois au XXe siècle.</b> En 1975, un chômeur au couteau lacéra le tableau de plusieurs coups avant d'être maîtrisé. En 1990, un homme aspergea d'acide sulfurique la surface avant que des gardiens l'arrêtent. Les restaurateurs ont effacé les dégâts, mais certaines zones restent fragilisées."},{"e":"🧒","t":"<b>La mystérieuse petite fille blonde en or est une énigme.</b> Au milieu du tableau, une enfant en robe dorée avance, tenant une poule morte à sa ceinture. Elle semble surgir d'un autre monde. Certains historiens pensent qu'elle est le mascotte de la milice ; d'autres y voient une allégorie. Son identité reste inconnue."}],"quiz":{"q":"Pourquoi le titre 'La Ronde de Nuit' est-il trompeur ?","r":"La scène se passe en plein jour — l'accumulation de vernis obscurcissant au fil des siècles a donné l'impression d'une scène nocturne","hint":"Un nettoyage au XXe siècle a révélé que les couleurs originales étaient bien plus claires"}}]},{"era":"Romantisme","events":[{"title":"La Liberté Guidant le Peuple — Delacroix","artiste":"Eugène Delacroix","date":"1830","mouvement":"Romantisme","img":"img/arts/la liberte guidant le peuple.webp","musee":"Musée du Louvre, Paris","technique":"Huile sur toile, 260 × 325 cm","desc":"Peint dans la foulée des Trois Glorieuses de juillet 1830, ce tableau représente Marianne — figure allégorique de la France — brandissant le drapeau tricolore par-dessus des barricades et des cadavres. À ses côtés, un gamin parisien armé de pistolets, un ouvrier avec un sabre, un bourgeois en chapeau. Delacroix s'est représenté lui-même en chapeau haut-de-forme à gauche.","anecdotes":[{"e":"🗓️","t":"<b>Delacroix ne participa pas aux combats mais en fut témoin.</b> Il écrivit à son frère : 'Si je n'ai pas combattu pour la patrie, au moins peindrai-je pour elle.' Cette honnêteté est touchante — le tableau est à la fois engagement et aveu. Bourgeois libéral, Delacroix était plus à l'aise avec un pinceau qu'un fusil."},{"e":"🇫🇷","t":"<b>Ce tableau est devenu un symbole si puissant qu'il figure sur les billets de 100 francs.</b> Marianne aux seins nus guidant le peuple est l'image de la France révolutionnaire par excellence. Elle a inspiré des dizaines d'interprétations contemporaines — dont Coldplay pour une pochette d'album, et des graffeurs du monde entier."},{"e":"🎭","t":"<b>La femme n'est pas une vraie femme — c'est une allégorie.</b> Contrairement à ce que l'on croit souvent, Marianne n'est pas un portrait. C'est la France, la Liberté, la République personnifiées. Ses seins nus ne sont pas érotiques mais symboliques — la mère patrie nourrissante et combattante. Cette distinction entre symbole et réalité était parfaitement comprise au XIXe siècle."}],"quiz":{"q":"Qui Delacroix a-t-il représenté dans son propre tableau à gauche de la composition ?","r":"Lui-même — en chapeau haut-de-forme, bourgeois au milieu des combattants qu'il n'avait pas rejoint","hint":"Il écrivit à son frère : 'Si je n'ai pas combattu, au moins peindrai-je pour la patrie'"}},{"title":"Le Radeau de la Méduse — Géricault","artiste":"Théodore Géricault","date":"1818–1819","mouvement":"Romantisme","img":"img/arts/radeau de la meduse.webp","musee":"Musée du Louvre, Paris","technique":"Huile sur toile, 491 × 716 cm","desc":"Ce tableau colossal représente le naufrage de la frégate Méduse en 1816 — scandale d'État car le capitaine incompétent avait été nommé par favoritisme royaliste. 147 personnes furent abandonnées sur un radeau de fortune ; seules 15 survécurent au prix de scènes d'horreur (cannibalisme). Géricault interrogea des survivants, étudia des corps et des membres à la morgue, et peignit la vérité brute.","anecdotes":[{"e":"💀","t":"<b>Géricault conservait des membres humains dans son atelier.</b> Pour peindre les corps avec un réalisme absolu, il emprunta à la morgue et aux hôpitaux des membres et des têtes de morts. Ses amis et modèles évitaient de venir dans son atelier à cause de l'odeur. Cette recherche obsessionnelle du réalisme était révolutionnaire."},{"e":"⚖️","t":"<b>Le tableau était un brûlot politique contre le gouvernement royaliste.</b> Le capitaine de la Méduse avait été nommé par pure faveur politique malgré son incompétence notoire. Géricault interviewa les survivants et lut le rapport accablant du chirurgien Henri Savigny. En peignant ce désastre, il dénonçait le régime de la Restauration."},{"e":"🏛️","t":"<b>Le Salon officiel l'accueillit dans l'embarras.</b> Le jury du Salon de 1819 ne pouvait pas refuser ce chef-d'œuvre techniquement parfait — mais il était gênant politiquement. Ils lui attribuèrent une médaille d'or tout en minimisant son impact dans les journaux officiels."}],"quiz":{"q":"Pourquoi Géricault conservait-il des membres humains dans son atelier pendant qu'il peignait Le Radeau ?","r":"Pour atteindre un réalisme absolu dans la représentation des corps — il les empruntait à la morgue et aux hôpitaux","hint":"Ses amis évitaient de venir dans son atelier à cause de l'odeur — cette obsession du réalisme était révolutionnaire"}}]},{"era":"Impressionnisme","events":[{"title":"Bal du Moulin de la Galette — Renoir","artiste":"Pierre-Auguste Renoir","date":"1876","mouvement":"Impressionnisme","img":"img/arts/moulin de la galette.webp","musee":"Musée d'Orsay, Paris","technique":"Huile sur toile, 131 × 175 cm","desc":"Cette scène de plein air immortalise les dimanches populaires de Montmartre — les habitants dansent, boivent et flânent sous les lampions. Renoir transportait sa grande toile chaque jour depuis son atelier voisin pour peindre sur le motif. Les taches de lumière filtrant à travers les feuillages sur les vêtements et les visages étaient une innovation technique audacieuse.","anecdotes":[{"e":"🎨","t":"<b>Renoir transportait sa toile de 131 cm à la main chaque jour.</b> Son atelier rue Cortot était à quelques centaines de mètres du Moulin. Avec ses amis, il portait la toile et le matériel jusqu'au jardin. Les danseurs et convives sont tous des amis de Renoir — peintres, journalistes, acteurs — qui posèrent pour lui pendant des semaines."},{"e":"💰","t":"<b>Une version de ce tableau a été vendue 78 millions de dollars en 1990.</b> C'était alors le prix le plus élevé jamais payé pour une peinture aux enchères. L'acquéreur était le milliardaire japonais Ryoei Saito, qui scandalisa le monde de l'art en déclarant vouloir faire incinérer le tableau avec lui à sa mort."},{"e":"☀️","t":"<b>Les taches de lumière sur les vêtements étaient révolutionnaires.</b> Les critiques conservateurs trouvaient les 'taches' de soleil vulgaires et non finies. Pour les impressionnistes, c'était au contraire la vraie peinture : capturer la lumière telle qu'elle est, mouvante et changeante, sans la lisser pour plaire à l'académisme."}],"quiz":{"q":"Où se trouve la guinguette du Moulin de la Galette que Renoir a immortalisée ?","r":"Montmartre, à Paris — Renoir y transportait sa grande toile chaque jour pour peindre sur le motif","hint":"Ce quartier populaire de Paris était au XIXe siècle un village de vignes et de moulins"}},{"title":"Le Déjeuner des Canotiers — Renoir","artiste":"Pierre-Auguste Renoir","date":"1880–1881","mouvement":"Impressionnisme","img":"img/arts/dejeuner des canotiers.webp","musee":"Phillips Collection, Washington D.C.","technique":"Huile sur toile, 130 × 173 cm","desc":"Cette scène de déjeuner sur la terrasse du Restaurant Fournaise à Chatou montre des amis de Renoir — peintres, acteurs, canotiers — réunis dans la joie d'un repas d'été au bord de la Seine. La femme au premier plan jouant avec son chien est Aline Charigot, future épouse de Renoir. C'est l'un des tableaux les plus joyeux et vivants de tout l'impressionnisme.","anecdotes":[{"e":"💑","t":"<b>La femme au premier plan deviendra l'épouse de Renoir.</b> Aline Charigot, modèle et couturière de 20 ans, jouant avec un petit chien au premier plan. Renoir et elle se marièrent en 1890. Elle lui donnera trois fils, dont Pierre Renoir (acteur) et Jean Renoir (cinéaste, futur auteur de 'La Règle du Jeu')."},{"e":"🥂","t":"<b>Les verres et bouteilles sont encore là, les convives arrivent ou partent.</b> Renoir a capturé cet instant suspendu où le repas touche à sa fin : verres vides, bouteilles, les uns s'attardent, d'autres se lèvent. La composition est savamment construite pour donner une impression de spontanéité totale."},{"e":"🎨","t":"<b>Ce tableau marque un tournant dans la carrière de Renoir.</b> Après ce chef-d'œuvre, Renoir voyagera en Italie et sera impressionné par Raphaël. Il traversera une 'période aigre' en cherchant plus de rigueur et de dessin. Le bonheur solaire du Déjeuner des Canotiers ne se retrouvera plus jamais avec cette intensité."}],"quiz":{"q":"Qui est la femme jouant avec le chien au premier plan du Déjeuner des Canotiers ?","r":"Aline Charigot, future épouse de Renoir et mère du cinéaste Jean Renoir","hint":"Renoir l'a rencontrée dans son atelier où elle venait poser — ils se marièrent dix ans plus tard"}},{"title":"Les Nymphéas — Claude Monet","artiste":"Claude Monet","date":"1896–1926","mouvement":"Impressionnisme","img":"img/arts/les nympheas.webp","musee":"Musée de l'Orangerie, Paris","technique":"Huile sur toile, séries de grands formats","desc":"Les Nymphéas constituent la grande œuvre tardive de Monet — près de 250 peintures du bassin de son jardin à Giverny, réalisées sur trente ans. Les huit panneaux géants de l'Orangerie (chacun faisant plusieurs mètres) sont son testament artistique. Monet les peignit alors qu'il perdait progressivement la vue, obsédé par la lumière changeante sur l'eau et les fleurs de lotus.","anecdotes":[{"e":"👁️","t":"<b>Monet peignit ses chefs-d'œuvre en perdant la vue.</b> À partir de 1912, une double cataracte obscurcit sa vision. Il voyait le monde à travers des filtres jaune-brun qui altéraient ses couleurs. Ses tableaux de cette période ont des tonalités rougeâtres caractéristiques. En 1923, opéré avec succès, il détruisit plusieurs tableaux peints 'à l'aveugle'."},{"e":"🌸","t":"<b>Il a créé le jardin pour le peindre.</b> Monet acheta une propriété à Giverny en 1883 et consacra autant d'énergie à concevoir son jardin qu'à peindre. Il fit dériver la rivière Epte pour créer l'étang, acheta des nénuphars japonais, construisit le pont vert. Le jardin était le tableau avant le tableau."},{"e":"🕊️","t":"<b>Les grandes décorations de l'Orangerie furent offertes à la France le jour de l'Armistice.</b> Monet annonça en 1918 son intention d'offrir ces panneaux monumentaux à l'État français en souvenir de la victoire. Ils furent installés dans leur salle ovale spécialement construite et inaugurés en 1927, quelques mois après la mort du peintre."}],"quiz":{"q":"Pourquoi les Nymphéas tardifs de Monet ont-ils des tonalités rougeâtres et dorées inhabituelles ?","r":"Monet souffrait d'une double cataracte qui filtrait sa vision en tons jaune-brun, altérant sa perception des couleurs","hint":"Il fut finalement opéré en 1923 et put voir à nouveau — mais détruisit plusieurs tableaux peints pendant sa 'période aveugle'"}}]},{"era":"Post-Impressionnisme","events":[{"title":"Les Tournesols — Vincent van Gogh","artiste":"Vincent van Gogh","date":"1888","mouvement":"Post-Impressionnisme","img":"img/arts/les tournesols.webp","musee":"National Gallery, Londres (version principale)","technique":"Huile sur toile, 92 × 73 cm","desc":"Van Gogh peint plusieurs versions des Tournesols à Arles pour décorer la chambre de son ami Gauguin, attendu en visite. Les jaunes vibrants — Van Gogh utilisait jusqu'à cinq jaunes différents — sont rendus avec des empâtements épais, quasi sculptés. Les tournesols deviennent le symbole de l'amitié et de la gratitude, mais aussi de la fragilité — ils se fanent vite, comme les espoirs de Van Gogh.","anecdotes":[{"e":"🌻","t":"<b>Van Gogh a peint au moins 11 versions des Tournesols.</b> Il en fit deux séries : quatre avec des fleurs dans un vase en 1888, puis cinq autres versions en 1889. Chacune est légèrement différente. Le tableau de la National Gallery a failli être détruit en 1945 — l'entrepôt où il était caché fut bombardé."},{"e":"😤","t":"<b>Gauguin, pour qui il peignait, n'aimait pas ces tableaux.</b> Gauguin préférait les peintures 'intellectuelles' et trouvait Van Gogh trop spontané, trop émotionnel. Leur cohabitation à Arles dura deux mois et se termina par la crise au cours de laquelle Van Gogh se coupa l'oreille."},{"e":"💛","t":"<b>Le jaune de Van Gogh a viré au brun avec le temps.</b> Van Gogh utilisait du chrome jaune (jaune de chrome), un pigment moins stable que les pigments modernes. Certains jaunes de ses tableaux ont viré au brun verdâtre au fil des décennies. Les chimistes travaillent à comprendre le processus pour préserver ce qui reste."}],"quiz":{"q":"Pour qui Van Gogh a-t-il peint les Tournesols d'Arles, et qu'est-il arrivé à cette amitié ?","r":"Pour accueillir Gauguin dans sa maison jaune — leur cohabitation dura deux mois et se termina par la crise où Van Gogh se coupa l'oreille","hint":"Gauguin n'appréciait pas vraiment le style émotionnel de Van Gogh"}},{"title":"La Nuit Étoilée — Vincent van Gogh","artiste":"Vincent van Gogh","date":"1889","mouvement":"Post-Impressionnisme","img":"img/arts/nuit etoilee 1.webp","musee":"Museum of Modern Art (MoMA), New York","technique":"Huile sur toile, 73,7 × 92,1 cm","desc":"Peinte depuis la fenêtre de sa chambre à l'asile Saint-Paul-de-Mausole à Saint-Rémy-de-Provence, La Nuit Étoilée est le tableau le plus célèbre de Van Gogh. Le ciel tourbillonnant d'énergie — avec ses étoiles et sa lune en spirales — contraste avec la quiétude du village endormi. Van Gogh y exprime à la fois son tourment intérieur et sa fascination mystique pour les astres et l'infini.","anecdotes":[{"e":"🌀","t":"<b>Les tourbillons de Van Gogh ressemblent à des turbulences scientifiques réelles.</b> Des physiciens ont analysé les spirales de La Nuit Étoilée et trouvé qu'elles correspondent aux équations mathématiques décrivant les turbulences des fluides. Van Gogh, dans ses crises, aurait capturé intuitivement des phénomènes naturels que la science n'avait pas encore formalisés."},{"e":"🏥","t":"<b>Van Gogh l'a peinte depuis un asile psychiatrique.</b> Il s'y était lui-même interné en 1889 après sa crise et la mutilation de son oreille. Il avait vue sur un jardin et sur la campagne — qu'il peignait avec une productivité folle (plus d'une toile par jour certaines semaines). L'internement fut paradoxalement une période créative intense."},{"e":"📬","t":"<b>Van Gogh ne l'aimait pas beaucoup.</b> Dans ses lettres à son frère Théo, il décrivait La Nuit Étoilée comme un 'échec' et une 'exagération'. Il préférait ses tableaux de plein air. Théo non plus ne fut pas enthousiaste. Aujourd'hui c'est l'un des tableaux les plus reproduits de l'histoire."}],"quiz":{"q":"D'où Van Gogh peignait-il La Nuit Étoilée, et quelle était sa situation à ce moment ?","r":"Depuis sa chambre à l'asile psychiatrique de Saint-Paul-de-Mausole à Saint-Rémy, où il s'était lui-même interné","hint":"Il considérait ce tableau comme un échec — c'est aujourd'hui l'un des plus reproduits au monde"}},{"title":"Nuit Étoilée sur le Rhône — Vincent van Gogh","artiste":"Vincent van Gogh","date":"1888","mouvement":"Post-Impressionnisme","img":"img/arts/nuit etoilee 2.webp","musee":"Musée d'Orsay, Paris","technique":"Huile sur toile, 72,5 × 92 cm","desc":"Peinte à Arles quelques mois avant La Nuit Étoilée de Saint-Rémy, cette œuvre montre la Grande Ourse reflétée dans le Rhône, avec les lumières jaunes de la ville sur l'eau. Un couple se promène au bord de l'eau. Van Gogh écrivait à sa sœur Wil : 'Je désire absolument peindre un ciel étoilé.' Cette œuvre plus sereine que la Nuit Étoilée de New York montre une fascination pour le cosmos pleine d'espoir.","anecdotes":[{"e":"⭐","t":"<b>Van Gogh peignait la nuit, une bougie accrochée à son chapeau.</b> Pour capter les lumières nocturnes sur le Rhône, il fixait des bougies allumées à son chapeau de paille et à son chevalet. Les habitants d'Arles le regardaient, intrigués, cette silhouette lumineuse dans la nuit au bord du fleuve."},{"e":"💌","t":"<b>Les étoiles ont un sens particulier pour Van Gogh.</b> Il écrivit à Théo : 'Pourquoi les lumières brillantes dans le firmament seraient-elles moins accessibles que les points noirs sur la carte de France ? Comme nous prenons le train pour aller à Tarascon ou à Rouen, nous prenons la mort pour aller dans une étoile.' Les astres étaient pour lui une promesse d'au-delà."},{"e":"🌊","t":"<b>Les reflets sur l'eau sont aussi précis que des instantanés photographiques.</b> La Grande Ourse et ses sept étoiles sont reconnaissables avec une grande fidélité. Des astronomes ont pu vérifier que leur position correspond à l'orientation réelle du ciel au-dessus d'Arles en septembre 1888 — Van Gogh peignait vraiment ce qu'il voyait."}],"quiz":{"q":"Comment Van Gogh éclairait-il son chevalet pour peindre de nuit au bord du Rhône ?","r":"Il fixait des bougies allumées à son chapeau de paille et à son chevalet","hint":"Les habitants d'Arles le regardaient, intrigués par cette silhouette lumineuse dans l'obscurité"}},{"title":"La Terrasse du Café le Soir — Van Gogh","artiste":"Vincent van Gogh","date":"1888","mouvement":"Post-Impressionnisme","img":"img/arts/la terrasse du cafe.webp","musee":"Kröller-Müller Museum, Otterlo","technique":"Huile sur toile, 80,7 × 65,3 cm","desc":"Ce café de la Place du Forum à Arles brille de jaune dans la nuit bleue — c'est l'une des premières peintures de nuit sans lumière noire. Van Gogh voulait exprimer qu'on peut se passer du noir absolu pour peindre la nuit : la couleur seule suffit. La terrasse éclairée s'oppose au ciel nocturne constellé d'étoiles dans un équilibre vibrant entre chaud et froid.","anecdotes":[{"e":"☕","t":"<b>Le café existe encore aujourd'hui et s'appelle 'Le Café van Gogh'.</b> Place du Forum à Arles, l'établissement a conservé (ou reconstitué) l'aspect jaune de la façade. Des milliers de touristes s'y retrouvent chaque année pour comparer la terrasse éclairée au tableau. La chaîne d'hôtels Van Gogh y a même installé une chambre dédiée."},{"e":"🌙","t":"<b>C'est la première peinture de nuit sans noir de Van Gogh.</b> Il écrivit à Théo : 'Voilà une peinture de nuit sans noir. Rien que du beau bleu-violet, du vert et du jaune citron. Avec la place illuminée en vert pâle.' Peindre la nuit avec des couleurs — pas avec du noir — fut une de ses grandes innovations."},{"e":"🔮","t":"<b>Certains chercheurs y voient une représentation de la Cène.</b> Douze clients sont assis à la terrasse, et le serveur en blanc au centre pourrait évoquer le Christ entouré de ses apôtres. Van Gogh, fils de pasteur protestant, intégrait souvent des références religieuses dans des scènes d'apparence banale."}],"quiz":{"q":"Quelle innovation technique Van Gogh expérimenta-t-il dans La Terrasse du Café le Soir ?","r":"Peindre la nuit sans utiliser de noir — uniquement des bleus violets, verts et jaunes","hint":"Il écrivit à son frère : 'Voilà une peinture de nuit sans noir'"}}]},{"era":"Art Nouveau / Symbolisme","events":[{"title":"Le Baiser — Gustav Klimt","artiste":"Gustav Klimt","date":"1907–1908","mouvement":"Art Nouveau / Symbolisme","img":"img/arts/le baiser.webp","musee":"Österreichische Galerie Belvedere, Vienne","technique":"Huile sur toile avec feuilles d'or, 180 × 180 cm","desc":"Deux amants enlacés sur un fond doré, agenouillés au bord d'un précipice fleuri — Le Baiser est le chef-d'œuvre de la 'période dorée' de Klimt. Les feuilles d'or véritable appliquées sur la toile créent un effet mosaïque byzantin. L'homme est entouré de motifs géométriques noirs et blancs ; la femme de fleurs et courbes organiques. Le tableau est une méditation sur l'amour, l'extase et la vulnérabilité.","anecdotes":[{"e":"✨","t":"<b>Klimt utilisait de vraies feuilles d'or et d'argent.</b> Influencé par les mosaïques byzantines de Ravenne qu'il avait vues en 1903, Klimt incorpora des feuilles d'or véritable (24 carats) dans ses tableaux. Le procédé rappelle l'art médiéval des enluminures et des icônes. Chaque feuille d'or devait être appliquée à la main avec une précision extrême."},{"e":"🎭","t":"<b>Le modèle serait Emilie Flöge, grande amour de Klimt.</b> Klimt et la créatrice de mode Emilie Flöge eurent une relation de vingt-sept ans — intime mais jamais officiellement romantique. Klimt mourut en lui murmurant son prénom. Elle aurait aussi servi de modèle à plusieurs autres tableaux célèbres de sa période dorée."},{"e":"🏛️","t":"<b>L'Autriche refusa de laisser partir le tableau.</b> Dès son exposition en 1908, le gouvernement autrichien l'acheta pour le Belvedere de Vienne, conscient d'avoir affaire à un chef-d'œuvre national. Depuis, il n'a pratiquement jamais quitté Vienne — et est considéré comme un symbole de l'identité culturelle autrichienne."}],"quiz":{"q":"Quelle technique médiévale Klimt a-t-il intégrée dans Le Baiser, rare dans la peinture moderne ?","r":"L'application de vraies feuilles d'or (24 carats) directement sur la toile, inspirée des mosaïques byzantines de Ravenne","hint":"Cette technique rappelle les enluminures médiévales et les icônes orthodoxes — Klimt les avait étudiées en Italie"}}]},{"era":"Modernisme","events":[{"title":"La Persistance de la Mémoire — Salvador Dalí","artiste":"Salvador Dalí","date":"1931","mouvement":"Modernisme","img":"img/arts/persistance de la memoire.webp","musee":"Museum of Modern Art (MoMA), New York","technique":"Huile sur toile, 24 × 33 cm","desc":"Les montres molles qui fondent sur un paysage de Cap Creus en Catalogne sont l'image surréaliste la plus connue au monde. Dalí dit avoir eu l'idée en regardant fondre un camembert. Le tableau illustre la conception freudienne du temps dans les rêves — le temps n'y est pas linéaire, il se distord. La figure informe au centre serait un autoportrait de Dalí endormi.","anecdotes":[{"e":"🧀","t":"<b>L'idée vint d'un camembert trop mûr.</b> Dalí raconte : 'Je m'assis à table pour manger et vis un camembert qui fondait. Je le regardai et aussitôt l'idée des montres molles me vint. Je courus peindre.' Il aurait réalisé ce tableau en moins de deux heures, laissant Gala, sa femme, dormir."},{"e":"🪰","t":"<b>La montre couverte de fourmis représente la décomposition et la mort.</b> Les fourmis apparaissent souvent dans les œuvres de Dalí — symbole de putréfaction, d'angoisse et d'obsession. Dalí avait une terreur enfantine des insectes, transformée en motif récurrent dans son art."},{"e":"📏","t":"<b>Ce chef-d'œuvre est minuscule.</b> 24 × 33 cm — environ la taille d'une tablette numérique. Dalí préférait peindre petit pour atteindre une précision quasi photographique, inspirée des maîtres flamands du XVe siècle. Pourtant, cette œuvre semble immense dans l'imaginaire collectif."}],"quiz":{"q":"Quelle vision quotidienne aurait inspiré à Dalí l'idée des montres molles ?","r":"Un camembert trop mûr qui fondait — il aurait peint le tableau en moins de deux heures","hint":"Ce fromage normand, observé pendant un repas, aurait déclenché l'une des images les plus célèbres de l'art"}},{"title":"Guernica — Pablo Picasso","artiste":"Pablo Picasso","date":"1937","mouvement":"Modernisme","img":"img/arts/guernica.webp","musee":"Museo Reina Sofía, Madrid","technique":"Huile sur toile, 349,3 × 776,6 cm","desc":"Guernica est la réponse de Picasso au bombardement de la ville basque de Guernica par l'aviation nazie et franquiste le 26 avril 1937, qui fit des centaines de civils morts. Peint en noir, blanc et gris — les couleurs des photographies de presse — en quelques semaines, ce tableau de presque 8 mètres de large est devenu le symbole universel contre la guerre et la barbarie.","anecdotes":[{"e":"🕊️","t":"<b>Un officier nazi demanda à Picasso : 'C'est vous qui avez fait ça ?'</b> Dans son atelier à Paris pendant l'Occupation, un officier allemand vit une reproduction de Guernica et demanda à Picasso si c'était lui l'auteur. Picasso répondit : 'Non, c'est vous.' Cette anecdote, peut-être apocryphe, symbolise l'engagement politique de l'œuvre."},{"e":"✊","t":"<b>Le tableau vécut en exil 43 ans, comme les Républicains espagnols.</b> Picasso le confia au MoMA de New York avec instruction formelle : il ne devait retourner en Espagne que lorsque la liberté y serait rétablie. Franco mort, le tableau rentra à Madrid en 1981, six ans après la fin de la dictature."},{"e":"🐴","t":"<b>Les symboles sont délibérément ambigus.</b> Picasso refusa toujours d'expliquer la signification du taureau, du cheval agonisant ou de la lampe. 'Le taureau est un taureau et le cheval un cheval', dit-il. Cette ambiguïté voulue laisse le spectateur libre d'interpréter le chaos de la violence à sa façon."}],"quiz":{"q":"Pourquoi Picasso a-t-il peint Guernica uniquement en noir, blanc et gris ?","r":"Pour évoquer les couleurs des photographies de presse et des journaux — ancrer l'œuvre dans la réalité documentaire","hint":"La couleur aurait rendu la scène 'belle' — le noir et blanc la rend témoignage"}},{"title":"Les Demoiselles d'Avignon — Pablo Picasso","artiste":"Pablo Picasso","date":"1907","mouvement":"Modernisme","img":"img/arts/demoiselles d'avignon.webp","musee":"Museum of Modern Art (MoMA), New York","technique":"Huile sur toile, 243,9 × 233,7 cm","desc":"Ce tableau choc marque la naissance du Cubisme et révolutionne toute l'histoire de l'art. Picasso représente cinq femmes nues — des prostituées de la calle Avinyó à Barcelone — en fragmentant leurs corps en facettes géométriques, montrant plusieurs angles simultanément. Les deux figures de droite, aux visages comme des masques africains, indiquent l'influence de l'art tribal sur Picasso.","anecdotes":[{"e":"😱","t":"<b>Braque disait qu'il avait l'impression que Picasso 'voulait qu'on mange de l'étoupe et qu'on crache du feu'.</b> Même ses amis proches furent choqués. Matisse fut scandalisé. Degas hocha la tête de désapprobation. Seule Gertrude Stein soutint Picasso. Le tableau ne fut montré au public qu'en 1916 — neuf ans après sa création."},{"e":"🌍","t":"<b>C'est l'art africain qui a tout changé.</b> Picasso visita une exposition d'art africain et océanien au Trocadéro en 1907 et fut bouleversé. Les masques africains lui révélèrent une façon de représenter le visage humain non comme il est vu, mais comme il est pensé — avec plusieurs faces simultanées. Cette rencontre changea l'art occidental pour toujours."},{"e":"🖼️","t":"<b>Picasso travailla avec une centaine d'études préparatoires.</b> La composition originale incluait deux hommes (un marin et un étudiant en médecine). Peu à peu, Picasso supprima les hommes pour garder les cinq femmes dans leur confrontation directe avec le spectateur — rupture totale avec la convention du nu académique."}],"quiz":{"q":"Quelle découverte artistique a transformé la peinture des deux figures de droite dans Les Demoiselles d'Avignon ?","r":"L'art africain et océanien — Picasso fut bouleversé par les masques africains vus au Trocadéro en 1907","hint":"Ces masques représentent le visage tel qu'il est pensé, pas tel qu'il est vu — plusieurs faces simultanées"}},{"title":"La Danse — Henri Matisse","artiste":"Henri Matisse","date":"1910","mouvement":"Modernisme","img":"img/arts/la danse.webp","musee":"Musée de l'Ermitage, Saint-Pétersbourg","technique":"Huile sur toile, 260 × 391 cm","desc":"Cinq figures nues forment une ronde dans un espace réduit à trois aplats de couleurs : le bleu du ciel, le vert de la colline, le rouge-brique des corps. Matisse simplifie tout à l'extrême — plus d'ombres, plus de profondeur, plus de détails. La puissance vient du rythme, du mouvement circulaire et de la vibration des couleurs complémentaires. C'est l'un des tableaux les plus influents du XXe siècle.","anecdotes":[{"e":"🎨","t":"<b>Matisse a réduit la peinture à ses éléments essentiels.</b> Pas de perspective, pas d'ombre, pas de détail anatomique. Juste la couleur et la ligne. Cette radicalité influencera tout l'art abstrait du XXe siècle — de Rothko à Ellsworth Kelly. Matisse appelait cela 'l'art de l'équilibre, de la pureté et du calme'."},{"e":"🩺","t":"<b>Matisse était destiné à être avocat.</b> Cloué au lit par une appendicite à 20 ans, sa mère lui offrit une boîte de couleurs pour passer le temps. Il découvrit 'une sorte de paradis'. Il abandonna le droit et consacra sa vie à la peinture, devenant le grand rival et ami de Picasso."},{"e":"✂️","t":"<b>Immobilisé à 70 ans, Matisse inventa les 'papiers découpés'.</b> Ne pouvant plus peindre debout, il demanda à ses assistants de peindre de grandes feuilles en aplats de couleurs, qu'il découpait et composait depuis son fauteuil. Ces Gouaches découpées — dont 'La Piscine' et 'L'Escargot' — sont parmi ses œuvres les plus radicales."}],"quiz":{"q":"À combien de couleurs Matisse a-t-il réduit La Danse, et lesquelles ?","r":"Trois : bleu du ciel, vert de la colline, rouge-brique des corps — plus d'ombres ni de détails","hint":"Cette radicalité — tout simplifier à l'extrême — influencera tout l'art abstrait du siècle suivant"}},{"title":"Composition VIII — Wassily Kandinsky","artiste":"Wassily Kandinsky","date":"1923","mouvement":"Modernisme","img":"img/arts/kandinsky.webp","musee":"Solomon R. Guggenheim Museum, New York","technique":"Huile sur toile, 140 × 201 cm","desc":"Kandinsky est considéré comme le père de la peinture abstraite. Dans Composition VIII, formes géométriques — cercles, triangles, lignes — s'organisent dans un espace sans référence au monde visible. Pour Kandinsky, les formes et les couleurs ont des équivalents émotionnels et musicaux : le jaune est agressif, le bleu est spirituel, le cercle est la forme la plus pure. La peinture doit agir comme la musique — directement sur l'âme.","anecdotes":[{"e":"🎵","t":"<b>Kandinsky 'entendait' les couleurs et 'voyait' la musique.</b> Il souffrait de synesthésie — un croisement des sens qui lui faisait associer sons et couleurs. En entendant Wagner, il voyait des couleurs. Cette condition particulière fut pour lui une révélation : la peinture peut toucher l'âme directement, comme la musique, sans passer par la représentation du monde réel."},{"e":"📚","t":"<b>Son livre 'Du Spirituel dans l'Art' (1912) est la bible de l'abstraction.</b> Il y théorise que chaque couleur a une 'résonance intérieure' — le jaune est actif et irritant, le bleu est profond et céleste, le rouge brûle. Ce manifeste, traduit dans le monde entier, donna aux artistes abstraits un cadre théorique pour défendre leur démarche."},{"e":"🏫","t":"<b>Kandinsky enseigna au Bauhaus aux côtés de Klee et Moholy-Nagy.</b> Cette école révolutionnaire d'art et de design (1919-1933) voulait fondre les beaux-arts et l'artisanat. Lorsque les nazis fermèrent le Bauhaus en 1933, Kandinsky s'exila à Paris, où il mourut en 1944."}],"quiz":{"q":"Pourquoi Kandinsky comparait-il la peinture abstraite à la musique ?","r":"Il souffrait de synesthésie et associait sons et couleurs — pour lui, la peinture pouvait toucher l'âme directement, sans représenter le monde visible","hint":"En entendant Wagner, il voyait des couleurs — cette condition rare fut sa révélation artistique"}}]},{"era":"Néoclassicisme","events":[{"title":"Le Sacre de Napoléon — Jacques-Louis David","artiste":"Jacques-Louis David","date":"1805–1807","mouvement":"Néoclassicisme","img":"img/arts/Le Sacre de Napoléon.webp","musee":"Musée du Louvre, Paris","technique":"Huile sur toile, 621 × 979 cm","desc":"Cette œuvre monumentale immortalise le sacre de Napoléon Ier le 2 décembre 1804 à Notre-Dame de Paris. David, peintre officiel de l'Empire, a représenté non pas le moment où le pape Pie VII couronne Napoléon — qui s'est lui-même couronné — mais celui où Napoléon couronne Joséphine. Plus de 200 portraits sont reconnaissables dans ce tableau, véritable document historique autant qu'œuvre d'art.","anecdotes":[{"e":"👑","t":"<b>Napoléon s'est couronné lui-même, snobant le pape.</b> Pour ne devoir sa couronne qu'à lui-même, il prit la couronne des mains du pape Pie VII et se la posa sur la tête. David a 'corrigé' l'histoire en peignant à la place le couronnement de Joséphine — scène moins subversive et plus romantique."},{"e":"👩","t":"<b>La mère de Napoléon est dans le tableau — alors qu'elle n'y était pas.</b> Laetitia Bonaparte avait boycotté la cérémonie par désapprobation. Napoléon ordonna à David de la peindre quand même dans la loge d'honneur. La peinture est donc un mensonge historique délibéré."},{"e":"📏","t":"<b>Le tableau mesure plus de 6 mètres de haut sur presque 10 de large.</b> David travailla trois ans sur cette toile. Pour vérifier les ressemblances, les personnages venaient poser dans son atelier. Napoléon lui-même vint voir le tableau terminé et se serait écrié : 'Chapeau, David !'"}],"quiz":{"q":"Qui Napoléon est-il en train de couronner dans le tableau de David ?","r":"Joséphine, son épouse — David a modifié la scène réelle où Napoléon s'était couronné lui-même","hint":"La mère de Napoléon est également présente dans le tableau… bien qu'elle ait boycotté la cérémonie"}},{"title":"Napoléon traversant les Alpes — David","artiste":"Jacques-Louis David","date":"1801–1805","mouvement":"Néoclassicisme","img":"img/arts/napoleon alpes.webp","musee":"Château de Malmaison / Charlottenburg / Belvedere (5 versions)","technique":"Huile sur toile, 261 × 221 cm","desc":"Napoléon, sur un cheval cabré, montre le chemin à ses troupes dans le col du Grand-Saint-Bernard. Le geste héroïque, le manteau rouge battant dans le vent, le regard déterminé — tout est glorification. En réalité, Napoléon traversa les Alpes sur un mulet et demanda à David de le peindre 'calme sur un cheval fougueux'. David livra ce monument de propagande.","anecdotes":[{"e":"🫏","t":"<b>Napoléon traversa les Alpes sur un mulet, pas un cheval.</b> C'est un guide local qui lui prêta l'animal plus sûr pour le terrain montagneux. David le peignit quand même sur un étalon cabré. Napoléon, pragmatique, se contenta de demander qu'on le représente 'calme sur un cheval fougueux'. La propagande primait sur la vérité."},{"e":"5️⃣","t":"<b>David peignit cinq versions de ce tableau.</b> Commandées par différents souverains et États alliés de Napoléon, chacune présente des variations subtiles (couleur du manteau, position exacte des personnages). Les cinq versions existent encore dans différents musées européens."},{"e":"🪨","t":"<b>Les noms gravés dans le rocher forment une séquence historique.</b> Dans la roche, on peut lire 'Hannibal', 'Karolus Magnus' (Charlemagne) et 'Bonaparte' — les trois grands chefs militaires qui traversèrent les Alpes. Napoléon s'inscrit délibérément dans une lignée de conquérants légendaires."}],"quiz":{"q":"Sur quel animal Napoléon a-t-il réellement traversé les Alpes, contrairement à la peinture de David ?","r":"Sur un mulet — plus sûr sur le terrain montagneux — prêté par un guide local","hint":"Napoléon, pragmatique, demanda simplement à David de le peindre 'calme sur un cheval fougueux'"}}]}];
+
+/* ──────────────────────────────────────────
+   STARS (same as accueil)
+────────────────────────────────────────── */
+(function(){
+  const c=document.getElementById('stars'),ctx=c.getContext('2d');
+  let W,H,stars=[];
+  function resize(){W=c.width=innerWidth;H=c.height=innerHeight;}
+  function init(){stars=[];for(let i=0;i<220;i++)stars.push({x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.1+.2,a:Math.random()*.7+.15,sp:Math.random()*.4+.1,ph:Math.random()*Math.PI*2});}
+  function draw(t){ctx.clearRect(0,0,W,H);stars.forEach(s=>{const a=s.a*(0.6+0.4*Math.sin(t*.001*s.sp+s.ph));ctx.beginPath();ctx.arc(s.x,s.y,s.r,0,Math.PI*2);ctx.fillStyle=`rgba(240,230,190,${a})`;ctx.fill();});requestAnimationFrame(draw);}
+  window.addEventListener('resize',()=>{resize();init();});
+  resize();init();requestAnimationFrame(draw);
+})();
+
+/* ──────────────────────────────────────────
+   BUILD UI
+────────────────────────────────────────── */
+const eraEmojis = {
+  'Renaissance':'🖌️','Baroque':'🕯️','Romantisme':'⚔️',
+  'Impressionnisme':'☀️','Post-Impressionnisme':'🌀',
+  'Art Nouveau / Symbolisme':'✨','Modernisme':'💥','Néoclassicisme':'🏛️'
+};
+
+// Frise
+const friseEl = document.getElementById('frise');
+DATA.forEach((era,i)=>{
+  const btn = document.createElement('button');
+  btn.className = 'frise-era-btn' + (i===0?' active':'');
+  btn.dataset.idx = i;
+  btn.innerHTML = `<div class="frise-dot"></div><span class="frise-label">${era.era}</span>`;
+  btn.addEventListener('click',()=>scrollToEra(i));
+  if(i < DATA.length-1){
+    const track = document.createElement('div');
+    track.className = 'frise-track';
+    friseEl.appendChild(btn);
+    friseEl.appendChild(track);
+  } else {
+    friseEl.appendChild(btn);
+  }
+});
+
+// Era tabs
+const tabsEl = document.getElementById('era-tabs');
+DATA.forEach((era,i)=>{
+  const tab = document.createElement('button');
+  tab.className = 'era-tab' + (i===0?' active':'');
+  tab.dataset.idx = i;
+  tab.textContent = era.era;
+  tab.addEventListener('click',()=>scrollToEra(i));
+  tabsEl.appendChild(tab);
+});
+
+// Main content
+const mainEl = document.getElementById('main-content');
+DATA.forEach((era,eraIdx)=>{
+  const section = document.createElement('section');
+  section.className = 'era-section';
+  section.id = `era-${eraIdx}`;
+
+  const hdr = document.createElement('div');
+  hdr.className = 'era-header';
+  hdr.innerHTML = `<h2 class="era-title">${eraEmojis[era.era]||'🎨'}&nbsp; ${era.era}</h2><div class="era-line"></div>`;
+  section.appendChild(hdr);
+
+  const grid = document.createElement('div');
+  grid.className = 'cards-grid';
+
+  era.events.forEach((ev,evIdx)=>{
+    const card = document.createElement('div');
+    card.className = 'art-card';
+    card.setAttribute('role','button');
+    card.setAttribute('tabindex','0');
+    card.setAttribute('aria-label',`Voir la fiche de ${ev.title}`);
+
+    const imgHtml = ev.img
+      ? `<img class="card-img" src="${ev.img}" alt="${ev.title}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
+      + `<div class="card-no-img" style="display:none">${eraEmojis[era.era]||'🎨'}</div>`
+      : `<div class="card-no-img">${eraEmojis[era.era]||'🎨'}</div>`;
+
+    card.innerHTML = `
+      ${imgHtml}
+      <div class="card-body">
+        <div class="card-mouvement">${ev.mouvement}</div>
+        <div class="card-title">${ev.title}</div>
+        <div class="card-meta">
+          <span class="card-date">${ev.date}</span>
+          <span class="card-museum">📍 ${ev.musee}</span>
+        </div>
+        <div class="card-cta">Découvrir l'œuvre</div>
+      </div>`;
+
+    card.addEventListener('click',()=>openModal(eraIdx,evIdx));
+    card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openModal(eraIdx,evIdx);}});
+    grid.appendChild(card);
+  });
+
+  section.appendChild(grid);
+  mainEl.appendChild(section);
+});
+
+/* ──────────────────────────────────────────
+   SCROLL & ACTIVE LOGIC
+────────────────────────────────────────── */
+function scrollToEra(idx){
+  const section = document.getElementById(`era-${idx}`);
+  if(!section) return;
+  const navH = document.getElementById('era-nav').offsetHeight;
+  const top = section.getBoundingClientRect().top + window.scrollY - navH - 24;
+  window.scrollTo({top,behavior:'smooth'});
+}
+
+function setActive(idx){
+  document.querySelectorAll('.era-tab').forEach((t,i)=>t.classList.toggle('active',i===idx));
+  document.querySelectorAll('.frise-era-btn').forEach((b,i)=>b.classList.toggle('active',i===idx));
+}
+
+// IntersectionObserver for active tab + card animations
+const sectionEls = document.querySelectorAll('.era-section');
+const cardObserver = new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting) e.target.classList.add('vis');});
+},{threshold:.08});
+sectionEls.forEach(s=>cardObserver.observe(s));
+
+const eraObserver = new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      const idx = parseInt(e.target.id.replace('era-',''));
+      setActive(idx);
+    }
+  });
+},{rootMargin:'-40% 0px -50% 0px'});
+sectionEls.forEach(s=>eraObserver.observe(s));
+
+/* ──────────────────────────────────────────
+   MODAL
+────────────────────────────────────────── */
+const overlay = document.getElementById('modal-overlay');
+const modalInner = document.getElementById('modal-inner');
+const modalClose = document.getElementById('modal-close');
+let lastFocus = null;
+
+function openModal(eraIdx,evIdx){
+  const ev = DATA[eraIdx].events[evIdx];
+  lastFocus = document.activeElement;
+
+  const imgSection = ev.img
+    ? `<div class="modal-img-wrap">
+        <img class="modal-img" src="${ev.img}" alt="${ev.title}" onerror="this.parentElement.style.display='none'">
+        <div class="modal-img-grad"></div>
+       </div>`
+    : '';
+
+  const anecdotes = ev.anecdotes.map(a=>`
+    <div class="anecdote">
+      <div class="anecdote-icon">${a.e}</div>
+      <div class="anecdote-text">${a.t}</div>
+    </div>`).join('');
+
+  const quiz = ev.quiz ? `
+    <div class="quiz-title">Quiz</div>
+    <div class="quiz-box">
+      <div class="quiz-q">❓ ${ev.quiz.q}</div>
+      <div class="quiz-hint"><strong>Indice :</strong> ${ev.quiz.hint}</div>
+      <button class="quiz-toggle" onclick="toggleQuiz(this)">Révéler la réponse</button>
+      <div class="quiz-answer">✅ ${ev.quiz.r}</div>
+    </div>` : '';
+
+  modalInner.innerHTML = `
+    ${imgSection}
+    <div class="modal-body">
+      <div class="modal-supra">${ev.mouvement} · ${ev.date}</div>
+      <h2 class="modal-title">${ev.title}</h2>
+      <div class="modal-meta">
+        <span>🖌️ <strong>${ev.artiste}</strong></span>
+        <span>📍 <strong>${ev.musee}</strong></span>
+        <span>🔬 ${ev.technique}</span>
+      </div>
+      <p class="modal-desc">${ev.desc}</p>
+      <div class="anecdotes-title">Anecdotes</div>
+      ${anecdotes}
+      ${quiz}
+    </div>`;
+
+  overlay.classList.add('open');
+  document.body.style.overflow='hidden';
+  document.getElementById('modal').scrollTop=0;
+  modalClose.focus();
+}
+
+function closeModal(){
+  overlay.classList.remove('open');
+  document.body.style.overflow='';
+  if(lastFocus) lastFocus.focus();
+}
+
+function toggleQuiz(btn){
+  const ans = btn.nextElementSibling;
+  const show = !ans.classList.contains('show');
+  ans.classList.toggle('show',show);
+  btn.textContent = show ? 'Masquer la réponse' : 'Révéler la réponse';
+}
+
+modalClose.addEventListener('click',closeModal);
+overlay.addEventListener('click',e=>{if(e.target===overlay) closeModal();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape') closeModal();});
+</script>
+</body>
+</html>
