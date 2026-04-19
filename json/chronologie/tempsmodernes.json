@@ -16,7 +16,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/naissance_planetes.webp"
+        "img": "histoire/francois Ier.webp"
       },
       {
         "icon": "📖",
@@ -34,7 +34,8 @@
             "t": "<b>« Fais ce que voudras »</b> — la devise de l'abbaye de Thélème résume l'idéal humaniste : liberté naturelle de l'être instruit. Une provocation dans la France du XVIe siècle."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/rabelais.webp"
       },
       {
         "icon": "🏇",
@@ -53,7 +54,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/henri II.webp"
       },
       {
         "icon": "👑",
@@ -71,7 +72,8 @@
             "t": "<b>Il mourut d'une mastoïdite —</b> une infection de l'oreille qui gagna le cerveau. Une balade antibiotique aurait suffi à changer le cours de l'histoire de France. Sa mort ouvrit la voie aux guerres de Religion qui ensanglanteraient la France pendant 40 ans."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/francois II.webp"
       },
       {
         "icon": "⚔️",
@@ -89,7 +91,8 @@
             "t": "<b>Henri III et Henri IV furent tous deux assassinés par des fanatiques catholiques.</b> La France tua deux de ses rois de suite au nom de la religion — un record dans l'histoire monarchique."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/guerres religion.webp"
       },
       {
         "icon": "🔔",
@@ -108,7 +111,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Massacre_de_la_Saint-Barthélemy_à_Paris.webp"
+        "img": "histoire/saint barthelemy.webp"
       }
     ]
   },
@@ -132,7 +135,8 @@
             "t": "<b>Ravaillac était un fanatique catholique</b> convaincu qu'Henri IV allait attaquer le pape. Il le poignarda dans son carrosse bloqué dans la rue de la Ferronnerie, le 14 mai 1610."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/henri 4.webp"
       },
       {
         "icon": "👑",
@@ -151,7 +155,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/marie_de_medecis_conspirant.webp"
+        "img": "histoire/marie de medicis.webp"
       },
       {
         "icon": "⚜️",
@@ -188,7 +192,8 @@
             "t": "<b>Corneille inventa le dilemme cornélien :</b> choisir entre deux valeurs également impérieuses — honneur vs amour. Ce conflit psychologique structure encore le cinéma et la littérature."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "le cid.webp"
       },
       {
         "icon": "🔬",
@@ -207,7 +212,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Naissance_de_l'univers_lumineux.webp"
+        "img": "histoire/pascal.webp"
       },
       {
         "icon": "🃏",
@@ -225,7 +230,8 @@
             "t": "<b>Louis XIV dut fuir Paris en pleine nuit à 10 ans, pendant la Fronde.</b> Ce traumatisme explique sa méfiance des grands seigneurs — et son choix de les enfermer dorés à Versailles, loin de tout pouvoir réel."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/.webp"
       },
       {
         "icon": "☀️",
@@ -244,7 +250,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Louis_XI_et_ses_stratégies_secrètes.webp"
+        "img": "histoire/louis XIV.webp"
       },
       {
         "icon": "👑",
@@ -258,7 +264,8 @@
             "t": "<b>Le château le plus luxueux d'Europe manquait cruellement de sanitaires.</b> L'odeur était légendaire — ironie suprême de la magnificence absolue."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/versailles.webp"
       },
       {
         "icon": "💰",
@@ -276,7 +283,8 @@
             "t": "<b>Il faisait espionner les manufactures étrangères</b> pour voler leurs techniques. Des agents payés par lui dérobèrent les secrets de la dentelle de Venise et de la verrerie de Murano — au risque de leur vie. L'espionnage industriel est aussi vieux que l'industrie."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/colbert.webp"
       },
       {
         "kind": "histoire",
@@ -294,7 +302,7 @@
             "t": "<b>Tartuffe fut interdite dès sa première représentation</b> en 1664, jugée scandaleuse par l'Église. Louis XIV la défendit. La bataille entre Molière et les dévots dura 5 ans avant que la pièce puisse être jouée librement."
           }
         ],
-        "img": "histoire/Molière,_Racine_et_Corneille_au_théâtre.webp"
+        "img": "histoire/moliere.webp"
       },
       {
         "icon": "🎭",
@@ -308,7 +316,8 @@
             "t": "<b>Phèdre amoureuse de son beau-fils Hippolyte</b> est l'un des portraits psychologiques les plus fouillés de la littérature mondiale — culpabilité, désir et mort avec une modernité saisissante."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/racine andromaque.webp"
       },
       {
         "icon": "🦊",
@@ -326,7 +335,8 @@
             "t": "<b>Les Fables sont le texte le plus imprimé de France</b> après la Bible. La Fontaine transforme la morale ésopique en poésie musicale aux vers impossibles à améliorer."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/la fontaine.webp"
       },
       {
         "icon": "✍️",
@@ -344,7 +354,8 @@
             "t": "<b>En 2009, Sarkozy railla ce roman.</b> La polémique déclencha des lectures publiques de masse — la Princesse de Clèves fut en rupture de stock dans toutes les librairies de France."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/mme de cleves.webp"
       },
       {
         "icon": "⚓",
@@ -363,7 +374,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/corsaires.webp"
       },
       {
         "icon": "⛓️",
@@ -382,7 +393,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Le_commerce_triangulaire_transatlantique.webp"
+        "img": "histoire/traite negriere.webp"
       },
       {
         "icon": "☠️",
@@ -401,7 +412,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/peste.webp"
+        "img": "histoire/peste marseille.webp"
       },
       {
         "icon": "💎",
@@ -419,7 +430,8 @@
             "t": "<b>« Après moi, le déluge »</b> — phrase attribuée à Louis XV (ou à Mme de Pompadour). En mourant de la variole en 1774, il laissait la France au bord de la faillite et de la révolution."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/louis XV.webp"
       },
       {
         "icon": "⚡",
@@ -437,7 +449,8 @@
             "t": "<b>Candide (1759)</b> : le héros traverse toutes les catastrophes en répétant que « tout va pour le mieux dans le meilleur des mondes ». Cette ironie dévastratrice en 30 pages reste inégalée."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/voltaire.webp"
       },
       {
         "icon": "📚",
@@ -455,7 +468,8 @@
             "t": "<b>Le propre éditeur de Diderot sabota secrètement l'Encyclopédie</b> en supprimant des passages trop dangereux pour éviter la censure — sans en informer Diderot. Ce dernier l'apprit à la fin du projet et fut anéanti. Il ne publia plus rien de son vivant."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/diderot dalembert.webp"
       },
       {
         "icon": "🌍",
@@ -474,7 +488,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Bataille_de_la_guerre_de_Sept_Ans.webp"
+        "img": "histoire/guerre de 7 ans.webp"
       },
       {
         "icon": "🌿",
@@ -492,7 +506,8 @@
             "t": "<b>Rousseau fut le premier écologiste :</b> il défendait la nature contre la civilisation corromprice et rêvait du « bon sauvage ». Thoreau, Tolstoï et tous les critiques de la modernité lui doivent tout."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/rousseau.webp"
       },
       {
         "icon": "🗡️",
@@ -510,7 +525,8 @@
             "t": "<b>Louis XVI était passionné de serrurerie.</b> On découvrit dans son atelier son « armoire de fer » contenant ses correspondances compromettantes."
           }
         ],
-        "kind": "histoire"
+        "kind": "histoire",
+        "img": "histoire/louis XVI.webp"
       }
     ]
   }
