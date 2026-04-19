@@ -238,7 +238,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/indouisme.webp"
       },
       {
         "icon": "🗿",
@@ -353,7 +353,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/boudha.webp"
       },
       {
         "icon": "📜",
@@ -372,7 +372,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/confucius.webp"
       }
     ]
   },
@@ -448,7 +448,7 @@
             "t": "<b>Le « théorème de Thalès »</b> sur les triangles semblables lui permit de mesurer la hauteur de la Grande Pyramide en comparant son ombre à celle d'un bâton. Simple, élégant, révolutionnaire."
           }
         ],
-        "img": "histoire/.webp"
+        "img": "histoire/thales.webp"
       },
       {
         "kind": "histoire",
@@ -484,7 +484,7 @@
             "t": "<b>Le Parthénon fut partiellement détruit en 1687</b> quand les Vénitiens bombardèrent les Ottomans qui y stockaient de la poudre à canon. 2 000 ans de conservation détruits en une explosion."
           }
         ],
-        "img": "histoire/.webp"
+        "img": "histoire/parthenon.webp"
       },
       {
         "kind": "histoire",
@@ -543,7 +543,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/Qin Shi Huang & la Grande Muraille.webp"
       },
       {
         "icon": "🐺",
@@ -609,7 +609,7 @@
             "t": "<b>Le premier roman de l'histoire est écrit par une femme,</b> au Japon, il y a 1 000 ans. C'est aussi l'un des plus longs et des plus complexes — psychologiquement, il n'a rien à envier aux romans modernes."
           }
         ],
-        "img": "histoire/.webp"
+        "img": "histoire/Lady Murasaki écrivant sous la lueur de la bougie.webp"
       },
       {
         "kind": "histoire",
@@ -627,7 +627,7 @@
             "t": "<b>Le papier mit 1 000 ans à atteindre l'Europe</b> (XIe-XIIe siècle, via les Arabes). Sans papier, pas d'imprimerie possible."
           }
         ],
-        "img": "histoire/.webp"
+        "img": "histoire/papier.webp"
       },
       {
         "icon": "🌸",
@@ -709,7 +709,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/Empire Songhaï — Tombouctou.webp"
       },
       {
         "icon": "⡐",
@@ -742,7 +742,7 @@
             "t": "<b>Les Médicis financèrent la Renaissance</b> — banquiers florentins devenus mécènes par passion et par prestige. Sans leur argent, Léonard, Michel-Ange et Botticelli n'auraient peut-être jamais pu créer librement."
           }
         ],
-        "img": "histoire/.webp"
+        "img": "histoire/leonard de vinci.jpg"
       },
       {
         "icon": "🌙",
