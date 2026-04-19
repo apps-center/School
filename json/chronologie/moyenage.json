@@ -64,7 +64,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/sacre_charlemagne.webp"
+        "img": "histoire/Le_baptême_de_Clovis_à_Reims.webp"
       },
       {
         "icon": "👑",
@@ -83,7 +83,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+        "img": "histoire/dagobert.webp"
       },
       {
         "icon": "😴",
@@ -98,7 +98,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+        "img": "histoire/rois faineants.webp"
       }
     ]
   },
@@ -119,7 +119,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+        "img": "histoire/charles martel.webp"
       },
       {
         "icon": "⚜️",
@@ -134,7 +134,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/sacre_charlemagne.webp"
+        "img": "histoire/pepin le bref.webp"
       },
       {
         "icon": "👑",
@@ -177,7 +177,7 @@
           "r": "C'est le premier texte écrit en vieux-français, ancêtre direct de notre langue",
           "hint": "Le latin se transformait peu à peu — et ce serment en garde la première trace écrite"
         },
-        "img": "histoire/sacre_charlemagne.webp"
+        "img": "histoire/serment de strasbourg.webp"
       },
       {
         "kind": "histoire",
