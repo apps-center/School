@@ -16,7 +16,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/bastille.webp"
+        "img": "histoire/La_prise_de_la_Bastille_en_feu.webp"
       },
       {
         "icon": "⚖️",
@@ -31,7 +31,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/terreur.webp"
+        "img": "histoire/Exécution_à_la_guillotine_pendant_la_Révolution.webp"
       },
       {
         "icon": "👑",
@@ -50,7 +50,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/napoleon.webp"
+        "img": "histoire/Napoléon_se_couronnant_à_Notre-Dame.webp"
       },
       {
         "icon": "🏭",
@@ -69,7 +69,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/belle epoque.webp"
+        "img": "histoire/revolution_industrielle.webp"
       },
       {
         "kind": "histoire",
