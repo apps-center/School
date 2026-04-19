@@ -20,7 +20,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+        "img": "histoire/La chute de Rome, 476 après J.-C..webp"
       },
       {
         "icon": "🔱",
@@ -39,7 +39,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Vie_médiévale_dans_un_paysage_rural.webp"
+        "img": "histoire/Atila.webp"
       }
     ]
   },
@@ -242,7 +242,7 @@
             "t": "<b>L'étrier changea la guerre.</b> Le cavalier stabilisé peut frapper avec toute la force de son cheval. C'est ce qui rendit la chevalerie lourde possible — et domina les champs de bataille pendant 700 ans."
           }
         ],
-        "img": "histoire/collier épaule etrier.webp"
+        "img": "histoire/collier d epaule.webp"
       }
     ]
   },
@@ -782,7 +782,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/charles Vl.webp"
+        "img": "histoire/charles VI.webp"
       },
       {
         "kind": "histoire",
@@ -891,7 +891,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/charles Vll.webp"
+        "img": "histoire/charles VII.webp"
       },
       {
         "icon": "🔥",
@@ -953,7 +953,7 @@
           "r": "Les canons (l'artillerie à poudre)",
           "hint": "Cette arme rendit obsolètes les archers anglais aux longbows qui avaient dominé à Crécy et Azincourt"
         },
-        "img": "histoire/guerre de 100 ans.webp"
+        "img": "histoire/castillon la bataille.webp"
       },
       {
         "icon": "🕸️",
@@ -972,7 +972,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/louis Xl.webp"
+        "img": "histoire/louis XI carte.webp"
       },
       {
         "kind": "histoire",
