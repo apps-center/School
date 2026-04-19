@@ -66,7 +66,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Crépuscule_sur_l'immensité_glacée.webp"
+        "img": "histoire/peuplement_amerique_traversée_béring.webp"
       }
     ]
   },
@@ -238,7 +238,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/La promesse divine sous les étoiles.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🗿",
@@ -334,7 +334,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Les savants grecs en pleine étude.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🪷",
@@ -353,7 +353,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Rassemblement philosophique à Athènes.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "📜",
@@ -372,7 +372,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Les savants de l'Antiquité grecque.webp"
+        "img": "histoire/.webp"
       }
     ]
   },
@@ -430,7 +430,7 @@
             "t": "<b>Son résultat : ~39 375 km. La vraie valeur : 40 075 km.</b> Une erreur de 1,7 % — sans satellite ni GPS, juste deux bâtons et de la trigonométrie."
           }
         ],
-        "img": "histoire/Les savants de l'Antiquité grecque.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -448,7 +448,7 @@
             "t": "<b>Le « théorème de Thalès »</b> sur les triangles semblables lui permit de mesurer la hauteur de la Grande Pyramide en comparant son ombre à celle d'un bâton. Simple, élégant, révolutionnaire."
           }
         ],
-        "img": "histoire/Les savants grecs en pleine étude.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -466,7 +466,7 @@
             "t": "<b>Pythagore découvrit aussi les harmonies musicales.</b> En jouant sur des cordes de longueurs différentes, il remarqua que des rapports simples (1/2, 2/3) produisaient des sons harmonieux. Il inventait ainsi l'acoustique mathématique."
           }
         ],
-        "img": "histoire/Les savants grecs en pleine étude.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -484,7 +484,7 @@
             "t": "<b>Le Parthénon fut partiellement détruit en 1687</b> quand les Vénitiens bombardèrent les Ottomans qui y stockaient de la poudre à canon. 2 000 ans de conservation détruits en une explosion."
           }
         ],
-        "img": "histoire/Les sept merveilles du monde antique.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -502,7 +502,7 @@
             "t": "<b>Ses machines de guerre</b> défendirent Syracuse contre les Romains pendant 3 ans. Des grues géantes soulevaient les navires romains hors de l'eau et les retournaient."
           }
         ],
-        "img": "histoire/Les savants de l'Antiquité grecque.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -543,7 +543,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Rassemblement de guerriers et marchands du Bronze.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🐺",
@@ -562,7 +562,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Bains romains sous les voûtes majestueuses.webp"
+        "img": "histoire/Auguste.webp"
       },
       {
         "icon": "✝️",
@@ -609,7 +609,7 @@
             "t": "<b>Le premier roman de l'histoire est écrit par une femme,</b> au Japon, il y a 1 000 ans. C'est aussi l'un des plus longs et des plus complexes — psychologiquement, il n'a rien à envier aux romans modernes."
           }
         ],
-        "img": "histoire/Samouraï_noble_au_lever_du_jour.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -627,7 +627,7 @@
             "t": "<b>Le papier mit 1 000 ans à atteindre l'Europe</b> (XIe-XIIe siècle, via les Arabes). Sans papier, pas d'imprimerie possible."
           }
         ],
-        "img": "histoire/Main_d'un_scribe_sur_tablette_d'argile.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🌸",
@@ -646,7 +646,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Samouraï_noble_au_lever_du_jour.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "⚜️",
@@ -709,7 +709,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Tombuctu le marché animé d'une cité ancienne.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "⡐",
@@ -728,7 +728,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Lever_de_soleil_sur_Göbekli_Tepe.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -742,7 +742,7 @@
             "t": "<b>Les Médicis financèrent la Renaissance</b> — banquiers florentins devenus mécènes par passion et par prestige. Sans leur argent, Léonard, Michel-Ange et Botticelli n'auraient peut-être jamais pu créer librement."
           }
         ],
-        "img": "histoire/Machiavel à son bureau à Florence.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🌙",
@@ -780,7 +780,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Tombuctu le marché animé d'une cité ancienne.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "⚡",
@@ -881,7 +881,7 @@
             "t": "<b>Bacon chiffra sa recette de poudre à canon</b> en anagramme pour éviter d'être condamné. Son code ne fut déchiffré qu'en 1904 — 637 ans après avoir été écrit."
           }
         ],
-        "img": "histoire/bacon.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -917,7 +917,7 @@
             "t": "<b>Le mécanisme d'échappement</b> — l'engrenage qui transforme un mouvement continu en battements réguliers — est l'une des inventions les plus ingénieuses de l'histoire. Il est encore au cœur de toutes les montres mécaniques modernes."
           }
         ],
-        "img": "histoire/Schéma et histoire du compas.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -953,7 +953,7 @@
             "t": "<b>La technique de la fresque</b> (peinture sur plâtre frais) ne permet pas les repentirs — impossible d'effacer. Giotto peignait directement, sans esquisse, sur des surfaces de plusieurs mètres carrés. Un exploit de précision et de rapidité."
           }
         ],
-        "img": "histoire/Machiavel à son bureau à Florence.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
@@ -992,7 +992,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Lever_de_soleil_sur_Göbekli_Tepe.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🧱",
@@ -1011,7 +1011,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/amiral zheng.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🏔️",
@@ -1105,7 +1105,7 @@
             "t": "<b>La production d'acier en Europe</b> multiplia par 10 en moins d'un siècle après le haut-fourneau. Sans lui, pas de Révolution industrielle — les machines à vapeur nécessitaient des pièces en fonte usinées."
           }
         ],
-        "img": "histoire/Marché de l'Âge du Fer.webp"
+        "img": "histoire/.webp"
       },
       {
         "icon": "🌏",
@@ -1164,7 +1164,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/Samouraï_noble_au_lever_du_jour.webp"
+        "img": "histoire/.webp"
       },
       {
         "kind": "histoire",
