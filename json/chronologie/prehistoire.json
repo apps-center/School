@@ -29,7 +29,7 @@
           "r": "13,8 milliards d'années",
           "hint": "C'est la première date de toute la chronologie"
         },
-        "img": "histoire/naissance_planetes.webp"
+        "img": "histoire/Naissance_de_l'univers_lumineux.webp"
       },
       {
         "icon": "☀️",
@@ -57,7 +57,7 @@
           "r": "99,86 %",
           "hint": "Toutes les planètes réunies ne font que 0,14 %"
         },
-        "img": "creation_syst_solaire.webp"
+        "img": "histoire/creation_syst_solaire.webp"
       },
       {
         "icon": "🌍",
@@ -85,7 +85,7 @@
           "r": "3,8 cm par an",
           "hint": "À sa formation, elle était 15 fois plus proche"
         },
-        "img": "naissance_planetes.webp"
+        "img": "histoire/La formation de la Terre primordiale.webp"
       }
     ]
   },
@@ -119,7 +119,7 @@
           "r": "Autour de cheminées hydrothermales sous-marines",
           "hint": "À 300°C dans les profondeurs des océans primitifs"
         },
-        "img": "histoire/naissance_planetes.webp"
+        "img": "histoire/Vents_hydrothermaux_et_vie_abyssale.webp"
       },
       {
         "icon": "🟢",
@@ -231,7 +231,7 @@
           "r": "165 millions d'années",
           "hint": "Soit 40 fois la durée d'existence de notre espèce"
         },
-        "img": "histoire/Le_rugissement_du_T-Rex_au_coucher_du_soleil.webp"
+        "img": "histoire/Dinosaures au bord de l'eau.webp"
       },
       {
         "icon": "☄️",
@@ -259,7 +259,7 @@
           "r": "–66 millions d'années",
           "hint": "Et non –65 Ma comme dans les anciens manuels"
         },
-        "img": "histoire/Le_rugissement_du_T-Rex_au_coucher_du_soleil.webp"
+        "img": "histoire/Chute_d'astéroïde_et_fuite_des_dinosaures.webp"
       }
     ]
   },
@@ -293,7 +293,7 @@
           "r": "Sahelanthropus tchadensis",
           "hint": "Il vivait il y a 7 millions d'années — juste après la séparation avec les chimpanzés"
         },
-        "img": "bipedie.webp"
+        "img": "histoire/bipedie.webp"
       },
       {
         "kind": "histoire",
@@ -348,7 +348,7 @@
           "r": "La grotte de Wonderwerk",
           "hint": "Des os et végétaux brûlés y ont été retrouvés"
         },
-        "img": "feu_prehistoire.webp"
+        "img": "histoire/feu_prehistoire.webp"
       },
       {
         "kind": "histoire",
@@ -375,7 +375,7 @@
           "r": "Schöningen",
           "hint": "Leur équilibre est identique à celui d'un javelot olympique moderne"
         },
-        "img": "histoire/Chasseur_préhistorique_et_mammouth_sauvage.webp"
+        "img": "histoire/Chasseur préhistorique prêt à lancer sa lance.webp"
       },
       {
         "icon": "🧠",
@@ -403,7 +403,7 @@
           "r": "Jebel Irhoud",
           "hint": "Ces crânes ressemblent déjà aux nôtres, mais avec une boîte crânienne plus allongée"
         },
-        "img": "histoire/sortie_afrique.webp"
+        "img": "histoire/Premiers regards sur l'horizon préhistorique.webp"
       },
       {
         "kind": "histoire",
@@ -430,7 +430,7 @@
           "r": "La résine de bouleau (goudron naturel)",
           "hint": "Obtenue en chauffant l'écorce à 340°C en atmosphère pauvre en oxygène"
         },
-        "img": "histoire/L'artisanat_préhistorique_à_l'ère_de_la_pierre.webp"
+        "img": "histoire/Confrontation_préhistorique_dans_la_nuit.webp"
       },
       {
         "kind": "histoire",
@@ -457,7 +457,7 @@
           "r": "Blombos Cave",
           "hint": "Ces coquillages avaient été transportés à 35 km de la côte — preuve de valeur symbolique"
         },
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Mains_préhistoriques_tissant_des_coquillages.webp"
       },
       {
         "kind": "histoire",
@@ -483,7 +483,8 @@
           "q": "Quel insecte parasite a permis aux scientifiques de dater l'apparition des vêtements à –80 000 ans ?",
           "r": "Le pou de corps",
           "hint": "Il diverge génétiquement du pou de tête dès que l'humain commence à se couvrir en permanence"
-        }
+        },
+        "img": "histoire/Chasse_dans_la_tempête_de_neige.webp"
       },
       {
         "kind": "histoire",
@@ -506,7 +507,7 @@
           "r": "Le détroit de Bab-el-Mandeb",
           "hint": "Entre la Corne de l'Afrique et le Yémen actuel"
         },
-        "img": "sortie_afrique.webp"
+        "img": "histoire/sortie_afrique.webp"
       },
       {
         "kind": "histoire",
@@ -551,7 +552,8 @@
           "q": "Quel pourcentage d'ADN néandertalien les Européens et Asiatiques actuels portent-ils ?",
           "r": "1 à 4 %",
           "hint": "Héritage de croisements anciens entre Sapiens et Néandertaliens"
-        }
+        },
+        "img": "histoire/Homme_des_Neandertals_dans_la_neige.webp"
       },
       {
         "kind": "histoire",
@@ -574,7 +576,7 @@
           "r": "L'Ardèche",
           "hint": "Elle contient plus de 400 figures d'animaux — dont des rhinocéros laineux et des lions des cavernes"
         },
-        "img": "peintures_rupestres.webp"
+        "img": "histoire/peintures_grotte_chauvet.webp"
       },
       {
         "kind": "histoire",
@@ -601,7 +603,7 @@
           "r": "150 km/h",
           "hint": "Suffisant pour transpercer 10 cm de chair à 50 mètres"
         },
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Chasseur préhistorique et troupeau de rennes.webp"
       },
       {
         "kind": "histoire",
@@ -797,7 +799,7 @@
           "r": "La Béringie",
           "hint": "Une vaste plaine aujourd'hui engloutie sous le détroit de Béring"
         },
-        "img": "histoire/Groupe_préhistorique_dans_la_tempête_de_neige.webp"
+        "img": "histoire/peuplement_amerique_traversée_béring.webp"
       },
       {
         "icon": "🌾",
@@ -825,7 +827,7 @@
           "r": "Environ 4 heures par jour",
           "hint": "L'agriculture a rendu les humains plus nombreux — mais aussi plus petits et moins en bonne santé"
         },
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/Village néolithique au coucher du soleil.webp"
       },
       {
         "kind": "histoire",
@@ -875,7 +877,7 @@
           "r": "Plus de 50 %",
           "hint": "Les bords recalcifiés des trous prouvent que les patients ont survécu à l'opération"
         },
-        "img": "histoire/La_cité_ancienne_d'Ur_au_crépuscule.webp"
+        "img": "histoire/trepanations-neolithiques-688po.webp"
       },
       {
         "kind": "histoire",
@@ -980,7 +982,8 @@
           "q": "Comment Ötzi est-il mort, selon les analyses scientifiques ?",
           "r": "Assassiné — une pointe de flèche lui a sectionné une artère",
           "hint": "Premier 'cold case' de l'histoire, vieux de 5 300 ans"
-        }
+        },
+        "img": "histoire/otzi.webp"
       },
       {
         "kind": "histoire",
@@ -1035,7 +1038,7 @@
           "r": "L'écriture",
           "hint": "Apparue vers –3 200 av. J.-C. à Uruk, en Mésopotamie"
         },
-        "img": "histoire/Main_d'un_scribe_sur_tablette_d'argile.webp"
+        "img": "histoire/L'artisanat_préhistorique_à_l'ère_de_la_pierre.webp"
       }
     ]
   }
