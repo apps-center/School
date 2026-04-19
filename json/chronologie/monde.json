@@ -334,7 +334,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/Lao-Tzu.webp"
       },
       {
         "icon": "🪷",
@@ -430,7 +430,7 @@
             "t": "<b>Son résultat : ~39 375 km. La vraie valeur : 40 075 km.</b> Une erreur de 1,7 % — sans satellite ni GPS, juste deux bâtons et de la trigonométrie."
           }
         ],
-        "img": "histoire/.webp"
+        "img": "histoire/eratosthene.webp"
       },
       {
         "kind": "histoire",
@@ -466,7 +466,7 @@
             "t": "<b>Pythagore découvrit aussi les harmonies musicales.</b> En jouant sur des cordes de longueurs différentes, il remarqua que des rapports simples (1/2, 2/3) produisaient des sons harmonieux. Il inventait ainsi l'acoustique mathématique."
           }
         ],
-        "img": "histoire/.webp"
+        "img": "histoire/pythagore.webp"
       },
       {
         "kind": "histoire",
@@ -502,7 +502,7 @@
             "t": "<b>Ses machines de guerre</b> défendirent Syracuse contre les Romains pendant 3 ans. Des grues géantes soulevaient les navires romains hors de l'eau et les retournaient."
           }
         ],
-        "img": "histoire/.webp"
+        "img": "histoire/archimede.webp"
       },
       {
         "kind": "histoire",
@@ -646,7 +646,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/Prêtre shintoïste.webp"
       },
       {
         "icon": "⚜️",
@@ -728,7 +728,7 @@
           }
         ],
         "kind": "histoire",
-        "img": "histoire/.webp"
+        "img": "histoire/Mayas.webp"
       },
       {
         "kind": "histoire",
