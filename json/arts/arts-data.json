@@ -102,7 +102,7 @@
         "title": "Don Quichotte — Miguel de Cervantès",
         "artiste": "Miguel de Cervantès",
         "date": "1605–1615",
-        "mouvement": "Humanisme",
+        "mouvement": "Renaissance / Humanisme",
         "discipline": "Littérature",
         "img": "",
         "musee": "Roman en deux volumes",
@@ -127,14 +127,14 @@
           "r": "Des moulins à vent — d'où l'expression 'se battre contre des moulins à vent' pour désigner une lutte inutile",
           "hint": "Ces structures agricoles typiques de La Manche lui semblent être des monstres à abattre"
         },
-        "era_disc": "Humanisme",
+        "era_disc": "Renaissance",
         "era_disc_start": 1400
       },
       {
         "title": "La Chapelle Sixtine — Michel-Ange",
         "artiste": "Michel-Ange",
         "date": "1508–1512",
-        "mouvement": "Renaissance artistique",
+        "mouvement": "Renaissance",
         "discipline": "Architecture & Arts",
         "img": "img/arts/chapelle-sixtine.webp",
         "musee": "Palais apostolique, Vatican",
@@ -159,7 +159,7 @@
           "r": "Quatre ans (1508–1512) — travaillant seul, allongé sur des échafaudages",
           "hint": "Il avait d'abord refusé la commande, se considérant comme sculpteur et non peintre"
         },
-        "era_disc": "Renaissance artistique",
+        "era_disc": "Renaissance",
         "era_disc_start": 1400
       }
     ]
@@ -235,7 +235,7 @@
         "title": "Les Quatre Saisons — Antonio Vivaldi",
         "artiste": "Antonio Vivaldi",
         "date": "1723",
-        "mouvement": "Baroque musical",
+        "mouvement": "Baroque",
         "discipline": "Musique",
         "img": "",
         "musee": "Première publication : Amsterdam, 1725",
@@ -260,7 +260,7 @@
           "r": "Des poèmes décrivant la saison — oiseaux, orage, chasse, gel — que Vivaldi aurait écrits lui-même pour guider l'auditeur",
           "hint": "C'est l'une des premières œuvres de musique à programme : la musique illustre un texte"
         },
-        "era_disc": "Baroque musical",
+        "era_disc": "Baroque",
         "era_disc_start": 1600
       },
       {
@@ -393,7 +393,7 @@
           "r": "Dans la misère — criblé de dettes, abandonné par ses mécènes, il écrivit trois grandes symphonies en six semaines en 1788",
           "hint": "On ne sait même pas si ces symphonies furent jouées de son vivant — Mozart mourut trois ans plus tard"
         },
-        "era_disc": "Classicisme viennois",
+        "era_disc": "Classicisme",
         "era_disc_start": 1750
       }
     ]
@@ -494,14 +494,14 @@
           "r": "Pour avoir volé un pain afin de nourrir les enfants de sa sœur affamés",
           "hint": "Cette injustice sociale de départ structure tout le roman — la question du mérite et de la rédemption"
         },
-        "era_disc": "Romantisme littéraire",
+        "era_disc": "Romantisme",
         "era_disc_start": 1800
       },
       {
         "title": "La Symphonie n°9 — Ludwig van Beethoven",
         "artiste": "Ludwig van Beethoven",
         "date": "1824",
-        "mouvement": "Romantisme musical",
+        "mouvement": "Romantisme",
         "discipline": "Musique",
         "img": "",
         "musee": "Création au Kärntnertortheater, Vienne",
@@ -526,8 +526,8 @@
           "r": "Il fait entrer des voix humaines — chœur et solistes — dans la symphonie pour la première fois, chantant l'Ode à la Joie de Schiller",
           "hint": "Avant lui, une symphonie était purement instrumentale — cette rupture ouvrit la voie à toute la musique romantique"
         },
-        "era_disc": "Romantisme musical",
-        "era_disc_start": 1820
+        "era_disc": "Romantisme",
+        "era_disc_start": 1800
       }
     ]
   },
@@ -659,7 +659,7 @@
           "r": "Le style indirect libre — la voix du narrateur se fond dans les pensées du personnage, sans guillemets ni verbe de parole",
           "hint": "Ce procédé permet de ressentir le monde comme Emma le perçoit, sans qu'on sache si c'est elle ou le narrateur qui parle"
         },
-        "era_disc": "Réalisme",
+        "era_disc": "Réalisme & Naturalisme",
         "era_disc_start": 1850
       }
     ]
@@ -824,7 +824,7 @@
           "r": "Son portrait vieillit et se dégrade à sa place, pendant que lui conserve éternellement sa beauté et sa jeunesse",
           "hint": "Ce vœu formulé devant le peintre Basil Hallward est la mécanique centrale de tout le roman"
         },
-        "era_disc": "Symbolisme littéraire",
+        "era_disc": "Symbolisme",
         "era_disc_start": 1880
       }
     ]
@@ -925,14 +925,14 @@
           "r": "Pour avoir mangé gloutonnement de la nourriture des esprits sans permission — symbole de la gourmandise et du consumérisme",
           "hint": "Miyazaki critique la société de consommation japonaise à travers cette punition symbolique"
         },
-        "era_disc": "Cinéma contemporain",
+        "era_disc": "Ère numérique",
         "era_disc_start": 2000
       },
       {
         "title": "Pelléas et Mélisande — Claude Debussy",
         "artiste": "Claude Debussy",
         "date": "1902",
-        "mouvement": "Impressionnisme musical",
+        "mouvement": "Modernité musicale",
         "discipline": "Musique",
         "img": "",
         "musee": "Opéra-Comique, Paris (création)",
@@ -957,8 +957,8 @@
           "r": "Suggérer plutôt qu'affirmer — la musique murmure, laisse des silences, refuse les grands effets dramatiques wagnériens",
           "hint": "Debussy voulait rester le plus proche possible de la prosodie naturelle du français parlé"
         },
-        "era_disc": "Impressionnisme musical",
-        "era_disc_start": 1890
+        "era_disc": "La modernité",
+        "era_disc_start": 1900
       }
     ]
   },
@@ -1154,8 +1154,8 @@
           "r": "Maschinenmensch, la femme-robot à l'armure d'or — dont le design fut directement copié par George Lucas",
           "hint": "Fritz Lang invente ici l'archétype visuel du robot humanoïde qui hantera tout le cinéma du XXe siècle"
         },
-        "era_disc": "Muet & Expressionnisme",
-        "era_disc_start": 1895
+        "era_disc": "Cinéma muet",
+        "era_disc_start": 1910
       },
       {
         "title": "À la Recherche du Temps Perdu — Marcel Proust",
@@ -1186,7 +1186,7 @@
           "r": "Une madeleine — dont le goût fait resurgir involontairement toute son enfance à Combray",
           "hint": "Ce moment est devenu le symbole de la 'mémoire involontaire' — un souvenir déclenché par un sens, non par la volonté"
         },
-        "era_disc": "Modernisme littéraire",
+        "era_disc": "Littérature moderne & contemporaine",
         "era_disc_start": 1900
       }
     ]
