@@ -161,6 +161,230 @@
         },
         "era_disc": "Renaissance",
         "era_disc_start": 1400
+      },
+      {
+        "title": "Messe de Notre-Dame — Guillaume de Machaut",
+        "artiste": "Guillaume de Machaut",
+        "date": "vers 1365",
+        "mouvement": "Polyphonie médiévale",
+        "discipline": "Musique",
+        "era_disc": "Moyen Âge musical",
+        "era_disc_start": 500,
+        "img": "",
+        "musee": "Cathédrale de Reims (probable lieu de création)",
+        "technique": "Messe polyphonique à 4 voix",
+        "desc": "La Messe de Notre-Dame de Machaut est la première mise en musique complète et unifiée de l'Ordinaire de la messe par un seul compositeur. Cette œuvre polyphonique à quatre voix, composée à Reims, représente le sommet de l'Ars Nova — le style musical révolutionnaire du XIVe siècle qui abandonne le plain-chant monodique pour des harmonies complexes et rythmiquement sophistiquées.",
+        "anecdotes": [
+          {
+            "e": "🏰",
+            "t": "<b>Machaut passa 30 ans au service du roi Jean de Bohême.</b> Ce poète-musicien, l'un des premiers artistes à considérer son œuvre comme un tout à préserver, accompagna le roi aveugle dans toutes ses campagnes militaires. Jean de Bohême mourut à Crécy en 1346 — Machaut lui survécut 40 ans."
+          },
+          {
+            "e": "🎵",
+            "t": "<b>C'est la première grande œuvre musicale attribuable à un seul auteur.</b> Avant Machaut, la musique médiévale était largement anonyme ou collective. En revendiquant la paternité de ses œuvres et en les faisant copier dans des manuscrits enluminés luxueux, Machaut invente l'idée moderne du compositeur."
+          },
+          {
+            "e": "🔔",
+            "t": "<b>L'Ars Nova bouleversa l'Église.</b> Le pape Jean XXII publia en 1324 une bulle condamnant la polyphonie complexe dans la liturgie — trop festive, trop savante, trop éloignée de la solennité requise. Machaut continua néanmoins à composer dans ce style révolutionnaire."
+          }
+        ],
+        "quiz": {
+          "q": "Quelle innovation majeure représente la Messe de Notre-Dame de Machaut dans l'histoire de la musique ?",
+          "r": "C'est la première mise en musique complète de l'Ordinaire de la messe par un seul compositeur identifié — naissance du compositeur comme auteur",
+          "hint": "Avant Machaut, la musique médiévale était largement anonyme — il invente l'idée de l'artiste responsable de son œuvre"
+        }
+      },
+      {
+        "title": "Le Parthénon — Ictinos & Callicratès",
+        "artiste": "Ictinos & Callicratès (architectes), Phidias (décoration)",
+        "date": "-447 à -432",
+        "mouvement": "Architecture antique",
+        "discipline": "Architecture & Arts",
+        "era_disc": "Architecture antique",
+        "era_disc_start": -3000,
+        "img": "",
+        "musee": "Acropole d'Athènes, Grèce",
+        "technique": "Temple dorique en marbre pentélique, 69,5 × 30,9 m",
+        "desc": "Le Parthénon est le temple dédié à Athéna Parthénos sur l'Acropole d'Athènes, construit sous Périclès. Chef-d'œuvre de l'ordre dorique, il repose sur des corrections optiques subtiles : les colonnes légèrement inclinées vers l'intérieur et renflées au milieu (entasis) donnent une impression de rectitude parfaite à l'œil. Aucune ligne n'est réellement droite — tout est calculé pour paraître parfait.",
+        "anecdotes": [
+          {
+            "e": "📐",
+            "t": "<b>Aucune ligne du Parthénon n'est droite — tout est illusion d'optique.</b> Le stylobate (plateforme) est légèrement bombé. Les colonnes sont légèrement inclinées vers l'intérieur et renflées. Sans ces corrections, le bâtiment paraîtrait affaissé et les colonnes creuses. Les Grecs avaient une compréhension parfaite des déformations visuelles."
+          },
+          {
+            "e": "💥",
+            "t": "<b>Il fut détruit par une explosion en 1687.</b> Les Ottomans l'utilisaient comme poudrière. Les Vénitiens qui assiégeaient Athènes tirèrent un boulet qui mit le feu aux munitions. L'explosion souffla le toit et la cella. C'est cette explosion, et non les siècles, qui explique l'état actuel du monument."
+          },
+          {
+            "e": "🏛️",
+            "t": "<b>Ses marbres sont à Londres depuis 1801.</b> Lord Elgin, ambassadeur britannique, fit démonter et emporter la moitié des frises et métopes — avec une autorisation ottomane contestée. Ces 'marbres d'Elgin' sont exposés au British Museum. La Grèce réclame leur retour depuis 1832, sans succès."
+          }
+        ],
+        "quiz": {
+          "q": "Pourquoi aucune ligne du Parthénon n'est-elle réellement droite, malgré les apparences ?",
+          "r": "Pour corriger les illusions d'optique — sans ces corrections, les lignes droites paraîtraient affaissées ou creuses à l'œil humain",
+          "hint": "Les colonnes sont légèrement renflées au milieu (entasis) et le stylobate est bombé — tout est calcul optique"
+        }
+      },
+      {
+        "title": "Sainte-Sophie — Anthémios de Tralles",
+        "artiste": "Anthémios de Tralles & Isidore de Milet",
+        "date": "532–537",
+        "mouvement": "Art paléochrétien & byzantin",
+        "discipline": "Architecture & Arts",
+        "era_disc": "Art paléochrétien & byzantin",
+        "era_disc_start": 300,
+        "img": "",
+        "musee": "Istanbul, Turquie",
+        "technique": "Basilique à coupole, 82 m de hauteur",
+        "desc": "Sainte-Sophie fut la plus grande cathédrale du monde pendant mille ans. Sa coupole principale de 31 mètres de diamètre semble flotter dans les airs, portée par 40 fenêtres à sa base qui inondent l'espace de lumière. Construite en 5 ans sur ordre de Justinien, elle fut successivement église chrétienne, mosquée ottomane, et musée — statut controversé aujourd'hui.",
+        "anecdotes": [
+          {
+            "e": "🌟",
+            "t": "<b>Justinien s'écria en la voyant : 'Salomon, je t'ai surpassé !'</b> Allusion au Temple de Jérusalem — la plus grande construction sacrée de l'Antiquité. La vitesse de construction (5 ans) et les dimensions jamais vues auparavant stupéfièrent le monde byzantin. On fit venir des matériaux de tout l'Empire."
+          },
+          {
+            "e": "💡",
+            "t": "<b>La coupole semble flotter grâce à un anneau de 40 fenêtres.</b> La lumière qui entre par la base de la coupole dissout visuellement son appui — elle paraît suspendue. Les contemporains croyaient qu'elle était 'suspendue au ciel par une chaîne d'or'. Cette illusion lumineuse est le tour de force architectural majeur de l'édifice."
+          },
+          {
+            "e": "🕌",
+            "t": "<b>Les mosaïques chrétiennes furent recouvertes de plâtre en 1453.</b> Quand Mehmed II conquit Constantinople, il fit transformer Sainte-Sophie en mosquée en quelques heures. Les mosaïques représentant le Christ et les saints furent recouvertes — conservées par inadvertance. Atatürk en fit un musée en 1934 ; Erdoğan la refit mosquée en 2020."
+          }
+        ],
+        "quiz": {
+          "q": "Quelle illusion architecturale crée l'impression que la coupole de Sainte-Sophie flotte dans l'air ?",
+          "r": "Un anneau de 40 fenêtres à la base de la coupole — la lumière dissout visuellement l'appui et la fait paraître suspendue",
+          "hint": "Les contemporains disaient qu'elle était 'suspendue au ciel par une chaîne d'or'"
+        }
+      },
+      {
+        "title": "Abbaye de Cluny — Bâtisseurs clunisiens",
+        "artiste": "Bâtisseurs clunisiens (Saint Hugues de Semur)",
+        "date": "1088–1130",
+        "mouvement": "Architecture romane",
+        "discipline": "Architecture & Arts",
+        "era_disc": "Architecture romane",
+        "era_disc_start": 900,
+        "img": "",
+        "musee": "Cluny, Bourgogne, France (ruines)",
+        "technique": "Basilique romane à 5 nefs, 187 m de long",
+        "desc": "Cluny III était la plus grande église du monde chrétien pendant 500 ans — 187 mètres de long, cinq nefs, deux transepts, cinq clochers. Centre du plus puissant réseau monastique d'Europe (plus de 1 000 abbayes), Cluny incarnait la réforme grégorienne. Elle fut presque entièrement détruite à la Révolution française et utilisée comme carrière de pierre.",
+        "anecdotes": [
+          {
+            "e": "⛏️",
+            "t": "<b>La Révolution utilisa Cluny comme carrière pendant 20 ans.</b> Vendue comme bien national en 1798, l'abbaye fut dynamitée et ses pierres vendues. En 1823, il ne restait qu'un bras du transept. Ce qui était la plus grande église d'Europe pendant 500 ans fut réduit à 10% de sa surface en quelques décennies."
+          },
+          {
+            "e": "🌍",
+            "t": "<b>L'ordre de Cluny contrôlait plus de 1 000 monastères en Europe.</b> Au XIIe siècle, l'abbaye de Cluny dirigeait un réseau couvrant la France, l'Espagne, l'Italie, l'Angleterre, la Pologne. C'était une puissance économique, politique et spirituelle comparable à un État — avec ses propres routes, ses marchés, ses armées de moines."
+          },
+          {
+            "e": "📐",
+            "t": "<b>L'architecture romane inventée ici définit un style continental.</b> Les arcs en plein cintre, les murs épais, les petites fenêtres hautes, les chapiteaux sculptés de Cluny furent copiés dans toute l'Europe. Des centaines d'architectes et tailleurs de pierre formés à Cluny répandirent ce vocabulaire architectural jusqu'en Angleterre et en Pologne."
+          }
+        ],
+        "quiz": {
+          "q": "Pourquoi l'abbaye de Cluny, la plus grande église d'Europe pendant 500 ans, n'existe-t-elle plus qu'en ruines ?",
+          "r": "Elle fut vendue comme bien national à la Révolution et utilisée comme carrière de pierre pendant 20 ans — 90% du bâtiment fut détruit",
+          "hint": "En 1823, il ne restait qu'un seul bras du transept d'un édifice de 187 mètres"
+        }
+      },
+      {
+        "title": "Cathédrale Notre-Dame de Paris",
+        "artiste": "Maurice de Sully (initiateur), maîtres d'œuvre successifs",
+        "date": "1163–1345",
+        "mouvement": "Architecture gothique",
+        "discipline": "Architecture & Arts",
+        "era_disc": "Architecture gothique",
+        "era_disc_start": 1140,
+        "img": "",
+        "musee": "Île de la Cité, Paris, France",
+        "technique": "Cathédrale gothique, 130 m de long, tours de 69 m",
+        "desc": "Notre-Dame de Paris est le chef-d'œuvre du gothique rayonnant, construite sur deux siècles. Ses arcs-boutants extérieurs — invention majeure du gothique — permettent d'élancer les murs vers le ciel et d'ouvrir de gigantesques rosaces. Hugo en fit le roman du même nom en 1831, sauvant la cathédrale d'une démolition imminente. L'incendie de 2019 et sa reconstruction ont relancé sa célébrité mondiale.",
+        "anecdotes": [
+          {
+            "e": "🔥",
+            "t": "<b>Victor Hugo la sauva de la démolition avec son roman.</b> En 1831, Notre-Dame était dans un état de délabrement tel que la ville de Paris envisageait sa démolition. Le roman de Hugo, qui la mit en scène, déclencha un mouvement de conservation. Viollet-le-Duc entama la restauration en 1844 — les gargouilles actuelles sont en grande partie de lui."
+          },
+          {
+            "e": "🏗️",
+            "t": "<b>Les arcs-boutants furent une révolution structurelle.</b> Avant le gothique, les cathédrales avaient des murs épais pour soutenir la voûte. Les arcs-boutants reportent la poussée à l'extérieur, libérant les murs et permettant de gigantesques fenêtres et rosaces. Notre-Dame fut l'une des premières cathédrales à les utiliser systématiquement."
+          },
+          {
+            "e": "🌹",
+            "t": "<b>L'incendie du 15 avril 2019 fut suivi d'un élan mondial.</b> En 48 heures, plus d'un milliard d'euros furent promis pour la reconstruction. La flèche de Viollet-le-Duc, effondrée, a été reconstruite à l'identique. La cathédrale a rouvert en décembre 2024 après 5 ans de travaux mobilisant 2 000 artisans."
+          }
+        ],
+        "quiz": {
+          "q": "Quelle innovation structurelle gothique permit d'élancer les cathédrales vers le ciel et d'ouvrir de gigantesques fenêtres ?",
+          "r": "Les arcs-boutants — qui reportent la poussée de la voûte à l'extérieur, libérant les murs intérieurs pour les remplacer par des vitraux",
+          "hint": "Avant cette invention, les cathédrales avaient des murs épais et de petites fenêtres comme dans l'architecture romane"
+        }
+      },
+      {
+        "title": "L'Odyssée — Homère",
+        "artiste": "Homère",
+        "date": "vers -800 à -700",
+        "mouvement": "Antiquité",
+        "discipline": "Littérature",
+        "era_disc": "Antiquité",
+        "era_disc_start": -800,
+        "img": "",
+        "musee": "Épopée de la Grèce antique",
+        "technique": "Épopée en 24 chants, ~12 000 vers",
+        "desc": "L'Odyssée raconte le retour d'Ulysse à Ithaque après la guerre de Troie — dix ans d'aventures et d'épreuves face aux dieux, aux monstres et aux hommes. C'est l'une des deux grandes épopées fondatrices de la littérature occidentale avec l'Iliade. L'œuvre pose tous les thèmes qui traverseront la littérature : le voyage initiatique, la fidélité, la ruse, le désir du retour.",
+        "anecdotes": [
+          {
+            "e": "🎭",
+            "t": "<b>Homère est peut-être une légende.</b> On ne sait pas si 'Homère' a réellement existé comme auteur unique. Certains chercheurs pensent que ces épopées sont le fruit de siècles de tradition orale, compilées et fixées par écrit vers le VIIIe siècle av. J.-C. La 'question homérique' passionne les philologues depuis l'Antiquité."
+          },
+          {
+            "e": "🌊",
+            "t": "<b>L'Odyssée est le récit fondateur du voyage initiatique.</b> Chaque épisode — Circé, les Sirènes, Charybde et Scylla, le Cyclope — est une épreuve qui révèle le caractère d'Ulysse. Ce schéma narratif (le héros quitte son monde, affronte des épreuves, revient transformé) structure encore aujourd'hui des milliers de romans et de films."
+          },
+          {
+            "e": "🏺",
+            "t": "<b>Ulysse est le premier héros qui gagne par la ruse, pas par la force.</b> Achille est le héros de la force et de la gloire. Ulysse est le héros de l'intelligence et de l'adaptation. Ce choix d'Homère fut révolutionnaire — il préfigure le héros moderne, qui survit grâce à son esprit plus qu'à ses muscles."
+          }
+        ],
+        "quiz": {
+          "q": "En quoi Ulysse est-il un héros révolutionnaire par rapport aux héros épiques précédents comme Achille ?",
+          "r": "Il gagne par la ruse et l'intelligence plutôt que par la force — préfigurant le héros moderne qui survit par son esprit",
+          "hint": "Son nom grec Odysseus est lié à la douleur et à la ruse — opposé à Achille, héros de la gloire guerrière"
+        }
+      },
+      {
+        "title": "La Divine Comédie — Dante Alighieri",
+        "artiste": "Dante Alighieri",
+        "date": "1308–1321",
+        "mouvement": "Moyen Âge",
+        "discipline": "Littérature",
+        "era_disc": "Moyen Âge",
+        "era_disc_start": 500,
+        "img": "",
+        "musee": "Œuvre composée en exil — Florence, Italie",
+        "technique": "Poème épique en 3 parties (Enfer, Purgatoire, Paradis), 14 233 vers",
+        "desc": "La Divine Comédie est le voyage de Dante à travers l'Enfer, le Purgatoire et le Paradis, guidé d'abord par Virgile puis par Béatrice. Écrite en toscan — et non en latin — c'est l'œuvre fondatrice de la langue italienne. Elle synthétise toute la pensée médiévale : théologie, philosophie, politique, amour courtois. Elle influencera directement Milton, Balzac, Proust, Borges et Joyce.",
+        "anecdotes": [
+          {
+            "e": "❤️",
+            "t": "<b>Béatrice, guide du Paradis, est une vraie femme que Dante aima sans jamais lui parler.</b> Béatrice Portinari, fille d'un noble florentin, rencontrée une seule fois à 9 ans puis à 18 ans. Elle mourut à 24 ans sans que Dante lui ait jamais déclaré son amour. Il en fit le symbole de la grâce divine et l'héroïne de son chef-d'œuvre."
+          },
+          {
+            "e": "🏙️",
+            "t": "<b>Dante écrivit la Comédie en exil, condamné à mort par sa propre ville.</b> Impliqué dans les guerres de factions à Florence, il fut exilé en 1302 et condamné à être brûlé vif s'il revenait. Il ne revit jamais Florence et mourut à Ravenne en 1321. La ville de Florence attendit 600 ans pour officiellement lever sa condamnation — en 2008."
+          },
+          {
+            "e": "🌍",
+            "t": "<b>Elle fonda la langue italienne.</b> En choisissant le toscan populaire plutôt que le latin savant, Dante donna à sa langue une légitimité littéraire immense. Pétrarque et Boccace suivirent. Sans ce choix de Dante, la littérature italienne aurait pu se développer très différemment — et la langue italienne avec elle."
+          }
+        ],
+        "quiz": {
+          "q": "Pourquoi Dante écrivit-il La Divine Comédie en toscan populaire plutôt qu'en latin, la langue savante de l'époque ?",
+          "r": "Pour toucher un public plus large et donner une légitimité littéraire à la langue du peuple — fondant ainsi la langue italienne moderne",
+          "hint": "Ce choix fut suivi par Pétrarque et Boccace — les trois auteurs fondèrent ensemble la littérature italienne"
+        }
       }
     ]
   },
@@ -294,6 +518,38 @@
         },
         "era_disc": "Classicisme",
         "era_disc_start": 1600
+      },
+      {
+        "title": "L'Orfeo — Claudio Monteverdi",
+        "artiste": "Claudio Monteverdi",
+        "date": "1607",
+        "mouvement": "Renaissance musicale",
+        "discipline": "Musique",
+        "era_disc": "Renaissance musicale",
+        "era_disc_start": 1400,
+        "img": "",
+        "musee": "Cour des Gonzague, Mantoue (création)",
+        "technique": "Favola in musica — premier opéra, 5 actes",
+        "desc": "L'Orfeo de Monteverdi est considéré comme le premier grand opéra de l'histoire. Basé sur le mythe d'Orphée descendant aux Enfers pour ramener Eurydice, il fusionne musique, poésie, danse et décors spectaculaires. Monteverdi y développe le recitar cantando — une façon de chanter qui respecte les inflexions naturelles du langage — et crée ainsi la dramaturgie musicale moderne.",
+        "anecdotes": [
+          {
+            "e": "🎭",
+            "t": "<b>L'opéra naît d'une erreur historique.</b> La Camerata fiorentina, un groupe d'intellectuels florentins, voulait recréer la tragédie grecque antique telle qu'ils l'imaginaient — entièrement chantée. Ils se trompaient sur l'Antiquité, mais ils inventèrent l'opéra. Monteverdi porta cette invention à sa perfection."
+          },
+          {
+            "e": "🪕",
+            "t": "<b>L'orchestre de L'Orfeo est le premier orchestre documenté de l'histoire.</b> Monteverdi précise dans la partition les instruments requis : 40 musiciens, dont violes, luths, harpes, trompettes, trombones, orgues. C'est la première fois qu'un compositeur spécifie aussi précisément l'instrumentation."
+          },
+          {
+            "e": "💔",
+            "t": "<b>Orphée perd Eurydice une seconde fois à cause du doute.</b> Monteverdi transforme le mythe : Orphée se retourne non par curiosité, mais parce qu'il doute que les dieux aient tenu leur promesse. Ce moment psychologique — la trahison de soi par la méfiance — fait de L'Orfeo une œuvre profondément humaine."
+          }
+        ],
+        "quiz": {
+          "q": "Quelle ambition historique erronée des intellectuels florentins du XVIe siècle mena involontairement à l'invention de l'opéra ?",
+          "r": "Ils voulaient recréer la tragédie grecque antique entièrement chantée — ils se trompaient sur l'Antiquité mais inventèrent l'opéra",
+          "hint": "Monteverdi porta cette invention à sa perfection avec L'Orfeo en 1607"
+        }
       }
     ]
   },
@@ -1188,6 +1444,166 @@
         },
         "era_disc": "Littérature moderne & contemporaine",
         "era_disc_start": 1900
+      },
+      {
+        "title": "Le Voyage dans la Lune — Georges Méliès",
+        "artiste": "Georges Méliès",
+        "date": "1902",
+        "mouvement": "Débuts du cinéma",
+        "discipline": "Cinéma",
+        "era_disc": "Débuts du cinéma",
+        "era_disc_start": 1895,
+        "img": "",
+        "musee": "Production Star Film, Paris",
+        "technique": "Film muet, 14 min, noir et blanc colorié",
+        "desc": "Premier film de science-fiction de l'histoire du cinéma, Le Voyage dans la Lune adapte Jules Verne et H.G. Wells. Des savants sont propulsés sur la Lune dans un obus, rencontrent des Sélénites et reviennent sur Terre. Méliès invente les effets spéciaux, les trucages, les transitions — et pose les bases du cinéma comme art du rêve et de l'illusion.",
+        "anecdotes": [
+          {
+            "e": "🎩",
+            "t": "<b>Méliès était prestidigitateur avant d'être cinéaste.</b> Directeur du Théâtre Robert-Houdin à Paris, il appliqua ses techniques de magie au cinéma : arrêts caméra, substitutions, fondus. Il découvrit accidentellement les trucages quand sa caméra se bloqua en filmant la rue — un omnibus se transforma en corbillard."
+          },
+          {
+            "e": "🔵",
+            "t": "<b>Le film était colorié à la main, image par image.</b> Méliès employait des dizaines de femmes pour colorier chaque photogramme avec de minuscules pinceaux. La version colorée fut retrouvée en 1993 dans un état de décomposition avancé — une restauration numérique de plusieurs années la rendit au monde en 2011."
+          },
+          {
+            "e": "😢",
+            "t": "<b>Méliès mourut ruiné et oublié.</b> Incapable de s'adapter au cinéma industriel, il vendit ses films pour en récupérer l'argent de la pellicule — détruisant ainsi une grande partie de son œuvre. Redécouvert dans les années 1920, il terminait ses jours dans un kiosque à bonbons à Paris quand des cinéphiles le retrouvèrent."
+          }
+        ],
+        "quiz": {
+          "q": "Comment Méliès découvrit-il accidentellement les effets spéciaux cinématographiques ?",
+          "r": "Sa caméra se bloqua en filmant la rue — à la projection, un omnibus semblait se transformer en corbillard par magie",
+          "hint": "Ce hasard technique devint la base de toute sa carrière de prestidigitateur du cinéma"
+        }
+      },
+      {
+        "title": "M le Maudit — Fritz Lang",
+        "artiste": "Fritz Lang",
+        "date": "1931",
+        "mouvement": "Cinéma parlant",
+        "discipline": "Cinéma",
+        "era_disc": "Cinéma parlant",
+        "era_disc_start": 1927,
+        "img": "",
+        "musee": "Nero-Film AG, Berlin",
+        "technique": "Film parlant, 117 min, noir et blanc",
+        "desc": "M le Maudit est le premier film parlant de Fritz Lang. Un tueur en série d'enfants terrorise une ville allemande. Traqué à la fois par la police et par le milieu criminel, il est finalement jugé par les criminels eux-mêmes. Chef-d'œuvre du thriller psychologique, le film invente le portrait du tueur en série au cinéma et utilise le son comme outil dramatique inédit.",
+        "anecdotes": [
+          {
+            "e": "🎵",
+            "t": "<b>Peter Lorre siffle 'Dans le hall du roi de la montagne' de Grieg pour signaler sa présence.</b> Ce motif musical, sifflé compulsivement par le tueur, devient sa signature — le moyen par lequel un aveugle le reconnaît dans la foule. C'est l'une des utilisations les plus brillantes du son dans l'histoire du cinéma."
+          },
+          {
+            "e": "🇩🇪",
+            "t": "<b>Lang quitta l'Allemagne le lendemain de sa rencontre avec Goebbels.</b> En 1933, le ministre de la propagande nazie convoqua Lang pour lui proposer de diriger le cinéma du Reich. Lang fit semblant d'accepter, rentra chez lui et prit le premier train pour Paris — abandonnant sa femme nazie et toute sa fortune."
+          },
+          {
+            "e": "🔍",
+            "t": "<b>Le film utilise deux espaces sonores parallèles : la police et les criminels.</b> Lang monte en alternance les réunions de la police criminelle et celles du milieu — mêmes problèmes, même structure. Cette construction formelle souligne que les deux camps utilisent les mêmes méthodes pour le même but."
+          }
+        ],
+        "quiz": {
+          "q": "Par quel moyen sonore le tueur Hans Beckert est-il finalement reconnu dans la foule ?",
+          "r": "Son sifflement compulsif du thème de Grieg — reconnu par un mendiant aveugle qui lui colle une lettre M dans le dos",
+          "hint": "C'est l'une des utilisations les plus célèbres du son comme élément dramatique dans l'histoire du cinéma"
+        }
+      },
+      {
+        "title": "Citizen Kane — Orson Welles",
+        "artiste": "Orson Welles",
+        "date": "1941",
+        "mouvement": "Âge d’or",
+        "discipline": "Cinéma",
+        "era_disc": "Âge d’or",
+        "era_disc_start": 1930,
+        "img": "",
+        "musee": "RKO Radio Pictures, Hollywood",
+        "technique": "Film noir, 119 min, noir et blanc",
+        "desc": "Citizen Kane retrace la vie de Charles Foster Kane, magnat de la presse, à travers les témoignages de ceux qui l'ont connu. La narration fragmentée en flash-backs, la profondeur de champ révolutionnaire, les angles de caméra inédits, la bande-son complexe — tout ici est innovation. Élu régulièrement 'meilleur film de tous les temps', il reste la référence absolue du cinéma d'auteur américain.",
+        "anecdotes": [
+          {
+            "e": "🌹",
+            "t": "<b>'Rosebud' est l'un des plus grands MacGuffins de l'histoire du cinéma.</b> Le mot murmuré par Kane à sa mort déclenche toute l'enquête du film — et la réponse finale, révélée au spectateur seul, est à la fois simple et bouleversante. Hearst, dont Kane est le portrait-clé, tenta par tous les moyens d'empêcher la sortie du film."
+          },
+          {
+            "e": "🎬",
+            "t": "<b>Welles avait 25 ans et n'avait jamais réalisé de film.</b> Après son canular radiophonique de 'La Guerre des Mondes' en 1938, RKO lui offrit un contrat rêvé : liberté totale. Welles passa des semaines à étudier le cinéma — regardant notamment Stagecoach de Ford des dizaines de fois — avant de tourner."
+          },
+          {
+            "e": "📸",
+            "t": "<b>La profondeur de champ révolutionnaire fut obtenue avec le directeur de la photo Gregg Toland.</b> Pour la première fois, le premier plan et l'arrière-plan sont nets simultanément dans la même image. Cette technique, combinée aux plafonds visibles (impossibles dans le cinéma classique), donna au film son esthétique unique."
+          }
+        ],
+        "quiz": {
+          "q": "Quel aspect technique révolutionnaire Orson Welles introduit-il dans Citizen Kane, permettant de voir le premier et l'arrière-plan nets simultanément ?",
+          "r": "La grande profondeur de champ — obtenue avec le directeur de la photo Gregg Toland grâce à des optiques et éclairages inédits",
+          "hint": "Cette technique rendit également visible les plafonds des décors, jusque-là cachés car la caméra filmait de bas vers le haut"
+        }
+      },
+      {
+        "title": "À bout de souffle — Jean-Luc Godard",
+        "artiste": "Jean-Luc Godard",
+        "date": "1960",
+        "mouvement": "Nouvelles vagues",
+        "discipline": "Cinéma",
+        "era_disc": "Nouvelles vagues",
+        "era_disc_start": 1950,
+        "img": "",
+        "musee": "Les Films Georges de Beauregard, Paris",
+        "technique": "Film, 90 min, noir et blanc",
+        "desc": "Michel Poiccard, petit criminel qui se prend pour Humphrey Bogart, tue un policier et fuit à Paris avec une Américaine. Tourné avec une caméra portée dans les rues de Paris, avec un budget minimal et des acteurs peu connus, À bout de souffle invente un nouveau langage cinématographique : jump cuts, caméra à l'épaule, improvisation, références au cinéma américain. C'est l'acte fondateur de la Nouvelle Vague française.",
+        "anecdotes": [
+          {
+            "e": "✂️",
+            "t": "<b>Le jump cut — la coupe brutale dans un plan continu — fut inventé par accident.</b> Le film était trop long. Au montage, Godard coupa des morceaux au milieu des plans au lieu de couper entre les plans — créant des sauts visuels choquants. Ce 'défaut' devint une signature esthétique copiée dans le monde entier."
+          },
+          {
+            "e": "📋",
+            "t": "<b>Il n'y avait pas de scénario.</b> Godard écrivait les dialogues chaque matin sur des petits papiers qu'il glissait dans les poches des acteurs. Belmondo et Seberg improvisaient en grande partie. Ce tournage 'à la volée' dans les rues de Paris était radicalement opposé au cinéma de studio français de l'époque."
+          },
+          {
+            "e": "🎬",
+            "t": "<b>Le film fut tourné en 4 semaines pour 40 millions de francs — dix fois moins qu'un film classique.</b> Godard utilisa une caméra de reportage légère (Caméflex) portée à l'épaule, qui permit de tourner dans de vraies rues, de vrais cafés, de vrais appartements. Cette économie de moyens devint une esthétique."
+          }
+        ],
+        "quiz": {
+          "q": "Comment le jump cut — coupe brutale au milieu d'un plan — fut-il inventé dans À bout de souffle ?",
+          "r": "Par accident au montage : le film était trop long, Godard coupa des morceaux dans les plans au lieu d'entre les plans",
+          "hint": "Ce 'défaut' technique choquant devint une signature esthétique de la Nouvelle Vague copiée dans le monde entier"
+        }
+      },
+      {
+        "title": "Centre Pompidou — Piano & Rogers",
+        "artiste": "Renzo Piano & Richard Rogers",
+        "date": "1971–1977",
+        "mouvement": "Architecture contemporaine",
+        "discipline": "Architecture & Arts",
+        "era_disc": "Architecture contemporaine",
+        "era_disc_start": 1950,
+        "img": "",
+        "musee": "Beaubourg, Paris, France",
+        "technique": "Structure métallique et verre, façade high-tech, 166 m × 60 m",
+        "desc": "Le Centre Pompidou renversa toutes les conventions architecturales : la structure porteuse, les conduits techniques, les escalators sont à l'extérieur du bâtiment, exposés et colorés selon leur fonction (bleu pour l'air, vert pour l'eau, jaune pour l'électricité, rouge pour la circulation). Le bâtiment est son propre squelette visible — l'intérieur est un plateau libre, adaptable à toutes les configurations.",
+        "anecdotes": [
+          {
+            "e": "😱",
+            "t": "<b>Le projet fut surnommé 'la raffinerie de pétrole' par les Parisiens.</b> Lancé en 1971 à la suite d'un concours international remporté par deux inconnus de 34 ans, le projet choqua profondément. Les riverains protestèrent, les architectes établis s'indignèrent. Aujourd'hui, c'est l'un des bâtiments les plus aimés de Paris, visité par 3 millions de personnes par an."
+          },
+          {
+            "e": "🔧",
+            "t": "<b>L'idée centrale : libérer l'intérieur en mettant tout à l'extérieur.</b> En exposant les structures et les circuits techniques sur la façade, Piano et Rogers obtinrent un plateau de 7 500 m² par étage, sans aucun pilier ni cloison fixe — adaptable à n'importe quelle exposition, spectacle ou activité. C'est l'architecture comme flexibilité absolue."
+          },
+          {
+            "e": "🌍",
+            "t": "<b>Le concours international reçut 681 projets de 49 pays.</b> Le jury présidé par Jean Prouvé choisit le projet Piano-Rogers — le plus radical et le plus inattendu. La plupart des jurés ne s'attendaient pas à ce qu'il soit réellement construit à l'identique. Il le fut, sans compromis majeurs."
+          }
+        ],
+        "quiz": {
+          "q": "Quelle philosophie architecturale révolutionnaire le Centre Pompidou incarne-t-il en exposant ses structures et conduites à l'extérieur ?",
+          "r": "Libérer l'intérieur en externalisant tout le technique — obtenant un plateau libre sans piliers, adaptable à toute configuration",
+          "hint": "Les conduites sont codées par couleur selon leur fonction : bleu pour l'air, vert pour l'eau, rouge pour la circulation"
+        }
       }
     ]
   }
