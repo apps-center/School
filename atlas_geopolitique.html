@@ -1289,7 +1289,7 @@ async function loadAtlasData(){
       if(name==='CAPITALS')      CAPITALS=data;
       else if(name==='FICHES'){
         FICHES = data;
-        for(const n of [2,3,4,5]){
+        for(const n of [2,3,4,5,6]){
           try {
             const rx = await fetch(base + 'fiches_pays_'+n+'.json');
             if(rx.ok) FICHES = Object.assign({}, FICHES, await rx.json());
